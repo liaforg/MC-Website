@@ -14,23 +14,22 @@ body {
 
 #logo {
   position: absolute;
-  left: 93px;
+  left: 97px;
   top: -95px;
   font-weight: bolder;
-  color: #f3e3e8;
+  color: #d2d2d2;
   font-family: 'Nothing You Could Do', cursive;
   font-size: 90px;
   text-align: center;
 }
 
 #makeup {
-  font-family: 'Bubbler One', sans-serif;
-  font-size: 30px;
-  color: #ca808d;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color: #bd929d;
   position: fixed;
-  left: 25px;
+  left: 14px;
   font-weight: bolder;
-
 }
 
 
@@ -53,7 +52,7 @@ li {
     text-align: center;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 a{
@@ -81,6 +80,7 @@ footer {
   text-align: center;
   margin: auto;
 }
+
 
 
 
