@@ -1,19 +1,38 @@
-body{
+*{
   box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
 }
 
 /*NAV BAR*/
 
 #logo {
-  font-family: 'Raleway', sans-serif;
   position: absolute;
-  left: 40px;
-  font-size: 65px;
-  top: -50px;
-  margin-left: 5px;
+  left: 93px;
+  top: -95px;
   font-weight: bolder;
-  color: #c9a1a1;
+  color: #f3e3e8;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 90px;
+  text-align: center;
 }
+
+#makeup {
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 30px;
+  color: #ca808d;
+  position: fixed;
+  left: 25px;
+  font-weight: bolder;
+
+}
+
 
 .navbar {
   width: 100%;
@@ -47,4 +66,85 @@ a{
 a:hover {
   color: #c1aeae;
   font-weight: bold;
+  text-shadow: 1px 1px #7c6d84;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  background-color: #b9b0c0;
+  bottom: 0;
+  position: fixed;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+/*IMAGE SLIDES ON INDEX PAGE*/
+
+.image_array{
+  max-width: 1300px;
+  height: 680px;
+  margin: 20px auto;
+  position: relative;
+  top: 100px;
+}
+
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slide1 {
+  background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371566801_p17tbs0rrjqdt1u4dnk94fe4b63.jpg)no-repeat center;
+  background-size: cover;
+  animation:fade 8s infinite;
+  -webkit-animation:fade 8s infinite;
+
+}
+
+.slide2 {
+  background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371565525_p17tbqpu0d69c21hetd77dh483.jpeg)no-repeat center;
+  background-size: cover;
+  animation:fade2 8s infinite;
+  -webkit-animation:fade2 8s infinite;
+}
+
+.slide3 {
+  background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371564896_p17tbq6n86jdo3ishhta3fv1i3.jpg)no-repeat center;
+  background-size: cover;
+  animation:fade3 8s infinite;
+  -webkit-animation:fade3 8s infinite;
+}
+
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
 }
