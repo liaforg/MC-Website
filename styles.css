@@ -8,6 +8,10 @@ html {
 
 body {
   margin: 0;
+  background-image: url("photos/makeupback-min.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
 }
 
 /*NAV BAR*/
@@ -15,7 +19,7 @@ body {
 #logo {
   position: absolute;
   left: 97px;
-  top: -95px;
+  top: -90px;
   font-weight: bolder;
   color: #d2d2d2;
   font-family: 'Nothing You Could Do', cursive;
@@ -30,13 +34,15 @@ body {
   position: fixed;
   left: 14px;
   font-weight: bolder;
+  top: 5px;
 }
 
 
 .navbar {
+  background-color: white;
   width: 100%;
   position: fixed;
-  top: 10px;
+  top: 0px;
   left: 0;
   height: 80px;
   text-decoration: none;
@@ -81,22 +87,14 @@ footer {
   margin: auto;
 }
 
-
-
-
-
-
-
-
-
 /*IMAGE SLIDES ON INDEX PAGE*/
 
 .image_array{
-  max-width: 1300px;
-  height: 680px;
+  max-width: 1000px;
+  height: 600px;
   margin: 20px auto;
   position: relative;
-  top: 100px;
+  top: 140px;
 }
 
 .slide1,.slide2,.slide3,.slide4,.slide5 {
@@ -127,6 +125,13 @@ footer {
   -webkit-animation:fade3 8s infinite;
 }
 
+.slide4 {
+  background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371564896_p17tbq6n86jdo3ishhta3fv1i3.jpg)no-repeat center;
+  background-size: cover;
+  animation:fade4 8s infinite;
+  -webkit-animation:fade4 8s infinite;
+}
+
 @keyframes fade
 {
   0%   {opacity:1}
@@ -147,4 +152,85 @@ footer {
   33.333% { opacity: 0}
   66.666% { opacity: 1}
   100% { opacity: 0}
+}
+
+@keyframes fade4
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
+
+/*CONTACTS PAGE*/
+.contact {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 110px;
+}
+
+.contact-form {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  background-color:rgba(192,192,192,0.8);
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  height: 700px;
+  color: #796878;
+}
+
+#info {
+  font-size: 30px;
+}
+
+/*ABOUT PAGE*/
+.about{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 110px;
+}
+
+.bio {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  background-color:rgba(192,192,192,0.8);
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  height: 700px;
+  color: #796878;
+}
+
+#about-me {
+  font-size: 30px;
+}
+
+/*PRICES*/
+.prices {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 110px;
+}
+
+.cost {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  background-color:rgba(192,192,192,0.8);
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  height: 700px;
+  color: #796878;
+}
+
+#price-title {
+  font-size: 30px;
 }
