@@ -21,7 +21,8 @@ body {
   left: 97px;
   top: -90px;
   font-weight: bolder;
-  color: #d2d2d2;
+  color: #f5eef0;
+  text-shadow: 1px 1px 1px #EEEEEE;
   font-family: 'Nothing You Could Do', cursive;
   font-size: 90px;
   text-align: center;
@@ -30,7 +31,7 @@ body {
 #makeup {
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
-  color: #bd929d;
+  color: #A25C71;
   position: fixed;
   left: 14px;
   font-weight: bolder;
@@ -86,15 +87,24 @@ a:hover {
 
 
 span.fa.fa-envelope {
-  color: #dfbbbb;
+  color: #A25C71;
 }
 
 span.fa.fa-instagram {
-  color: #dfbbbb;
+  color: #A25C71;
 }
 
 
 /*ABOUT*/
+
+.about {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 110px;
+  background-color: none;
+}
+
 
 #selfie {
   width: 200px;
@@ -104,7 +114,6 @@ span.fa.fa-instagram {
   background-size: cover;
   background-position: center;
   border-radius: 50%;
-
 }
 
 
@@ -125,43 +134,43 @@ footer {
 /*IMAGE SLIDES ON INDEX PAGE*/
 
 .image_array{
-  max-width: 1000px;
-  height: 600px;
+  max-width: 1200px;
+  height: 700px;
   margin: 20px auto;
   position: relative;
-  top: 140px;
+  top: 90px;
 }
 
-.slide1,.slide2,.slide3,.slide4,.slide5 {
+.slide1,.slide2,.slide3,.slide4 {
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
 .slide1 {
-  background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371566801_p17tbs0rrjqdt1u4dnk94fe4b63.jpg)no-repeat center;
+  background: url("photos/bride.jpg")no-repeat center;
   background-size: cover;
-  animation:fade 8s infinite;
+  animation:fade 9s infinite;
   -webkit-animation:fade 8s infinite;
 
 }
 
 .slide2 {
-  background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371565525_p17tbqpu0d69c21hetd77dh483.jpeg)no-repeat center;
+  background: url("photos/brushes.jpg")no-repeat center;
   background-size: cover;
   animation:fade2 8s infinite;
   -webkit-animation:fade2 8s infinite;
 }
 
 .slide3 {
-  background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371564896_p17tbq6n86jdo3ishhta3fv1i3.jpg)no-repeat center;
+  background: url("photos/makeup_eye.jpg")no-repeat center;
   background-size: cover;
   animation:fade3 8s infinite;
   -webkit-animation:fade3 8s infinite;
 }
 
 .slide4 {
-  background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371564896_p17tbq6n86jdo3ishhta3fv1i3.jpg)no-repeat center;
+  background: url("photos/lips.jpg")no-repeat center;
   background-size: cover;
   animation:fade4 8s infinite;
   -webkit-animation:fade4 8s infinite;
@@ -170,62 +179,100 @@ footer {
 @keyframes fade
 {
   0%   {opacity:1}
-  33.333% { opacity: 0}
-  66.666% { opacity: 0}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 0}
   100% { opacity: 1}
 }
 @keyframes fade2
 {
   0%   {opacity:0}
-  33.333% { opacity: 1}
-  66.666% { opacity: 0 }
+  25% { opacity: 1}
+  50% { opacity: 0}
+  75% { opacity: 0}
   100% { opacity: 0}
 }
 @keyframes fade3
 {
   0%   {opacity:0}
-  33.333% { opacity: 0}
-  66.666% { opacity: 1}
+  25% { opacity: 0}
+  50% { opacity: 1}
+  75% { opacity: 0}
   100% { opacity: 0}
 }
 
 @keyframes fade4
 {
   0%   {opacity:0}
-  33.333% { opacity: 0}
-  66.666% { opacity: 1}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 1}
   100% { opacity: 0}
 }
 
 
 /*CONTACTS PAGE*/
 .contact {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  top: 110px;
+  position: absolute;
+  width: 50%;
+  text-align: left;
+  top: 120px;
 }
 
 .contact-form {
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 20px;
-  background-color:rgba(192,192,192,0.8);
   width: 50%;
   text-align: center;
   margin: auto;
-  height: 700px;
   color: #796878;
 }
 
 #info {
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 40px;
 }
 
 .contact-info{
   color:  #777696;
 }
+
+table {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  width: 80%;
+  margin:auto;
+  font-size: 20px;
+  padding-top: 150px;
+  padding-left: 10px;
+}
+
+td{
+  padding-right: 10px;
+}
+
+#make {
+padding-right: 50px;
+}
+
+
+span.fa.fa-envelope {
+  text-align: left;
+  color: #A25C71;
+}
+
+
+span.fa.fa-phone {
+  color: #A25C71;
+}
+
+
+#phone, #mail {
+  font-size: 30px;
+  color:#796878;
+}
+
 
 
 /*ABOUT PAGE*/
