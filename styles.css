@@ -74,6 +74,41 @@ a:hover {
   text-shadow: 1px 1px #7c6d84;
 }
 
+.icons {
+  position:absolute;
+  margin: auto;
+  top: 20px;
+  right: 30px;
+  color: #bd929d;
+  text-align: center;
+  display: inline;
+}
+
+
+span.fa.fa-envelope {
+  color: #dfbbbb;
+}
+
+span.fa.fa-instagram {
+  color: #dfbbbb;
+}
+
+
+/*ABOUT*/
+
+#selfie {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-image: url("photos/mcselfie.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+
+}
+
+
+/*FOOTER*/
 footer {
   width: 100%;
   height: 30px;
