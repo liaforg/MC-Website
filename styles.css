@@ -21,8 +21,7 @@ body {
   left: 97px;
   top: -90px;
   font-weight: bolder;
-  color: #f5eef0;
-  text-shadow: 1px 1px 1px #EEEEEE;
+  color:  #dfbbbb;
   font-family: 'Nothing You Could Do', cursive;
   font-size: 90px;
   text-align: center;
@@ -79,7 +78,7 @@ a:hover {
   position:absolute;
   margin: auto;
   top: 20px;
-  right: 30px;
+  right: 100px;
   color: #bd929d;
   text-align: center;
   display: inline;
@@ -94,27 +93,111 @@ span.fa.fa-instagram {
   color: #A25C71;
 }
 
+#box {
+  width: 100px;
+  background-color: rgba(211,211,211, 0.3);
+  position: relative;
+  width: 200px;
+  height: 600px;
+  margin-top: -300px;
+  margin-left: 450px;
+  background-size: cover;
+  background-position: auto;
+  z-index: 1;
+}
+
+#logo-2 {
+  position: absolute;
+  font-weight: bolder;
+  color: #dfbbbb;
+  text-shadow: 5px 5px 5px #EEEEEE;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 150px;
+  text-align: center;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  margin-left: 190px;
+  margin-top: 170px;
+}
+
+#makeup-2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: #A25C71;
+  position: fixed;
+  font-weight: bolder;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+#selfie2{
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  margin-left: 150px;
+  background-image: url("photos/mc.jpg");
+  background-size: cover;
+  background-position: auto;
+  z-index: 1;
+}
+
+
+#quad{
+  position: absolute;
+  width: 300px;
+  height:307px;
+  margin-left: 150px;
+  margin-top: -307px;
+  background-repeat: no-repeat;
+  background-position: auto;
+  z-index: 1;
+  background-size:cover;
+  background-image: url("photos/quad.jpg");
+}
+
+
 
 /*ABOUT*/
 
-.about {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  top: 110px;
-  background-color: none;
-}
-
-
 #selfie {
-  width: 200px;
-  height: 200px;
-  margin: auto;
+  width: 300px;
+  height: 300px;
+  margin-top: 120px;
+  margin-left: 80px;
   background-image: url("photos/mcselfie.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: auto;
   border-radius: 50%;
+  z-index: 0
 }
+
+.about {
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  background-color: none;
+  margin-top: -300px;
+  margin-left: -10px;
+}
+
+
+.bio {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  width: 50%;
+  text-align: left;
+  margin: auto;
+  height: 700px;
+  color: #796878;
+}
+
+#about-me {
+  font-size: 40px;
+}
+
 
 
 /*FOOTER*/
@@ -132,13 +215,13 @@ footer {
 }
 
 /*IMAGE SLIDES ON INDEX PAGE*/
-
+/*LARGE SLIDE*/
 .image_array{
-  max-width: 1200px;
-  height: 700px;
-  margin: 20px auto;
+  max-width: 900px;
+  height: 600px;
+  margin-left: 650px;
   position: relative;
-  top: 90px;
+  margin-top: -600px;
 }
 
 .slide1,.slide2,.slide3,.slide4 {
@@ -224,9 +307,16 @@ footer {
   font-size: 30px;
   padding-top: 20px;
   width: 50%;
-  text-align: center;
+  text-align: left;
   margin: auto;
   color: #796878;
+}
+
+#toronto {
+  margin-top: -50px;
+  font-size: 25px;
+  padding-bottom: 40px;
+  color: #dfbbbb;
 }
 
 #info {
@@ -238,22 +328,30 @@ footer {
   color:  #777696;
 }
 
-table {
+.table-icons {
   font-family: 'Raleway', sans-serif;
   position: absolute;
-  width: 80%;
+  width: 100%;
   margin:auto;
   font-size: 20px;
-  padding-top: 150px;
-  padding-left: 10px;
+  padding-top: 0px;
+  padding-left: 225px;
+  color: #777696;
+}
+
+.table-icons2 {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  width: 100%;
+  margin:auto;
+  font-size: 20px;
+  padding-top: 80px;
+  padding-left: 225px;
+  color: #777696;
 }
 
 td{
   padding-right: 10px;
-}
-
-#make {
-padding-right: 50px;
 }
 
 
@@ -273,45 +371,19 @@ span.fa.fa-phone {
   color:#796878;
 }
 
-
-
-/*ABOUT PAGE*/
-.about{
-  position: relative;
-  width: 100%;
-  text-align: center;
-  top: 110px;
-}
-
-.bio {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  padding-top: 20px;
-  background-color:rgba(192,192,192,0.8);
-  width: 50%;
-  text-align: center;
-  margin: auto;
-  height: 700px;
-  color: #796878;
-}
-
-#about-me {
-  font-size: 30px;
-}
-
 /*PRICES*/
+
 .prices {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  top: 110px;
+  position: absolute;
+  width: 50%;
+  text-align: left;
+  top: 100px;
 }
 
 .cost {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   padding-top: 20px;
-  background-color:rgba(192,192,192,0.8);
   width: 50%;
   text-align: center;
   margin: auto;
@@ -320,5 +392,46 @@ span.fa.fa-phone {
 }
 
 #price-title {
-  font-size: 30px;
+  font-size: 40px;
+}
+
+/*ICON BOUNCE*/
+
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    -ms-transform:     translateY(0);
+    transform:         translateY(0)
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    -ms-transform:     translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform:     translateY(-15px);
+    transform:         translateY(-15px)
+  }
+}
+span {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+span.fa.fa-envelope:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+span.fa.fa-instagram:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
 }
