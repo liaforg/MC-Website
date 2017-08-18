@@ -57,22 +57,22 @@ main{
 #logo {
   position: absolute;
   left: 97px;
-  top: -90px;
+  top: -65px;
   font-weight: bolder;
   color:  #dfbbbb;
   font-family: 'Nothing You Could Do', cursive;
-  font-size: 90px;
+  font-size: 70px;
   text-align: center;
 }
 
 #makeup {
   font-family: 'Raleway', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
   position: fixed;
-  left: 14px;
+  left: 30px;
   font-weight: bolder;
-  top: 5px;
+  top: 10px;
 }
 
 
