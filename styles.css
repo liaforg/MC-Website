@@ -14,6 +14,44 @@ body {
   background-size: 100%;
 }
 
+main{
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 /*NAV BAR*/
 
 #logo {
@@ -54,15 +92,14 @@ body {
 li {
     display: inline-block;
     padding-top: 10px;
-    padding-right: 10px;
     text-align: center;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 a{
-  padding-right: 30px;
+  padding-right: 20px;
   list-style: none;
   text-decoration: none;
   color: black;
@@ -89,8 +126,18 @@ span.fa.fa-envelope {
   color: black;
 }
 
+span.fa.fa-envelope:hover {
+  color: #c1aeae;
+  text-shadow: 1px 1px #7c6d84;
+}
+
 span.fa.fa-instagram {
   color: black;
+}
+
+span.fa.fa-instagram:hover {
+  color: #c1aeae;
+  text-shadow: 1px 1px #7c6d84;
 }
 
 #box {
@@ -132,68 +179,59 @@ span.fa.fa-instagram {
   margin-top: 50px;
 }
 
-#selfie2{
-  width: 300px;
-  height: 300px;
-  margin-top: 150px;
-  margin-left: 150px;
-  background-image: url("photos/mc.jpg");
-  background-size: cover;
-  background-position: auto;
-}
-
-
-#quad{
-  position: absolute;
-  width: 300px;
-  height:307px;
-  margin-left: 150px;
-  margin-top: -307px;
-  background-repeat: no-repeat;
-  background-position: auto;
-  background-size:cover;
-  background-image: url("photos/quad.jpg");
-}
-
 
 
 /*ABOUT*/
 
 #selfie {
-  width: 300px;
-  height: 300px;
+  width: 220px;
+  height: 220px;
   margin-top: 120px;
-  margin-left: 80px;
+  margin-left: 90px;
   background-image: url("photos/selfie3.jpg");
   background-size: cover;
   background-position: auto;
   border-radius: 50%;
-  z-index: 0
+  z-index: 0;
+  border: 5px solid black;
 }
 
 .about {
   position: absolute;
   width: 100%;
   text-align: left;
-  background-color: none;
-  margin-top: -300px;
-  margin-left: -10px;
+  margin-top: -230px;
+  margin-left: -180px;
 }
 
 
 .bio {
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  padding-top: 20px;
-  width: 50%;
+  font-size: 10px;
+  padding-top: 10px;
+  width: 40%;
   text-align: left;
   margin: auto;
-  height: 700px;
-  color: #796878;
+  height: 600px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
 #about-me {
-  font-size: 40px;
+  font-size: 30px;
+}
+
+#pro {
+  font-size: 20px;
+  margin-top: -20px
+}
+
+
+#mc-bio{
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
 }
 
 
@@ -202,16 +240,18 @@ span.fa.fa-instagram {
 footer {
   width: 100%;
   height: 30px;
-  background-color: #b9b0c0;
+  background-color: #EEEEEE;
   bottom: 0;
   position: fixed;
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: black;
   font-size: 10px;
   text-align: center;
   margin: auto;
   z-index: 100;
 }
+
+
 
 /*IMAGE SLIDES ON INDEX PAGE*/
 /*LARGE SLIDE*/
@@ -238,25 +278,26 @@ footer {
 }
 
 .slide2 {
-  background: url("photos/brushes.jpg")no-repeat center;
+  background: url("photos/image10.jpg")no-repeat center;
   background-size: cover;
   animation:fade2 8s infinite;
   -webkit-animation:fade2 8s infinite;
 }
 
 .slide3 {
-  background: url("photos/makeup_eye.jpg")no-repeat center;
+  background: url("photos/HP1_0285.jpg")no-repeat center;
   background-size: cover;
   animation:fade3 8s infinite;
   -webkit-animation:fade3 8s infinite;
 }
 
 .slide4 {
-  background: url("photos/lips.jpg")no-repeat center;
+  background: url("photos/makeup_eye.jpg")no-repeat center;
   background-size: cover;
   animation:fade4 8s infinite;
   -webkit-animation:fade4 8s infinite;
 }
+
 
 @keyframes fade
 {
@@ -293,6 +334,169 @@ footer {
 }
 
 
+/*SMALL SLIDE*/
+#quad{
+  position: absolute;
+  width: 300px;
+  height:307px;
+  margin-left: 150px;
+  margin-top: -307px;
+}
+
+
+
+.slide5,.slide6,.slide7,.slide8 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slide5 {
+  background: url("photos/party.jpg")no-repeat center;
+  background-size: cover;
+  animation:fade 9s infinite;
+  -webkit-animation:fade 8s infinite;
+
+}
+
+.slide6 {
+  background: url("photos/brushes.jpg")no-repeat center;
+  background-size: cover;
+  animation:fade2 8s infinite;
+  -webkit-animation:fade2 8s infinite;
+}
+
+.slide7 {
+  background: url("photos/bride1.jpg")no-repeat center;
+  background-size: cover;
+  animation:fade3 8s infinite;
+  -webkit-animation:fade3 8s infinite;
+}
+
+.slide8 {
+  background: url("photos/couple.jpg")no-repeat center;
+  background-size: cover;
+  animation:fade4 8s infinite;
+  -webkit-animation:fade4 8s infinite;
+}
+
+
+@keyframes fade5
+{
+  0%   {opacity:1}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade6
+{
+  0%   {opacity:0}
+  25% { opacity: 1}
+  50% { opacity: 0}
+  75% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade7
+{
+  0%   {opacity:0}
+  25% { opacity: 0}
+  50% { opacity: 1}
+  75% { opacity: 0}
+  100% { opacity: 0}
+}
+
+@keyframes fade8
+{
+  0%   {opacity:0}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 1}
+  100% { opacity: 0}
+}
+
+/*TOP SLIDE*/
+
+.selfie2{
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  margin-left: 150px;
+  background-size: cover;
+  background-position: auto;
+}
+
+
+.slide9,.slide10,.slide11,.slide12 {
+  position: absolute;
+  width:300px;
+  height: 293px;
+}
+
+.slide9 {
+  background: url("photos/lips.jpg")no-repeat center;
+  background-size: cover;
+  animation:fade 9s infinite;
+  -webkit-animation:fade 8s infinite;
+
+}
+
+.slide10 {
+  background: url("photos/image9.jpg")no-repeat center;
+  background-size:auto;
+  animation:fade2 8s infinite;
+  -webkit-animation:fade2 8s infinite;
+}
+
+.slide11 {
+  background: url("photos/bride4.jpg")no-repeat center;
+  background-size: cover;
+  animation:fade3 8s infinite;
+  -webkit-animation:fade3 8s infinite;
+}
+
+.slide12 {
+  background: url("photos/balloon.jpg")no-repeat center;
+  background-size: cover;
+  animation:fade4 8s infinite;
+  -webkit-animation:fade4 8s infinite;
+}
+
+
+@keyframes fade5
+{
+  0%   {opacity:1}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade6
+{
+  0%   {opacity:0}
+  25% { opacity: 1}
+  50% { opacity: 0}
+  75% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade7
+{
+  0%   {opacity:0}
+  25% { opacity: 0}
+  50% { opacity: 1}
+  75% { opacity: 0}
+  100% { opacity: 0}
+}
+
+@keyframes fade8
+{
+  0%   {opacity:0}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 1}
+  100% { opacity: 0}
+}
+
 /*CONTACTS PAGE*/
 .contact {
   position: absolute;
@@ -303,24 +507,25 @@ footer {
 
 .contact-form {
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   padding-top: 20px;
   width: 50%;
   text-align: left;
   margin: auto;
-  color: #796878;
+  color: black;
+  text-shadow: 1px 1px #777696;
 }
 
 #toronto {
   margin-top: -50px;
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 40px;
-  color: #dfbbbb;
+  color: black;;
 }
 
 #info {
-  font-size: 40px;
-  padding-bottom: 40px;
+  font-size: 25px;
+  padding-bottom: 60px;
 }
 
 .contact-info{
@@ -366,7 +571,7 @@ span.fa.fa-phone {
 
 
 #phone, #mail {
-  font-size: 30px;
+  font-size: 20px;
   color:#796878;
 }
 
@@ -376,10 +581,44 @@ span.fa.fa-phone {
   position: absolute;
   width: 50%;
   text-align: left;
-  top: 100px;
+  top: 80px;
+  left: 200px;
 }
 
 .cost {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18x;
+  padding-top: 20px;
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  height: 700px;
+  color: black;
+  text-shadow: 1px 1px #grey;
+}
+
+.service {
+  font-size: 13px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+td {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+
+/*TESTIMONIALS*/
+
+.test {
+  position: absolute;
+  width: 50%;
+  text-align: left;
+  top: 90px;
+}
+
+.all-tests {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   padding-top: 20px;
@@ -387,50 +626,126 @@ span.fa.fa-phone {
   text-align: center;
   margin: auto;
   height: 700px;
-  color: #796878;
+  color: black;
+  text-shadow: 1px 1px #grey;
 }
 
-#price-title {
-  font-size: 40px;
+#test-title {
+  font-size: 30px;
 }
 
-/*ICON BOUNCE*/
 
-@keyframes bounce {
-  0%, 100%, 20%, 50%, 80% {
-    -webkit-transform: translateY(0);
-    -ms-transform:     translateY(0);
-    transform:         translateY(0)
-  }
-  40% {
-    -webkit-transform: translateY(-20px);
-    -ms-transform:     translateY(-20px);
-  }
-  60% {
-    -webkit-transform: translateY(-15px);
-    -ms-transform:     translateY(-15px);
-    transform:         translateY(-15px)
-  }
-}
-span {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
+/*SLIDES FOR TESTIMONIALS*/
+
+#slides{
+  position: absolute;
+  width: 65%;
+  height: 500px;
+  margin: auto;
+  left: 310px;
+  top: 220px;
+  list-style-type: none;
+  z-index: 0;
 }
 
-span.fa.fa-envelope:hover {
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing{
+  opacity: 1;
+  z-index: 2;
+}
+
+
+.controls{
+  display: none;
+}
+
+
+.slide:nth-of-type(1){
+  background-color: red;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/snowy-winter-vignette-bokeh-night-snow-falling-free-stock-photo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-of-type(2){
+  background-color: orange;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/free-stock-photos-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-of-type(3){
+  background-color: yellow;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/waterfall-free-stock-photo-244915.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-of-type(4){
+  background-color: black;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/waterfall-free-stock-photo-244915.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-of-type(5){
+  background-color: pink;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/waterfall-free-stock-photo-244915.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.slide:nth-of-type(6){
+  background-color: purple;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/waterfall-free-stock-photo-244915.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.controls{
+  background:  #eee;
+  color: black;
+  border: none;
+  padding: 20px 0px;
+  font-size: 20px;
   cursor: pointer;
-  animation-name: bounce;
-  -moz-animation-name: bounce;
+  border: 1px solid #fff;
+  width: 70px;
+  position: relative;
+  left: 580px;
+  top: 700px;
+  margin: 50px;
 }
 
-span.fa.fa-instagram:hover {
-  cursor: pointer;
-  animation-name: bounce;
-  -moz-animation-name: bounce;
+.controls:hover,
+.controls:focus{
+  background: #eee;
+  color: #333;
+}
+
+.container{
+  position: relative;
+}
+
+.buttons{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  font-size: 0px;
 }
