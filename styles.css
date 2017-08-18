@@ -30,7 +30,7 @@ body {
 #makeup {
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
-  color: #A25C71;
+  color: black;
   position: fixed;
   left: 14px;
   font-weight: bolder;
@@ -58,14 +58,14 @@ li {
     text-align: center;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 a{
   padding-right: 30px;
   list-style: none;
   text-decoration: none;
-  color: #dfbbbb;
+  color: black;
 }
 
 a:hover {
@@ -79,18 +79,18 @@ a:hover {
   margin: auto;
   top: 20px;
   right: 100px;
-  color: #bd929d;
+  color: black;
   text-align: center;
   display: inline;
 }
 
 
 span.fa.fa-envelope {
-  color: #A25C71;
+  color: black;
 }
 
 span.fa.fa-instagram {
-  color: #A25C71;
+  color: black;
 }
 
 #box {
@@ -123,7 +123,7 @@ span.fa.fa-instagram {
 #makeup-2 {
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
-  color: #A25C71;
+  color: black;
   position: fixed;
   font-weight: bolder;
   transform: rotate(90deg);
@@ -140,7 +140,6 @@ span.fa.fa-instagram {
   background-image: url("photos/mc.jpg");
   background-size: cover;
   background-position: auto;
-  z-index: 1;
 }
 
 
@@ -152,7 +151,6 @@ span.fa.fa-instagram {
   margin-top: -307px;
   background-repeat: no-repeat;
   background-position: auto;
-  z-index: 1;
   background-size:cover;
   background-image: url("photos/quad.jpg");
 }
@@ -166,7 +164,7 @@ span.fa.fa-instagram {
   height: 300px;
   margin-top: 120px;
   margin-left: 80px;
-  background-image: url("photos/mcselfie.jpg");
+  background-image: url("photos/selfie3.jpg");
   background-size: cover;
   background-position: auto;
   border-radius: 50%;
@@ -212,6 +210,7 @@ footer {
   font-size: 10px;
   text-align: center;
   margin: auto;
+  z-index: 100;
 }
 
 /*IMAGE SLIDES ON INDEX PAGE*/
@@ -357,12 +356,12 @@ td{
 
 span.fa.fa-envelope {
   text-align: left;
-  color: #A25C71;
+  color: black;
 }
 
 
 span.fa.fa-phone {
-  color: #A25C71;
+  color: black;
 }
 
 
