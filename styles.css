@@ -194,7 +194,7 @@ span.fa.fa-instagram:hover {
   margin-top: -600px;
 }
 
-.slide1,.slide2,.slide3,.slide4{
+.slide1,.slide2,.slide3{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -222,54 +222,29 @@ span.fa.fa-instagram:hover {
   -webkit-animation:fade3 8s infinite;
 }
 
-.slide4 {
-  background: url("photos/image10.jpg")no-repeat center;
-  background-size: cover;
-  animation:fade4 8s infinite;
-  -webkit-animation:fade4 8s infinite;
-}
-
-.slide5 {
-  background: url("photos/desk.jpeg")no-repeat center;
-  background-size: cover;
-  animation:fade5 8s infinite;
-  -webkit-animation:fade5 8s infinite;
-}
-
 
 @keyframes fade1
 {
   0%   {opacity:1}
-  25% { opacity: 0}
-  50% { opacity: 0}
-  75% { opacity: 0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
   100% { opacity: 1}
 }
 @keyframes fade2
 {
   0%   {opacity:0}
-  25% { opacity: 1}
-  50% { opacity: 0}
-  75% { opacity: 0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0}
   100% { opacity: 0}
 }
 @keyframes fade3
 {
   0%   {opacity:0}
-  25% { opacity: 0}
-  50% { opacity: 1}
-  75% { opacity: 0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
   100% { opacity: 0}
 }
 
-@keyframes fade4
-{
-  0%   {opacity:0}
-  25% { opacity: 0}
-  50% { opacity: 0}
-  75% { opacity: 1}
-  100% { opacity: 0}
-}
 
 
 /*SIDES SLIDE*/
