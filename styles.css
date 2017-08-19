@@ -194,14 +194,14 @@ span.fa.fa-instagram:hover {
   margin-top: -600px;
 }
 
-.slide1,.slide2,.slide3,.slide4 {
+.slide1,.slide2,.slide3{
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
 .slide1 {
-  background: url("photos/bride.jpg")no-repeat center;
+  background: url("photos/makeup_eye.jpg")no-repeat center;
   background-size: cover;
   animation:fade 9s infinite;
   -webkit-animation:fade 8s infinite;
@@ -222,44 +222,26 @@ span.fa.fa-instagram:hover {
   -webkit-animation:fade3 8s infinite;
 }
 
-.slide4 {
-  background: url("photos/makeup_eye.jpg")no-repeat center;
-  background-size: cover;
-  animation:fade4 8s infinite;
-  -webkit-animation:fade4 8s infinite;
-}
 
 @keyframes fade
 {
   0%   {opacity:1}
-  25% { opacity: 0}
-  50% { opacity: 0}
-  75% { opacity: 0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
   100% { opacity: 1}
 }
 @keyframes fade2
 {
   0%   {opacity:0}
-  25% { opacity: 1}
-  50% { opacity: 0}
-  75% { opacity: 0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0}
   100% { opacity: 0}
 }
 @keyframes fade3
 {
   0%   {opacity:0}
-  25% { opacity: 0}
-  50% { opacity: 1}
-  75% { opacity: 0}
-  100% { opacity: 0}
-}
-
-@keyframes fade4
-{
-  0%   {opacity:0}
-  25% { opacity: 0}
-  50% { opacity: 0}
-  75% { opacity: 1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
   100% { opacity: 0}
 }
 
@@ -273,71 +255,54 @@ span.fa.fa-instagram:hover {
   margin-top: -307px;
 }
 
-.slide5,.slide6,.slide7,.slide8 {
+.slide4,.slide5,.slide6{
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
-.slide5 {
+.slide4 {
   background: url("photos/party.jpg")no-repeat center;
   background-size: cover;
-  animation:fade5 9s infinite;
-  -webkit-animation:fade5 8s infinite;
+  animation:fade4 9s infinite;
+  -webkit-animation:fade4 8s infinite;
 
 }
 
-.slide6 {
+.slide5 {
   background: url("photos/brushes.jpg")no-repeat center;
+  background-size: cover;
+  animation:fade5 8s infinite;
+  -webkit-animation:fade5 8s infinite;
+}
+
+.slide6 {
+  background: url("photos/bride1.jpg")no-repeat center;
   background-size: cover;
   animation:fade6 8s infinite;
   -webkit-animation:fade6 8s infinite;
 }
 
-.slide7 {
-  background: url("photos/bride1.jpg")no-repeat center;
-  background-size: cover;
-  animation:fade7 8s infinite;
-  -webkit-animation:fade7 8s infinite;
-}
 
-.slide8 {
-  background: url("photos/couple.jpg")no-repeat center;
-  background-size: cover;
-  animation:fade8 8s infinite;
-  -webkit-animation:fade8 8s infinite;
-}
-
-@keyframes fade5
+@keyframes fade4
 {
   0%   {opacity:1}
-  25% { opacity: 0}
-  50% { opacity: 0}
-  75% { opacity: 0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
   100% { opacity: 1}
+}
+@keyframes fade5
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0}
+  100% { opacity: 0}
 }
 @keyframes fade6
 {
   0%   {opacity:0}
-  25% { opacity: 1}
-  50% { opacity: 0}
-  75% { opacity: 0}
-  100% { opacity: 0}
-}
-@keyframes fade7
-{
-  0%   {opacity:0}
-  25% { opacity: 0}
-  50% { opacity: 1}
-  75% { opacity: 0}
-  100% { opacity: 0}
-}
-@keyframes fade8
-{
-  0%   {opacity:0}
-  25% { opacity: 0}
-  50% { opacity: 0}
-  75% { opacity: 1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
   100% { opacity: 0}
 }
 
@@ -353,74 +318,56 @@ span.fa.fa-instagram:hover {
 }
 
 
-.slide9,.slide10,.slide11,.slide12 {
+.slide7,.slide8,.slide9 {
   position: absolute;
   width:300px;
   height: 293px;
 }
 
-.slide9 {
+.slide7 {
   background: url("photos/lips.jpg")no-repeat center;
   background-size: cover;
-  animation:fade9 9s infinite;
-  -webkit-animation:fade 8s infinite;
+  animation:fade7 9s infinite;
+  -webkit-animation:fade7 8s infinite;
 
 }
 
-.slide10 {
+.slide8 {
   background: url("photos/image9.jpg")no-repeat center;
   background-size:auto;
-  animation:fade10 8s infinite;
-  -webkit-animation:fade2 8s infinite;
+  animation:fade8 8s infinite;
+  -webkit-animation:fade8 8s infinite;
 }
 
-.slide11 {
+.slide9 {
   background: url("photos/bride4.jpg")no-repeat center;
   background-size: cover;
-  animation:fade11 8s infinite;
-  -webkit-animation:fade3 8s infinite;
+  animation:fade9 8s infinite;
+  -webkit-animation:fade9 8s infinite;
 }
 
-.slide12 {
-  background: url("photos/balloon.jpg")no-repeat center;
-  background-size: cover;
-  animation:fade12 8s infinite;
-  -webkit-animation:fade4 8s infinite;
-}
 
-@keyframes fade9
+@keyframes fade7
 {
   0%   {opacity:1}
-  25% { opacity: 0}
-  50% { opacity: 0}
-  75% { opacity: 0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
   100% { opacity: 1}
 }
-@keyframes fade10
+@keyframes fade8
 {
   0%   {opacity:0}
-  25% { opacity: 1}
-  50% { opacity: 0}
-  75% { opacity: 0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0}
   100% { opacity: 0}
 }
-@keyframes fade11
+@keyframes fade9
 {
   0%   {opacity:0}
-  25% { opacity: 0}
-  50% { opacity: 1}
-  75% { opacity: 0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
   100% { opacity: 0}
 }
-@keyframes fade12
-{
-  0%   {opacity:0}
-  25% { opacity: 0}
-  50% { opacity: 0}
-  75% { opacity: 1}
-  100% { opacity: 0}
-}
-
 
 
 
@@ -538,7 +485,21 @@ span.fa.fa-instagram:hover {
 }
 
 .slide:nth-of-type(10){
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/waterfall-free-stock-photo-244915.jpg');
+  background-image: url('photos/bride.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide:nth-of-type(11){
+  background-image: url('photos/balloon.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slide:nth-of-type(12){
+  background-image: url('photos/couple.jpg');
   background-size: contain;
   background-repeat: no-repeat;
     background-position: center;
