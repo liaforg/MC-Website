@@ -313,62 +313,10 @@ span.fa.fa-instagram:hover {
   height: 300px;
   margin-top: 150px;
   margin-left: 150px;
+  background-image: url("photos/mc.jpg");
   background-size: cover;
   background-position: auto;
 }
-
-
-.slide7,.slide8,.slide9 {
-  position: absolute;
-  width:300px;
-  height: 293px;
-}
-
-.slide7 {
-  background: url("photos/lips.jpg")no-repeat center;
-  background-size: cover;
-  animation:fade7 9s infinite;
-  -webkit-animation:fade7 8s infinite;
-
-}
-
-.slide8 {
-  background: url("photos/image9.jpg")no-repeat center;
-  background-size:auto;
-  animation:fade8 8s infinite;
-  -webkit-animation:fade8 8s infinite;
-}
-
-.slide9 {
-  background: url("photos/bride4.jpg")no-repeat center;
-  background-size: cover;
-  animation:fade9 8s infinite;
-  -webkit-animation:fade9 8s infinite;
-}
-
-
-@keyframes fade7
-{
-  0%   {opacity:1}
-  33.333% { opacity: 0}
-  66.666% { opacity: 0}
-  100% { opacity: 1}
-}
-@keyframes fade8
-{
-  0%   {opacity:0}
-  33.333% { opacity: 1}
-  66.666% { opacity: 0}
-  100% { opacity: 0}
-}
-@keyframes fade9
-{
-  0%   {opacity:0}
-  33.333% { opacity: 0}
-  66.666% { opacity: 1}
-  100% { opacity: 0}
-}
-
 
 
 /*-------------------------------------------*/
