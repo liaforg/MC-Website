@@ -282,30 +282,30 @@ span.fa.fa-instagram:hover {
 .slide5 {
   background: url("photos/party.jpg")no-repeat center;
   background-size: cover;
-  animation:fade 9s infinite;
-  -webkit-animation:fade 8s infinite;
+  animation:fade5 9s infinite;
+  -webkit-animation:fade5 8s infinite;
 
 }
 
 .slide6 {
   background: url("photos/brushes.jpg")no-repeat center;
   background-size: cover;
-  animation:fade2 8s infinite;
-  -webkit-animation:fade2 8s infinite;
+  animation:fade6 8s infinite;
+  -webkit-animation:fade6 8s infinite;
 }
 
 .slide7 {
   background: url("photos/bride1.jpg")no-repeat center;
   background-size: cover;
-  animation:fade3 8s infinite;
-  -webkit-animation:fade3 8s infinite;
+  animation:fade7 8s infinite;
+  -webkit-animation:fade7 8s infinite;
 }
 
 .slide8 {
   background: url("photos/couple.jpg")no-repeat center;
   background-size: cover;
-  animation:fade4 8s infinite;
-  -webkit-animation:fade4 8s infinite;
+  animation:fade8 8s infinite;
+  -webkit-animation:fade8 8s infinite;
 }
 
 @keyframes fade5
@@ -362,7 +362,7 @@ span.fa.fa-instagram:hover {
 .slide9 {
   background: url("photos/lips.jpg")no-repeat center;
   background-size: cover;
-  animation:fade 9s infinite;
+  animation:fade9 9s infinite;
   -webkit-animation:fade 8s infinite;
 
 }
@@ -370,25 +370,25 @@ span.fa.fa-instagram:hover {
 .slide10 {
   background: url("photos/image9.jpg")no-repeat center;
   background-size:auto;
-  animation:fade2 8s infinite;
+  animation:fade10 8s infinite;
   -webkit-animation:fade2 8s infinite;
 }
 
 .slide11 {
   background: url("photos/bride4.jpg")no-repeat center;
   background-size: cover;
-  animation:fade3 8s infinite;
+  animation:fade11 8s infinite;
   -webkit-animation:fade3 8s infinite;
 }
 
 .slide12 {
   background: url("photos/balloon.jpg")no-repeat center;
   background-size: cover;
-  animation:fade4 8s infinite;
+  animation:fade12 8s infinite;
   -webkit-animation:fade4 8s infinite;
 }
 
-@keyframes fade5
+@keyframes fade9
 {
   0%   {opacity:1}
   25% { opacity: 0}
@@ -396,7 +396,7 @@ span.fa.fa-instagram:hover {
   75% { opacity: 0}
   100% { opacity: 1}
 }
-@keyframes fade6
+@keyframes fade10
 {
   0%   {opacity:0}
   25% { opacity: 1}
@@ -404,7 +404,7 @@ span.fa.fa-instagram:hover {
   75% { opacity: 0}
   100% { opacity: 0}
 }
-@keyframes fade7
+@keyframes fade11
 {
   0%   {opacity:0}
   25% { opacity: 0}
@@ -412,7 +412,7 @@ span.fa.fa-instagram:hover {
   75% { opacity: 0}
   100% { opacity: 0}
 }
-@keyframes fade8
+@keyframes fade12
 {
   0%   {opacity:0}
   25% { opacity: 0}
