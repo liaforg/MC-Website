@@ -194,6 +194,15 @@ span.fa.fa-instagram:hover {
   margin-top: -600px;
 }
 
+
+.quad{
+  position: absolute;
+  width: 300px;
+  height:307px;
+  margin-left: 150px;
+  margin-top: -307px;
+}
+
 .slide1,.slide2,.slide3{
   position: absolute;
   width: 100%;
@@ -201,29 +210,29 @@ span.fa.fa-instagram:hover {
 }
 
 .slide1 {
-  background: url("photos/makeup_eye.jpg")no-repeat center;
+  background: url("photos/party.jpg")no-repeat center;
   background-size: cover;
-  animation:fade 9s infinite;
-  -webkit-animation:fade 8s infinite;
+  animation:fade1 9s infinite;
+  -webkit-animation:fade1 8s infinite;
 
 }
 
 .slide2 {
-  background: url("photos/image10.jpg")no-repeat center;
+  background: url("photos/brushes.jpg")no-repeat center;
   background-size: cover;
   animation:fade2 8s infinite;
   -webkit-animation:fade2 8s infinite;
 }
 
 .slide3 {
-  background: url("photos/HP1_0285.jpg")no-repeat center;
+  background: url("photos/bride1.jpg")no-repeat center;
   background-size: cover;
   animation:fade3 8s infinite;
   -webkit-animation:fade3 8s infinite;
 }
 
 
-@keyframes fade
+@keyframes fade1
 {
   0%   {opacity:1}
   33.333% { opacity: 0}
@@ -244,8 +253,6 @@ span.fa.fa-instagram:hover {
   66.666% { opacity: 1}
   100% { opacity: 0}
 }
-
-
 
 /*TOP SLIDE*/
 
