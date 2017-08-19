@@ -414,6 +414,12 @@ span.fa.fa-instagram:hover {
   background-repeat: no-repeat;
     background-position: center;
 }
+.slide:nth-of-type(15){
+  background-image: url('photos/image10.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+    background-position: center;
+}
 
 .controls{
   background:  #eee;
