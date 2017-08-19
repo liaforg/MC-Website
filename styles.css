@@ -229,6 +229,13 @@ span.fa.fa-instagram:hover {
   -webkit-animation:fade4 8s infinite;
 }
 
+.slide5 {
+  background: url("photos/desk.jpeg")no-repeat center;
+  background-size: cover;
+  animation:fade5 8s infinite;
+  -webkit-animation:fade5 8s infinite;
+}
+
 
 @keyframes fade1
 {
