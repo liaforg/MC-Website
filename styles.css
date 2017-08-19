@@ -186,7 +186,7 @@ span.fa.fa-instagram:hover {
 /*-------------------------------------------*/
 /*INDEX PAGE*/
 /*LARGE SLIDE*/
-#image_array{
+.image_array{
   max-width: 900px;
   height: 600px;
   margin-left: 650px;
@@ -247,7 +247,7 @@ span.fa.fa-instagram:hover {
 
 
 /*SMALL SLIDE*/
-#quad{
+.quad{
   position: absolute;
   width: 300px;
   height:307px;
@@ -308,7 +308,7 @@ span.fa.fa-instagram:hover {
 
 /*TOP SLIDE*/
 
-#selfie2{
+.selfie2{
   width: 300px;
   height: 300px;
   margin-top: 150px;
