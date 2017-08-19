@@ -186,7 +186,7 @@ span.fa.fa-instagram:hover {
 /*-------------------------------------------*/
 /*INDEX PAGE*/
 /*LARGE SLIDE*/
-.image_array{
+#image_array{
   max-width: 900px;
   height: 600px;
   margin-left: 650px;
@@ -211,8 +211,8 @@ span.fa.fa-instagram:hover {
 .slide2 {
   background: url("photos/image10.jpg")no-repeat center;
   background-size: cover;
-  animation:fade5 8s infinite;
-  -webkit-animation:fade5 8s infinite;
+  animation:fade2 8s infinite;
+  -webkit-animation:fade2 8s infinite;
 }
 
 .slide3 {
@@ -308,7 +308,7 @@ span.fa.fa-instagram:hover {
 
 /*TOP SLIDE*/
 
-.selfie2{
+#selfie2{
   width: 300px;
   height: 300px;
   margin-top: 150px;
@@ -335,8 +335,8 @@ span.fa.fa-instagram:hover {
 .slide8 {
   background: url("photos/image9.jpg")no-repeat center;
   background-size:auto;
-  animation:fade5 8s infinite;
-  -webkit-animation:fade5 8s infinite;
+  animation:fade8 8s infinite;
+  -webkit-animation:fade8 8s infinite;
 }
 
 .slide9 {
@@ -492,14 +492,14 @@ span.fa.fa-instagram:hover {
 }
 
 .slide:nth-of-type(11){
-  background-image: url('photos/balloons.jpg');
+  background-image: url('photos/balloon.jpg');
   background-size: contain;
   background-repeat: no-repeat;
     background-position: center;
 }
 
 .slide:nth-of-type(12){
-  background-image: url('photos/bride.jpg');
+  background-image: url('photos/couple.jpg');
   background-size: contain;
   background-repeat: no-repeat;
     background-position: center;
