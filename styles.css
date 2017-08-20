@@ -272,15 +272,13 @@ span.fa.fa-instagram:hover {
 
 /*-------------------------------------------*/
 /*PORTFOLIO*/
-/*SLIDES FOR TESTIMONIALS*/
 
 .container {
   position: absolute;
   width: 100%;
   margin: auto;
-  left: -30px;
-  top: -20px;
-  list-style-type: none;
+  left: -40px;
+  top: -10px;
   z-index: 0;
 }
 
@@ -422,38 +420,11 @@ span.fa.fa-instagram:hover {
     background-position: center;
 }
 
-.controls{
-  background:  #eee;
-  color: black;
-  border: none;
-  padding: 15px 0px;
-  font-size: 20px;
-  cursor: pointer;
-  width: 70px;
-  position: relative;
-  left: 590px;
-  top: 740px;
-  margin: 50px;
-  border-radius: 20%;
-}
-
-.controls:hover,
-.controls:focus{
-  background: #eee;
-  color: white;
-}
-
 .container{
-  position: relative;
+  position: absolute;
+  margin: auto;
 }
 
-.buttons{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 10;
-  font-size: 0px;
-}
 
 
 /*-------------------------------------------*/
