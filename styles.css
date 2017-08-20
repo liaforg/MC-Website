@@ -451,7 +451,7 @@ span.fa.fa-instagram:hover {
 }
 
 .service {
-  font-size: 13px;
+  font-size: 10px;
   font-style: italic;
   margin-bottom: 30px;
 }
@@ -547,12 +547,14 @@ td {
 
 /*-------------------------------------------*/
 /*CONTACTS PAGE*/
-.contact {
+.contact-container {
   position: absolute;
   width: 50%;
   text-align: left;
   top: 120px;
 }
+
+
 
 .contact-form {
   font-family: 'Raleway', sans-serif;
