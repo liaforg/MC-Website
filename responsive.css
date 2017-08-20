@@ -1,0 +1,817 @@
+@media screen and (min-width: 1670px){
+  .image_array{
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width:1669px) and (min-width: 1298px){
+  .image_array{
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width:1297px) and (min-width: 1100px) {
+  .image_array{
+    max-width: 400px;
+    height: 600px;
+  }
+
+  .slide1,.slide2,.slide3 {
+    background-size: cover;
+  }
+
+  #logo {
+    position: absolute;
+    left: 77px;
+    top: -35px;
+    font-weight: bolder;
+    color:  #dfbbbb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #makeup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: black;
+    position: fixed;
+    left: 20px;
+    font-weight: bolder;
+    top: 15px;
+  }
+}
+
+@media screen and (max-width:1099px) and (min-width: 995px){
+
+  li {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+
+  #logo {
+    position: absolute;
+    left: 77px;
+    top: -35px;
+    font-weight: bolder;
+    color:  #dfbbbb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #makeup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: black;
+    position: fixed;
+    left: 20px;
+    font-weight: bolder;
+    top: 15px;
+  }
+
+  .brushes{
+    position: absolute;
+    width: 200px;
+    height:307px;
+    background-image: url("photos/brushes.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .selfie2{
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 150px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  #box,#logo-2,#makeup-2 {
+    display: none;
+  }
+
+  .image_array{
+    max-width: 600px;
+    height: 500px;
+    margin-left: 350px;
+    margin-top: -200px;
+  }
+
+}
+
+@media screen and (max-width:994px) and (min-width: 796px) {
+
+  li {
+    padding-top: 15px;
+    font-size: 10px;
+  }
+
+  #logo {
+    position: absolute;
+    left: 50px;
+    top: -25px;
+    font-weight: bolder;
+    color:  #dfbbbb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #makeup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: black;
+    position: fixed;
+    left: 20px;
+    font-weight: bolder;
+    top: 20px;
+  }
+
+  .icons {
+    position:absolute;
+    margin: auto;
+    top: 20px;
+    right: 50px;
+    color: black;
+    text-align: center;
+    display: inline;
+  }
+
+  .brushes{
+    position: absolute;
+    width: 200px;
+    height:207px;
+    margin-top: -207px;
+    background-image: url("photos/brushes.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .selfie2{
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 150px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  #box,#logo-2,#makeup-2 {
+    display: none;
+  }
+
+  .image_array{
+    max-width: 400px;
+    height: 400px;
+    margin-left: 350px;
+    margin-top: -200px;
+  }
+
+}
+
+@media screen and (max-width:795px) and (min-width: 680px){
+  li {
+    padding-top: 15px;
+    font-size: 8px;
+  }
+
+  #logo {
+    position: absolute;
+    left: 50px;
+    top: -25px;
+    font-weight: bolder;
+    color:  #dfbbbb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #makeup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: black;
+    position: fixed;
+    left: 20px;
+    font-weight: bolder;
+    top: 20px;
+  }
+
+  .icons {
+    position:absolute;
+    margin: auto;
+    top: 20px;
+    right: 50px;
+    color: black;
+    text-align: center;
+    display: inline;
+  }
+
+  .brushes{
+    position: absolute;
+    width: 150px;
+    height:180px;
+    margin-top: -180px;
+    background-image: url("photos/brushes.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .selfie2{
+    width: 150px;
+    height: 150px;
+    margin-top: 150px;
+    margin-left: 150px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  #box,#logo-2,#makeup-2 {
+    display: none;
+  }
+
+  .image_array{
+    max-width: 315px;
+    height: 315px;
+    margin-left: 300px;
+    margin-top: -150px;
+  }
+
+}
+
+@media screen and (max-width:679px) and (min-width: 580px){
+  li {
+    padding-top: 15px;
+    font-size: 8px;
+  }
+
+  #logo {
+    position: absolute;
+    left: 50px;
+    top: -25px;
+    font-weight: bolder;
+    color:  #dfbbbb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #makeup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: black;
+    position: fixed;
+    left: 20px;
+    font-weight: bolder;
+    top: 20px;
+  }
+
+  .icons {
+    position:absolute;
+    margin: auto;
+    top: 20px;
+    right: 50px;
+    color: black;
+    text-align: center;
+    display: inline;
+  }
+
+  a{
+    padding-right: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .brushes{
+    position: absolute;
+    width: 100px;
+    height:133px;
+    margin-top: -133px;
+    margin-left: 120px;
+    background-image: url("photos/brushes.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .selfie2{
+    width: 100px;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 120px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  #box,#logo-2,#makeup-2 {
+    display: none;
+  }
+
+  .image_array{
+    max-width: 280px;
+    height: 230px;
+    margin-left: 220px;
+    margin-top: -100px;
+  }
+
+}
+
+@media screen and (max-width:579px) and (min-width: 462px) {
+  .navbar {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 100px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 2px solid #b9b0c0;
+
+  }
+
+  li {
+    padding-top: 55px;
+    font-size: 10px;
+
+  }
+
+  #logo {
+    position: absolute;
+    left: 50px;
+    top: -25px;
+    font-weight: bolder;
+    color:  #dfbbbb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #makeup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: black;
+    position: fixed;
+    left: 20px;
+    font-weight: bolder;
+    top: 20px;
+  }
+
+  .icons {
+    position:absolute;
+    margin: auto;
+    top: 20px;
+    right: 50px;
+    color: black;
+    text-align: center;
+    display: inline;
+  }
+
+  a{
+    padding-right: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .brushes{
+    position: absolute;
+    width: 100px;
+    height:133px;
+    margin-top: -133px;
+    margin-left: 60px;
+    background-image: url("photos/brushes.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .selfie2{
+    width: 100px;
+    height: 100px;
+    margin-top: 120px;
+    margin-left: 60px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  #box,#logo-2,#makeup-2 {
+    display: none;
+  }
+
+  .image_array{
+    max-width: 280px;
+    height: 230px;
+    margin-left: 160px;
+    margin-top: -100px;
+  }
+
+}
+
+@media screen and (max-width:461px) and (min-width: 405px){
+  .navbar {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 100px;
+    text-decoration: none;
+    text-align: left;
+    border-bottom: 2px solid #b9b0c0;
+
+  }
+
+  li {
+
+    padding-top: 55px;
+    padding-right: 5px;
+    font-size: 10px;
+
+  }
+
+  #logo {
+    position: absolute;
+    left: 50px;
+    top: -25px;
+    font-weight: bolder;
+    color:  #dfbbbb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #makeup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: black;
+    position: fixed;
+    left: 20px;
+    font-weight: bolder;
+    top: 20px;
+  }
+
+  .icons {
+    position:absolute;
+    margin: auto;
+    top: 20px;
+    right: 30px;
+    color: black;
+    text-align: center;
+    display: inline;
+  }
+
+  a{
+    padding-right: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .brushes{
+    position: absolute;
+    width: 300px;
+    height:120px;
+    margin-top: -300x;
+    margin-left: 60px;
+    background-image: url("photos/brushes.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .selfie2{
+    width: 150px;
+    height: 190px;
+    margin-top: 140px;
+    margin-left: 60px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  .desk{
+    width: 150px;
+    height: 170px;
+    margin-top: -470px;
+    margin-left: 210px;
+    background-image: url("photos/desk.jpeg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  #box,#logo-2,#makeup-2 {
+    display: none;
+  }
+
+  .image_array{
+    max-width: 300px;
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width:404px) and (min-width: 375px){
+  .navbar {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 100px;
+    text-decoration: none;
+    text-align: left;
+    border-bottom: 2px solid #b9b0c0;
+  }
+
+  li {
+    padding-top: 55px;
+    padding-right: 5px;
+    font-size: 8px;
+  }
+
+
+  #logo {
+    position: absolute;
+    left: 50px;
+    top: -25px;
+    font-weight: bolder;
+    color:  #dfbbbb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #makeup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: black;
+    position: fixed;
+    left: 20px;
+    font-weight: bolder;
+    top: 20px;
+  }
+
+  .icons {
+    position:absolute;
+    margin: auto;
+    top: 20px;
+    right: 30px;
+    color: black;
+    text-align: center;
+    display: inline;
+  }
+
+  a{
+    padding-right: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .brushes{
+    position: absolute;
+    width: 300px;
+    height:120px;
+    margin-top: -300x;
+    margin-left: 40px;
+    background-image: url("photos/brushes.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .selfie2{
+    width: 150px;
+    height: 190px;
+    margin-top: 140px;
+    margin-left: 40px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  .desk{
+    width: 150px;
+    height: 170px;
+    margin-top: -470px;
+    margin-left: 190px;
+    background-image: url("photos/desk.jpeg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  #box,#logo-2,#makeup-2 {
+    display: none;
+  }
+
+  .image_array{
+    max-width: 300px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width:374px) and (min-width: 360px){
+  .navbar {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 100px;
+    text-decoration: none;
+    text-align: left;
+    border-bottom: 2px solid #b9b0c0;
+  }
+
+  li {
+    padding-top: 55px;
+    padding-right: 3px;
+    font-size: 8px;
+  }
+
+
+  #logo {
+    position: absolute;
+    left: 50px;
+    top: -25px;
+    font-weight: bolder;
+    color:  #dfbbbb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #makeup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: black;
+    position: fixed;
+    left: 20px;
+    font-weight: bolder;
+    top: 20px;
+  }
+
+  .icons {
+    position:absolute;
+    margin: auto;
+    top: 20px;
+    right: 30px;
+    color: black;
+    text-align: center;
+    display: inline;
+  }
+
+  a{
+    padding-right: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .brushes{
+    position: absolute;
+    width: 250px;
+    height:120px;
+    margin-top: -300x;
+    margin-left: 60px;
+    background-image: url("photos/brushes.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .selfie2{
+    width: 130px;
+    height: 140px;
+    margin-top: 130px;
+    margin-left: 60px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  .desk{
+    width: 120px;
+    height: 120px;
+    margin-top: -420px;
+    margin-left: 190px;
+    background-image: url("photos/desk.jpeg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  #box,#logo-2,#makeup-2 {
+    display: none;
+  }
+
+  .image_array{
+    max-width: 250px;
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width:359px) and (min-width: 320px){
+  .navbar {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 100px;
+    text-decoration: none;
+    text-align: left;
+    border-bottom: 2px solid #b9b0c0;
+  }
+
+  li {
+    padding-top: 55px;
+    padding-right: 3px;
+    font-size: 8px;
+  }
+
+
+  #logo {
+    position: absolute;
+    left: 50px;
+    top: -25px;
+    font-weight: bolder;
+    color:  #dfbbbb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #makeup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: black;
+    position: fixed;
+    left: 20px;
+    font-weight: bolder;
+    top: 20px;
+  }
+
+  .icons {
+    position:absolute;
+    margin: auto;
+    top: 20px;
+    right: 30px;
+    color: black;
+    text-align: center;
+    display: inline;
+  }
+
+  a{
+    padding-right: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .brushes{
+    position: absolute;
+    width: 250px;
+    height:120px;
+    margin-top: -300x;
+    margin-left: 35px;
+    background-image: url("photos/brushes.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .selfie2{
+    width: 130px;
+    height: 140px;
+    margin-top: 110px;
+    margin-left: 35px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  .desk{
+    width: 120px;
+    height: 120px;
+    margin-top: -420px;
+    margin-left: 165px;
+    background-image: url("photos/desk.jpeg");
+    background-size: cover;
+    background-position: auto;
+  }
+
+  #box,#logo-2,#makeup-2 {
+    display: none;
+  }
+
+  .image_array{
+    max-width: 250px;
+    height: 200px;
+    margin-left: 35px;
+    margin-top: 80px;
+  }
+}
