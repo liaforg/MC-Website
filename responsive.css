@@ -1,21 +1,23 @@
-
-@media screen and (min-width: 1670px){
+@media screen and (max-width: 1764px) and (min-width: 1670px){
+  .selfie2{
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
+  }
   .image_array{
     max-width: 800px;
   }
 }
 
 @media screen and (max-width:1669px) and (min-width: 1298px){
+
+
   .image_array{
     max-width: 600px;
-  }
-
-  .prices {
-    position: absolute;
-    width: 50%;
-    text-align: left;
-    top: 80px;
-    left: 200px;
   }
 
   .cost {
@@ -34,6 +36,15 @@
     font-size: 10px;
     font-style: italic;
     margin-bottom: 30px;
+  }
+  .selfie2{
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
   }
 }
 
@@ -66,6 +77,15 @@
     left: 20px;
     font-weight: bolder;
     top: 15px;
+  }
+  .selfie2{
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+    background-image: url("photos/mc.jpg");
+    background-size: cover;
+    background-position: auto;
   }
 }
 
@@ -116,6 +136,7 @@
     background-image: url("photos/brushes.jpg");
     background-position: center;
     background-size: cover;
+    margin-left: 150px;
   }
   .selfie2{
     width: 200px;
@@ -197,6 +218,7 @@
     background-image: url("photos/brushes.jpg");
     background-position: center;
     background-size: cover;
+    margin-left: 150px;
   }
   .selfie2{
     width: 200px;
@@ -277,6 +299,7 @@
     background-image: url("photos/brushes.jpg");
     background-position: center;
     background-size: cover;
+    margin-left: 150px;
   }
   .selfie2{
     width: 150px;
@@ -563,7 +586,6 @@
   }
 
 
-
   .brushes{
     position: absolute;
     width: 300px;
@@ -577,7 +599,7 @@
   .selfie2{
     width: 150px;
     height: 190px;
-    margin-top: 140px;
+    margin-top: 120px;
     margin-left: 60px;
     background-image: url("photos/mc.jpg");
     background-size: cover;
@@ -589,7 +611,7 @@
     height: 170px;
     margin-top: -470px;
     margin-left: 210px;
-    background-image: url("photos/desk.jpeg");
+    background-image: url("photos/desk2.jpg");
     background-size: cover;
     background-position: auto;
   }
@@ -688,7 +710,7 @@
   .selfie2{
     width: 150px;
     height: 190px;
-    margin-top: 140px;
+    margin-top: 120px;
     margin-left: 40px;
     background-image: url("photos/mc.jpg");
     background-size: cover;
@@ -700,7 +722,7 @@
     height: 170px;
     margin-top: -470px;
     margin-left: 190px;
-    background-image: url("photos/desk.jpeg");
+    background-image: url("photos/desk2.jpg");
     background-size: cover;
     background-position: auto;
   }
@@ -812,7 +834,7 @@
     height: 120px;
     margin-top: -420px;
     margin-left: 190px;
-    background-image: url("photos/desk.jpeg");
+    background-image: url("photos/desk2.jpg");
     background-size: cover;
     background-position: auto;
   }
@@ -829,7 +851,7 @@
   }
 }
 
-@media screen and (max-width:359px) and (min-width: 320px){
+@media screen and (max-width:359px) and (min-width: 0px){
   .navbar {
     background-color: white;
     width: 100%;
@@ -923,7 +945,7 @@
     height: 120px;
     margin-top: -420px;
     margin-left: 165px;
-    background-image: url("photos/desk.jpeg");
+    background-image: url("photos/desk2.jpg");
     background-size: cover;
     background-position: auto;
   }

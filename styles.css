@@ -8,6 +8,7 @@ html {
 }
 
 body {
+
   margin: 0;
   background-image: url("photos/bg2.jpg");
   background-repeat: no-repeat;
@@ -88,6 +89,7 @@ main{
   text-decoration: none;
   text-align: center;
   border-bottom: 2px solid #b9b0c0;
+  z-index: 100;
 
 }
 
@@ -121,6 +123,7 @@ a:hover {
   color: black;
   text-align: center;
   display: inline;
+  z-index: 100;
 }
 
 
@@ -149,7 +152,7 @@ span.fa.fa-instagram:hover {
   width: 200px;
   height: 600px;
   margin-top: -300px;
-  margin-left: 450px;
+  margin-left: 500px;
   background-size: cover;
   background-position: auto;
   z-index: 1;
@@ -188,9 +191,9 @@ span.fa.fa-instagram:hover {
 /*INDEX PAGE*/
 /*LARGE SLIDE*/
 .image_array{
-  max-width: 900px;
+  max-width: 1000px;
   height: 600px;
-  margin-left: 650px;
+  margin-left: 700px;
   position: relative;
   margin-top: -600px;
 }
@@ -253,7 +256,7 @@ span.fa.fa-instagram:hover {
   position: absolute;
   width: 300px;
   height:307px;
-  margin-left: 150px;
+  margin-left: 200px;
   margin-top: -307px;
   background-image: url("photos/brushes.jpg");
   background-position: center;
@@ -281,9 +284,6 @@ span.fa.fa-instagram:hover {
   top: -10px;
   z-index: 0;
 }
-
-
-/*SLIDES FOR TESTIMONIALS*/
 
 #slides{
   position: absolute;
@@ -328,28 +328,28 @@ span.fa.fa-instagram:hover {
   background-image: url('photos/photo 2.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 
 .slide:nth-of-type(3){
   background-image: url('photos/pic1.jpeg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 
 .slide:nth-of-type(4){
   background-image: url('photos/pic2.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 
 .slide:nth-of-type(5){
   background-image: url('photos/pic3.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 
 
@@ -357,74 +357,119 @@ span.fa.fa-instagram:hover {
   background-image: url('photos/pic4.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 
 .slide:nth-of-type(7){
   background-image: url('photos/pic5.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 
 .slide:nth-of-type(8){
   background-image: url('photos/pic6.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 
 .slide:nth-of-type(9){
   background-image: url('photos/MK-89.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 
 .slide:nth-of-type(10){
   background-image: url('photos/bride.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 
 .slide:nth-of-type(11){
   background-image: url('photos/balloon.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 
 .slide:nth-of-type(12){
   background-image: url('photos/couple.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 .slide:nth-of-type(13){
   background-image: url('photos/bride1.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 .slide:nth-of-type(14){
   background-image: url('photos/image4.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
 }
 .slide:nth-of-type(15){
   background-image: url('photos/image10.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center;
+}
+.slide:nth-of-type(16){
+  background-image: url('photos/Attachment-2.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide:nth-of-type(17){
+  background-image: url('photos/G&A_0183.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide:nth-of-type(18){
+  background-image: url('photos/G&A_0249.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.controls{
+  background:  #eee;
+  color: black;
+  border: none;
+  padding: 15px 0px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 70px;
+  position: relative;
+  left: 590px;
+  top: 740px;
+  margin: 50px;
+  border-radius: 20%;
+}
+
+.controls:hover,
+.controls:focus{
+  background: #eee;
+  color: white;
 }
 
 .container{
-  position: absolute;
-  margin: auto;
+  position: relative;
 }
 
+.buttons{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  font-size: 0px;
+}
 
 
 /*-------------------------------------------*/
@@ -432,10 +477,15 @@ span.fa.fa-instagram:hover {
 
 .prices {
   position: absolute;
-  width: 50%;
+  width: 600px;
   text-align: left;
-  top: 80px;
-  left: 200px;
+  margin: auto;
+  padding-top: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(211,211,211, 0.8);
 }
 
 .cost {
@@ -465,25 +515,37 @@ td {
 /*-------------------------------------------*/
 /*ABOUT*/
 
+.grey-box{
+  position: absolute;
+  width: 600px;
+  text-align: left;
+  margin: auto;
+  padding-top: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(211,211,211, 0.8);
+}
+
 #selfie {
-  width: 220px;
-  height: 220px;
-  margin-top: 120px;
-  margin-left: 90px;
+  width: 200px;
+  height: 200px;
+  margin: auto;
   background-image: url("photos/selfie3.jpg");
   background-size: cover;
   background-position: auto;
   border-radius: 50%;
   z-index: 0;
   border: 5px solid black;
+  margin-top: -10px;
 }
 
 .about {
   position: absolute;
-  width: 100%;
-  text-align: left;
-  margin-top: -230px;
-  margin-left: -180px;
+  width: 1400px;
+  top: 300px;
+  left: -400px;
 }
 
 
@@ -492,7 +554,7 @@ td {
   font-size: 10px;
   padding-top: 10px;
   width: 40%;
-  text-align: left;
+  text-align: center;
   margin: auto;
   height: 600px;
   color: black;
@@ -501,12 +563,15 @@ td {
 }
 
 #about-me {
+  margin-top: -3px;
   font-size: 30px;
+  text-align:center;
 }
 
 #pro {
   font-size: 20px;
-  margin-top: -20px
+  margin-top: -20px;
+  text-align: center;
 }
 
 #mc-bio{
@@ -563,6 +628,8 @@ td {
   width: 50%;
   text-align: left;
   margin: auto;
+  margin-top: 100px;
+  margin-left: 225px;
   color: black;
 }
 
@@ -571,6 +638,7 @@ td {
   font-size: 20px;
   padding-bottom: 40px;
   color: black;;
+  text-align:
 }
 
 #info {
