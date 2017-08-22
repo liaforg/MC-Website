@@ -655,7 +655,7 @@
     width: 50%;
     text-align: center;
     margin: auto;
-    height: 600px;
+    height: 800px;
     color: black;
     padding-left: 20px;
     padding-right: 10px;
@@ -929,7 +929,7 @@
     width: 50%;
     text-align: center;
     margin: auto;
-    height: 600px;
+    height: 800px;
     color: black;
     padding-left: 20px;
     padding-right: 10px;
@@ -1201,7 +1201,7 @@
     width: 50%;
     text-align: center;
     margin: auto;
-    height: 600px;
+    height: 800px;
     color: black;
     padding-left: 20px;
     padding-right: 10px;
@@ -1475,7 +1475,7 @@
     width: 50%;
     text-align: center;
     margin: auto;
-    height: 600px;
+    height: 800px;
     color: black;
     padding-left: 20px;
     padding-right: 10px;
@@ -1705,7 +1705,6 @@
   .grey-box{
     width: 250px;
     overflow: scroll;
-    -webkit-overflow-scrolling: touch;
   }
 
   #selfie {
@@ -1748,7 +1747,7 @@
     width: 50%;
     text-align: center;
     margin: auto;
-    height: 600px;
+    height: 800px;
     color: black;
     padding-left: 20px;
     padding-right: 10px;

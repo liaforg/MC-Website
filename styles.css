@@ -3,6 +3,9 @@
   box-sizing: border-box;
 }
 
+div {
+  -webkit-overflow-scrolling: touch;
+}
 
 html {
   margin: 0;
@@ -538,7 +541,6 @@ td {
   right: 0;
   background-color: rgba(211,211,211, 0.8);
   overflow: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 #selfie {
