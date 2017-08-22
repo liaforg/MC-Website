@@ -887,7 +887,6 @@
   .grey-box{
     width: 250px;
     overflow: scroll;
-    -webkit-overflow-scrolling: touch;
   }
 
   #selfie {

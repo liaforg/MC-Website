@@ -3,9 +3,6 @@
   box-sizing: border-box;
 }
 
-div {
-  -webkit-overflow-scrolling: touch;
-  }
 
 html {
   margin: 0;
