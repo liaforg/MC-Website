@@ -188,14 +188,16 @@
     top: 20px;
   }
 
-  .icons {
-    position:absolute;
-    margin: auto;
-    top: 20px;
-    right: 50px;
+  span.fa.fa-envelope {
     color: black;
-    text-align: center;
-    display: inline;
+    position: fixed;
+    right: 100px;
+  }
+
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 50px;
   }
 
   #slides{
@@ -269,14 +271,16 @@
     top: 20px;
   }
 
-  .icons {
-    position:absolute;
-    margin: auto;
-    top: 20px;
-    right: 50px;
+  span.fa.fa-envelope {
     color: black;
-    text-align: center;
-    display: inline;
+    position: fixed;
+    right: 100px;
+  }
+
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 50px;
   }
 
   #slides{
@@ -350,14 +354,16 @@
     top: 20px;
   }
 
-  .icons {
-    position:absolute;
-    margin: auto;
-    top: 20px;
-    right: 50px;
+  span.fa.fa-envelope {
     color: black;
-    text-align: center;
-    display: inline;
+    position: fixed;
+    right: 100px;
+  }
+
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 50px;
   }
 
   a{
@@ -409,6 +415,51 @@
     margin-top: -100px;
   }
 
+  .grey-box3{
+    width: 250px;
+  }
+
+  .prices {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .prices h4{
+    font-size: 9px;
+    padding-top: 30px;
+  }
+
+  .cost {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    height: 700px;
+    color: black;
+    text-shadow: 1px 1px #grey;
+    font-size: 10px;
+  }
+
+  .service {
+    width: 100%;
+    font-size: 8px;
+    font-style: italic;
+    padding-top: 10px;
+  }
+
+  .price-table{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  td{
+    padding-left: 3px;
+  }
+
 }
 
 @media screen and (max-width:579px) and (min-width: 462px) {
@@ -452,14 +503,16 @@
     top: 20px;
   }
 
-  .icons {
-    position:absolute;
-    margin: auto;
-    top: 20px;
-    right: 50px;
+  span.fa.fa-envelope {
     color: black;
-    text-align: center;
-    display: inline;
+    position: fixed;
+    right: 100px;
+  }
+
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 50px;
   }
 
   a{
@@ -511,6 +564,102 @@
     margin-top: -100px;
   }
 
+  .grey-box3{
+    width: 250px;
+  }
+
+  .prices {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .prices h4{
+    font-size: 9px;
+    padding-top: 30px;
+  }
+
+  .cost {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    height: 700px;
+    color: black;
+    text-shadow: 1px 1px #grey;
+    font-size: 10px;
+  }
+
+  .service {
+    width: 100%;
+    font-size: 8px;
+    font-style: italic;
+    padding-top: 10px;
+  }
+
+  .price-table{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  td{
+    padding-left: 3px;
+  }
+
+  .grey-box{
+    width: 250px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #selfie {
+    width: 100px;
+    height:100px;
+    margin-top: 110px;
+  }
+
+
+  #about-me {
+    margin-top: -70px;
+    font-size:18px;
+    width: 100%;
+  }
+
+  #pro {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  #mc-bio{
+    margin-top: -10px;
+    font-size: 10px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .about {
+    position: absolute;
+    width: 500px;
+    top: 285px;
+    left: -130px;
+  }
+
+
+  .bio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    padding-top: 10px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
 }
 
 @media screen and (max-width:461px) and (min-width: 405px){
@@ -556,14 +705,16 @@
     top: 20px;
   }
 
-  .icons {
-    position:absolute;
-    margin: auto;
-    top: 20px;
-    right: 30px;
+  span.fa.fa-envelope {
     color: black;
-    text-align: center;
-    display: inline;
+    position: fixed;
+    right: 100px;
+  }
+
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 50px;
   }
 
   a{
@@ -625,6 +776,165 @@
     margin-left: 60px;
     margin-top: 80px;
   }
+
+  .grey-box2{
+    width: 250px;
+  }
+
+  .contact-form {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    width: 100%;
+    margin: auto;
+    top: 100px;
+    left: 0px;
+    bottom: 0;
+    color: black;
+    text-align: center;
+  }
+
+  #toronto {
+    font-size: 15px;
+  }
+
+  #info {
+    font-size: 18px;
+  }
+
+  .table-icons {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 100%;
+    margin:auto;
+    top: 200px;
+    font-size: 20px;
+    padding-top: 80px;
+    color: #777696;
+    left: 13%;
+
+  }
+
+  .table-icons2 {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 100%;
+    margin:auto;
+    top: 220px;
+    font-size: 20px;
+    padding-top: 200px;
+    color: #777696;
+    left: 30%;
+  }
+
+  #make, #num {
+    font-size: 15px;
+  }
+
+  h2 span.fa.fa-envelope {
+    left: 32%;
+  }
+
+  span.fa.fa-phone {
+    left: 16%;
+  }
+
+  .grey-box3{
+    width: 250px;
+  }
+
+  .prices {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .prices h4{
+    font-size: 9px;
+    padding-top: 30px;
+  }
+
+  .cost {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    height: 700px;
+    color: black;
+    text-shadow: 1px 1px #grey;
+    font-size: 10px;
+  }
+
+  .service {
+    width: 100%;
+    font-size: 8px;
+    font-style: italic;
+    padding-top: 10px;
+  }
+
+  .price-table{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  td{
+    padding-left: 3px;
+  }
+
+  .grey-box{
+    width: 250px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #selfie {
+    width: 100px;
+    height:100px;
+    margin-top: 110px;
+  }
+
+
+  #about-me {
+    margin-top: -70px;
+    font-size:18px;
+    width: 100%;
+  }
+
+  #pro {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  #mc-bio{
+    margin-top: -10px;
+    font-size: 10px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .about {
+    position: absolute;
+    width: 500px;
+    top: 285px;
+    left: -130px;
+  }
+
+
+  .bio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    padding-top: 10px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
 }
 
 @media screen and (max-width:404px) and (min-width: 375px){
@@ -668,14 +978,16 @@
     top: 20px;
   }
 
-  .icons {
-    position:absolute;
-    margin: auto;
-    top: 20px;
-    right: 30px;
+  span.fa.fa-envelope {
     color: black;
-    text-align: center;
-    display: inline;
+    position: fixed;
+    right: 100px;
+  }
+
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 50px;
   }
 
   a{
@@ -736,9 +1048,169 @@
     margin-left: 40px;
     margin-top: 80px;
   }
+
+  .grey-box2{
+    width: 250px;
+  }
+
+  .contact-form {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    width: 100%;
+    margin: auto;
+    top: 100px;
+    left: 0px;
+    bottom: 0;
+    color: black;
+    text-align: center;
+  }
+
+  #toronto {
+    font-size: 15px;
+  }
+
+  #info {
+    font-size: 18px;
+  }
+
+  .table-icons {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 100%;
+    margin:auto;
+    top: 200px;
+    font-size: 20px;
+    padding-top: 80px;
+    color: #777696;
+    left: 13%;
+
+  }
+
+  .table-icons2 {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 100%;
+    margin:auto;
+    top: 220px;
+    font-size: 20px;
+    padding-top: 200px;
+    color: #777696;
+    left: 30%;
+  }
+
+  #make, #num {
+    font-size: 15px;
+  }
+
+  h2 span.fa.fa-envelope {
+    left: 32%;
+  }
+
+  span.fa.fa-phone {
+    left: 16%;
+  }
+
+  .grey-box3{
+    width: 250px;
+  }
+
+  .prices {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .prices h4{
+    font-size: 9px;
+    padding-top: 30px;
+  }
+
+  .cost {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    height: 700px;
+    color: black;
+    text-shadow: 1px 1px #grey;
+    font-size: 10px;
+  }
+
+  .service {
+    width: 100%;
+    font-size: 8px;
+    font-style: italic;
+    padding-top: 10px;
+  }
+
+  .price-table{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  td{
+    padding-left: 3px;
+  }
+
+  .grey-box{
+    width: 250px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #selfie {
+    width: 100px;
+    height:100px;
+    margin-top: 110px;
+  }
+
+
+  #about-me {
+    margin-top: -70px;
+    font-size:18px;
+    width: 100%;
+  }
+
+  #pro {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  #mc-bio{
+    margin-top: -10px;
+    font-size: 10px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .about {
+    position: absolute;
+    width: 500px;
+    top: 285px;
+    left: -130px;
+  }
+
+
+  .bio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    padding-top: 10px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
 }
 
 @media screen and (max-width:374px) and (min-width: 360px){
+
   .navbar {
     background-color: white;
     width: 100%;
@@ -779,14 +1251,16 @@
     top: 20px;
   }
 
-  .icons {
-    position:absolute;
-    margin: auto;
-    top: 20px;
-    right: 30px;
+  span.fa.fa-envelope {
     color: black;
-    text-align: center;
-    display: inline;
+    position: fixed;
+    right: 100px;
+  }
+
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 50px;
   }
 
   a{
@@ -848,6 +1322,166 @@
     margin-left: 60px;
     margin-top: 80px;
   }
+
+  .grey-box2{
+    width: 250px;
+  }
+
+  .contact-form {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    width: 100%;
+    margin: auto;
+    top: 100px;
+    left: 0px;
+    bottom: 0;
+    color: black;
+    text-align: center;
+  }
+
+  #toronto {
+    font-size: 15px;
+  }
+
+  #info {
+    font-size: 18px;
+  }
+
+  .table-icons {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 100%;
+    margin:auto;
+    top: 200px;
+    font-size: 20px;
+    padding-top: 80px;
+    color: #777696;
+    left: 13%;
+
+  }
+
+  .table-icons2 {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 100%;
+    margin:auto;
+    top: 220px;
+    font-size: 20px;
+    padding-top: 200px;
+    color: #777696;
+    left: 30%;
+  }
+
+  #make, #num {
+    font-size: 15px;
+  }
+
+  h2 span.fa.fa-envelope {
+    left: 32%;
+  }
+
+  span.fa.fa-phone {
+    left: 16%;
+  }
+
+  .grey-box3{
+    width: 250px;
+  }
+
+  .prices {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .prices h4{
+    font-size: 9px;
+    padding-top: 30px;
+  }
+
+  .cost {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    height: 700px;
+    color: black;
+    text-shadow: 1px 1px #grey;
+    font-size: 10px;
+  }
+
+  .service {
+    width: 100%;
+    font-size: 8px;
+    font-style: italic;
+    padding-top: 10px;
+  }
+
+  .price-table{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  td{
+    padding-left: 3px;
+  }
+
+  .grey-box{
+    width: 250px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #selfie {
+    width: 100px;
+    height:100px;
+    margin-top: 110px;
+  }
+
+
+  #about-me {
+    margin-top: -70px;
+    font-size:18px;
+    width: 100%;
+  }
+
+  #pro {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  #mc-bio{
+    margin-top: -10px;
+    font-size: 10px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .about {
+    position: absolute;
+    width: 500px;
+    top: 285px;
+    left: -130px;
+  }
+
+
+  .bio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    padding-top: 10px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
 }
 
 @media screen and (max-width:359px) and (min-width: 0px){
@@ -891,14 +1525,16 @@
     top: 20px;
   }
 
-  .icons {
-    position:absolute;
-    margin: auto;
-    top: 20px;
-    right: 30px;
+  span.fa.fa-envelope {
     color: black;
-    text-align: center;
-    display: inline;
+    position: fixed;
+    right: 100px;
+  }
+
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 50px;
   }
 
   a{
@@ -958,5 +1594,164 @@
     height: 200px;
     margin-left: 35px;
     margin-top: 80px;
+  }
+
+  .grey-box2{
+    width: 250px;
+  }
+
+  .contact-form {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    width: 100%;
+    margin: auto;
+    top: 100px;
+    left: 0px;
+    bottom: 0;
+    color: black;
+    text-align: center;
+  }
+
+  #toronto {
+    font-size: 15px;
+  }
+
+  #info {
+    font-size: 18px;
+  }
+
+  .table-icons {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 100%;
+    margin:auto;
+    top: 200px;
+    font-size: 20px;
+    padding-top: 80px;
+    color: #777696;
+    left: 13%;
+
+  }
+
+  .table-icons2 {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 100%;
+    margin:auto;
+    top: 220px;
+    font-size: 20px;
+    padding-top: 200px;
+    color: #777696;
+    left: 30%;
+  }
+
+  #make, #num {
+    font-size: 15px;
+  }
+
+  h2 span.fa.fa-envelope {
+    left: 32%;
+  }
+
+  span.fa.fa-phone {
+    left: 16%;
+  }
+
+  .grey-box3{
+    width: 250px;
+  }
+
+  .prices {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .prices h4{
+    font-size: 9px;
+    padding-top: 30px;
+  }
+
+  .cost {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    height: 700px;
+    color: black;
+    text-shadow: 1px 1px #grey;
+    font-size: 10px;
+  }
+
+  .service {
+    width: 100%;
+    font-size: 8px;
+    font-style: italic;
+    padding-top: 10px;
+  }
+
+  .price-table{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 8px;
+  }
+
+  td{
+    padding-left: 3px;
+  }
+
+  .grey-box{
+    width: 250px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #selfie {
+    width: 100px;
+    height:100px;
+    margin-top: 110px;
+  }
+
+
+  #about-me {
+    margin-top: -70px;
+    font-size:18px;
+    width: 100%;
+  }
+
+  #pro {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  #mc-bio{
+    margin-top: -10px;
+    font-size: 10px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .about {
+    position: absolute;
+    width: 500px;
+    top: 285px;
+    left: -130px;
+  }
+
+
+  .bio {
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    padding-top: 10px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
   }
 }
