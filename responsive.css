@@ -611,7 +611,8 @@
 
   .grey-box{
     width: 250px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -886,7 +887,9 @@
 
   .grey-box{
     width: 250px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
   #selfie {
@@ -1157,7 +1160,8 @@
 
   .grey-box{
     width: 250px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -1433,6 +1437,7 @@
     width: 250px;
     overflow-y: scroll;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
   #selfie {
@@ -1701,7 +1706,9 @@
 
   .grey-box{
     width: 250px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
   #selfie {
