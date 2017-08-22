@@ -612,25 +612,31 @@ td {
 
 /*-------------------------------------------*/
 /*CONTACTS PAGE*/
-.contact-container {
+
+.grey-box2{
   position: absolute;
-  width: 50%;
+  width: 600px;
+  height: 600px;
   text-align: left;
-  top: 120px;
+  margin: auto;
+  padding-top: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(211,211,211, 0.8);
 }
-
-
 
 .contact-form {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   padding-top: 20px;
   width: 50%;
-  text-align: left;
   margin: auto;
-  margin-top: 100px;
-  margin-left: 225px;
+  top: 100px;
+  bottom: 0;
   color: black;
+  text-align: center;
 }
 
 #toronto {
@@ -655,10 +661,10 @@ td {
   position: absolute;
   width: 100%;
   margin:auto;
-  top: 300px;
+  right: 0;
+  left: 23%;
   font-size: 20px;
   padding-top: 0px;
-  padding-left: 225px;
   color: #777696;
 }
 
@@ -670,7 +676,7 @@ td {
   top: 290px;
   font-size: 20px;
   padding-top: 80px;
-  padding-left: 225px;
+  padding-left: 31%;
   color: #777696;
 }
 
