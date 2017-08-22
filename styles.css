@@ -10,12 +10,13 @@ html {
 
 body {
   position: fixed;
-  margin: 0;
+  margin: 0 auto;
   width: 100%;
   background-image: url("photos/bg2.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100%;
+  background-attachment: fixed;
 }
 
 main{
