@@ -19,15 +19,15 @@
   }
   .navbar{
     height: 100px;
-    text-align: center ;
+    text-align: left ;
   }
   li {
-    font-size: 5px;
+    font-size: 8px;
     margin-top: 50px;
   }
   a{
     padding-top: -10px;
-    padding-right: 30px;
+
   }
   span.fa.fa-envelope {
     position: fixed;
