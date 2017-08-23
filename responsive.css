@@ -1,1759 +1,834 @@
-@media screen and (max-width: 1764px) and (min-width: 1670px){
-  .selfie2{
-    width: 300px;
-    height: 300px;
-    margin-top: 150px;
-    margin-left: 200px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-  .image_array{
-    max-width: 800px;
-  }
-}
-
-@media screen and (max-width:1669px) and (min-width: 1298px){
-
-
-  .image_array{
-    max-width: 600px;
-  }
-
-  .cost {
-    font-family: 'Raleway', sans-serif;
-    font-size: 10x;
-    padding-top: 20px;
-    width: 80%;
-    text-align: left;
-    margin: auto;
-    height: 700px;
-    color: black;
-    text-shadow: 1px 1px #grey;
-  }
-
-  .service {
-    font-size: 10px;
-    font-style: italic;
-    margin-bottom: 30px;
-  }
-  .selfie2{
-    width: 300px;
-    height: 300px;
-    margin-top: 150px;
-    margin-left: 200px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-}
-
-@media screen and (max-width:1297px) and (min-width: 1100px) {
-  .image_array{
-    max-width: 400px;
-    height: 600px;
-  }
-
-  .slide1,.slide2,.slide3 {
-    background-size: cover;
-  }
-
-  #logo {
-    position: absolute;
-    left: 77px;
-    top: -35px;
-    font-weight: bolder;
-    color:  #dfbbbb;
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 50px;
-    text-align: center;
-  }
-
-  #makeup {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    color: black;
-    position: fixed;
-    left: 20px;
-    font-weight: bolder;
-    top: 15px;
-  }
-  .selfie2{
-    width: 300px;
-    height: 300px;
-    margin-top: 150px;
-    margin-left: 200px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-}
-
-
-@media screen and (max-width:1099px) and (min-width: 995px){
-
-  li {
-    padding-top: 15px;
-    font-size: 12px;
-  }
-
-  #logo {
-    position: absolute;
-    left: 77px;
-    top: -35px;
-    font-weight: bolder;
-    color:  #dfbbbb;
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 50px;
-    text-align: center;
-  }
-
-  #makeup {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    color: black;
-    position: fixed;
-    left: 20px;
-    font-weight: bolder;
-    top: 15px;
-  }
-
-  #slides{
-    position: absolute;
-    width: 90%;
-    height: 700px;
-    left: 45px;
-    top: 220px;
-    list-style-type: none;
-    z-index: 0;
-    margin-bottom: -10px;
-  }
-
-  .brushes{
-    position: absolute;
-    width: 200px;
-    height:307px;
-    background-image: url("photos/brushes.jpg");
-    background-position: center;
-    background-size: cover;
-    margin-left: 150px;
-  }
-  .selfie2{
-    width: 200px;
-    height: 200px;
-    margin-top: 150px;
-    margin-left: 150px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-
-  #box,#logo-2,#makeup-2 {
+@media screen and (min-width: 320px) and (max-width:479px){
+  /*INDEX PAGE*/
+  .desk,{
     display: none;
   }
-
+  .selfie2 {
+    display: none;
+  }
   .image_array{
-    max-width: 600px;
-    height: 500px;
-    margin-left: 350px;
-    margin-top: -200px;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 250px;
   }
-
-}
-@media screen and (max-width:994px) and (min-width: 796px) {
-
+  .slide1,.slide2,.slide3{
+    width: 100%;
+  }
+  .navbar{
+    height: 100px;
+    text-align: center ;
+  }
   li {
-    padding-top: 15px;
-    font-size: 10px;
+    font-size: 6px;
+    margin-top: 50px;
   }
-
-  #logo {
-    position: absolute;
-    left: 50px;
-    top: -25px;
-    font-weight: bolder;
-    color:  #dfbbbb;
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 40px;
-    text-align: center;
+  a{
+    padding-top: -10px;
   }
-
-  #makeup {
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    color: black;
-    position: fixed;
-    left: 20px;
-    font-weight: bolder;
-    top: 20px;
-  }
-
   span.fa.fa-envelope {
-    color: black;
     position: fixed;
-    right: 100px;
+    right: 50px;
+    font-size: 20px;
   }
-
   span.fa.fa-instagram {
     color: black;
     position: fixed;
-    right: 50px;
+    right: 25px;
+    font-size: 20px;
   }
-
-  #slides{
-    position: absolute;
-    width: 90%;
-    height: 500px;
-    left: 40px;
-    top: 180px;
-    list-style-type: none;
-    z-index: 0;
-    margin-bottom: -10px;
+  #logo {
+    font-size: 40px;
+    left: 70px;
+    top: -27px;
   }
-
+  #makeup {
+    font-size: 14px;
+    left: 10px;
+  }
   .brushes{
-    position: absolute;
-    width: 200px;
-    height:207px;
-    margin-top: -207px;
-    background-image: url("photos/brushes.jpg");
-    background-position: center;
-    background-size: cover;
-    margin-left: 150px;
-  }
-  .selfie2{
-    width: 200px;
-    height: 200px;
-    margin-top: 150px;
-    margin-left: 150px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 110px;
+    top: 140px;
   }
 
-  #box,#logo-2,#makeup-2 {
+  #box {
+    background-color: rgba(211,211,211, 0.3);
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 250px;
+  }
+  #logo-2 {
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 35%;
+    top: 8px;
+  }
+  #makeup-2 {
+    width: 100%;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 20px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 539px){
+  /*INDEX PAGE*/
+  .desk,{
     display: none;
   }
-
+  .selfie2 {
+    display: none;
+  }
   .image_array{
-    max-width: 400px;
+    width: 400px;
     height: 400px;
-    margin-left: 350px;
-    margin-top: -200px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 250px;
   }
-
-}
-
-@media screen and (max-width:795px) and (min-width: 680px){
+  .slide1,.slide2,.slide3{
+    width: 100%;
+  }
+  .navbar{
+    height: 100px;
+    text-align: left ;
+  }
   li {
-    padding-top: 15px;
-    font-size: 8px;
-  }
-
-  #logo {
-    position: absolute;
-    left: 50px;
-    top: -25px;
-    font-weight: bolder;
-    color:  #dfbbbb;
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 40px;
-    text-align: center;
-  }
-
-  #makeup {
-    font-family: 'Raleway', sans-serif;
     font-size: 10px;
-    color: black;
-    position: fixed;
-    left: 20px;
-    font-weight: bolder;
-    top: 20px;
+    margin-top: 50px;
   }
-
+  a{
+    padding-top: -10px;
+    padding-right: 5px;
+    padding-left: 10px;
+  }
   span.fa.fa-envelope {
-    color: black;
     position: fixed;
-    right: 100px;
+    right: 50px;
+    font-size: 20px;
   }
-
   span.fa.fa-instagram {
     color: black;
     position: fixed;
-    right: 50px;
+    right: 25px;
+    font-size: 20px;
   }
-
-  #slides{
-    position: absolute;
-    width: 90%;
-    height: 500px;
-    left: 40px;
-    top: 220px;
-    list-style-type: none;
-    z-index: 0;
-    margin-bottom: -10px;
+  #logo {
+    font-size: 50px;
+    left: 80px;
+    top: -40px;
   }
-
+  #makeup {
+    font-size: 17px;
+    left: 10px;
+  }
   .brushes{
-    position: absolute;
-    width: 150px;
-    height:180px;
-    margin-top: -180px;
-    background-image: url("photos/brushes.jpg");
-    background-position: center;
-    background-size: cover;
-    margin-left: 150px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 400px;
+    height: 110px;
+    top: 140px;
   }
-  .selfie2{
-    width: 150px;
+
+  #box {
+    background-color: rgba(211,211,211, 0.3);
+    width: 400px;
+    height: 80px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 250px;
+  }
+  #logo-2 {
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 41%;
+    top: 8px;
+  }
+  #makeup-2 {
+    width: 100%;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 80px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 639px){
+  /*INDEX PAGE*/
+  .desk,{
+    display: none;
+  }
+  .selfie2 {
+    display: none;
+  }
+  .image_array{
+    width: 550px;
+    height: 400px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 250px;
+  }
+  .slide1,.slide2,.slide3{
+    width: 100%;
+  }
+  .navbar{
+    height: 100px;
+    text-align: center;
+  }
+  li {
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  a{
+    padding-top: -10px;
+    padding-right: 15px;
+  }
+  span.fa.fa-envelope {
+    position: fixed;
+    right: 50px;
+    font-size: 20px;
+  }
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 25px;
+    font-size: 20px;
+  }
+  #logo {
+    font-size: 50px;
+    left: 80px;
+    top: -40px;
+  }
+  #makeup {
+    font-size: 17px;
+    left: 10px;
+  }
+  .brushes{
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 550px;
+    height: 110px;
+    top: 140px;
+  }
+
+  #box {
+    width: 100px;
+    background-color: rgba(211,211,211, 0.3);
+    width: 550px;
+    height: 100px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 250px;
+  }
+  #logo-2 {
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 38%;
+  }
+  #makeup-2 {
+    width: 100%;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 80px;
+    padding-top: 35px;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 719px){
+  /*INDEX PAGE*/
+  .desk,{
+    display: none;
+  }
+  .selfie2 {
+    display: none;
+  }
+  .image_array{
+    width: 550px;
+    height: 400px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 250px;
+  }
+  .slide1,.slide2,.slide3{
+    width: 100%;
+  }
+  .navbar{
+    height: 100px;
+    text-align: center;
+  }
+  li {
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  a{
+    padding-top: -10px;
+    padding-right: 25px;
+  }
+  span.fa.fa-envelope {
+    position: fixed;
+    right: 50px;
+    font-size: 20px;
+  }
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 25px;
+    font-size: 20px;
+  }
+  #logo {
+    font-size: 50px;
+    left: 80px;
+    top: -40px;
+  }
+  #makeup {
+    font-size: 17px;
+    left: 10px;
+  }
+  .brushes{
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 550px;
+    height: 110px;
+    top: 140px;
+  }
+
+  #box {
+    width: 100px;
+    background-color: rgba(211,211,211, 0.3);
+    width: 550px;
+    height: 100px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 250px;
+  }
+  #logo-2 {
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 38%;
+  }
+  #makeup-2 {
+    width: 100%;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 80px;
+    padding-top: 35px;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 800px){
+  /*INDEX PAGE*/
+  .desk,{
+    display: none;
+  }
+  .selfie2 {
+    display: none;
+  }
+  .image_array{
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 250px;
+  }
+  .slide1,.slide2,.slide3{
+    width: 100%;
+  }
+  .navbar{
+    height: 100px;
+    text-align: center;
+  }
+  li {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+  a{
+    padding-top: -10px;
+    padding-right: 15px;
+  }
+  span.fa.fa-envelope {
+    position: fixed;
+    right: 50px;
+    font-size: 20px;
+  }
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 25px;
+    font-size: 20px;
+  }
+  #logo {
+    font-size: 50px;
+    left: 80px;
+    top: -40px;
+  }
+  #makeup {
+    font-size: 17px;
+    left: 10px;
+  }
+  .brushes{
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 550px;
+    height: 110px;
+    top: 140px;
+  }
+
+  #box {
+    width: 100px;
+    background-color: rgba(211,211,211, 0.3);
+    width: 550px;
+    height: 100px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 250px;
+  }
+  #logo-2 {
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 38%;
+  }
+  #makeup-2 {
+    width: 100%;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 80px;
+    padding-top: 35px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1080px){
+  /*INDEX PAGE*/
+  .desk,{
+    display: none;
+  }
+  .selfie2 {
+    display: none;
+  }
+  .image_array{
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 250px;
+  }
+  .slide1,.slide2,.slide3{
+    width: 100%;
+  }
+  .navbar{
+    height: 100px;
+    text-align: center;
+  }
+  li {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+  a{
+    padding-top: -10px;
+    padding-right: 15px;
+  }
+  span.fa.fa-envelope {
+    position: fixed;
+    right: 50px;
+    font-size: 20px;
+  }
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 25px;
+    font-size: 20px;
+  }
+  #logo {
+    font-size: 50px;
+    left: 80px;
+    top: -40px;
+  }
+  #makeup {
+    font-size: 17px;
+    left: 10px;
+  }
+  .brushes{
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 550px;
+    height: 110px;
+    top: 140px;
+  }
+
+  #box {
+    width: 100px;
+    background-color: rgba(211,211,211, 0.3);
+    width: 550px;
+    height: 100px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 250px;
+  }
+  #logo-2 {
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 38%;
+  }
+  #makeup-2 {
+    width: 100%;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 80px;
+    padding-top: 35px;
+  }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1440px){
+  /*INDEX PAGE*/
+  .desk,{
+    display: none;
+  }
+  .selfie2 {
+    display: none;
+  }
+  .image_array{
+    width:900px;
+    height: 600px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 300px;
+  }
+  .slide1,.slide2,.slide3{
+    width: 100%;
+  }
+  .navbar{
+    height: 100px;
+    text-align: center;
+  }
+  li {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+  a{
+    padding-top: -10px;
+    padding-right: 15px;
+  }
+  span.fa.fa-envelope {
+    position: fixed;
+    right: 100px;
+    font-size: 30px;
+  }
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 45px;
+    font-size: 30px;
+  }
+  #logo {
+    font-size: 60px;
+    left: 100px;
+    top: -47px;
+  }
+  #makeup {
+    font-size: 20px;
+    left: 18px;
+  }
+  .brushes{
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 900px;
     height: 150px;
-    margin-top: 150px;
-    margin-left: 150px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
+    top: 150px;
   }
 
-  #box,#logo-2,#makeup-2 {
-    display: none;
-  }
-
-  .image_array{
-    max-width: 315px;
-    height: 315px;
-    margin-left: 300px;
-    margin-top: -150px;
-  }
-
-}
-
-@media screen and (max-width:679px) and (min-width: 580px){
-  li {
-    padding-top: 15px;
-    font-size: 8px;
-  }
-
-  #logo {
-    position: absolute;
-    left: 50px;
-    top: -25px;
-    font-weight: bolder;
-    color:  #dfbbbb;
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 40px;
-    text-align: center;
-  }
-
-  #makeup {
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    color: black;
-    position: fixed;
-    left: 20px;
-    font-weight: bolder;
-    top: 20px;
-  }
-
-  span.fa.fa-envelope {
-    color: black;
-    position: fixed;
-    right: 100px;
-  }
-
-  span.fa.fa-instagram {
-    color: black;
-    position: fixed;
-    right: 50px;
-  }
-
-  a{
-    padding-right: 5px;
-    list-style: none;
-    text-decoration: none;
-    color: black;
-  }
-
-  #slides{
-    position: absolute;
-    width: 90%;
-    height: 500px;
-    left: 40px;
-    top: 220px;
-    list-style-type: none;
-    z-index: 0;
-    margin-bottom: -10px;
-  }
-
-  .brushes{
-    position: absolute;
+  #box {
     width: 100px;
-    height:133px;
-    margin-top: -133px;
-    margin-left: 120px;
-    background-image: url("photos/brushes.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .selfie2{
-    width: 100px;
+    background-color: rgba(211,211,211, 0.3);
+    width: 900px;
     height: 100px;
-    margin-top: 150px;
-    margin-left: 120px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-
-  #box,#logo-2,#makeup-2 {
-    display: none;
-  }
-
-  .image_array{
-    max-width: 280px;
-    height: 230px;
-    margin-left: 220px;
-    margin-top: -100px;
-  }
-
-  .grey-box3{
-    width: 250px;
-  }
-
-  .prices {
-    width: 100%;
-    position: absolute;
     margin: auto;
-    margin-top: 100px;
-  }
-
-  .prices h4{
-    font-size: 9px;
-    padding-top: 30px;
-  }
-
-  .cost {
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 20px;
-    text-align: center;
-    margin: auto;
-    height: 700px;
-    color: black;
-    text-shadow: 1px 1px #grey;
-    font-size: 10px;
-  }
-
-  .service {
-    width: 100%;
-    font-size: 8px;
-    font-style: italic;
-    padding-top: 10px;
-  }
-
-  .price-table{
-    text-align: left;
-    margin-left: 5px;
-    font-size: 8px;
-  }
-
-  td{
-    padding-left: 3px;
-  }
-
-}
-
-@media screen and (max-width:579px) and (min-width: 462px) {
-  .navbar {
-    background-color: white;
-    width: 100%;
-    position: fixed;
-    top: 0px;
     left: 0;
-    height: 100px;
-    text-decoration: none;
-    text-align: center;
-    border-bottom: 2px solid #b9b0c0;
-
+    right: 0;
+    z-index: 1;
+    top: 300px;
   }
-
-  li {
-    padding-top: 55px;
-    font-size: 10px;
-
-  }
-
-  #logo {
-    position: absolute;
-    left: 50px;
-    top: -25px;
+  #logo-2 {
     font-weight: bolder;
-    color:  #dfbbbb;
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 42%;
   }
-
-  #makeup {
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    color: black;
-    position: fixed;
-    left: 20px;
+  #makeup-2 {
+    width: 100%;
+    position: absolute;
+    font-size: 30px;
     font-weight: bolder;
-    top: 20px;
-  }
-
-  span.fa.fa-envelope {
-    color: black;
-    position: fixed;
-    right: 100px;
-  }
-
-  span.fa.fa-instagram {
-    color: black;
-    position: fixed;
-    right: 50px;
-  }
-
-  a{
-    padding-right: 5px;
-    list-style: none;
-    text-decoration: none;
-    color: black;
-  }
-
-  #slides{
-    position: absolute;
-    width: 90%;
-    height: 500px;
-    left: 30px;
-    top: 220px;
-    list-style-type: none;
-    z-index: 0;
-    margin-bottom: -10px;
-  }
-
-  .brushes{
-    position: absolute;
-    width: 100px;
-    height:133px;
-    margin-top: -133px;
-    margin-left: 60px;
-    background-image: url("photos/brushes.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .selfie2{
-    width: 100px;
-    height: 100px;
-    margin-top: 120px;
-    margin-left: 60px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-
-  #box,#logo-2,#makeup-2 {
-    display: none;
-  }
-
-  .image_array{
-    max-width: 280px;
-    height: 230px;
-    margin-left: 160px;
-    margin-top: -100px;
-  }
-
-  .grey-box3{
-    width: 250px;
-  }
-
-  .prices {
-    width: 100%;
-    position: absolute;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
     margin: auto;
-    margin-top: 100px;
-  }
-
-  .prices h4{
-    font-size: 9px;
-    padding-top: 30px;
-  }
-
-  .cost {
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 20px;
-    text-align: center;
-    margin: auto;
-    height: 700px;
-    color: black;
-    text-shadow: 1px 1px #grey;
-    font-size: 10px;
-  }
-
-  .service {
-    width: 100%;
-    font-size: 8px;
-    font-style: italic;
-    padding-top: 10px;
-  }
-
-  .price-table{
-    text-align: left;
-    margin-left: 5px;
-    font-size: 8px;
-  }
-
-  td{
-    padding-left: 3px;
-  }
-
-  .grey-box{
-    width: 250px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  #selfie {
-    width: 100px;
-    height:100px;
-    margin-top: 110px;
-  }
-
-
-  #about-me {
-    margin-top: -70px;
-    font-size:18px;
-    width: 100%;
-  }
-
-  #pro {
-    font-size: 16px;
-    margin-top: 5px;
-  }
-
-  #mc-bio{
-    margin-top: -10px;
-    font-size: 10px;
-    color: black;
-    font-weight: bolder;
-  }
-
-  .about {
-    position: absolute;
-    width: 500px;
-    top: 285px;
-    left: -130px;
-  }
-
-
-  .bio {
-    font-family: 'Raleway', sans-serif;
-    font-size: 8px;
-    padding-top: 10px;
-    width: 50%;
-    text-align: center;
-    margin: auto;
-    height: 800px;
-    color: black;
-    padding-left: 20px;
-    padding-right: 10px;
+    left: 250px;
+    padding-top: 35px;
   }
 }
 
-@media screen and (max-width:461px) and (min-width: 405px){
-  .navbar {
-    background-color: white;
-    width: 100%;
-    position: fixed;
-    top: 0px;
+@media screen and (min-width: 1441px) and (max-width: 2160px){
+  /*INDEX PAGE*/
+  .desk,{
+    display: none;
+  }
+  .selfie2 {
+    display: none;
+  }
+  .image_array{
+    width: 2000px;
+    height: 700px;
+    margin: auto;
     left: 0;
+    right: 0;
+    top: 350px;
+  }
+  .slide1,.slide2,.slide3{
+    width: 100%;
+  }
+  .navbar{
     height: 100px;
-    text-decoration: none;
-    text-align: left;
-    border-bottom: 2px solid #b9b0c0;
-
-  }
-
-  li {
-
-    padding-top: 55px;
-    padding-right: 5px;
-    font-size: 10px;
-
-  }
-
-  #logo {
-    position: absolute;
-    left: 50px;
-    top: -25px;
-    font-weight: bolder;
-    color:  #dfbbbb;
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 40px;
     text-align: center;
   }
-
-  #makeup {
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    color: black;
-    position: fixed;
-    left: 20px;
-    font-weight: bolder;
-    top: 20px;
+  li {
+    font-size: 30px;
+    margin-top: 30px;
   }
-
+  a{
+    padding-top: -10px;
+    padding-right: 20px;
+  }
   span.fa.fa-envelope {
-    color: black;
     position: fixed;
-    right: 100px;
+    right: 180px;
+    font-size: 30px;
   }
-
   span.fa.fa-instagram {
     color: black;
     position: fixed;
-    right: 50px;
+    right: 130px;
+    font-size: 30px;
   }
-
-  a{
-    padding-right: 5px;
-    list-style: none;
-    text-decoration: none;
-    color: black;
+  #logo {
+    font-size: 60px;
+    left: 105px;
+    top: -48px;
   }
-
-  #slides{
-    position: absolute;
-    width: 80%;
-    height: 500px;
-    left: 40px;
-    top: 100px;
-    list-style-type: none;
-    z-index: 0;
-    margin-bottom: -10px;
+  #makeup {
+    font-size: 20px;
+    left: 18px;
   }
-
-
   .brushes{
-    position: absolute;
-    width: 300px;
-    height:120px;
-    margin-top: -300x;
-    margin-left: 60px;
-    background-image: url("photos/brushes.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .selfie2{
-    width: 150px;
-    height: 190px;
-    margin-top: 120px;
-    margin-left: 60px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-
-  .desk{
-    width: 150px;
-    height: 170px;
-    margin-top: -470px;
-    margin-left: 210px;
-    background-image: url("photos/desk2.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-
-  #box,#logo-2,#makeup-2 {
-    display: none;
-  }
-
-  .image_array{
-    max-width: 300px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 1000px;
     height: 200px;
-    margin-left: 60px;
-    margin-top: 80px;
+    top: 150px;
   }
-
-  .grey-box2{
-    width: 250px;
-  }
-
-  .contact-form {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    padding-top: 20px;
-    width: 100%;
-    margin: auto;
-    top: 100px;
-    left: 0px;
-    bottom: 0;
-    color: black;
-    text-align: center;
-  }
-
-  #toronto {
-    font-size: 15px;
-  }
-
-  #info {
-    font-size: 18px;
-  }
-
-  .table-icons {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    width: 100%;
-    margin:auto;
-    top: 200px;
-    font-size: 20px;
-    padding-top: 80px;
-    color: #777696;
-    left: 25%;
-
-  }
-
-  .table-icons2 {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    width: 100%;
-    margin:auto;
-    top: 220px;
-    font-size: 20px;
-    padding-top: 200px;
-    color: #777696;
-    left: 35%;
-  }
-
-  #make, #num {
-    font-size: 10px;
-  }
-
-  h2 span.fa.fa-envelope {
-    left: 20%;
-  }
-
-  span.fa.fa-phone {
-    left: 10%;
-  }
-
-  .grey-box3{
-    width: 250px;
-  }
-
-  .prices {
-    width: 100%;
-    position: absolute;
-    margin: auto;
-    margin-top: 100px;
-  }
-
-  .prices h4{
-    font-size: 9px;
-    padding-top: 30px;
-  }
-
-  .cost {
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 20px;
-    text-align: center;
-    margin: auto;
-    height: 700px;
-    color: black;
-    text-shadow: 1px 1px #grey;
-    font-size: 10px;
-  }
-
-  .service {
-    width: 100%;
-    font-size: 8px;
-    font-style: italic;
-    padding-top: 10px;
-  }
-
-  .price-table{
-    text-align: left;
-    margin-left: 5px;
-    font-size: 8px;
-  }
-
-  td{
-    padding-left: 3px;
-  }
-
-  .grey-box{
-    width: 250px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  #selfie {
+  #box {
     width: 100px;
-    height:100px;
-    margin-top: 110px;
-  }
-
-
-  #about-me {
-    margin-top: -70px;
-    font-size:18px;
-    width: 100%;
-  }
-
-  #pro {
-    font-size: 16px;
-    margin-top: 5px;
-  }
-
-  #mc-bio{
-    margin-top: -10px;
-    font-size: 10px;
-    color: black;
-    font-weight: bolder;
-  }
-
-  .about {
-    position: absolute;
-    width: 500px;
-    top: 285px;
-    left: -130px;
-  }
-
-
-  .bio {
-    font-family: 'Raleway', sans-serif;
-    font-size: 8px;
-    padding-top: 10px;
-    width: 50%;
-    text-align: center;
+    background-color: rgba(211,211,211, 0.3);
+    width: 1000px;
+    height: 100px;
     margin: auto;
-    height: 800px;
-    color: black;
-    padding-left: 20px;
-    padding-right: 10px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 350px;
+  }
+  #logo-2 {
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 43%;
+  }
+  #makeup-2 {
+    width: 100%;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 300px;
+    padding-top: 35px;
   }
 }
 
-@media screen and (max-width:404px) and (min-width: 375px){
-  .navbar {
-    background-color: white;
-    width: 100%;
-    position: fixed;
-    top: 0px;
+
+@media screen and (min-width: 2161px) and (max-width: 2560px){
+  /*INDEX PAGE*/
+  .desk,{
+    display: none;
+  }
+  .selfie2 {
+    display: none;
+  }
+  .image_array{
+    width: 2000px;
+    height: 700px;
+    margin: auto;
     left: 0;
+    right: 0;
+    top: 350px;
+  }
+  .slide1,.slide2,.slide3{
+    width: 100%;
+  }
+  .navbar{
     height: 100px;
-    text-decoration: none;
-    text-align: left;
-    border-bottom: 2px solid #b9b0c0;
-  }
-
-  li {
-    padding-top: 55px;
-    padding-right: 5px;
-    font-size: 8px;
-  }
-
-
-  #logo {
-    position: absolute;
-    left: 50px;
-    top: -25px;
-    font-weight: bolder;
-    color:  #dfbbbb;
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 40px;
     text-align: center;
   }
-
-  #makeup {
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    color: black;
-    position: fixed;
-    left: 20px;
-    font-weight: bolder;
-    top: 20px;
+  li {
+    font-size: 30px;
+    margin-top: 30px;
   }
-
+  a{
+    padding-top: -10px;
+    padding-right: 20px;
+  }
   span.fa.fa-envelope {
-    color: black;
     position: fixed;
-    right: 100px;
+    right: 200px;
+    font-size: 40px;
   }
-
   span.fa.fa-instagram {
     color: black;
     position: fixed;
-    right: 50px;
-  }
-
-  a{
-    padding-right: 5px;
-    list-style: none;
-    text-decoration: none;
-    color: black;
-  }
-
-  #slides{
-    position: absolute;
-    width: 80%;
-    height: 500px;
-    left: 40px;
-    top: 100px;
-    list-style-type: none;
-    z-index: 0;
-    margin-bottom: -10px;
-  }
-
-  .brushes{
-    position: absolute;
-    width: 300px;
-    height:120px;
-    margin-top: -300x;
-    margin-left: 40px;
-    background-image: url("photos/brushes.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .selfie2{
-    width: 150px;
-    height: 190px;
-    margin-top: 120px;
-    margin-left: 40px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-
-  .desk{
-    width: 150px;
-    height: 170px;
-    margin-top: -470px;
-    margin-left: 190px;
-    background-image: url("photos/desk2.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-
-  #box,#logo-2,#makeup-2 {
-    display: none;
-  }
-
-  .image_array{
-    max-width: 300px;
-    height: 200px;
-    margin-left: 40px;
-    margin-top: 80px;
-  }
-
-  .grey-box2{
-    width: 250px;
-  }
-
-  .contact-form {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    padding-top: 20px;
-    width: 100%;
-    margin: auto;
-    top: 100px;
-    left: 0px;
-    bottom: 0;
-    color: black;
-    text-align: center;
-  }
-
-  #toronto {
-    font-size: 15px;
-  }
-
-  #info {
-    font-size: 18px;
-  }
-
-  .table-icons {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    width: 100%;
-    margin:auto;
-    top: 200px;
-    font-size: 20px;
-    padding-top: 80px;
-    color: #777696;
-    left: 25%;
-
-  }
-
-  .table-icons2 {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    width: 100%;
-    margin:auto;
-    top: 220px;
-    font-size: 20px;
-    padding-top: 200px;
-    color: #777696;
-    left: 35%;
-  }
-
-  #make, #num {
-    font-size: 10px;
-  }
-
-  h2 span.fa.fa-envelope {
-    left: 20%;
-  }
-
-  span.fa.fa-phone {
-    left: 10%;
-  }
-
-  .grey-box3{
-    width: 250px;
-  }
-
-  .prices {
-    width: 100%;
-    position: absolute;
-    margin: auto;
-    margin-top: 100px;
-  }
-
-  .prices h4{
-    font-size: 9px;
-    padding-top: 30px;
-  }
-
-  .cost {
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 20px;
-    text-align: center;
-    margin: auto;
-    height: 700px;
-    color: black;
-    text-shadow: 1px 1px #grey;
-    font-size: 10px;
-  }
-
-  .service {
-    width: 100%;
-    font-size: 8px;
-    font-style: italic;
-    padding-top: 10px;
-  }
-
-  .price-table{
-    text-align: left;
-    margin-left: 5px;
-    font-size: 8px;
-  }
-
-  td{
-    padding-left: 3px;
-  }
-
-  .grey-box{
-    width: 250px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  #selfie {
-    width: 100px;
-    height:100px;
-    margin-top: 110px;
-  }
-
-
-  #about-me {
-    margin-top: -70px;
-    font-size:18px;
-    width: 100%;
-  }
-
-  #pro {
-    font-size: 16px;
-    margin-top: 5px;
-  }
-
-  #mc-bio{
-    margin-top: -10px;
-    font-size: 10px;
-    color: black;
-    font-weight: bolder;
-  }
-
-  .about {
-    position: absolute;
-    width: 500px;
-    top: 285px;
-    left: -130px;
-  }
-
-
-  .bio {
-    font-family: 'Raleway', sans-serif;
-    font-size: 8px;
-    padding-top: 10px;
-    width: 50%;
-    text-align: center;
-    margin: auto;
-    height: 800px;
-    color: black;
-    padding-left: 20px;
-    padding-right: 10px;
-  }
-}
-
-@media screen and (max-width:374px) and (min-width: 360px){
-
-  .navbar {
-    background-color: white;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0;
-    height: 100px;
-    text-decoration: none;
-    text-align: left;
-    border-bottom: 2px solid #b9b0c0;
-  }
-
-  li {
-    padding-top: 55px;
-    padding-right: 3px;
-    font-size: 8px;
-  }
-
-
-  #logo {
-    position: absolute;
-    left: 50px;
-    top: -25px;
-    font-weight: bolder;
-    color:  #dfbbbb;
-    font-family: 'Nothing You Could Do', cursive;
+    right: 130px;
     font-size: 40px;
-    text-align: center;
   }
-
-  #makeup {
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    color: black;
-    position: fixed;
-    left: 20px;
-    font-weight: bolder;
-    top: 20px;
-  }
-
-  span.fa.fa-envelope {
-    color: black;
-    position: fixed;
-    right: 100px;
-  }
-
-  span.fa.fa-instagram {
-    color: black;
-    position: fixed;
-    right: 50px;
-  }
-
-  a{
-    padding-right: 0px;
-    list-style: none;
-    text-decoration: none;
-    color: black;
-  }
-
-  #slides{
-    position: absolute;
-    width: 80%;
-    height: 500px;
-    left: 40px;
-    top: 120px;
-    list-style-type: none;
-    z-index: 0;
-    margin-bottom: -10px;
-  }
-
-
-  .brushes{
-    position: absolute;
-    width: 250px;
-    height:120px;
-    margin-top: -300x;
-    margin-left: 60px;
-    background-image: url("photos/brushes.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .selfie2{
-    width: 130px;
-    height: 140px;
-    margin-top: 130px;
-    margin-left: 60px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-
-  .desk{
-    width: 120px;
-    height: 120px;
-    margin-top: -420px;
-    margin-left: 190px;
-    background-image: url("photos/desk2.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-
-  #box,#logo-2,#makeup-2 {
-    display: none;
-  }
-
-  .image_array{
-    max-width: 250px;
-    height: 200px;
-    margin-left: 60px;
-    margin-top: 80px;
-  }
-
-  .grey-box2{
-    width: 250px;
-  }
-
-  .contact-form {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    padding-top: 20px;
-    width: 100%;
-    margin: auto;
-    top: 100px;
-    left: 0px;
-    bottom: 0;
-    color: black;
-    text-align: center;
-  }
-
-  #toronto {
-    font-size: 15px;
-  }
-
-  #info {
-    font-size: 18px;
-  }
-
-  .table-icons {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    width: 100%;
-    margin:auto;
-    top: 200px;
-    font-size: 20px;
-    padding-top: 80px;
-    color: #777696;
-    left: 25%;
-
-  }
-
-  .table-icons2 {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    width: 100%;
-    margin:auto;
-    top: 220px;
-    font-size: 20px;
-    padding-top: 200px;
-    color: #777696;
-    left: 35%;
-  }
-
-  #make, #num {
-    font-size: 10px;
-  }
-
-  h2 span.fa.fa-envelope {
-    left: 20%;
-  }
-
-  span.fa.fa-phone {
-    left: 10%;
-  }
-
-  .grey-box3{
-    width: 250px;
-  }
-
-  .prices {
-    width: 100%;
-    position: absolute;
-    margin: auto;
-    margin-top: 100px;
-  }
-
-  .prices h4{
-    font-size: 9px;
-    padding-top: 30px;
-  }
-
-  .cost {
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 20px;
-    text-align: center;
-    margin: auto;
-    height: 700px;
-    color: black;
-    text-shadow: 1px 1px #grey;
-    font-size: 10px;
-  }
-
-  .service {
-    width: 100%;
-    font-size: 8px;
-    font-style: italic;
-    padding-top: 10px;
-  }
-
-  .price-table{
-    text-align: left;
-    margin-left: 5px;
-    font-size: 8px;
-  }
-
-  td{
-    padding-left: 3px;
-  }
-
-  .grey-box{
-    width: 250px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  #selfie {
-    width: 100px;
-    height:100px;
-    margin-top: 110px;
-  }
-
-
-  #about-me {
-    margin-top: -70px;
-    font-size:18px;
-    width: 100%;
-  }
-
-  #pro {
-    font-size: 16px;
-    margin-top: 5px;
-  }
-
-  #mc-bio{
-    margin-top: -10px;
-    font-size: 10px;
-    color: black;
-    font-weight: bolder;
-  }
-
-  .about {
-    position: absolute;
-    width: 500px;
-    top: 285px;
-    left: -130px;
-  }
-
-
-  .bio {
-    font-family: 'Raleway', sans-serif;
-    font-size: 8px;
-    padding-top: 10px;
-    height: 800px;
-    color: black;
-    padding-left: 20px;
-    padding-right: 10px;
-  }
-
-}
-
-@media screen and (max-width:359px) and (min-width: 0px){
-  .navbar {
-    background-color: white;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0;
-    height: 100px;
-    text-decoration: none;
-    text-align: left;
-    border-bottom: 2px solid #b9b0c0;
-  }
-
-  li {
-    padding-top: 55px;
-    padding-right: 3px;
-    font-size: 8px;
-  }
-
-
   #logo {
-    position: absolute;
-    left: 50px;
-    top: -25px;
-    font-weight: bolder;
-    color:  #dfbbbb;
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 40px;
-    text-align: center;
+    font-size: 90px;
+    left: 145px;
+    top: -80px;
   }
-
   #makeup {
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    color: black;
-    position: fixed;
-    left: 20px;
-    font-weight: bolder;
-    top: 20px;
+    font-size: 30px;
+    left: 18px;
   }
-
-  span.fa.fa-envelope {
-    color: black;
-    position: fixed;
-    right: 100px;
-  }
-
-  span.fa.fa-instagram {
-    color: black;
-    position: fixed;
-    right: 50px;
-  }
-
-  a{
-    padding-right: 0px;
-    list-style: none;
-    text-decoration: none;
-    color: black;
-  }
-
-  #slides{
-    position: absolute;
-    width: 70%;
-    height: 500px;
-    left: 45px;
-    top: 50px;
-    list-style-type: none;
-    z-index: 0;
-    margin-bottom: -10px;
-  }
-
   .brushes{
-    position: absolute;
-    width: 250px;
-    height:120px;
-    margin-top: -300x;
-    margin-left: 35px;
-    background-image: url("photos/brushes.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .selfie2{
-    width: 130px;
-    height: 140px;
-    margin-top: 110px;
-    margin-left: 35px;
-    background-image: url("photos/mc.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-
-  .desk{
-    width: 120px;
-    height: 120px;
-    margin-top: -420px;
-    margin-left: 165px;
-    background-image: url("photos/desk2.jpg");
-    background-size: cover;
-    background-position: auto;
-  }
-
-  #box,#logo-2,#makeup-2 {
-    display: none;
-  }
-
-  .image_array{
-    max-width: 250px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 1000px;
     height: 200px;
-    margin-left: 35px;
-    margin-top: 80px;
+    top: 150px;
   }
-
-  .grey-box2{
-    width: 250px;
-  }
-
-  .contact-form {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    padding-top: 20px;
-    width: 100%;
-    margin: auto;
-    top: 100px;
-    left: 0px;
-    bottom: 0;
-    color: black;
-    text-align: center;
-  }
-
-  #toronto {
-    font-size: 15px;
-  }
-
-  #info {
-    font-size: 18px;
-  }
-
-  .table-icons {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    width: 100%;
-    margin:auto;
-    top: 200px;
-    font-size: 20px;
-    padding-top: 80px;
-    color: #777696;
-    left: 25%;
-
-  }
-
-  .table-icons2 {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    width: 100%;
-    margin:auto;
-    top: 220px;
-    font-size: 20px;
-    padding-top: 200px;
-    color: #777696;
-    left: 35%;
-  }
-
-  #make, #num {
-    font-size: 10px;
-  }
-
-  h2 span.fa.fa-envelope {
-    left: 20%;
-  }
-
-  span.fa.fa-phone {
-    left: 10%;
-  }
-
-  .grey-box3{
-    width: 250px;
-  }
-
-  .prices {
-    width: 100%;
-    position: absolute;
-    margin: auto;
-    margin-top: 100px;
-  }
-
-  .prices h4{
-    font-size: 9px;
-    padding-top: 30px;
-  }
-
-  .cost {
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 20px;
-    text-align: center;
-    margin: auto;
-    height: 700px;
-    color: black;
-    text-shadow: 1px 1px #grey;
-    font-size: 10px;
-  }
-
-  .service {
-    width: 100%;
-    font-size: 8px;
-    font-style: italic;
-    padding-top: 10px;
-  }
-
-  .price-table{
-    text-align: left;
-    margin-left: 5px;
-    font-size: 8px;
-  }
-
-  td{
-    padding-left: 3px;
-  }
-
-  .grey-box{
-    width: 250px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  #selfie {
+  #box {
     width: 100px;
-    height:100px;
-    margin-top: 110px;
-  }
-
-
-  #about-me {
-    margin-top: -70px;
-    font-size:18px;
-    width: 100%;
-  }
-
-  #pro {
-    font-size: 16px;
-    margin-top: 5px;
-  }
-
-  #mc-bio{
-    margin-top: -10px;
-    font-size: 10px;
-    color: black;
-    font-weight: bolder;
-  }
-
-  .about {
-    position: absolute;
-    width: 500px;
-    top: 285px;
-    left: -130px;
-  }
-
-
-  .bio {
-    font-family: 'Raleway', sans-serif;
-    font-size: 8px;
-    padding-top: 10px;
-    width: 50%;
-    text-align: center;
+    background-color: rgba(211,211,211, 0.3);
+    width: 1000px;
+    height: 100px;
     margin: auto;
-    height: 800px;
-    color: black;
-    padding-left: 20px;
-    padding-right: 10px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 350px;
+  }
+  #logo-2 {
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 43%;
+  }
+  #makeup-2 {
+    width: 100%;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 300px;
+    padding-top: 35px;
   }
 }
