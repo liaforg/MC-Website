@@ -8,7 +8,7 @@
   }
   .image_array{
     width: 300px;
-    height: 350px;
+    height: 250px;
     margin: auto;
     left: 0;
     right: 0;
@@ -19,10 +19,10 @@
   }
   .navbar{
     height: 100px;
-    text-align: center ;
+    text-align: left ;
   }
   li {
-    font-size: 6px;
+    font-size: 5px;
     margin-top: 50px;
   }
   a{
@@ -472,11 +472,11 @@
   }
   .image_array{
     width: 550px;
-    height: 500px;
+    height: 350px;
     margin: auto;
     left: 0;
     right: 0;
-    top: 250px;
+    top: 230px;
   }
   .slide1,.slide2,.slide3{
     width: 100%;
@@ -519,7 +519,7 @@
     right: 0;
     width: 550px;
     height: 110px;
-    top: 140px;
+    top: 120px;
   }
 
   #box {
@@ -531,7 +531,7 @@
     left: 0;
     right: 0;
     z-index: 1;
-    top: 250px;
+    top: 230px;
   }
   #logo-2 {
     font-weight: bolder;
@@ -565,11 +565,11 @@
   }
   .image_array{
     width:900px;
-    height: 600px;
+    height: 400px;
     margin: auto;
     left: 0;
     right: 0;
-    top: 300px;
+    top: 220px;
   }
   .slide1,.slide2,.slide3{
     width: 100%;
@@ -611,8 +611,8 @@
     left: 0;
     right: 0;
     width: 900px;
-    height: 150px;
-    top: 150px;
+    height: 100px;
+    top: 120px;
   }
 
   #box {
@@ -624,7 +624,7 @@
     left: 0;
     right: 0;
     z-index: 1;
-    top: 300px;
+    top: 220px;
   }
   #logo-2 {
     font-weight: bolder;
