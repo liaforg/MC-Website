@@ -207,8 +207,6 @@ span.fa.fa-instagram:hover {
 }
 
 
-
-
 /*-------------------------------------------*/
 /*INDEX PAGE*/
 /*LARGE SLIDE*/
@@ -221,7 +219,7 @@ span.fa.fa-instagram:hover {
 }
 
 .slide1,.slide2,.slide3{
-  position: absolute;w
+  position: absolute;
   width: 100%;
   height: 100%;
 }
@@ -455,6 +453,24 @@ span.fa.fa-instagram:hover {
 }
 .slide:nth-of-type(18){
   background-image: url('photos/G&A_0249.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide:nth-of-type(19){
+  background-image: url('photos/bridecar.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide:nth-of-type(20){
+  background-image: url('photos/party2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slide:nth-of-type(21){
+  background-image: url('photos/party3.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

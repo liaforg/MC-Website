@@ -8,18 +8,18 @@
   }
   .image_array{
     width: 300px;
-    height: 250px;
+    height: 180px;
     margin: auto;
     left: 0;
     right: 0;
-    top: 250px;
+    top: 230px;
   }
   .slide1,.slide2,.slide3{
     width: 100%;
   }
   .navbar{
     height: 100px;
-    text-align: left ;
+    text-align: center ;
   }
   li {
     font-size: 5px;
@@ -27,6 +27,7 @@
   }
   a{
     padding-top: -10px;
+    padding-right: 30px;
   }
   span.fa.fa-envelope {
     position: fixed;
@@ -54,7 +55,7 @@
     right: 0;
     width: 300px;
     height: 110px;
-    top: 140px;
+    top: 120px;
   }
 
   #box {
@@ -65,7 +66,7 @@
     left: 0;
     right: 0;
     z-index: 1;
-    top: 250px;
+    top: 230px;
   }
   #logo-2 {
     font-weight: bolder;
@@ -100,7 +101,7 @@
   }
   .image_array{
     width: 400px;
-    height: 400px;
+    height: 300px;
     margin: auto;
     left: 0;
     right: 0;
@@ -194,7 +195,7 @@
   }
   .image_array{
     width: 550px;
-    height: 400px;
+    height: 300px;
     margin: auto;
     left: 0;
     right: 0;
@@ -279,15 +280,9 @@
 
 @media screen and (min-width: 640px) and (max-width: 719px){
   /*INDEX PAGE*/
-  .desk,{
-    display: none;
-  }
-  .selfie2 {
-    display: none;
-  }
   .image_array{
     width: 550px;
-    height: 400px;
+    height: 300px;
     margin: auto;
     left: 0;
     right: 0;
@@ -369,6 +364,7 @@
     padding-top: 35px;
   }
 }
+
 @media screen and (min-width: 720px) and (max-width: 800px){
   /*INDEX PAGE*/
   .desk,{
@@ -379,7 +375,7 @@
   }
   .image_array{
     width: 550px;
-    height: 500px;
+    height: 200px;
     margin: auto;
     left: 0;
     right: 0;
@@ -460,19 +456,24 @@
     left: 80px;
     padding-top: 35px;
   }
+  .mcapp{
+    background-image: url("photos/mcapp.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 400px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 250px;
+  }
 }
 
 @media screen and (min-width: 801px) and (max-width: 1080px){
   /*INDEX PAGE*/
-  .desk,{
-    display: none;
-  }
-  .selfie2 {
-    display: none;
-  }
   .image_array{
     width: 550px;
-    height: 350px;
+    height: 400px;
     margin: auto;
     left: 0;
     right: 0;
@@ -553,6 +554,17 @@
     left: 80px;
     padding-top: 35px;
   }
+  .mcapp{
+    background-image: url("photos/mcapp.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 600px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 230px;
+  }
 }
 
 @media screen and (min-width: 1081px) and (max-width: 1440px){
@@ -613,13 +625,15 @@
     width: 900px;
     height: 100px;
     top: 120px;
+    background-size: cover;
+    background-position:0 400px;
   }
 
   #box {
     width: 100px;
     background-color: rgba(211,211,211, 0.3);
     width: 900px;
-    height: 100px;
+    height: 80px;
     margin: auto;
     left: 0;
     right: 0;
@@ -628,7 +642,7 @@
   }
   #logo-2 {
     font-weight: bolder;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
     transform: rotate(0deg);
     transform-origin: left top 0;
@@ -638,12 +652,12 @@
   #makeup-2 {
     width: 100%;
     position: absolute;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
     transform: rotate(0deg);
     transform-origin: left top 0;
     margin: auto;
-    left: 250px;
+    left: 300px;
     padding-top: 35px;
   }
 }
@@ -658,11 +672,11 @@
   }
   .image_array{
     width: 2000px;
-    height: 700px;
+    height: 400px;
     margin: auto;
     left: 0;
     right: 0;
-    top: 350px;
+    top: 330px;
   }
   .slide1,.slide2,.slide3{
     width: 100%;
@@ -672,7 +686,7 @@
     text-align: center;
   }
   li {
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 30px;
   }
   a{
@@ -704,42 +718,43 @@
     left: 0;
     right: 0;
     width: 1000px;
-    height: 200px;
-    top: 150px;
+    height: 100px;
+    top: 120px;
+    background-size: cover;
+    background-position:0 450px;
   }
   #box {
     width: 100px;
     background-color: rgba(211,211,211, 0.3);
     width: 1000px;
-    height: 100px;
+    height: 80px;
     margin: auto;
     left: 0;
     right: 0;
     z-index: 1;
-    top: 350px;
+    top: 330px;
   }
   #logo-2 {
     font-weight: bolder;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
     transform: rotate(0deg);
     transform-origin: left top 0;
     margin: auto;
-    left: 43%;
+    left: 45%;
   }
   #makeup-2 {
     width: 100%;
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bolder;
     transform: rotate(0deg);
     transform-origin: left top 0;
     margin: auto;
-    left: 300px;
-    padding-top: 35px;
+    left: 350px;
+    padding-top: 30px;
   }
 }
-
 
 @media screen and (min-width: 2161px) and (max-width: 2560px){
   /*INDEX PAGE*/
@@ -751,11 +766,11 @@
   }
   .image_array{
     width: 2000px;
-    height: 700px;
+    height: 800px;
     margin: auto;
     left: 0;
     right: 0;
-    top: 350px;
+    top: 330px;
   }
   .slide1,.slide2,.slide3{
     width: 100%;
@@ -765,7 +780,7 @@
     text-align: center;
   }
   li {
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 30px;
   }
   a{
@@ -784,9 +799,9 @@
     font-size: 40px;
   }
   #logo {
-    font-size: 90px;
-    left: 145px;
-    top: -80px;
+    font-size: 60px;
+    left: 105px;
+    top: -48px;
   }
   #makeup {
     font-size: 30px;
@@ -797,8 +812,10 @@
     left: 0;
     right: 0;
     width: 1000px;
-    height: 200px;
-    top: 150px;
+    height: 100px;
+    top: 120px;
+    background-size: cover;
+    background-position:0 450px;
   }
   #box {
     width: 100px;
@@ -809,26 +826,119 @@
     left: 0;
     right: 0;
     z-index: 1;
-    top: 350px;
+    top: 330px;
   }
   #logo-2 {
     font-weight: bolder;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
     transform: rotate(0deg);
     transform-origin: left top 0;
     margin: auto;
-    left: 43%;
+    left: 45%;
   }
   #makeup-2 {
     width: 100%;
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bolder;
     transform: rotate(0deg);
     transform-origin: left top 0;
     margin: auto;
-    left: 300px;
-    padding-top: 35px;
+    left: 350px;
+    padding-top: 30px;
   }
 }
+
+@media screen and (min-width: 2561px){
+  /*INDEX PAGE*/
+  .desk,{
+    display: none;
+  }
+  .selfie2 {
+    display: none;
+  }
+  .image_array{
+    width: 2000px;
+    height: 800px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 330px;
+  }
+  .slide1,.slide2,.slide3{
+    width: 100%;
+  }
+  .navbar{
+    height: 100px;
+    text-align: center;
+  }
+  li {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  a{
+    padding-top: -10px;
+    padding-right: 20px;
+  }
+  span.fa.fa-envelope {
+    position: fixed;
+    right: 200px;
+    font-size: 40px;
+  }
+  span.fa.fa-instagram {
+    color: black;
+    position: fixed;
+    right: 130px;
+    font-size: 40px;
+  }
+  #logo {
+    font-size: 60px;
+    left: 105px;
+    top: -48px;
+  }
+  #makeup {
+    font-size: 30px;
+    left: 18px;
+  }
+  .brushes{
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 1000px;
+    height: 100px;
+    top: 120px;
+    background-size: cover;
+    background-position:0 450px;
+  }
+  #box {
+    width: 100px;
+    background-color: rgba(211,211,211, 0.3);
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 330px;
+  }
+  #logo-2 {
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 45%;
+  }
+  #makeup-2 {
+    width: 100%;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bolder;
+    transform: rotate(0deg);
+    transform-origin: left top 0;
+    margin: auto;
+    left: 350px;
+    padding-top: 30px;
+  }
