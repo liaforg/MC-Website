@@ -132,6 +132,45 @@
     padding-right: 100px;
     font-size: 10px;
   }
+  /*ABOUT*/
+  .grey-box{
+    width: 300px;
+  }
+
+  #selfie {
+    width: 100px;
+    height:100px;
+    margin-top: 110px;
+  }
+
+  .about {
+    position: absolute;
+    width: 700px;
+    top: 285px;
+    left: -200px;
+  }
+
+
+  .bio {
+    font-size: 10px;
+    padding-top: -100px;
+    width: 40%;
+    height: 1100px;
+  }
+
+  #about-me {
+    margin-top: -80px;
+    font-size: 25px;
+    text-align:center;
+    padding-bottom: 20px;
+  }
+
+  #pro {
+    font-size: 15px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
 }
 
 @media screen and (min-width: 480px) and (max-width: 539px){
@@ -258,6 +297,41 @@
     padding-right: 120px;
     font-size: 15px;
   }
+  /*ABOUT*/
+  .grey-box{
+    width: 450px;
+  }
+
+  #selfie {
+    width: 140px;
+    height:140px;
+    margin-top: 110px;
+  }
+
+  .about {
+    position: absolute;
+    width: 700px;
+    left: -125px;
+  }
+  .bio {
+    font-size: 10px;
+    padding-top: -100px;
+    width: 60%;
+    height: 800px;
+  }
+
+  #about-me {
+    margin-top: -30px;
+    font-size: 28px;
+    text-align:center;
+    padding-bottom: 20px;
+  }
+
+  #pro {
+    font-size: 20px;
+    margin-top: -20px;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 540px) and (max-width: 639px){
@@ -377,6 +451,40 @@
     padding-right: 150px;
     font-size: 15px;
   }
+  /*ABOUT*/
+  .grey-box{
+    width: 530px;
+  }
+
+  #selfie {
+    width: 200px;
+    height:200px;
+    margin-top: 110px;
+  }
+
+  .about {
+    position: absolute;
+    width: 800px;
+    left: -140px;
+  }
+  .bio {
+    font-size: 10px;
+    width: 60%;
+    height: 800px;
+  }
+
+  #about-me {
+    margin-top: 30px;
+    font-size: 28px;
+    text-align:center;
+    padding-bottom: 20px;
+  }
+
+  #pro {
+    font-size: 20px;
+    margin-top: -20px;
+    text-align: center;
+  }
 
 }
 
@@ -476,6 +584,41 @@
     bottom: 0;
     right: 0;
   }
+  /*ABOUT*/
+  .grey-box{
+    width: 530px;
+  }
+
+  #selfie {
+    width: 200px;
+    height:200px;
+    margin-top: 110px;
+  }
+
+  .about {
+    position: absolute;
+    width: 800px;
+    left: -140px;
+  }
+  .bio {
+    font-size: 10px;
+    width: 60%;
+    height: 800px;
+  }
+
+  #about-me {
+    margin-top: 30px;
+    font-size: 28px;
+    text-align:center;
+    padding-bottom: 20px;
+  }
+
+  #pro {
+    font-size: 20px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
 }
 
 @media screen and (min-width: 720px) and (max-width: 800px){
@@ -705,6 +848,41 @@
     padding-right: 200px;
     font-size: 18px;
   }
+  /*ABOUT*/
+  .grey-box{
+    width: 530px;
+  }
+
+  #selfie {
+    width: 200px;
+    height:200px;
+    margin-top: 110px;
+  }
+
+  .about {
+    position: absolute;
+    width: 800px;
+    left: -140px;
+  }
+  .bio {
+    font-size: 10px;
+    width: 60%;
+    height: 800px;
+  }
+
+  #about-me {
+    margin-top: 30px;
+    font-size: 28px;
+    text-align:center;
+    padding-bottom: 20px;
+  }
+
+  #pro {
+    font-size: 20px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
 }
 
 @media screen and (min-width: 1081px) and (max-width: 1440px){
@@ -811,6 +989,41 @@
     bottom: 0;
     right: 0;
   }
+  /*ABOUT*/
+  .grey-box{
+    width: 700px;
+  }
+
+  #selfie {
+    width: 200px;
+    height:200px;
+    margin-top: 110px;
+  }
+
+  .about {
+    position: absolute;
+    width: 1000px;
+    left: -155px;
+  }
+  .bio {
+    font-size: 12px;
+    width: 70%;
+    height: 600px;
+  }
+
+  #about-me {
+    margin-top: 30px;
+    font-size: 40px;
+    text-align:center;
+    padding-bottom: 20px;
+  }
+
+  #pro {
+    font-size: 22px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
 }
 
 @media screen and (min-width: 1441px) and (max-width: 2160px){
@@ -915,6 +1128,40 @@
     left: 18px;
     bottom: 0;
     right: 0;
+  }
+  /*ABOUT*/
+  .grey-box{
+    width: 700px;
+  }
+
+  #selfie {
+    width: 200px;
+    height:200px;
+    margin-top: 110px;
+  }
+
+  .about {
+    position: absolute;
+    width: 1000px;
+    left: -155px;
+  }
+  .bio {
+    font-size: 12px;
+    width: 70%;
+    height: 700px;
+  }
+
+  #about-me {
+    margin-top: 30px;
+    font-size: 40px;
+    text-align:center;
+    padding-bottom: 20px;
+  }
+
+  #pro {
+    font-size: 22px;
+    margin-top: -20px;
+    text-align: center;
   }
 }
 
