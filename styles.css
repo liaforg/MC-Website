@@ -522,6 +522,8 @@ span.fa.fa-instagram:hover {
   right: 0;
   background-color: rgba(211,211,211, 0.8);
   overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .prices {
