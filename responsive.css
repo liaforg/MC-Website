@@ -237,9 +237,6 @@
     left: 0;
     top:350px;
   }
-  span.fa.fa-envelope {
-    display: none;
-  }
   span.fa.fa-phone {
     display: none;
   }
@@ -467,9 +464,6 @@
       text-align: center;
       margin-top: 230px;
       margin-left: -30px;
-  }
-  span.fa.fa-envelope {
-    display: none;
   }
   span.fa.fa-phone {
     display: none;
@@ -711,9 +705,6 @@
       margin-top: 230px;
       margin-left: -85px;
   }
-  span.fa.fa-envelope {
-    display: none;
-  }
   span.fa.fa-phone {
     display: none;
   }
@@ -953,9 +944,6 @@
     text-align: center;
     margin-top: 230px;
     margin-left: -85px;
-}
-span.fa.fa-envelope {
-  display: none;
 }
 span.fa.fa-phone {
   display: none;
@@ -1199,9 +1187,6 @@ span.fa.fa-phone {
       text-align: center;
       margin-top: 230px;
       margin-left: -85px;
-  }
-  span.fa.fa-envelope {
-    display: none;
   }
   span.fa.fa-phone {
     display: none;
@@ -1447,10 +1432,6 @@ span.fa.fa-phone {
       margin-top: 230px;
       margin-left: -140px;
   }
-
-  span.fa.fa-envelope {
-    display: none;
-  }
   span.fa.fa-phone {
     display: none;
   }
@@ -1695,9 +1676,6 @@ span.fa.fa-phone {
         margin-left: -130px;
     }
 
-    span.fa.fa-envelope {
-      display: none;
-    }
     span.fa.fa-phone {
       display: none;
     }
@@ -1942,9 +1920,6 @@ span.fa.fa-phone {
           margin-left: -130px;
       }
 
-      span.fa.fa-envelope {
-        display: none;
-      }
       span.fa.fa-phone {
         display: none;
       }
@@ -2189,9 +2164,7 @@ span.fa.fa-phone {
                 margin-left: -130px;
             }
 
-            span.fa.fa-envelope {
-              display: none;
-            }
+
             span.fa.fa-phone {
               display: none;
             }
@@ -2437,9 +2410,6 @@ span.fa.fa-phone {
                 margin-left: -140px;
             }
 
-            span.fa.fa-envelope {
-              display: none;
-            }
             span.fa.fa-phone {
               display: none;
             }
@@ -2714,7 +2684,7 @@ span.fa.fa-phone {
         margin: auto;
         right: 0;
         left: 0;
-        top:350px;
+        top:3w50px;
 
       }
 
