@@ -629,6 +629,7 @@ span.fa.fa-instagram:hover {
   overflow: hidden;
   overflow-y: scroll;
   overflow-x: hidden;
+   -webkit-overflow-scrolling: touch;
 }
 
 .prices {
@@ -677,6 +678,7 @@ td {
   background-color: rgba(211,211,211, 0.8);
   overflow-y: scroll;
   overflow-x: hidden;
+   -webkit-overflow-scrolling: touch;
 }
 
 #selfie {
@@ -776,6 +778,7 @@ td {
   right: 0;
   background-color: rgba(211,211,211, 0.8);
   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
 }
 
 .contact-form {
