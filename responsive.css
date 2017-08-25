@@ -215,31 +215,14 @@
     font-size: 15px;
     width: 80%;
     left: 35px;
+    margin: auto;
   }
 
   .table-icons{
-    top: 140px;
-  }
-
-  .table-icons2{
-    top: 140px;
-  }
-
-  #make{
-    margin-left: -55px;
-  }
-
-  #num{
-    margin-left: -25px;
-  }
-
-  #toronto {
-    font-size: 18px;
-  }
-
-  #make, #num {
-    font-size: 18px;
-    text-align: left;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      margin-top: 230px;
+      margin-left: -30px;
   }
 
   .mcapp {
@@ -252,8 +235,13 @@
     margin: auto;
     right: 0;
     left: 0;
-    top:450px;
-
+    top:350px;
+  }
+  span.fa.fa-envelope {
+    display: none;
+  }
+  span.fa.fa-phone {
+    display: none;
   }
 
 }
@@ -267,7 +255,7 @@
     margin: auto;
     left: 0;
     right: 0;
-    top: 200px;
+    top: 230px;
   }
   .slide1,.slide2,.slide3{
     width: 100%;
@@ -474,35 +462,21 @@
     width: 80%;
     left: 35px;
   }
-
   .table-icons{
-    top: 140px;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      margin-top: 230px;
+      margin-left: -30px;
   }
-
-  .table-icons2{
-    top: 140px;
+  span.fa.fa-envelope {
+    display: none;
   }
-
-  #make{
-    margin-left: -55px;
+  span.fa.fa-phone {
+    display: none;
   }
-
-  #num{
-    margin-left: -25px;
-  }
-
-  #toronto {
-    font-size: 18px;
-  }
-
-  #make, #num {
-    font-size: 18px;
-    text-align: left;
-  }
-
   .mcapp {
     width: 200px;
-    height: 400px;
+    height: 300px;
     background-image: url("photos/mcapp.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -510,8 +484,7 @@
     margin: auto;
     right: 0;
     left: 0;
-    top:450px;
-
+    top:350px;
   }
 }
 
@@ -733,32 +706,19 @@
   }
 
   .table-icons{
-    top: 140px;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      margin-top: 230px;
+      margin-left: -85px;
   }
-
-  .table-icons2{
-    top: 140px;
+  span.fa.fa-envelope {
+    display: none;
   }
-
-  #make{
-    margin-left: -35px;
+  span.fa.fa-phone {
+    display: none;
   }
-
-  #num{
-    margin-left: -15px;
-  }
-
-  #toronto {
-    font-size: 18px;
-  }
-
-  #make, #num {
-    font-size: 18px;
-    text-align: left;
-  }
-
   .mcapp {
-    width: 200px;
+    width: 300px;
     height: 300px;
     background-image: url("photos/mcapp.jpg");
     background-size: contain;
@@ -767,8 +727,7 @@
     margin: auto;
     right: 0;
     left: 0;
-    top:450px;
-
+    top:350px;
   }
 
 }
@@ -951,7 +910,7 @@
     font-size: 10px;
     padding-top: -100px;
     width: 50%;
-    height: 900px;
+    height: 1000px;
   }
 
 #about-me {
@@ -990,32 +949,19 @@
 }
 
 .table-icons{
-  top: 140px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 230px;
+    margin-left: -85px;
 }
-
-.table-icons2{
-  top: 140px;
+span.fa.fa-envelope {
+  display: none;
 }
-
-#make{
-  margin-left: -35px;
+span.fa.fa-phone {
+  display: none;
 }
-
-#num{
-  margin-left: -15px;
-}
-
-#toronto {
-  font-size: 18px;
-}
-
-#make, #num {
-  font-size: 18px;
-  text-align: left;
-}
-
 .mcapp {
-  width: 200px;
+  width: 300px;
   height: 300px;
   background-image: url("photos/mcapp.jpg");
   background-size: contain;
@@ -1024,8 +970,7 @@
   margin: auto;
   right: 0;
   left: 0;
-  top:450px;
-
+  top:350px;
 }
 
 }
@@ -1250,30 +1195,17 @@
   }
 
   .table-icons{
-    top: 140px;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      margin-top: 230px;
+      margin-left: -85px;
   }
-
-  .table-icons2{
-    top: 140px;
+  span.fa.fa-envelope {
+    display: none;
   }
-
-  #make{
-    margin-left: -35px;
+  span.fa.fa-phone {
+    display: none;
   }
-
-  #num{
-    margin-left: -15px;
-  }
-
-  #toronto {
-    font-size: 18px;
-  }
-
-  #make, #num {
-    font-size: 18px;
-    text-align: left;
-  }
-
   .mcapp {
     width: 300px;
     height: 300px;
@@ -1284,8 +1216,7 @@
     margin: auto;
     right: 0;
     left: 0;
-    top:450px;
-
+    top:350px;
   }
 
 }
@@ -1300,7 +1231,7 @@
       margin: auto;
       left: 0;
       right: 0;
-      top: 200px;
+      top: 250px;
     }
     .slide1,.slide2,.slide3{
       width: 100%;
@@ -1365,12 +1296,12 @@
     .nudepal{
       background-image: url("photos/nudepal.jpg");
       background-size: cover;
-      background-position:0 200px;
+      background-position:0 250px;
       margin: auto;
       left: 0;
       right: 0;
       width: 800px;
-      height: 100px;
+      height: 150px;
       margin-top: 100px;
     }
     .indexscroll{
@@ -1507,39 +1438,25 @@
     top: 0px;
     font-size: 15px;
     width: 80%;
-    left: 35px;
+    left: 45px;
   }
 
   .table-icons{
-    top: 140px;
-    left: 135px;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      margin-top: 230px;
+      margin-left: -140px;
   }
 
-  .table-icons2{
-    top: 140px;
-    left: 180px;
+  span.fa.fa-envelope {
+    display: none;
   }
-
-  #make{
-    margin-left: -1px;
+  span.fa.fa-phone {
+    display: none;
   }
-
-  #num{
-    margin-left: -15px;
-  }
-
-  #toronto {
-    font-size: 18px;
-  }
-
-  #make, #num {
-    font-size: 18px;
-    text-align: left;
-  }
-
   .mcapp {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     background-image: url("photos/mcapp.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -1547,8 +1464,7 @@
     margin: auto;
     right: 0;
     left: 0;
-    top:450px;
-
+    top:350px;
   }
 
 }
@@ -1769,39 +1685,25 @@
       top: 0px;
       font-size: 15px;
       width: 80%;
-      left: 35px;
+      left: 45px;
     }
 
     .table-icons{
-      top: 140px;
-      left: 135px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        margin-top: 230px;
+        margin-left: -130px;
     }
 
-    .table-icons2{
-      top: 140px;
-      left: 185px;
+    span.fa.fa-envelope {
+      display: none;
     }
-
-    #make{
-      margin-left: -1px;
+    span.fa.fa-phone {
+      display: none;
     }
-
-    #num{
-      margin-left: -10px;
-    }
-
-    #toronto {
-      font-size: 18px;
-    }
-
-    #make, #num {
-      font-size: 18px;
-      text-align: left;
-    }
-
     .mcapp {
-      width: 350px;
-      height: 350px;
+      width: 300px;
+      height: 300px;
       background-image: url("photos/mcapp.jpg");
       background-size: contain;
       background-repeat: no-repeat;
@@ -1809,8 +1711,7 @@
       margin: auto;
       right: 0;
       left: 0;
-      top:450px;
-
+      top:350px;
     }
 
   }
@@ -2031,39 +1932,25 @@
         top: 0px;
         font-size: 15px;
         width: 80%;
-        left: 3px;
+        left: 45px;
       }
 
       .table-icons{
-        top: 140px;
-        left: 135px;
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          margin-top: 230px;
+          margin-left: -130px;
       }
 
-      .table-icons2{
-        top: 140px;
-        left: 185px;
+      span.fa.fa-envelope {
+        display: none;
       }
-
-      #make{
-        margin-left: -1px;
+      span.fa.fa-phone {
+        display: none;
       }
-
-      #num{
-        margin-left: -10px;
-      }
-
-      #toronto {
-        font-size: 18px;
-      }
-
-      #make, #num {
-        font-size: 18px;
-        text-align: left;
-      }
-
       .mcapp {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
         background-image: url("photos/mcapp.jpg");
         background-size: contain;
         background-repeat: no-repeat;
@@ -2071,8 +1958,7 @@
         margin: auto;
         right: 0;
         left: 0;
-        top:450px;
-
+        top:350px;
       }
 
     }
@@ -2288,53 +2174,39 @@
         overflow-x: hidden;
       }
 
-      .contact-form {
-        top: 0px;
-        font-size: 15px;
-        width: 80%;
-        left: 45px;
-      }
 
-      .table-icons{
-        top: 140px;
-        left: 140px;
-      }
+            .contact-form {
+              top: 0px;
+              font-size: 15px;
+              width: 80%;
+              left: 50px;
+            }
 
-      .table-icons2{
-        top: 140px;
-        left: 190px;
-      }
+            .table-icons{
+                font-family: 'Raleway', sans-serif;
+                text-align: center;
+                margin-top: 230px;
+                margin-left: -130px;
+            }
 
-      #make{
-        margin-left: -1px;
-      }
-
-      #num{
-        margin-left: -10px;
-      }
-
-      #toronto {
-        font-size: 18px;
-      }
-
-      #make, #num {
-        font-size: 18px;
-        text-align: left;
-      }
-
-      .mcapp {
-        width: 350px;
-        height: 350px;
-        background-image: url("photos/mcapp.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: absolute;
-        margin: auto;
-        right: 0;
-        left: 0;
-        top:450px;
-
-      }
+            span.fa.fa-envelope {
+              display: none;
+            }
+            span.fa.fa-phone {
+              display: none;
+            }
+            .mcapp {
+              width: 300px;
+              height: 300px;
+              background-image: url("photos/mcapp.jpg");
+              background-size: contain;
+              background-repeat: no-repeat;
+              position: absolute;
+              margin: auto;
+              right: 0;
+              left: 0;
+              top:350px;
+            }
 
     }
 
@@ -2550,54 +2422,39 @@
         overflow-x: hidden;
       }
 
-      .contact-form {
-        top: 0px;
-        font-size: 15px;
-        width: 80%;
-        left: 45px;
-      }
 
-      .table-icons{
-        top: 140px;
-        left: 140px;
-      }
+            .contact-form {
+              top: 0px;
+              font-size: 15px;
+              width: 80%;
+              left: 45px;
+            }
 
-      .table-icons2{
-        top: 140px;
-        left: 190px;
-      }
+            .table-icons{
+                font-family: 'Raleway', sans-serif;
+                text-align: center;
+                margin-top: 230px;
+                margin-left: -140px;
+            }
 
-      #make{
-        margin-left: -1px;
-      }
-
-      #num{
-        margin-left: -10px;
-      }
-
-      #toronto {
-        font-size: 18px;
-      }
-
-      #make, #num {
-        font-size: 18px;
-        text-align: left;
-      }
-
-      .mcapp {
-        width: 350px;
-        height: 350px;
-        background-image: url("photos/mcapp.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: absolute;
-        margin: auto;
-        right: 0;
-        left: 0;
-        top:450px;
-
-      }
-
+            span.fa.fa-envelope {
+              display: none;
+            }
+            span.fa.fa-phone {
+              display: none;
+            }
+            .mcapp {
+              width: 300px;
+              height: 300px;
+              background-image: url("photos/mcapp.jpg");
+              background-size: contain;
+              background-repeat: no-repeat;
+              position: absolute;
+              margin: auto;
+              right: 0;
+              left: 0;
+              top:350px;
+            }
     }
 
 @media screen and (min-width: 2561px){
@@ -2857,7 +2714,7 @@
         margin: auto;
         right: 0;
         left: 0;
-        top:450px;
+        top:350px;
 
       }
 

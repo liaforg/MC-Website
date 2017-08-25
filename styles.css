@@ -208,7 +208,7 @@ main{
 }
 
 .menuitems:hover{
-  color: #c1aeae;
+  color: white;
   text-shadow: 1px 1px #7c6d84;
 }
 
@@ -796,71 +796,31 @@ td {
 }
 
 #toronto {
-  margin-top: -50px;
+  margin: auto;
+  margin-top: 5px;
   font-size: 20px;
   padding-bottom: 40px;
-  color: black;;
-  text-align:
+  color: black;
 }
 
 #info {
   font-size: 25px;
   padding-bottom: 60px;
-}
-
-.contact-info{
-  color:  #777696;
+  margin: auto;
 }
 
 .table-icons {
   font-family: 'Raleway', sans-serif;
-  position: absolute;
-  width: 100%;
-  margin:auto;
-  top: 240px;
-  font-size: 20px;
-  padding-top: 80px;
-  color: #777696;
-  left: 30%;
-
+  text-align: center;
+  margin-top: 230px;
+  margin-left: -145px;
 }
 
-.table-icons2 {
-  font-family: 'Raleway', sans-serif;
-  position: absolute;
-  width: 100%;
-  margin:auto;
-  top: 270px;
-  font-size: 20px;
-  padding-top: 200px;
-  color: #777696;
-  left: 40%;
-
-}
-
-
-h2 span.fa.fa-envelope {
-  color: black;
-  position: absolute;
-  left: 18%;
-  top: 50px;
-}
-
-
-span.fa.fa-phone {
-  color: black;
-  color: black;
-  position: absolute;
-  left: 8%;
-  top: 190px;
-
-}
-
-#make, #num {
+#td{
+  padding-bottom: 30px;
+  padding-right:0px;
   font-size: 18px;
 }
-
-
 
 
 /*-------------------------------------------*/
