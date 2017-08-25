@@ -21,81 +21,112 @@
   </head>
 
   <body>
-<!-- NAV BAR / TOP OF PAGE -->
-    <nav class="navbar">
-<!-- LOGO -->
-      <h2 id="logo"> MC </h2>
-      <h2 id="makeup"> MAKEUP BY MARIE-CLAIRE </h2>
-<!--  NAV LINKS -->
-        <h2 class="navlist"><a href="index.html">HOME</a></h2>
-        <h2 class="navlist"><a href="portfolio.html">PORTFOLIO</a></h2>
-        <h2 class="navlist"><a href="prices.html">PRICES</a></h2>
-        <h2 class="navlist"><a href="about.html">ABOUT</a></h2>
-        <h2 class="navlist"><a href="testimonials.html">TESTIMONIALS</a></h2>
-        <h2 class="navlist"><a href="contact.html">CONTACT</a></h2>
-    </nav>
+  <!-- NAV BAR / TOP OF PAGE -->
+      <nav class="navbar">
+  <!-- LOGO -->
+        <h2 id="logo"> MC </h2>
+        <h2 id="makeup"> MAKEUP BY MARIE-CLAIRE </h2>
+  <!--  NAV LINKS -->
 
-    <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn"><span class="fa fa-reorder" aria-hidden="true"></span></button>
-       <div id="myDropdown" class="dropdown-content">
-        <a href="index.html">HOME</a>
-        <a href="portfolio.html">PORTFOLIO</a>
-        <a href="prices.html">PRICES</a>
-        <a href="about.html">ABOUT</a>
-        <a href="testimonials.html">TESTIMONIALS</a>
-        <a href="contact.html">CONTACT</a>
-      </div>
-    </div>
+          <div id="topNav" class="navigation">
+            <span id="closebtn" onclick="navToggle()">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
+            </span>
+          <div class="logo">
+          <img src=""/>
+          </div>
 
-<!-- ICON LINKS -->
-    <div class="icons">
-      <a href="mailto:makeupartistmc@gmail.com?Subject=Hello" target="_top"><span class="fa fa-envelope" aria-hidden="true"></span></a>
-      <a href="https://www.instagram.com/makeupartistmarieclaire/?hl=en" target="_blank"><span class="fa fa-instagram" aria-hidden="true"></span></a>
-    </div>
+          <ul class="menulist">
+            <li><a class="menuitems" href="index.html">HOME</a></li>
+            <li><a class="menuitems" href="portfolio.html">PORTFOLIO</a></li>
+            <li><a class="menuitems" href="prices.html">PRICES</a></li>
+            <li><a class="menuitems" href="about.html">ABOUT</a></li>
+            <li><a class="menuitems" href="contact.html">CONTACT</a></li>
+          </ul>
+          </div>
+
+          <div id="main"></div>
 
 
-    <main>
-
-
-      <div id="box">
-        <h2 id="logo-2"> MC </h2>
-        <h2 id="makeup-2"> MAKEUP BY MARIE-CLAIRE </h2>
+  <!-- ICON LINKS -->
+      <div class="icons">
+        <a href="mailto:makeupartistmc@gmail.com?Subject=Hello" target="_top"><span class="fa fa-envelope" aria-hidden="true"></span></a>
+        <a href="https://www.instagram.com/makeupartistmarieclaire/?hl=en" target="_blank"><span class="fa fa-instagram" aria-hidden="true"></span></a>
       </div>
 
-      <div class = "image_array">
-        <div class='slide1'></div>
-        <div class='slide2'></div>
-        <div class='slide3'></div>
-        <div class='slide4'></div>
+
+      <main>
+
+      <div class="indexscroll">
+        <div id="box">
+          <h2 id="logo-2"> MC </h2>
+          <h2 id="makeup-2"> MAKEUP BY MARIE-CLAIRE </h2>
+        </div>
+
+
+        <div class = "image_array">
+          <div class='slide1'></div>
+          <div class='slide2'></div>
+          <div class='slide3'></div>
+          <div class='slide4'></div>
+        </div>
+
+        <div class= "brushes"></div>
+        <div class="nudepal"</div>
       </div>
 
-      <div class= "brushes"></div>
-
-    </main>
+      </main>
 
     <script>
-          function myFunction() {
-              document.getElementById("myDropdown").classList.toggle("show");
-              }
+        var nav = document.getElementById("topNav");
+        var main = document.getElementById("main");
+        var menu = document.getElementsByClassName("menuitems");
+        var close = document.getElementById("closebtn");
 
-              // Close the dropdown menu if the user clicks outside of it
-              window.onclick = function(event) {
-              if (!event.target.matches('.dropbtn')) {
+        //default to measure if/else from
+        nav.style.height = "50px";
+        main.style.marginTop = "50px";
+        for (i = 0; i < menu.length; i++){menu[i].style.marginTop="100px";};
 
-              var dropdowns = document.getElementsByClassName("dropdown-content");
-              var i;
-              for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                  openDropdown.classList.remove('show');
-                }
-              }
-            }
+        close.addEventListener("click", function(){
+          var menuIcon = close.children;
+          for (i = 0; i < menuIcon.length; i++){
+          menuIcon[i].classList.toggle("active");
           }
-      </script>
+        });
 
-  </body>
+        function navToggle() {
+          //to close
+          if (nav.style.height <= "275px") {
+          nav.style.height = "50px";
+          main.style.marginTop = "50px";
 
+              var i = 0;
+              for (i = 0; i < menu.length; i++){
+          menu[i].style.opacity="0.0";
+          menu[i].style.marginTop="100px";
+          };
+              document.body.style.backgroundColor = "rgba(0,0,0,0.0)";
+
+          }
+          //to open
+          else if (nav.style.height <= "50px") {
+          nav.style.height = "275px";
+          main.style.marginTop = "275px";
+              var i = 0;
+              for (i = 0; i < menu.length; i++){
+          menu[i].style.opacity="1.0";
+          menu[i].style.marginTop="0px";
+          };
+              document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+
+          }
+
+        };
+    </script>
+    </body>
 
   <footer>
     <h4 id="foot">&copy; Makeup by Marie-Claire</h4>
