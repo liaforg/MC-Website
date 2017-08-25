@@ -156,18 +156,12 @@
     font-size: 10px;
   }
   /*ABOUT*/
-  .grey-box{
+  .grey-box2{
     width: 300px;
     top: 148px;
   }
 
-  #selfie {
-    width: 100px;
-    height:100px;
-    margin-top: 10px;
-  }
-
-  .about {
+  .about2 {
     position: absolute;
     width: 700px;
     top: 185px;
@@ -175,21 +169,21 @@
   }
 
 
-  .bio {
+  .bio2 {
     font-size: 10px;
     padding-top: -100px;
     width: 40%;
     height: 1100px;
   }
 
-  #about-me {
+  #about-me2 {
     margin-top: -80px;
     font-size: 25px;
     text-align:center;
     padding-bottom: 20px;
   }
 
-  #pro {
+  #pro2 {
     font-size: 15px;
     margin-top: -20px;
     text-align: center;
@@ -197,50 +191,51 @@
   /*CONTACTS PAGE*/
 
   .grey-box2{
-    position: fixed;
     width: 300px;
-    text-align: left;
-    margin: auto;
     top: 148px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(211,211,211, 0.8);
-    overflow-y: scroll;
-    overflow-x: hidden;
   }
 
-  .contact-form {
-    top: 0px;
-    font-size: 15px;
-    width: 80%;
-    left: 35px;
-    margin: auto;
+  #selfie2 {
+    width: 100px;
+    height:100px;
+    margin-top: 10px;
   }
 
-  .table-icons{
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
-      margin-top: 230px;
-      margin-left: -30px;
-  }
-
-  .mcapp {
-    width: 200px;
-    height: 300px;
-    background-image: url("photos/mcapp.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+  .about2 {
     position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    top:350px;
-  }
-  span.fa.fa-phone {
-    display: none;
+    width: 700px;
+    top: 100px;
+    left: -200px;
   }
 
+
+  .bio2 {
+    font-size: 10px;
+    padding-top: -100px;
+    width: 40%;
+    height: 600px;
+  }
+
+  #about-me2 {
+    margin-top: -80px;
+    font-size: 20px;
+    text-align:center;
+    padding-bottom: 30px;
+  }
+
+  #pro2 {
+    font-size: 17px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .mcapp{
+    top: 200px;
+  }
+
+  p#mc-bio2{
+    line-height: 50px;
+  }
 }
 
 @media screen and (min-width: 354px) and (max-width:479px){
@@ -440,45 +435,50 @@
   /*CONTACTS PAGE*/
 
   .grey-box2{
-    position: fixed;
     width: 300px;
-    text-align: left;
-    margin: auto;
     top: 148px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(211,211,211, 0.8);
-    overflow-y: scroll;
-    overflow-x: hidden;
   }
 
-  .contact-form {
-    top: 0px;
-    font-size: 15px;
-    width: 80%;
-    left: 35px;
+  #selfie2 {
+    width: 100px;
+    height:100px;
+    margin-top: 10px;
   }
-  .table-icons{
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
-      margin-top: 230px;
-      margin-left: -30px;
-  }
-  span.fa.fa-phone {
-    display: none;
-  }
-  .mcapp {
-    width: 200px;
-    height: 300px;
-    background-image: url("photos/mcapp.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+
+  .about2 {
     position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    top:350px;
+    width: 700px;
+    top: 100px;
+    left: -200px;
+  }
+
+
+  .bio2 {
+    font-size: 10px;
+    padding-top: -100px;
+    width: 40%;
+    height: 600px;
+  }
+
+  #about-me2 {
+    margin-top: -80px;
+    font-size: 20px;
+    text-align:center;
+    padding-bottom: 30px;
+  }
+
+  #pro2 {
+    font-size: 17px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .mcapp{
+    top: 200px;
+  }
+
+  p#mc-bio2{
+    line-height: 50px;
   }
 }
 
@@ -679,46 +679,50 @@
   /*CONTACTS PAGE*/
 
   .grey-box2{
-    position: fixed;
-    width: 400px;
-    text-align: left;
-    margin: auto;
-    top: 148px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(211,211,211, 0.8);
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-
-  .contact-form {
-    top: 0px;
-    font-size: 15px;
-    width: 80%;
-    left: 35px;
-  }
-
-  .table-icons{
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
-      margin-top: 230px;
-      margin-left: -85px;
-  }
-  span.fa.fa-phone {
-    display: none;
-  }
-  .mcapp {
     width: 300px;
-    height: 300px;
-    background-image: url("photos/mcapp.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    top: 148px;
+  }
+
+  #selfie2 {
+    width: 100px;
+    height:100px;
+    margin-top: 10px;
+  }
+
+  .about2 {
     position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    top:350px;
+    width: 700px;
+    top: 100px;
+    left: -200px;
+  }
+
+
+  .bio2 {
+    font-size: 10px;
+    padding-top: -100px;
+    width: 40%;
+    height: 600px;
+  }
+
+  #about-me2 {
+    margin-top: -80px;
+    font-size: 20px;
+    text-align:center;
+    padding-bottom: 30px;
+  }
+
+  #pro2 {
+    font-size: 17px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .mcapp{
+    top: 200px;
+  }
+
+  p#mc-bio2{
+    line-height: 50px;
   }
 
 }
@@ -919,46 +923,50 @@
 /*CONTACTS PAGE*/
 
 .grey-box2{
-  position: fixed;
-  width: 400px;
-  text-align: left;
-  margin: auto;
-  top: 148px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(211,211,211, 0.8);
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-.contact-form {
-  top: 0px;
-  font-size: 15px;
-  width: 80%;
-  left: 35px;
-}
-
-.table-icons{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin-top: 230px;
-    margin-left: -85px;
-}
-span.fa.fa-phone {
-  display: none;
-}
-.mcapp {
   width: 300px;
-  height: 300px;
-  background-image: url("photos/mcapp.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  top: 148px;
+}
+
+#selfie2 {
+  width: 100px;
+  height:100px;
+  margin-top: 10px;
+}
+
+.about2 {
   position: absolute;
-  margin: auto;
-  right: 0;
-  left: 0;
-  top:350px;
+  width: 700px;
+  top: 100px;
+  left: -200px;
+}
+
+
+.bio2 {
+  font-size: 10px;
+  padding-top: -100px;
+  width: 40%;
+  height: 700px;
+}
+
+#about-me2 {
+  margin-top: -80px;
+  font-size: 20px;
+  text-align:center;
+  padding-bottom: 30px;
+}
+
+#pro2 {
+  font-size: 17px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.mcapp{
+  top: 200px;
+}
+
+p#mc-bio2{
+  line-height: 50px;
 }
 
 }
@@ -1160,48 +1168,53 @@ span.fa.fa-phone {
     text-align: center;
   }
   /*CONTACTS PAGE*/
-
   .grey-box2{
-    position: fixed;
     width: 400px;
-    text-align: left;
-    margin: auto;
     top: 148px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(211,211,211, 0.8);
-    overflow-y: scroll;
-    overflow-x: hidden;
   }
 
-  .contact-form {
-    top: 0px;
-    font-size: 15px;
-    width: 80%;
-    left: 35px;
+  #selfie2 {
+    width: 100px;
+    height:100px;
+    margin-top: 10px;
   }
 
-  .table-icons{
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
-      margin-top: 230px;
-      margin-left: -85px;
+  .about2 {
+    position: absolute;
+    width: 700px;
+    top: 100px;
+    left: -150px;
   }
-  span.fa.fa-phone {
-    display: none;
+
+
+  .bio2 {
+    font-size: 10px;
+    padding-top: -100px;
+    width: 40%;
+    height: 600px;
   }
-  .mcapp {
+
+  #about-me2 {
+    margin-top: -80px;
+    font-size: 20px;
+    text-align:center;
+    padding-bottom: 30px;
+  }
+
+  #pro2 {
+    font-size: 17px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .mcapp{
     width: 300px;
     height: 300px;
-    background-image: url("photos/mcapp.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    top:350px;
+    top: 200px;
+  }
+
+  p#mc-bio2{
+    line-height: 50px;
   }
 
 }
@@ -1406,48 +1419,53 @@ span.fa.fa-phone {
   /*CONTACTS PAGE*/
 
   .grey-box2{
-    position: fixed;
-    width: 500px;
-    text-align: left;
-    margin: auto;
+    width: 400px;
     top: 148px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(211,211,211, 0.8);
-    overflow-y: scroll;
-    overflow-x: hidden;
   }
 
-  .contact-form {
-    top: 0px;
-    font-size: 15px;
-    width: 80%;
-    left: 45px;
+  #selfie2 {
+    width: 100px;
+    height:100px;
+    margin-top: 10px;
   }
 
-  .table-icons{
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
-      margin-top: 230px;
-      margin-left: -140px;
+  .about2 {
+    position: absolute;
+    width: 700px;
+    top: 100px;
+    left: -150px;
   }
-  span.fa.fa-phone {
-    display: none;
+
+
+  .bio2 {
+    font-size: 10px;
+    padding-top: -100px;
+    width: 40%;
+    height: 600px;
   }
-  .mcapp {
+
+  #about-me2 {
+    margin-top: -80px;
+    font-size: 20px;
+    text-align:center;
+    padding-bottom: 30px;
+  }
+
+  #pro2 {
+    font-size: 17px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .mcapp{
     width: 300px;
     height: 300px;
-    background-image: url("photos/mcapp.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    top:350px;
+    top: 200px;
   }
 
+  p#mc-bio2{
+    line-height: 50px;
+  }
 }
 @media screen and (min-width: 801px) and (max-width: 1080px){
 
@@ -1649,47 +1667,48 @@ span.fa.fa-phone {
     /*CONTACTS PAGE*/
 
     .grey-box2{
-      position: fixed;
-      width: 500px;
-      text-align: left;
-      margin: auto;
+      width: 600px;
       top: 148px;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: rgba(211,211,211, 0.8);
-      overflow-y: scroll;
-      overflow-x: hidden;
     }
 
-    .contact-form {
-      top: 0px;
-      font-size: 15px;
-      width: 80%;
-      left: 45px;
-    }
 
-    .table-icons{
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
-        margin-top: 230px;
-        margin-left: -130px;
-    }
-
-    span.fa.fa-phone {
-      display: none;
-    }
-    .mcapp {
-      width: 300px;
-      height: 300px;
-      background-image: url("photos/mcapp.jpg");
-      background-size: contain;
-      background-repeat: no-repeat;
+    .about2 {
       position: absolute;
-      margin: auto;
-      right: 0;
-      left: 0;
-      top:350px;
+      width: 700px;
+      top: 100px;
+      left: -70px;
+    }
+
+
+    .bio2 {
+      font-size: 12px;
+      padding-top: -100px;
+      width: 100%;
+      height: 600px;
+    }
+
+    #about-me2 {
+      margin-top: -80px;
+      font-size: 25px;
+      text-align:center;
+      padding-bottom: 30px;
+    }
+
+    #pro2 {
+      font-size: 22px;
+      margin-top: -20px;
+      text-align: center;
+    }
+
+    .mcapp{
+      width: 400px;
+      height: 400px;
+      top: 200px;
+    }
+
+    p#mc-bio2{
+      font-size: 18px;
+      line-height: 50px;
     }
 
   }
@@ -1892,50 +1911,51 @@ span.fa.fa-phone {
       }
       /*CONTACTS PAGE*/
 
-      .grey-box2{
-        position: fixed;
-        width: 500px;
-        text-align: left;
-        margin: auto;
-        top: 148px;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(211,211,211, 0.8);
-        overflow-y: scroll;
-        overflow-x: hidden;
-      }
 
-      .contact-form {
-        top: 0px;
-        font-size: 15px;
-        width: 80%;
-        left: 45px;
-      }
+          .grey-box2{
+            width: 600px;
+            top: 148px;
+          }
 
-      .table-icons{
-          font-family: 'Raleway', sans-serif;
-          text-align: center;
-          margin-top: 230px;
-          margin-left: -130px;
-      }
 
-      span.fa.fa-phone {
-        display: none;
-      }
-      .mcapp {
-        width: 300px;
-        height: 300px;
-        background-image: url("photos/mcapp.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: absolute;
-        margin: auto;
-        right: 0;
-        left: 0;
-        top:350px;
-      }
+          .about2 {
+            position: absolute;
+            width: 700px;
+            top: 100px;
+            left: -70px;
+          }
 
+
+          .bio2 {
+            font-size: 12px;
+            padding-top: -100px;
+            width: 100%;
+            height: 600px;
+          }
+
+          #about-me2 {
+            margin-top: -80px;
+            font-size: 25px;
+            text-align:center;
+            padding-bottom: 30px;
+          }
+
+          #pro2 {
+            font-size: 22px;
+            margin-top: -20px;
+            text-align: center;
+          }
+
+          .mcapp{
+            width: 400px;
+            height: 400px;
+            top: 200px;
+          }
+
+          p#mc-bio2{
+            font-size: 18px;
+            line-height: 50px;
+          }
     }
 @media screen and (min-width: 1441px) and (max-width: 2160px){
 
@@ -2135,52 +2155,51 @@ span.fa.fa-phone {
       }
       /*CONTACTS PAGE*/
 
-      .grey-box2{
-        position: fixed;
-        width: 500px;
-        text-align: left;
-        margin: auto;
-        top: 148px;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(211,211,211, 0.8);
-        overflow-y: scroll;
-        overflow-x: hidden;
-      }
+
+          .grey-box2{
+            width: 600px;
+            top: 148px;
+          }
 
 
-            .contact-form {
-              top: 0px;
-              font-size: 15px;
-              width: 80%;
-              left: 50px;
-            }
-
-            .table-icons{
-                font-family: 'Raleway', sans-serif;
-                text-align: center;
-                margin-top: 230px;
-                margin-left: -130px;
-            }
+          .about2 {
+            position: absolute;
+            width: 700px;
+            top: 100px;
+            left: -70px;
+          }
 
 
-            span.fa.fa-phone {
-              display: none;
-            }
-            .mcapp {
-              width: 300px;
-              height: 300px;
-              background-image: url("photos/mcapp.jpg");
-              background-size: contain;
-              background-repeat: no-repeat;
-              position: absolute;
-              margin: auto;
-              right: 0;
-              left: 0;
-              top:350px;
-            }
+          .bio2 {
+            font-size: 12px;
+            padding-top: -100px;
+            width: 100%;
+            height: 600px;
+          }
 
+          #about-me2 {
+            margin-top: -80px;
+            font-size: 25px;
+            text-align:center;
+            padding-bottom: 30px;
+          }
+
+          #pro2 {
+            font-size: 22px;
+            margin-top: -20px;
+            text-align: center;
+          }
+
+          .mcapp{
+            width: 400px;
+            height: 400px;
+            top: 200px;
+          }
+
+          p#mc-bio2{
+            font-size: 18px;
+            line-height: 50px;
+          }
     }
 
 @media screen and (min-width: 2161px) and (max-width: 2560px){
@@ -2381,50 +2400,50 @@ span.fa.fa-phone {
       }
       /*CONTACTS PAGE*/
 
-      .grey-box2{
-        position: fixed;
-        width: 500px;
-        text-align: left;
-        margin: auto;
-        top: 148px;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(211,211,211, 0.8);
-        overflow-y: scroll;
-        overflow-x: hidden;
-      }
+          .grey-box2{
+            width: 600px;
+            top: 148px;
+          }
 
 
-            .contact-form {
-              top: 0px;
-              font-size: 15px;
-              width: 80%;
-              left: 45px;
-            }
+          .about2 {
+            position: absolute;
+            width: 700px;
+            top: 100px;
+            left: -70px;
+          }
 
-            .table-icons{
-                font-family: 'Raleway', sans-serif;
-                text-align: center;
-                margin-top: 230px;
-                margin-left: -140px;
-            }
 
-            span.fa.fa-phone {
-              display: none;
-            }
-            .mcapp {
-              width: 300px;
-              height: 300px;
-              background-image: url("photos/mcapp.jpg");
-              background-size: contain;
-              background-repeat: no-repeat;
-              position: absolute;
-              margin: auto;
-              right: 0;
-              left: 0;
-              top:350px;
-            }
+          .bio2 {
+            font-size: 12px;
+            padding-top: -100px;
+            width: 100%;
+            height: 600px;
+          }
+
+          #about-me2 {
+            margin-top: -80px;
+            font-size: 25px;
+            text-align:center;
+            padding-bottom: 30px;
+          }
+
+          #pro2 {
+            font-size: 22px;
+            margin-top: -20px;
+            text-align: center;
+          }
+
+          .mcapp{
+            width: 400px;
+            height: 400px;
+            top: 200px;
+          }
+
+          p#mc-bio2{
+            font-size: 18px;
+            line-height: 50px;
+          }
     }
 
 @media screen and (min-width: 2561px){
@@ -2626,66 +2645,49 @@ span.fa.fa-phone {
       }
       /*CONTACTS PAGE*/
 
-      .grey-box2{
-        position: fixed;
-        width: 500px;
-        text-align: left;
-        margin: auto;
-        top: 148px;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(211,211,211, 0.8);
-        overflow-y: scroll;
-        overflow-x: hidden;
-      }
+          .grey-box2{
+            width: 600px;
+            top: 148px;
+          }
 
-      .contact-form {
-        top: 0px;
-        font-size: 15px;
-        width: 80%;
-        left: 45px;
-      }
 
-      .table-icons{
-        top: 140px;
-        left: 140px;
-      }
+          .about2 {
+            position: absolute;
+            width: 700px;
+            top: 100px;
+            left: -70px;
+          }
 
-      .table-icons2{
-        top: 140px;
-        left: 190px;
-      }
 
-      #make{
-        margin-left: -1px;
-      }
+          .bio2 {
+            font-size: 12px;
+            padding-top: -100px;
+            width: 100%;
+            height: 600px;
+          }
 
-      #num{
-        margin-left: -10px;
-      }
+          #about-me2 {
+            margin-top: -80px;
+            font-size: 25px;
+            text-align:center;
+            padding-bottom: 30px;
+          }
 
-      #toronto {
-        font-size: 18px;
-      }
+          #pro2 {
+            font-size: 22px;
+            margin-top: -20px;
+            text-align: center;
+          }
 
-      #make, #num {
-        font-size: 18px;
-        text-align: left;
-      }
+          .mcapp{
+            width: 400px;
+            height: 400px;
+            top: 200px;
+          }
 
-      .mcapp {
-        width: 350px;
-        height: 350px;
-        background-image: url("photos/mcapp.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: absolute;
-        margin: auto;
-        right: 0;
-        left: 0;
-        top:3w50px;
-
-      }
+          p#mc-bio2{
+            font-size: 18px;
+            line-height: 50px;
+          }
 
     }

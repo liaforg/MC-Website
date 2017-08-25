@@ -766,7 +766,6 @@ td {
 
 /*-------------------------------------------*/
 /*CONTACTS PAGE*/
-
 .grey-box2{
   position: fixed;
   width: 600px;
@@ -777,51 +776,62 @@ td {
   left: 0;
   right: 0;
   background-color: rgba(211,211,211, 0.8);
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
    -webkit-overflow-scrolling: touch;
 }
 
-.contact-form {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  padding-top: 20px;
-  width: 50%;
-  margin: auto;
-  top: 100px;
-  left: 150px;
-  bottom: 0;
-  color: black;
-  text-align: center;
+
+.about2 {
   position: absolute;
+  width: 1400px;
+  top: 80px;
+  left: -450px;
 }
 
-#toronto {
-  margin: auto;
-  margin-top: 5px;
-  font-size: 20px;
-  padding-bottom: 40px;
-  color: black;
-}
 
-#info {
-  font-size: 25px;
-  padding-bottom: 60px;
-  margin: auto;
-}
-
-.table-icons {
+.bio2{
   font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  padding-top: 10px;
+  width: 40%;
   text-align: center;
-  margin-top: 230px;
-  margin-left: -145px;
+  margin: auto;
+  color: black;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
-#td{
-  padding-bottom: 30px;
-  padding-right:0px;
-  font-size: 18px;
+#about-me2 {
+  margin-top: -3px;
+  font-size: 30px;
+  text-align:center;
 }
 
+#pro2 {
+  font-size: 20px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+#mc-bio2{
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
+.mcapp {
+  width: 200px;
+  height: 300px;
+  background-image: url("photos/mcapp.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  margin-top:
+}
+}
 
 /*-------------------------------------------*/
 /*FOOTER*/
