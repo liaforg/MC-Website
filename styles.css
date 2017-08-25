@@ -83,8 +83,6 @@ main{
   bottom: 0;
   left: 0;
   right: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
    -webkit-overflow-scrolling: touch;
 }
 
@@ -131,7 +129,7 @@ main{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #EEEEEE;
+    background-color: #c1aeae;
     box-shadow: 0 4px 4px -3px #232323;
     -moz-box-shadow: 0 4px 4px -3px #232323;
     -webkit-box-shadow: 0 4px 4px -3px #232323;
@@ -167,7 +165,7 @@ main{
 
 .line1, .line2, .line3 {
   margin-top:5px;
-  background-color:#fff;
+  background-color:white;
   width:25px;
   height:4px;
   display:block;

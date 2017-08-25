@@ -29,28 +29,34 @@
   }
   span.fa.fa-envelope {
     position: fixed;
-    top: 100px;
-    right: 75px;
-    font-size: 28px;
+    top: 110px;
+    right: 65px;
+    font-size: 25px;
   }
   span.fa.fa-instagram {
     color: black;
     position: fixed;
-    top: 100px;
+    top: 110px;
     right: 25px;
-    font-size: 30px;
+    font-size: 26px;
   }
   #logo {
-    display: none;
+    left: 97px;
+    top: 60px;
+    color:  #dfbbbb;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+    left: 80px;
   }
   #makeup {
       font-family: 'Raleway', sans-serif;
-      font-size: 20px;
+      font-size: 13px;
       color: black;
       position: fixed;
-      left: 30px;
+      left: 20px;
       font-weight: bolder;
-      top: 50px;
+      text-align: left;
+      top: 100px;
     }
 
   .brushes{
@@ -104,32 +110,33 @@
   a{
     padding-right: 10px;
   }
+
   /*PORTFOLIO*/
   #slides{
     position: absolute;
     width: 80%;
     height: 350px;
     margin: auto;
-    top: 500px;
+    top: 530px;
     left: 18px;
     bottom: 0;
     right: 0;
   }
   /*PRICES*/
   .grey-box3{
+    top: 148px;
     width: 300px;
   }
 
   .prices {
     position: absolute;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 0px;
   }
 
   .cost {
     font-family: 'Raleway', sans-serif;
     font-size: 10x;
-    padding-top: 20px;
     width: 80%;
     text-align: left;
     margin: auto;
@@ -140,7 +147,7 @@
 
   .service {
     font-size: 8px;
-    width: 250px;
+    width: 240px;
   }
 
   td {
@@ -151,18 +158,19 @@
   /*ABOUT*/
   .grey-box{
     width: 300px;
+    top: 148px;
   }
 
   #selfie {
     width: 100px;
     height:100px;
-    margin-top: 110px;
+    margin-top: 10px;
   }
 
   .about {
     position: absolute;
     width: 700px;
-    top: 285px;
+    top: 185px;
     left: -200px;
   }
 
@@ -193,7 +201,7 @@
     width: 300px;
     text-align: left;
     margin: auto;
-    top: 0;
+    top: 148px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -203,10 +211,18 @@
   }
 
   .contact-form {
+    top: 0px;
     font-size: 15px;
-    padding-top: 15px;
     width: 80%;
     left: 35px;
+  }
+
+  .table-icons{
+    top: 140px;
+  }
+
+  .table-icons2{
+    top: 140px;
   }
 
   #make{
@@ -227,7 +243,7 @@
   }
 
   .mcapp {
-    width: 400px;
+    width: 200px;
     height: 300px;
     background-image: url("photos/mcapp.jpg");
     background-size: contain;
@@ -236,7 +252,7 @@
     margin: auto;
     right: 0;
     left: 0;
-    top:530px;
+    top:450px;
 
   }
 
@@ -274,34 +290,34 @@
   }
   span.fa.fa-envelope {
     position: fixed;
-    top: 100px;
-    right: 75px;
-    font-size: 28px;
+    top: 80px;
+    right: 60px;
+    font-size: 25px;
   }
   span.fa.fa-instagram {
     color: black;
     position: fixed;
-    top: 100px;
+    top: 80px;
     right: 25px;
-    font-size: 30px;
+    font-size: 26px;
   }
   #logo {
     left: 97px;
-    top: 20px;
+    top: 53px;
     color:  #dfbbbb;
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 60px;
-    left: 110px;
+    font-size: 40px;
+    left: 85px;
   }
   #makeup {
       font-family: 'Raleway', sans-serif;
-      font-size: 20px;
+      font-size: 15px;
       color: black;
       position: fixed;
-      left: 30px;
+      left: 20px;
       font-weight: bolder;
       text-align: left;
-      top: 80px;
+      top: 90px;
     }
 
   .brushes{
@@ -310,7 +326,7 @@
     right: 0;
     width: 600px;
     height: 110px;
-    top: 0px;
+    top: 25px;
     background-position:0 300px;
   }
   .nudepal{
@@ -322,10 +338,7 @@
     right: 0;
     width: 600px;
     height: 100px;
-    margin-top: 100px;
-  }
-  .indexscroll{
-    top: 650px;
+    margin-top: 130px;
   }
 
   #box {
@@ -361,7 +374,7 @@
     width: 80%;
     height: 350px;
     margin: auto;
-    top: 500px;
+    top: 530px;
     left: 18px;
     bottom: 0;
     right: 0;
@@ -369,12 +382,13 @@
   /*PRICES*/
   .grey-box3{
     width: 300px;
+    top: 148px;
   }
 
   .prices {
     position: absolute;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 10px;
   }
 
   .cost {
@@ -402,18 +416,19 @@
   /*ABOUT*/
   .grey-box{
     width: 300px;
+    top: 148px;
   }
 
   #selfie {
     width: 100px;
     height:100px;
-    margin-top: 110px;
+    margin-top: 10px;
   }
 
   .about {
     position: absolute;
     width: 700px;
-    top: 285px;
+    top: 185px;
     left: -200px;
   }
 
@@ -444,7 +459,7 @@
     width: 300px;
     text-align: left;
     margin: auto;
-    top: 0;
+    top: 148px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -454,10 +469,18 @@
   }
 
   .contact-form {
+    top: 0px;
     font-size: 15px;
-    padding-top: 15px;
     width: 80%;
     left: 35px;
+  }
+
+  .table-icons{
+    top: 140px;
+  }
+
+  .table-icons2{
+    top: 140px;
   }
 
   #make{
@@ -478,8 +501,8 @@
   }
 
   .mcapp {
-    width: 400px;
-    height: 300px;
+    width: 200px;
+    height: 400px;
     background-image: url("photos/mcapp.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -487,7 +510,7 @@
     margin: auto;
     right: 0;
     left: 0;
-    top:530px;
+    top:450px;
 
   }
 }
@@ -610,20 +633,21 @@
     width: 80%;
     height: 350px;
     margin: auto;
-    top: 500px;
+    top: 530px;
     left: 18px;
     bottom: 0;
     right: 0;
   }
   /*PRICES*/
   .grey-box3{
-    width: 300px;
+    width: 400px;
+    top: 148px;
   }
 
   .prices {
     position: absolute;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 10px;
   }
 
   .cost {
@@ -638,39 +662,38 @@
     text-shadow: 1px 1px #grey;
   }
 
-  .service {
-    font-size: 8px;
-    width: 250px;
-  }
 
-  td {
-    width: 90%;
-    padding-right: 100px;
-    font-size: 10px;
-  }
-  /*ABOUT*/
-  .grey-box{
-    width: 300px;
-  }
+    .service {
+      font-size: 10px;
+      width: 250px;
+    }
 
-  #selfie {
-    width: 100px;
-    height:100px;
-    margin-top: 110px;
-  }
+    td {
+      padding-right: 120px;
+      font-size: 15px;
+    }
+    /*ABOUT*/
+    .grey-box{
+      width: 400px;
+      top: 148px;
+    }
 
-  .about {
-    position: absolute;
-    width: 700px;
-    top: 285px;
-    left: -200px;
-  }
+    #selfie {
+      width: 100px;
+      height:100px;
+      margin-top: 10px;
+    }
 
-
+    .about {
+      position: absolute;
+      width: 700px;
+      top: 190px;
+      left: -150px;
+    }
   .bio {
     font-size: 10px;
     padding-top: -100px;
-    width: 40%;
+    width: 50%;
     height: 1100px;
   }
 
@@ -690,10 +713,10 @@
 
   .grey-box2{
     position: fixed;
-    width: 300px;
+    width: 400px;
     text-align: left;
     margin: auto;
-    top: 0;
+    top: 148px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -703,18 +726,26 @@
   }
 
   .contact-form {
+    top: 0px;
     font-size: 15px;
-    padding-top: 15px;
     width: 80%;
     left: 35px;
   }
 
+  .table-icons{
+    top: 140px;
+  }
+
+  .table-icons2{
+    top: 140px;
+  }
+
   #make{
-    margin-left: -55px;
+    margin-left: -35px;
   }
 
   #num{
-    margin-left: -25px;
+    margin-left: -15px;
   }
 
   #toronto {
@@ -727,7 +758,7 @@
   }
 
   .mcapp {
-    width: 400px;
+    width: 200px;
     height: 300px;
     background-image: url("photos/mcapp.jpg");
     background-size: contain;
@@ -736,9 +767,10 @@
     margin: auto;
     right: 0;
     left: 0;
-    top:530px;
+    top:450px;
 
   }
+
 }
 
 @media screen and (min-width: 540px) and (max-width: 639px){
@@ -860,22 +892,21 @@
     width: 80%;
     height: 350px;
     margin: auto;
-    top: 500px;
+    top: 540px;
     left: 18px;
     bottom: 0;
     right: 0;
   }
   /*PRICES*/
   .grey-box3{
-    width: 300px;
+    width: 500px;
+    top: 148px;
   }
-
   .prices {
     position: absolute;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 10px;
   }
-
   .cost {
     font-family: 'Raleway', sans-serif;
     font-size: 10x;
@@ -887,109 +918,118 @@
     color: black;
     text-shadow: 1px 1px #grey;
   }
-
   .service {
-    font-size: 8px;
-    width: 250px;
+    font-size: 10px;
+    width: 400px;
   }
 
   td {
     width: 90%;
-    padding-right: 100px;
-    font-size: 10px;
+    padding-right: 150px;
+    font-size: 15px;
   }
   /*ABOUT*/
   .grey-box{
-    width: 300px;
+    width: 400px;
+    top: 148px;
   }
 
   #selfie {
     width: 100px;
     height:100px;
-    margin-top: 110px;
+    margin-top: 10px;
   }
 
   .about {
     position: absolute;
     width: 700px;
-    top: 285px;
-    left: -200px;
+    top: 190px;
+    left: -150px;
   }
-
 
   .bio {
     font-size: 10px;
     padding-top: -100px;
-    width: 40%;
-    height: 1100px;
+    width: 50%;
+    height: 900px;
   }
 
-  #about-me {
-    margin-top: -80px;
-    font-size: 25px;
-    text-align:center;
-    padding-bottom: 20px;
-  }
-
-  #pro {
-    font-size: 15px;
-    margin-top: -20px;
-    text-align: center;
-  }
-  /*CONTACTS PAGE*/
-
-  .grey-box2{
-    position: fixed;
-    width: 300px;
-    text-align: left;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(211,211,211, 0.8);
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-
-  .contact-form {
-    font-size: 15px;
-    padding-top: 15px;
-    width: 80%;
-    left: 35px;
-  }
-
-  #make{
-    margin-left: -55px;
-  }
-
-  #num{
-    margin-left: -25px;
-  }
-
-  #toronto {
-    font-size: 18px;
-  }
-
-  #make, #num {
-    font-size: 18px;
-    text-align: left;
-  }
-
-  .mcapp {
-    width: 400px;
-    height: 300px;
-    background-image: url("photos/mcapp.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    top:530px;
-
-  }
+#about-me {
+  margin-top: -80px;
+  font-size: 25px;
+  text-align:center;
+  padding-bottom: 20px;
 }
+
+#pro {
+  font-size: 15px;
+  margin-top: -20px;
+  text-align: center;
+}
+/*CONTACTS PAGE*/
+
+.grey-box2{
+  position: fixed;
+  width: 400px;
+  text-align: left;
+  margin: auto;
+  top: 148px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(211,211,211, 0.8);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.contact-form {
+  top: 0px;
+  font-size: 15px;
+  width: 80%;
+  left: 35px;
+}
+
+.table-icons{
+  top: 140px;
+}
+
+.table-icons2{
+  top: 140px;
+}
+
+#make{
+  margin-left: -35px;
+}
+
+#num{
+  margin-left: -15px;
+}
+
+#toronto {
+  font-size: 18px;
+}
+
+#make, #num {
+  font-size: 18px;
+  text-align: left;
+}
+
+.mcapp {
+  width: 200px;
+  height: 300px;
+  background-image: url("photos/mcapp.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top:450px;
+
+}
+
+}
+
 
 @media screen and (min-width: 640px) and (max-width: 719px){
 
@@ -1110,20 +1150,21 @@
       width: 80%;
       height: 350px;
       margin: auto;
-      top: 500px;
+      top: 540px;
       left: 18px;
       bottom: 0;
       right: 0;
     }
     /*PRICES*/
     .grey-box3{
-      width: 300px;
+      width: 500px;
+      top: 148px;
     }
 
     .prices {
       position: absolute;
       margin: auto;
-      margin-top: 100px;
+      margin-top: 10px;
     }
 
     .cost {
@@ -1139,107 +1180,115 @@
     }
 
     .service {
-      font-size: 8px;
-      width: 250px;
+      font-size: 10px;
+      width: 400px;
     }
 
     td {
       width: 90%;
-      padding-right: 100px;
-      font-size: 10px;
+      padding-right: 150px;
+      font-size: 15px;
     }
     /*ABOUT*/
     .grey-box{
-      width: 300px;
+      width: 600px;
+      top: 148px;
     }
 
     #selfie {
       width: 100px;
       height:100px;
-      margin-top: 110px;
+      margin-top: 20px;
     }
 
     .about {
       position: absolute;
-      width: 700px;
-      top: 285px;
+      width: 1000px;
+      top: 210px;
       left: -200px;
     }
-
-
-    .bio {
-      font-size: 10px;
-      padding-top: -100px;
-      width: 40%;
-      height: 1100px;
-    }
-
-    #about-me {
-      margin-top: -80px;
-      font-size: 25px;
-      text-align:center;
-      padding-bottom: 20px;
-    }
-
-    #pro {
-      font-size: 15px;
-      margin-top: -20px;
-      text-align: center;
-    }
-    /*CONTACTS PAGE*/
-
-    .grey-box2{
-      position: fixed;
-      width: 300px;
-      text-align: left;
-      margin: auto;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: rgba(211,211,211, 0.8);
-      overflow-y: scroll;
-      overflow-x: hidden;
-    }
-
-    .contact-form {
-      font-size: 15px;
-      padding-top: 15px;
-      width: 80%;
-      left: 35px;
-    }
-
-    #make{
-      margin-left: -55px;
-    }
-
-    #num{
-      margin-left: -25px;
-    }
-
-    #toronto {
-      font-size: 18px;
-    }
-
-    #make, #num {
-      font-size: 18px;
-      text-align: left;
-    }
-
-    .mcapp {
-      width: 400px;
-      height: 300px;
-      background-image: url("photos/mcapp.jpg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      position: absolute;
-      margin: auto;
-      right: 0;
-      left: 0;
-      top:530px;
-
-    }
+  .bio {
+    font-size: 10px;
+    padding-top: -100px;
+    width: 50%;
+    height: 700px;
   }
+
+  #about-me {
+    margin-top: -80px;
+    font-size: 25px;
+    text-align:center;
+    padding-bottom: 20px;
+  }
+
+  #pro {
+    font-size: 15px;
+    margin-top: -20px;
+    text-align: center;
+  }
+  /*CONTACTS PAGE*/
+
+  .grey-box2{
+    position: fixed;
+    width: 400px;
+    text-align: left;
+    margin: auto;
+    top: 148px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(211,211,211, 0.8);
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .contact-form {
+    top: 0px;
+    font-size: 15px;
+    width: 80%;
+    left: 35px;
+  }
+
+  .table-icons{
+    top: 140px;
+  }
+
+  .table-icons2{
+    top: 140px;
+  }
+
+  #make{
+    margin-left: -35px;
+  }
+
+  #num{
+    margin-left: -15px;
+  }
+
+  #toronto {
+    font-size: 18px;
+  }
+
+  #make, #num {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .mcapp {
+    width: 300px;
+    height: 300px;
+    background-image: url("photos/mcapp.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top:450px;
+
+  }
+
+}
 
 
 @media screen and (min-width: 720px) and (max-width: 800px){
@@ -1359,23 +1408,24 @@
     /*PORTFOLIO*/
     #slides{
       position: absolute;
-      width: 80%;
+      width: 100%;
       height: 350px;
       margin: auto;
-      top: 500px;
+      top: 550px;
       left: 18px;
       bottom: 0;
       right: 0;
     }
     /*PRICES*/
     .grey-box3{
-      width: 300px;
+      width: 600px;
+      top: 148px;
     }
 
     .prices {
       position: absolute;
       margin: auto;
-      margin-top: 100px;
+      margin-top: 10px;
     }
 
     .cost {
@@ -1391,109 +1441,117 @@
     }
 
     .service {
-      font-size: 8px;
-      width: 250px;
+      font-size: 10px;
+      width: 400px;
     }
 
     td {
       width: 90%;
-      padding-right: 100px;
-      font-size: 10px;
+      padding-right: 200px;
+      font-size: 15px;
     }
     /*ABOUT*/
     .grey-box{
-      width: 300px;
+      width: 600px;
+      top: 148px;
     }
 
     #selfie {
       width: 100px;
       height:100px;
-      margin-top: 110px;
+      margin-top: 20px;
     }
 
     .about {
       position: absolute;
-      width: 700px;
-      top: 285px;
+      width: 1000px;
+      top: 210px;
       left: -200px;
     }
-
-
-    .bio {
-      font-size: 10px;
-      padding-top: -100px;
-      width: 40%;
-      height: 1100px;
-    }
-
-    #about-me {
-      margin-top: -80px;
-      font-size: 25px;
-      text-align:center;
-      padding-bottom: 20px;
-    }
-
-    #pro {
-      font-size: 15px;
-      margin-top: -20px;
-      text-align: center;
-    }
-    /*CONTACTS PAGE*/
-
-    .grey-box2{
-      position: fixed;
-      width: 300px;
-      text-align: left;
-      margin: auto;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: rgba(211,211,211, 0.8);
-      overflow-y: scroll;
-      overflow-x: hidden;
-    }
-
-    .contact-form {
-      font-size: 15px;
-      padding-top: 15px;
-      width: 80%;
-      left: 35px;
-    }
-
-    #make{
-      margin-left: -55px;
-    }
-
-    #num{
-      margin-left: -25px;
-    }
-
-    #toronto {
-      font-size: 18px;
-    }
-
-    #make, #num {
-      font-size: 18px;
-      text-align: left;
-    }
-
-    .mcapp {
-      width: 400px;
-      height: 300px;
-      background-image: url("photos/mcapp.jpg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      position: absolute;
-      margin: auto;
-      right: 0;
-      left: 0;
-      top:530px;
-
-    }
+  .bio {
+    font-size: 10px;
+    padding-top: -100px;
+    width: 50%;
+    height: 700px;
   }
 
+  #about-me {
+    margin-top: -80px;
+    font-size: 25px;
+    text-align:center;
+    padding-bottom: 20px;
+  }
 
+  #pro {
+    font-size: 15px;
+    margin-top: -20px;
+    text-align: center;
+  }
+  /*CONTACTS PAGE*/
+
+  .grey-box2{
+    position: fixed;
+    width: 500px;
+    text-align: left;
+    margin: auto;
+    top: 148px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(211,211,211, 0.8);
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .contact-form {
+    top: 0px;
+    font-size: 15px;
+    width: 80%;
+    left: 35px;
+  }
+
+  .table-icons{
+    top: 140px;
+    left: 135px;
+  }
+
+  .table-icons2{
+    top: 140px;
+    left: 180px;
+  }
+
+  #make{
+    margin-left: -1px;
+  }
+
+  #num{
+    margin-left: -15px;
+  }
+
+  #toronto {
+    font-size: 18px;
+  }
+
+  #make, #num {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .mcapp {
+    width: 350px;
+    height: 350px;
+    background-image: url("photos/mcapp.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top:450px;
+
+  }
+
+}
 @media screen and (min-width: 801px) and (max-width: 1080px){
 
       /*INDEX PAGE*/
@@ -1611,23 +1669,25 @@
       /*PORTFOLIO*/
       #slides{
         position: absolute;
-        width: 80%;
-        height: 350px;
+        width: 100%;
+        height: 500px;
         margin: auto;
-        top: 500px;
+        top: 00px;
         left: 18px;
         bottom: 0;
         right: 0;
       }
       /*PRICES*/
+      /*PRICES*/
       .grey-box3{
-        width: 300px;
+        width: 600px;
+        top: 148px;
       }
 
       .prices {
         position: absolute;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 10px;
       }
 
       .cost {
@@ -1643,107 +1703,117 @@
       }
 
       .service {
-        font-size: 8px;
-        width: 250px;
+        font-size: 10px;
+        width: 600px;
       }
 
       td {
         width: 90%;
-        padding-right: 100px;
-        font-size: 10px;
+        padding-right: 200px;
+        font-size: 15px;
       }
       /*ABOUT*/
       .grey-box{
-        width: 300px;
+        width: 600px;
+        top: 148px;
       }
 
       #selfie {
-        width: 100px;
-        height:100px;
-        margin-top: 110px;
+        width: 150px;
+        height:150px;
+        margin-top: 17px;
       }
 
       .about {
         position: absolute;
-        width: 700px;
-        top: 285px;
+        width: 1000px;
+        top: 250px;
         left: -200px;
       }
-
-
-      .bio {
-        font-size: 10px;
-        padding-top: -100px;
-        width: 40%;
-        height: 1100px;
-      }
-
-      #about-me {
-        margin-top: -80px;
-        font-size: 25px;
-        text-align:center;
-        padding-bottom: 20px;
-      }
-
-      #pro {
-        font-size: 15px;
-        margin-top: -20px;
-        text-align: center;
-      }
-      /*CONTACTS PAGE*/
-
-      .grey-box2{
-        position: fixed;
-        width: 300px;
-        text-align: left;
-        margin: auto;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(211,211,211, 0.8);
-        overflow-y: scroll;
-        overflow-x: hidden;
-      }
-
-      .contact-form {
-        font-size: 15px;
-        padding-top: 15px;
-        width: 80%;
-        left: 35px;
-      }
-
-      #make{
-        margin-left: -55px;
-      }
-
-      #num{
-        margin-left: -25px;
-      }
-
-      #toronto {
-        font-size: 18px;
-      }
-
-      #make, #num {
-        font-size: 18px;
-        text-align: left;
-      }
-
-      .mcapp {
-        width: 400px;
-        height: 300px;
-        background-image: url("photos/mcapp.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: absolute;
-        margin: auto;
-        right: 0;
-        left: 0;
-        top:530px;
-
-      }
+    .bio {
+      font-size: 10px;
+      padding-top: -100px;
+      width: 50%;
+      height: 700px;
     }
+
+    #about-me {
+      margin-top: -80px;
+      font-size: 25px;
+      text-align:center;
+      padding-bottom: 20px;
+    }
+
+    #pro {
+      font-size: 15px;
+      margin-top: -20px;
+      text-align: center;
+    }
+    /*CONTACTS PAGE*/
+
+    .grey-box2{
+      position: fixed;
+      width: 500px;
+      text-align: left;
+      margin: auto;
+      top: 148px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(211,211,211, 0.8);
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+    .contact-form {
+      top: 0px;
+      font-size: 15px;
+      width: 80%;
+      left: 35px;
+    }
+
+    .table-icons{
+      top: 140px;
+      left: 135px;
+    }
+
+    .table-icons2{
+      top: 140px;
+      left: 185px;
+    }
+
+    #make{
+      margin-left: -1px;
+    }
+
+    #num{
+      margin-left: -10px;
+    }
+
+    #toronto {
+      font-size: 18px;
+    }
+
+    #make, #num {
+      font-size: 18px;
+      text-align: left;
+    }
+
+    .mcapp {
+      width: 350px;
+      height: 350px;
+      background-image: url("photos/mcapp.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      margin: auto;
+      right: 0;
+      left: 0;
+      top:450px;
+
+    }
+
+  }
 
 @media screen and (min-width: 1081px) and (max-width: 1440px){
 
@@ -1862,28 +1932,29 @@
         /*PORTFOLIO*/
         #slides{
           position: absolute;
-          width: 80%;
-          height: 350px;
+          width: 100%;
+          height: 600px;
           margin: auto;
-          top: 500px;
+          top: 800px;
           left: 18px;
           bottom: 0;
           right: 0;
         }
         /*PRICES*/
         .grey-box3{
-          width: 300px;
+          width: 700px;
+          top: 148px;
         }
 
         .prices {
           position: absolute;
           margin: auto;
-          margin-top: 100px;
+          margin-top: 10px;
         }
 
         .cost {
           font-family: 'Raleway', sans-serif;
-          font-size: 10x;
+          font-size: 12x;
           padding-top: 20px;
           width: 80%;
           text-align: left;
@@ -1894,109 +1965,117 @@
         }
 
         .service {
-          font-size: 8px;
-          width: 250px;
+          font-size: 10px;
+          width: 600px;
         }
 
         td {
-          width: 90%;
-          padding-right: 100px;
-          font-size: 10px;
+          width: 100%;
+          padding-right: 250px;
+          font-size: 18px;
         }
         /*ABOUT*/
         .grey-box{
-          width: 300px;
+          width: 600px;
+          top: 148px;
         }
 
         #selfie {
-          width: 100px;
-          height:100px;
-          margin-top: 110px;
+          width: 150px;
+          height:150px;
+          margin-top: 17px;
         }
 
         .about {
           position: absolute;
-          width: 700px;
-          top: 285px;
+          width: 1000px;
+          top: 250px;
           left: -200px;
         }
-
-
-        .bio {
-          font-size: 10px;
-          padding-top: -100px;
-          width: 40%;
-          height: 1100px;
-        }
-
-        #about-me {
-          margin-top: -80px;
-          font-size: 25px;
-          text-align:center;
-          padding-bottom: 20px;
-        }
-
-        #pro {
-          font-size: 15px;
-          margin-top: -20px;
-          text-align: center;
-        }
-        /*CONTACTS PAGE*/
-
-        .grey-box2{
-          position: fixed;
-          width: 300px;
-          text-align: left;
-          margin: auto;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          background-color: rgba(211,211,211, 0.8);
-          overflow-y: scroll;
-          overflow-x: hidden;
-        }
-
-        .contact-form {
-          font-size: 15px;
-          padding-top: 15px;
-          width: 80%;
-          left: 35px;
-        }
-
-        #make{
-          margin-left: -55px;
-        }
-
-        #num{
-          margin-left: -25px;
-        }
-
-        #toronto {
-          font-size: 18px;
-        }
-
-        #make, #num {
-          font-size: 18px;
-          text-align: left;
-        }
-
-        .mcapp {
-          width: 400px;
-          height: 300px;
-          background-image: url("photos/mcapp.jpg");
-          background-size: contain;
-          background-repeat: no-repeat;
-          position: absolute;
-          margin: auto;
-          right: 0;
-          left: 0;
-          top:530px;
-
-        }
+      .bio {
+        font-size: 10px;
+        padding-top: -100px;
+        width: 50%;
+        height: 700px;
       }
 
+      #about-me {
+        margin-top: -80px;
+        font-size: 25px;
+        text-align:center;
+        padding-bottom: 20px;
+      }
 
+      #pro {
+        font-size: 15px;
+        margin-top: -20px;
+        text-align: center;
+      }
+      /*CONTACTS PAGE*/
+
+      .grey-box2{
+        position: fixed;
+        width: 500px;
+        text-align: left;
+        margin: auto;
+        top: 148px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(211,211,211, 0.8);
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+
+      .contact-form {
+        top: 0px;
+        font-size: 15px;
+        width: 80%;
+        left: 3px;
+      }
+
+      .table-icons{
+        top: 140px;
+        left: 135px;
+      }
+
+      .table-icons2{
+        top: 140px;
+        left: 185px;
+      }
+
+      #make{
+        margin-left: -1px;
+      }
+
+      #num{
+        margin-left: -10px;
+      }
+
+      #toronto {
+        font-size: 18px;
+      }
+
+      #make, #num {
+        font-size: 18px;
+        text-align: left;
+      }
+
+      .mcapp {
+        width: 350px;
+        height: 350px;
+        background-image: url("photos/mcapp.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin: auto;
+        right: 0;
+        left: 0;
+        top:450px;
+
+      }
+
+    }
 @media screen and (min-width: 1441px) and (max-width: 2160px){
 
         /*INDEX PAGE*/
@@ -2114,28 +2193,29 @@
         /*PORTFOLIO*/
         #slides{
           position: absolute;
-          width: 80%;
-          height: 350px;
+          width: 900px;
+          height: 700px;
           margin: auto;
-          top: 500px;
+          top: 1000px;
           left: 18px;
           bottom: 0;
           right: 0;
         }
         /*PRICES*/
         .grey-box3{
-          width: 300px;
+          width: 700px;
+          top: 148px;
         }
 
         .prices {
           position: absolute;
           margin: auto;
-          margin-top: 100px;
+          margin-top: 10px;
         }
 
         .cost {
           font-family: 'Raleway', sans-serif;
-          font-size: 10x;
+          font-size: 12x;
           padding-top: 20px;
           width: 80%;
           text-align: left;
@@ -2146,107 +2226,117 @@
         }
 
         .service {
-          font-size: 8px;
-          width: 250px;
+          font-size: 10px;
+          width: 600px;
         }
 
         td {
-          width: 90%;
-          padding-right: 100px;
-          font-size: 10px;
+          width: 100%;
+          padding-right: 250px;
+          font-size: 18px;
         }
         /*ABOUT*/
         .grey-box{
-          width: 300px;
+          width: 600px;
+          top: 148px;
         }
 
         #selfie {
-          width: 100px;
-          height:100px;
-          margin-top: 110px;
+          width: 150px;
+          height:150px;
+          margin-top: 17px;
         }
 
         .about {
           position: absolute;
-          width: 700px;
-          top: 285px;
+          width: 1000px;
+          top: 250px;
           left: -200px;
         }
-
-
-        .bio {
-          font-size: 10px;
-          padding-top: -100px;
-          width: 40%;
-          height: 1100px;
-        }
-
-        #about-me {
-          margin-top: -80px;
-          font-size: 25px;
-          text-align:center;
-          padding-bottom: 20px;
-        }
-
-        #pro {
-          font-size: 15px;
-          margin-top: -20px;
-          text-align: center;
-        }
-        /*CONTACTS PAGE*/
-
-        .grey-box2{
-          position: fixed;
-          width: 300px;
-          text-align: left;
-          margin: auto;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          background-color: rgba(211,211,211, 0.8);
-          overflow-y: scroll;
-          overflow-x: hidden;
-        }
-
-        .contact-form {
-          font-size: 15px;
-          padding-top: 15px;
-          width: 80%;
-          left: 35px;
-        }
-
-        #make{
-          margin-left: -55px;
-        }
-
-        #num{
-          margin-left: -25px;
-        }
-
-        #toronto {
-          font-size: 18px;
-        }
-
-        #make, #num {
-          font-size: 18px;
-          text-align: left;
-        }
-
-        .mcapp {
-          width: 400px;
-          height: 300px;
-          background-image: url("photos/mcapp.jpg");
-          background-size: contain;
-          background-repeat: no-repeat;
-          position: absolute;
-          margin: auto;
-          right: 0;
-          left: 0;
-          top:530px;
-
-        }
+      .bio {
+        font-size: 10px;
+        padding-top: -100px;
+        width: 50%;
+        height: 700px;
       }
+
+      #about-me {
+        margin-top: -80px;
+        font-size: 25px;
+        text-align:center;
+        padding-bottom: 20px;
+      }
+
+      #pro {
+        font-size: 15px;
+        margin-top: -20px;
+        text-align: center;
+      }
+      /*CONTACTS PAGE*/
+
+      .grey-box2{
+        position: fixed;
+        width: 500px;
+        text-align: left;
+        margin: auto;
+        top: 148px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(211,211,211, 0.8);
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+
+      .contact-form {
+        top: 0px;
+        font-size: 15px;
+        width: 80%;
+        left: 45px;
+      }
+
+      .table-icons{
+        top: 140px;
+        left: 140px;
+      }
+
+      .table-icons2{
+        top: 140px;
+        left: 190px;
+      }
+
+      #make{
+        margin-left: -1px;
+      }
+
+      #num{
+        margin-left: -10px;
+      }
+
+      #toronto {
+        font-size: 18px;
+      }
+
+      #make, #num {
+        font-size: 18px;
+        text-align: left;
+      }
+
+      .mcapp {
+        width: 350px;
+        height: 350px;
+        background-image: url("photos/mcapp.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin: auto;
+        right: 0;
+        left: 0;
+        top:450px;
+
+      }
+
+    }
 
 @media screen and (min-width: 2161px) and (max-width: 2560px){
 
@@ -2365,28 +2455,29 @@
         /*PORTFOLIO*/
         #slides{
           position: absolute;
-          width: 80%;
-          height: 350px;
+          width: 1000px;
+          height: 1000px;
           margin: auto;
-          top: 500px;
+          top: 1300px;
           left: 18px;
           bottom: 0;
           right: 0;
         }
         /*PRICES*/
         .grey-box3{
-          width: 300px;
+          width: 700px;
+          top: 148px;
         }
 
         .prices {
           position: absolute;
           margin: auto;
-          margin-top: 100px;
+          margin-top: 10px;
         }
 
         .cost {
           font-family: 'Raleway', sans-serif;
-          font-size: 10x;
+          font-size: 12x;
           padding-top: 20px;
           width: 80%;
           text-align: left;
@@ -2397,107 +2488,117 @@
         }
 
         .service {
-          font-size: 8px;
-          width: 250px;
+          font-size: 10px;
+          width: 600px;
         }
 
         td {
-          width: 90%;
-          padding-right: 100px;
-          font-size: 10px;
+          width: 100%;
+          padding-right: 250px;
+          font-size: 18px;
         }
         /*ABOUT*/
         .grey-box{
-          width: 300px;
+          width: 600px;
+          top: 148px;
         }
 
         #selfie {
-          width: 100px;
-          height:100px;
-          margin-top: 110px;
+          width: 150px;
+          height:150px;
+          margin-top: 17px;
         }
 
         .about {
           position: absolute;
-          width: 700px;
-          top: 285px;
+          width: 1000px;
+          top: 250px;
           left: -200px;
         }
-
-
-        .bio {
-          font-size: 10px;
-          padding-top: -100px;
-          width: 40%;
-          height: 1100px;
-        }
-
-        #about-me {
-          margin-top: -80px;
-          font-size: 25px;
-          text-align:center;
-          padding-bottom: 20px;
-        }
-
-        #pro {
-          font-size: 15px;
-          margin-top: -20px;
-          text-align: center;
-        }
-        /*CONTACTS PAGE*/
-
-        .grey-box2{
-          position: fixed;
-          width: 300px;
-          text-align: left;
-          margin: auto;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          background-color: rgba(211,211,211, 0.8);
-          overflow-y: scroll;
-          overflow-x: hidden;
-        }
-
-        .contact-form {
-          font-size: 15px;
-          padding-top: 15px;
-          width: 80%;
-          left: 35px;
-        }
-
-        #make{
-          margin-left: -55px;
-        }
-
-        #num{
-          margin-left: -25px;
-        }
-
-        #toronto {
-          font-size: 18px;
-        }
-
-        #make, #num {
-          font-size: 18px;
-          text-align: left;
-        }
-
-        .mcapp {
-          width: 400px;
-          height: 300px;
-          background-image: url("photos/mcapp.jpg");
-          background-size: contain;
-          background-repeat: no-repeat;
-          position: absolute;
-          margin: auto;
-          right: 0;
-          left: 0;
-          top:530px;
-
-        }
+      .bio {
+        font-size: 10px;
+        padding-top: -100px;
+        width: 50%;
+        height: 700px;
       }
+
+      #about-me {
+        margin-top: -80px;
+        font-size: 25px;
+        text-align:center;
+        padding-bottom: 20px;
+      }
+
+      #pro {
+        font-size: 15px;
+        margin-top: -20px;
+        text-align: center;
+      }
+      /*CONTACTS PAGE*/
+
+      .grey-box2{
+        position: fixed;
+        width: 500px;
+        text-align: left;
+        margin: auto;
+        top: 148px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(211,211,211, 0.8);
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+
+      .contact-form {
+        top: 0px;
+        font-size: 15px;
+        width: 80%;
+        left: 45px;
+      }
+
+      .table-icons{
+        top: 140px;
+        left: 140px;
+      }
+
+      .table-icons2{
+        top: 140px;
+        left: 190px;
+      }
+
+      #make{
+        margin-left: -1px;
+      }
+
+      #num{
+        margin-left: -10px;
+      }
+
+      #toronto {
+        font-size: 18px;
+      }
+
+      #make, #num {
+        font-size: 18px;
+        text-align: left;
+      }
+
+      .mcapp {
+        width: 350px;
+        height: 350px;
+        background-image: url("photos/mcapp.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin: auto;
+        right: 0;
+        left: 0;
+        top:450px;
+
+      }
+
+    }
 
 @media screen and (min-width: 2561px){
 
@@ -2616,28 +2717,30 @@
         /*PORTFOLIO*/
         #slides{
           position: absolute;
-          width: 80%;
-          height: 350px;
+          width: 1500px;
+          height: 1000px;
           margin: auto;
-          top: 500px;
+          top: 1300px;
           left: 18px;
           bottom: 0;
           right: 0;
         }
+
         /*PRICES*/
         .grey-box3{
-          width: 300px;
+          width: 700px;
+          top: 148px;
         }
 
         .prices {
           position: absolute;
           margin: auto;
-          margin-top: 100px;
+          margin-top: 10px;
         }
 
         .cost {
           font-family: 'Raleway', sans-serif;
-          font-size: 10x;
+          font-size: 12x;
           padding-top: 20px;
           width: 80%;
           text-align: left;
@@ -2648,104 +2751,114 @@
         }
 
         .service {
-          font-size: 8px;
-          width: 250px;
+          font-size: 10px;
+          width: 600px;
         }
 
         td {
-          width: 90%;
-          padding-right: 100px;
-          font-size: 10px;
+          width: 100%;
+          padding-right: 250px;
+          font-size: 18px;
         }
         /*ABOUT*/
         .grey-box{
-          width: 300px;
+          width: 600px;
+          top: 148px;
         }
 
         #selfie {
-          width: 100px;
-          height:100px;
-          margin-top: 110px;
+          width: 150px;
+          height:150px;
+          margin-top: 17px;
         }
 
         .about {
           position: absolute;
-          width: 700px;
-          top: 285px;
+          width: 1000px;
+          top: 250px;
           left: -200px;
         }
-
-
-        .bio {
-          font-size: 10px;
-          padding-top: -100px;
-          width: 40%;
-          height: 1100px;
-        }
-
-        #about-me {
-          margin-top: -80px;
-          font-size: 25px;
-          text-align:center;
-          padding-bottom: 20px;
-        }
-
-        #pro {
-          font-size: 15px;
-          margin-top: -20px;
-          text-align: center;
-        }
-        /*CONTACTS PAGE*/
-
-        .grey-box2{
-          position: fixed;
-          width: 300px;
-          text-align: left;
-          margin: auto;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          background-color: rgba(211,211,211, 0.8);
-          overflow-y: scroll;
-          overflow-x: hidden;
-        }
-
-        .contact-form {
-          font-size: 15px;
-          padding-top: 15px;
-          width: 80%;
-          left: 35px;
-        }
-
-        #make{
-          margin-left: -55px;
-        }
-
-        #num{
-          margin-left: -25px;
-        }
-
-        #toronto {
-          font-size: 18px;
-        }
-
-        #make, #num {
-          font-size: 18px;
-          text-align: left;
-        }
-
-        .mcapp {
-          width: 400px;
-          height: 300px;
-          background-image: url("photos/mcapp.jpg");
-          background-size: contain;
-          background-repeat: no-repeat;
-          position: absolute;
-          margin: auto;
-          right: 0;
-          left: 0;
-          top:530px;
-
-        }
+      .bio {
+        font-size: 10px;
+        padding-top: -100px;
+        width: 50%;
+        height: 700px;
       }
+
+      #about-me {
+        margin-top: -80px;
+        font-size: 25px;
+        text-align:center;
+        padding-bottom: 20px;
+      }
+
+      #pro {
+        font-size: 15px;
+        margin-top: -20px;
+        text-align: center;
+      }
+      /*CONTACTS PAGE*/
+
+      .grey-box2{
+        position: fixed;
+        width: 500px;
+        text-align: left;
+        margin: auto;
+        top: 148px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(211,211,211, 0.8);
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+
+      .contact-form {
+        top: 0px;
+        font-size: 15px;
+        width: 80%;
+        left: 45px;
+      }
+
+      .table-icons{
+        top: 140px;
+        left: 140px;
+      }
+
+      .table-icons2{
+        top: 140px;
+        left: 190px;
+      }
+
+      #make{
+        margin-left: -1px;
+      }
+
+      #num{
+        margin-left: -10px;
+      }
+
+      #toronto {
+        font-size: 18px;
+      }
+
+      #make, #num {
+        font-size: 18px;
+        text-align: left;
+      }
+
+      .mcapp {
+        width: 350px;
+        height: 350px;
+        background-image: url("photos/mcapp.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin: auto;
+        right: 0;
+        left: 0;
+        top:450px;
+
+      }
+
+    }
