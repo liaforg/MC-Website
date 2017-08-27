@@ -28,10 +28,17 @@ div {
   height: 110vh;
 }
 
+section.section.parallax.bg1 {
+  height: 150vh;
+}
+
 section.section.parallax.bg6 {
   height: 20vh;
 }
 
+section.section.parallax.bg4 {
+  height: 90vh;
+}
 
 .parallax::after {
   content: " ";
@@ -221,6 +228,7 @@ section.section.parallax.bg6 {
 
 
 /*ICONS*/
+
 .icons {
   position:absolute;
   margin: auto;
@@ -240,8 +248,8 @@ span.fa.fa-envelope {
 }
 
 span.fa.fa-envelope:hover {
-  color: #c1aeae;
-  text-shadow: 1px 1px #7c6d84;
+  color: #f3f3f3;
+  text-shadow: 2px 2px 2px black;
 }
 
 span.fa.fa-instagram {
@@ -251,14 +259,14 @@ span.fa.fa-instagram {
 }
 
 span.fa.fa-instagram:hover {
-  color: #c1aeae;
-  text-shadow: 1px 1px #7c6d84;
+  color: #f3f3f3;
+  text-shadow: 2px 2px 2px black;
 }
 
 /*LARGE SLIDE*/
 
 .image_array{
-  max-width: 1000px;
+  max-width: 700px;
   height: 500px;
   position: absolute;
 }
@@ -315,6 +323,26 @@ span.fa.fa-instagram:hover {
   100% { opacity: 0}
 }
 
+/*PICS*/
+
+#brush{
+  background-image: url("photos/brushes.jpg");
+  width: 700px;
+  height: 300px;
+  margin-top: 650px;
+  margin-left: 480px;
+  background-size: cover;
+
+}
+
+#naked{
+  background-image: url("photos/nudes.jpg");
+  width: 700px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 480px;
+  background-size: cover;
+}
 
 /*ABOUT*/
 
@@ -584,7 +612,7 @@ p#pro {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   background-color: rgba(211,211,211, 0.8);
-  left: 400px;
+  left: 430px;
 
 }
 
@@ -634,20 +662,34 @@ td {
   margin-top: 70px;
 }
 
+
 /*FOOTER*/
 
 .footer{
   width: 900px;
   background-color: #f7f7f7;
-  height: 100px;
+  height: 90px;
   font-family: 'Raleway', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   margin-left: 400px;
 }
 
 .footer p {
-    padding-top: 60px;
+    padding-top: 30px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  opacity: 50%;
+  line-height: 25px;
+}
+
+.footer a:hover{
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 /*Web Refresh*/
