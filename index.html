@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles2.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="responsive.css">
 
 
@@ -24,7 +24,6 @@
   <!-- NAV BAR / TOP OF PAGE -->
       <nav class="navbar">
   <!-- LOGO -->
-        <h2 id="logo"> MC </h2>
         <h2 id="makeup"> MAKEUP BY MARIE-CLAIRE </h2>
   <!--  NAV LINKS -->
 
@@ -68,12 +67,7 @@
               <div class='slide3'></div>
               <div class='slide4'></div>
             </div>
-          <div class="arrow animated bounce">
-            <i class="fa fa-chevron-down"></i>
-          </div>
-
-          <div id="brush"></div>
-          <div id="naked"></div>
+  
       </section>
 
       <section id="link2" class="section parallax bg2" >
@@ -224,32 +218,27 @@
         var main = document.getElementById("main");
         var menu = document.getElementsByClassName("menuitems");
         var close = document.getElementById("closebtn");
-
         //default to measure if/else from
         nav.style.height = "50px";
         main.style.marginTop = "50px";
         for (i = 0; i < menu.length; i++){menu[i].style.marginTop="100px";};
-
         close.addEventListener("click", function(){
           var menuIcon = close.children;
           for (i = 0; i < menuIcon.length; i++){
           menuIcon[i].classList.toggle("active");
           }
         });
-
         function navToggle() {
           //to close
           if (nav.style.height <= "275px") {
           nav.style.height = "50px";
           main.style.marginTop = "50px";
-
               var i = 0;
               for (i = 0; i < menu.length; i++){
           menu[i].style.opacity="0.0";
           menu[i].style.marginTop="100px";
           };
               document.body.style.backgroundColor = "rgba(0,0,0,0.0)";
-
           }
           //to open
           else if (nav.style.height <= "50px") {
@@ -261,9 +250,7 @@
           menu[i].style.marginTop="0px";
           };
               document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-
           }
-
         };
     </script>
     <script>
@@ -271,48 +258,38 @@
         for(var i=0; i<controls.length; i++){
           controls[i].style.display = 'inline-block';
         }
-
         var slides = document.querySelectorAll('#slides .slide');
         var currentSlide = 0;
         var slideInterval = setInterval(nextSlide,2000);
-
         function nextSlide(){
           goToSlide(currentSlide+1);
         }
-
         function previousSlide(){
           goToSlide(currentSlide-1);
         }
-
         function goToSlide(n){
           slides[currentSlide].className = 'slide';
           currentSlide = (n+slides.length)%slides.length;
           slides[currentSlide].className = 'slide showing';
         }
-
         var playing = true;
         var pauseButton = document.getElementById('pause');
-
         function pauseSlideshow(){
           pauseButton.innerHTML = '&#9658;'; // play character
           playing = false;
           clearInterval(slideInterval);
         }
-
         function playSlideshow(){
           pauseButton.innerHTML = '&#10074;&#10074;'; // pause character
           playing = true;
           slideInterval = setInterval(nextSlide,2000);
         }
-
         pauseButton.onclick = function(){
           if(playing){ pauseSlideshow(); }
           else{ playSlideshow(); }
         };
-
         var next = document.getElementById('next');
         var previous = document.getElementById('previous');
-
         next.onclick = function(){
           pauseSlideshow();
           nextSlide();
@@ -328,32 +305,27 @@
         var main = document.getElementById("main");
         var menu = document.getElementsByClassName("menuitems");
         var close = document.getElementById("closebtn");
-
         //default to measure if/else from
         nav.style.height = "50px";
         main.style.marginTop = "50px";
         for (i = 0; i < menu.length; i++){menu[i].style.marginTop="100px";};
-
         close.addEventListener("click", function(){
           var menuIcon = close.children;
           for (i = 0; i < menuIcon.length; i++){
           menuIcon[i].classList.toggle("active");
           }
         });
-
         function navToggle() {
           //to close
           if (nav.style.height <= "275px") {
           nav.style.height = "50px";
           main.style.marginTop = "50px";
-
               var i = 0;
               for (i = 0; i < menu.length; i++){
           menu[i].style.opacity="0.0";
           menu[i].style.marginTop="100px";
           };
               document.body.style.backgroundColor = "rgba(0,0,0,0.0)";
-
           }
           //to open
           else if (nav.style.height <= "50px") {
@@ -365,16 +337,11 @@
           menu[i].style.marginTop="0px";
           };
               document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-
           }
-
         };
     </script>
 
     <script>
-      
-
-
 
     </script>
 
