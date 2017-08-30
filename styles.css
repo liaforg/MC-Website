@@ -193,7 +193,6 @@ nav.navbar {
     width:200px;
 }
 
-
 .logo {
     text-align:center;
     margin:0 auto;
@@ -229,17 +228,18 @@ nav.navbar {
   top:-7px;
 }
 a.menuitems{
-  top: 50px;
+  top: 120px;
 }
 .menuitems {
     text-decoration: none;
     list-style:none;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 15px;
     display: inline-block;
     position:relative;
     text-align:center;
+    line-height: 30px;
     color: black;
     opacity:0.0;
     transition: all .5s ease-in-out;
@@ -293,6 +293,7 @@ span#closebtn {
   width: 50px;
   height: 50px;
   margin-top: -93px;
+  margin-right: -20px;
 }
 
 span.fa.fa-envelope:before{
@@ -305,13 +306,14 @@ span.fa.fa-envelope:hover {
 
 
 span.fa.fa-instagram:before{
-  font-size: 27px;
+  font-size: 26px;
 }
 .fa.fa-instagram {
   color: black;
   position: fixed;
   margin-right: 30px;
   margin-top: -93px;
+  margin-right: 5px;
 }
 
 span.fa.fa-instagram:hover {
