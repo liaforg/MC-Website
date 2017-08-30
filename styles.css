@@ -1,3 +1,53 @@
+/**
+ * Eric Meyer's Reset CSS v2.0
+(https://meyerweb.com/
+eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 body {
   margin: 0;
   overflow: hidden;
@@ -89,7 +139,7 @@ h2#makeup {
   position: fixed;
   left: 670px;
   font-weight: bolder;
-  top: -13px;
+  top: 13px;
   word-spacing: 5px;
   letter-spacing: 2px;
   z-index: 10000;
@@ -344,37 +394,27 @@ span.fa.fa-instagram:hover {
   100% { opacity: 0}
 }
 
-/*PICS*/
-
-#brush{
-  background-image: url("photos/brushes.jpg");
-  width: 700px;
-  height: 300px;
-  margin-top: 650px;
-  margin-left: 480px;
-  background-size: cover;
-
-}
-
-#naked{
-  background-image: url("photos/nudes.jpg");
-  width: 700px;
-  height: 300px;
-  margin-top: 40px;
-  margin-left: 480px;
-  background-size: cover;
-}
-
 /*ABOUT*/
 
 .about {
   font-size: 40px;
   width: 600px;
+  height: 700px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   background-color: rgba(248,248,250, 0.8);
   margin-left: 540px;
+  top: 100px;
   box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+}
+
+h2#about-title{
+  padding-top:20px;
+}
+
+p#pro{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #exp {
@@ -661,6 +701,7 @@ h2 {
 h4 {
     font-size: 20px;
     text-align: center;
+    padding-top: 30px;
 }
 
 p.service {
@@ -670,11 +711,12 @@ p.service {
   width: 700px;
   text-align: center;
   margin-left: -25px;
+  margin-top: 20px;
 }
 
 td {
   padding-left: 75px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   margin-bottom: 10px;
 }
 
@@ -689,6 +731,14 @@ td {
   margin-top: 70px;
 }
 
+h2#con-title{
+  padding-top:30px;
+  padding-bottom: 20px;
+}
+
+p#pro {
+  padding-top:
+}
 
 
 /*FOOTER*/
@@ -696,22 +746,23 @@ td {
 .footer{
   width: 900px;
    background-color: rgba(248,248,250, 0.8);
-  height: 90px;
+  height: 95px;
   font-family: 'Raleway', sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
   margin-left: 400px;
+  margin-top: 50px;
   box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
 }
 
 .footer p {
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .footer a{
   text-decoration: none;
   color: black;
-  font-size: 10px;
+  font-size: 15px;
   opacity: 50%;
   line-height: 25px;
 }
