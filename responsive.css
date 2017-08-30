@@ -180,7 +180,7 @@
       text-align: center;
   }
   p.service {
-    font-size: 13px;
+    font-size: 10px;
     font-style: italic;
     margin-bottom: 30px;
     width: 300px;
@@ -280,7 +280,7 @@
   }
 }
 
-@media screen and (min-width: 360px) and (max-width:479px){
+@media screen and (min-width: 360px) and (max-width:374px){
 
   /*INDEX PAGE*/
   section.section.parallax.bg6 {
@@ -588,500 +588,298 @@
   }
 
 
-@media screen and (min-width: 480px) and (max-width: 539px){
+@media screen and (min-width: 375px) and (max-width: 383px){
+
     /*INDEX PAGE*/
-    .image_array{
-      width: 600px;
-      height: 400px;
-      margin: auto;
-      left: 0;
-      right: 0;
-      top: 200px;
+    section.section.parallax.bg6 {
+      height: 10vh;
     }
-    .slide1,.slide2,.slide3{
-      width: 100%;
-    }
-    .navbar {
-      background-color: white;
-      width: 100%;
-      position: fixed;
-      top: 0px;
-      height: 148px;
-      text-decoration: none;
-      text-align: center;
-      border-bottom: 2px solid #b9b0c0;
-      z-index: 100;
-      font-size: 0px;
-    }
-    .navigation ul {
-        margin-top:30px;
-        line-height: 40px;
-    }
-    span.fa.fa-envelope {
-      position: fixed;
-      top: 100px;
-      right: 75px;
-      font-size: 28px;
-    }
-    span.fa.fa-instagram {
-      color: black;
-      position: fixed;
-      top: 100px;
-      right: 25px;
-      font-size: 30px;
-    }
-    #logo {
-      left: 97px;
-      top: 20px;
-      color:  #dfbbbb;
-      font-family: 'Nothing You Could Do', cursive;
-      font-size: 60px;
-      left: 110px;
-    }
-    #makeup {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        position: fixed;
-        left: 30px;
-        font-weight: bolder;
-        text-align: left;
-        top: 80px;
-      }
-
-    .brushes{
-      margin: auto;
-      left: 0;
-      right: 0;
-      width: 600px;
-      height: 110px;
-      top: 0px;
-      background-position:0 300px;
-    }
-    .nudepal{
-      background-image: url("photos/nudepal.jpg");
-      background-size: cover;
-      background-position:0 200px;
-      margin: auto;
-      left: 0;
-      right: 0;
-      width: 600px;
-      height: 100px;
-      margin-top: 100px;
-    }
-    .indexscroll{
-      top: 650px;
-    }
-
-    #box {
-      display: none;
-    }
-    #logo-2 {
-      font-weight: bolder;
-      font-size: 50px;
-      text-align: center;
-      transform: rotate(0deg);
-      transform-origin: left top 0;
-      margin: auto;
-      left: 32%;
-      top: 8px;
-    }
-    #makeup-2 {
-      width: 100%;
-      position: absolute;
-      font-size: 20px;
-      font-weight: bolder;
-      transform: rotate(0deg);
-      transform-origin: left top 0;
-      padding-top: 30px;
-      margin: auto;
-      left: 10%;
-    }
-    a{
-      padding-right: 10px;
-    }
-
-    /*PRICES*/
-    .grey-box3{
-      width: 400px;
-      top: 148px;
-    }
-
-    .prices {
-      position: absolute;
-      margin: auto;
-      margin-top: 10px;
-    }
-
-    .cost {
+    #hello {
       font-family: 'Raleway', sans-serif;
-      font-size: 10x;
-      padding-top: 20px;
-      width: 80%;
-      text-align: left;
-      margin: auto;
-      height: 700px;
-      color: black;
-      text-shadow: 1px 1px #grey;
-    }
-
-
-      .service {
-        font-size: 10px;
-        width: 250px;
+      font-size: 40px;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 55px white, 0 0 75px white;
+      margin-left: 40px;
+      margin-top:130px;
+      line-height: 100px;
+      font-weight: lighter;
       }
-
-      td {
-        padding-right: 120px;
-        font-size: 15px;
-      }
-      /*ABOUT*/
-      .grey-box{
-        width: 400px;
-        top: 148px;
-      }
-
-      #selfie {
-        width: 100px;
-        height:100px;
-        margin-top: 10px;
-      }
-
-      .about {
-        position: absolute;
-        width: 700px;
-        top: 190px;
-        left: -150px;
-      }
-    .bio {
-      font-size: 10px;
-      padding-top: -100px;
-      width: 50%;
-      height: 1100px;
-    }
-
-    #about-me {
-      margin-top: -80px;
-      font-size: 25px;
-      text-align:center;
-      padding-bottom: 20px;
-    }
-
-    #pro {
-      font-size: 15px;
-      margin-top: -20px;
-      text-align: center;
-    }
-    /*CONTACTS PAGE*/
-
-    .grey-box2{
-      width: 300px;
-      top: 148px;
-    }
-
-    #selfie2 {
-      width: 100px;
-      height:100px;
-      margin-top: 10px;
-    }
-
-    .about2 {
-      position: absolute;
-      width: 700px;
-      top: 100px;
-      left: -200px;
-    }
-
-
-    .bio2 {
-      font-size: 10px;
-      padding-top: -100px;
-      width: 40%;
-      height: 600px;
-    }
-
-    #about-me2 {
-      margin-top: -80px;
-      font-size: 20px;
-      text-align:center;
-      padding-bottom: 30px;
-    }
-
-    #pro2 {
-      font-size: 17px;
-      margin-top: -20px;
-      text-align: center;
-    }
-
-    .mcapp{
-      top: 200px;
-    }
-
-    p#mc-bio2{
-      line-height: 50px;
-    }
-
-  }
-
-  @media screen and (min-width: 540px) and (max-width: 639px){
-
-    /*INDEX PAGE*/
-    .image_array{
-      width: 800px;
-      height: 400px;
-      margin: auto;
-      left: 0;
-      right: 0;
-      top: 200px;
-    }
-    .slide1,.slide2,.slide3{
-      width: 100%;
-    }
-    .navbar {
-      background-color: white;
-      width: 100%;
-      position: fixed;
-      top: 0px;
-      height: 148px;
-      text-decoration: none;
-      text-align: center;
-      border-bottom: 2px solid #b9b0c0;
-      z-index: 100;
-      font-size: 0px;
-    }
-    .navigation ul {
-        margin-top:30px;
-        line-height: 40px;
-    }
-    span.fa.fa-envelope {
-      position: fixed;
-      top: 100px;
-      right: 75px;
-      font-size: 28px;
-    }
-    span.fa.fa-instagram {
-      color: black;
-      position: fixed;
-      top: 100px;
-      right: 25px;
-      font-size: 30px;
-    }
-    #logo {
-      left: 97px;
-      top: 20px;
-      color:  #dfbbbb;
-      font-family: 'Nothing You Could Do', cursive;
-      font-size: 60px;
-      left: 110px;
-    }
-    #makeup {
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        color: black;
-        position: fixed;
-        left: 30px;
-        font-weight: bolder;
-        text-align: left;
-        top: 80px;
-      }
-
-    .brushes{
-      margin: auto;
-      left: 0;
-      right: 0;
-      width: 700px;
-      height: 110px;
-      top: 0px;
-      background-position:0 300px;
-    }
-    .nudepal{
-      background-image: url("photos/nudepal.jpg");
+    .wrapper {
+      background-image: url('photos/mirror.jpg');
+      background-position: right;
       background-size: cover;
-      background-position:0 200px;
-      margin: auto;
-      left: 0;
-      right: 0;
-      width: 700px;
-      height: 100px;
-      margin-top: 100px;
     }
-    .indexscroll{
-      top: 650px;
-    }
-
-    #box {
-      display: none;
-    }
-    #logo-2 {
-      font-weight: bolder;
-      font-size: 50px;
-      text-align: center;
-      transform: rotate(0deg);
-      transform-origin: left top 0;
-      margin: auto;
-      left: 32%;
-      top: 8px;
-    }
-    #makeup-2 {
-      width: 100%;
-      position: absolute;
-      font-size: 20px;
-      font-weight: bolder;
-      transform: rotate(0deg);
-      transform-origin: left top 0;
-      padding-top: 30px;
-      margin: auto;
-      left: 10%;
-    }
-    a{
-      padding-right: 10px;
-    }
-    /*PORTFOLIO*/
-    #slides{
-      position: absolute;
-      width: 80%;
-      height: 350px;
-      margin: auto;
-      top: 540px;
-      left: 18px;
-      bottom: 0;
-      right: 0;
-    }
-    /*PRICES*/
-    .grey-box3{
+    .image_array{
       width: 500px;
-      top: 148px;
-    }
-    .prices {
-      position: absolute;
+      height: 400px;
       margin: auto;
-      margin-top: 10px;
+      left: 400px;
+      right: 0;
+      top: 140px;
     }
-    .cost {
-      font-family: 'Raleway', sans-serif;
-      font-size: 10x;
-      padding-top: 20px;
-      width: 80%;
-      text-align: left;
-      margin: auto;
-      height: 700px;
-      color: black;
-      text-shadow: 1px 1px #grey;
+    nav.navbar {
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      height: 108px;
+      text-decoration: none;
+      text-align: center;
+      border-bottom: 2px solid #b9b0c0;
+      z-index: 100;
+      font-size: 0px;
     }
-    .service {
-      font-size: 10px;
-      width: 400px;
+    h2#makeup {
+      margin:auto;
+      width: 100%;
+      font-size: 17px;
+      left: 0px;
+      font-weight: bolder;
+      top: 75px;
     }
-
-    td {
-      width: 90%;
-      padding-right: 150px;
-      font-size: 15px;
+    .fa.fa-envelope{
+      top: 110px;
+      right: 60px;
+    }
+    .fa.fa-instagram{
+      top: 110px;
+      right: 10px;
     }
     /*ABOUT*/
-    .grey-box{
-      width: 400px;
-      top: 148px;
-    }
-
-    #selfie {
-      width: 100px;
-      height:100px;
-      margin-top: 10px;
-    }
-
     .about {
+      font-size: 20px;
+      width: 340px;
+      height: 700px;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      background-color: rgba(248,248,250, 0.8);
+      margin-left: 540px;
+      top: 100px;
+      margin-left: 10px;
+    }
+    h2#about-title{
+      padding-top:20px;
+      font-size: 20px;
+      margin-left: 0px;
+    }
+    h3#about-me {
+      margin-top: -79px;
+      font-size: 18px;
+    }
+    p#pro{
+      font-size: 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    p#me{
+      width:300px;
+      margin-left: 20px;
+    }
+    #circ {
+      width: 100px;
+      height: 100px;
+    }
+    #me {
+      width: 800px;
+      font-size: 12px;
+      padding-bottom: 10px;
+      margin-left: 100px;
+    }
+    /*PORTFOLIO SCROLL*/
+    .port-box {
       position: absolute;
-      width: 700px;
-      top: 190px;
-      left: -150px;
+      margin: auto;
+      top: 200px;
+      font-size: 50px;
+      width: 340px;
+      height: 400px;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      background-color: rgba(248,248,250, 0.8);
+      left: 10px;
+      box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
     }
-
-    .bio {
+    h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-left: -251px;
+    }
+    .horizontal-scroll-wrapper{
+      position:absolute;
+      display:block;
+      top:100px;
+      left:-300px;
+      width:300px;
+      height:1100px;
+      margin:0;
+      background-color: rgba(248,248,250, 0.10);
+      overflow-y:auto;
+      overflow-x:hidden;
+      transform:rotate(-90deg) translateY(-80px);
+      transform-origin:right top;
+    }
+    .horizontal-scroll-wrapper > div{
+      display:block;
+      padding:10px;
+      background:#cab;
+      transform:rotate(90deg);
+      transform-origin: right top;
+      width: 200px;
+      height: 100px;
+    }
+    .horizontal-scroll-wrapper.squares {
+      height: 270px;
+      left: -194px;
+      }
+    .squares{
+      padding:20px 0 0 0;
+    }
+    .squares > div{
+      width:200px;
+      height:200px;
+      margin:20px;
+      margin-left: 100px;
+      box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+    }
+    /*PRICES*/
+    .prices {
+      top: 100px;
+      position: absolute;
+      margin: auto;
+      font-size: 50px;
+      width: 330px;
+      height: 700px;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      background-color: rgba(248,248,250, 0.8);
+      left: 10px;
+      box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+    }
+    .cost {
+      font-family: 'Raleway', sans-serif;
+      font-size: 15x;
+      padding-top: 20px;
+      width: 80%;
+      text-align: left;
+      margin: auto;
+      height: 700px;
+      color: black;
+      text-shadow: 1px 1px #grey;
+      left: 300px;
+      width: 600px;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    p.service {
+      font-size: 13px;
+      font-style: italic;
+      margin-bottom: 30px;
+      width: 300px;
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+    td {
       font-size: 10px;
-      padding-top: -100px;
-      width: 50%;
-      height: 1000px;
+      padding-left: 50px;
+      padding-bottom: 20px;
+      margin-bottom: 10px;
+      padding-right: 60px;
     }
-
-  #about-me {
-    margin-top: -80px;
-    font-size: 25px;
-    text-align:center;
-    padding-bottom: 20px;
-  }
-
-  #pro {
-    font-size: 15px;
-    margin-top: -20px;
-    text-align: center;
-  }
-  /*CONTACTS PAGE*/
-
-  .grey-box2{
-    width: 300px;
-    top: 148px;
-  }
-
-  #selfie2 {
-    width: 100px;
-    height:100px;
-    margin-top: 10px;
-  }
-
-  .about2 {
-    position: absolute;
-    width: 700px;
-    top: 100px;
-    left: -200px;
-  }
-
-
-  .bio2 {
-    font-size: 10px;
-    padding-top: -100px;
-    width: 40%;
+    td.one{
+      padding-right: 330px;
+    }
+    h4#note{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14x;
+    padding-top: 20px;
+    text-align: left;
+    margin: auto;
     height: 700px;
-  }
+    color: black;
+    text-shadow: 1px 1px #grey;
+    margin-left: 100px;
+    width: 600px;
+    }
 
-  #about-me2 {
-    margin-top: -80px;
-    font-size: 20px;
-    text-align:center;
-    padding-bottom: 30px;
-  }
+    p.service{
+      margin-top: 20px;
+      font-size: 12px;
+      font-style: italic;
+      margin-bottom: 30px;
+      width: 280px;
+      text-align: center;
+      margin-left: 30px;
+    }
+    p.service2{
+      margin-top: -650px;
+      font-size: 12px;
+      font-style: italic;
+      margin-bottom: 30px;
+      width: 280px;
+      text-align: center;
+      margin-left: 25px;
+    }
+    /*CONTACTS PAGE*/
+    .con-about {
+      font-size: 20px;
+      width: 330px;
+      height: 500px;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      background-color: rgba(248,248,250, 0.8);
+      margin-left: 540px;
+      margin-top: 400px;
+      margin-left: 15px;
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+    }
+    .mcapp {
+      width: 200px;
+      height: 200px;
+      background-image: url("photos/mcapp.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left: 65px;
+      margin-top: 30px;
+    }
+    h2#con-title{
+      margin-left: 5px;
+      padding-top:30px;
+      padding-bottom: 20px;
+    }
+    p#phone-email{
+        margin-left: -180px;
+        margin-top: 18px;
+    }
+    /*FOOTER*/
+    .footer{
+      margin-top: -56px;
+      margin-left: 25px;
+      width: 310px;
+      background-color: rgba(248,248,250, 0.8);
+      height: 90px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 50px;
+      box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+    }
+    .footer p {
+        padding-top: 50px;
+    }
+    .footer a{
+      text-decoration: none;
+      color: black;
+      font-size: 15px;
+      opacity: 50%;
+      line-height: 25px;
+    }
+    .footer a:hover{
+      color: white;
+      text-shadow: 1px 1px 1px black;
+    }
 
-  #pro2 {
-    font-size: 17px;
-    margin-top: -20px;
-    text-align: center;
-  }
-
-  .mcapp{
-    top: 200px;
-  }
-
-  p#mc-bio2{
-    line-height: 50px;
-  }
-
-  }
-
-
-  @media screen and (min-width: 640px) and (max-width: 719px){
-
-      /*INDEX PAGE*/
-      .image_array{
-        width: 800px;
-        height: 400px;
-        margin: auto;
-        left: 0;
-        right: 0;
-        top: 200px;
-      }
-      .slide1,.slide2,.slide3{
-        width: 100%;
-      }
+    /*OLD------------------*/
       .navbar {
         background-color: white;
         width: 100%;
@@ -1094,616 +892,177 @@
         z-index: 100;
         font-size: 0px;
       }
-      .navigation ul {
-          margin-top:30px;
-          line-height: 40px;
-      }
-      span.fa.fa-envelope {
-        position: fixed;
-        top: 100px;
-        right: 75px;
-        font-size: 28px;
-      }
-      span.fa.fa-instagram {
-        color: black;
-        position: fixed;
-        top: 100px;
-        right: 25px;
-        font-size: 30px;
-      }
-      #logo {
-        left: 97px;
-        top: 20px;
-        color:  #dfbbbb;
-        font-family: 'Nothing You Could Do', cursive;
-        font-size: 60px;
-        left: 110px;
-      }
-      #makeup {
-          font-family: 'Raleway', sans-serif;
-          font-size: 20px;
-          color: black;
-          position: fixed;
-          left: 30px;
-          font-weight: bolder;
-          text-align: left;
-          top: 80px;
-        }
 
-      .brushes{
-        margin: auto;
-        left: 0;
-        right: 0;
-        width: 700px;
-        height: 110px;
-        top: 0px;
-        background-position:0 300px;
-      }
-      .nudepal{
-        background-image: url("photos/nudepal.jpg");
-        background-size: cover;
-        background-position:0 200px;
-        margin: auto;
-        left: 0;
-        right: 0;
-        width: 700px;
-        height: 100px;
-        margin-top: 100px;
-      }
-      .indexscroll{
-        top: 650px;
-      }
-
-      #box {
-        display: none;
-      }
-      #logo-2 {
-        font-weight: bolder;
-        font-size: 50px;
-        text-align: center;
-        transform: rotate(0deg);
-        transform-origin: left top 0;
-        margin: auto;
-        left: 32%;
-        top: 8px;
-      }
-      #makeup-2 {
-        width: 100%;
-        position: absolute;
-        font-size: 20px;
-        font-weight: bolder;
-        transform: rotate(0deg);
-        transform-origin: left top 0;
-        padding-top: 30px;
-        margin: auto;
-        left: 10%;
-      }
-      a{
-        padding-right: 10px;
-      }
-      /*PORTFOLIO*/
-      #slides{
-        position: absolute;
-        width: 80%;
-        height: 350px;
-        margin: auto;
-        top: 540px;
-        left: 18px;
-        bottom: 0;
-        right: 0;
-      }
-      /*PRICES*/
-      .grey-box3{
-        width: 500px;
-        top: 148px;
-      }
-
-      .prices {
-        position: absolute;
-        margin: auto;
-        margin-top: 10px;
-      }
-
-      .cost {
-        font-family: 'Raleway', sans-serif;
-        font-size: 10x;
-        padding-top: 20px;
-        width: 80%;
-        text-align: left;
-        margin: auto;
-        height: 700px;
-        color: black;
-        text-shadow: 1px 1px #grey;
-      }
-
-      .service {
-        font-size: 10px;
-        width: 400px;
-      }
-
-      td {
-        width: 90%;
-        padding-right: 150px;
-        font-size: 15px;
-      }
-      /*ABOUT*/
-      .grey-box{
-        width: 600px;
-        top: 148px;
-      }
-
-      #selfie {
-        width: 100px;
-        height:100px;
-        margin-top: 20px;
-      }
-
-      .about {
-        position: absolute;
-        width: 1000px;
-        top: 210px;
-        left: -200px;
-      }
-    .bio {
-      font-size: 10px;
-      padding-top: -100px;
-      width: 50%;
-      height: 700px;
     }
 
-    #about-me {
-      margin-top: -80px;
-      font-size: 25px;
-      text-align:center;
-      padding-bottom: 20px;
-    }
-
-    #pro {
-      font-size: 15px;
-      margin-top: -20px;
-      text-align: center;
-    }
-    /*CONTACTS PAGE*/
-    .grey-box2{
-      width: 400px;
-      top: 148px;
-    }
-
-    #selfie2 {
-      width: 100px;
-      height:100px;
-      margin-top: 10px;
-    }
-
-    .about2 {
-      position: absolute;
-      width: 700px;
-      top: 100px;
-      left: -150px;
-    }
-
-
-    .bio2 {
-      font-size: 10px;
-      padding-top: -100px;
-      width: 40%;
-      height: 600px;
-    }
-
-    #about-me2 {
-      margin-top: -80px;
-      font-size: 20px;
-      text-align:center;
-      padding-bottom: 30px;
-    }
-
-    #pro2 {
-      font-size: 17px;
-      margin-top: -20px;
-      text-align: center;
-    }
-
-    .mcapp{
-      width: 300px;
-      height: 300px;
-      top: 200px;
-    }
-
-    p#mc-bio2{
-      line-height: 50px;
-    }
-
-  }
-
-
-  @media screen and (min-width: 720px) and (max-width: 800px){
-
-      /*INDEX PAGE*/
-      .image_array{
-        width: 800px;
-        height: 600px;
-        margin: auto;
-        left: 0;
-        right: 0;
-        top: 250px;
-      }
-      .slide1,.slide2,.slide3{
-        width: 100%;
-      }
-      .navbar {
-        background-color: white;
-        width: 100%;
-        position: fixed;
-        top: 0px;
-        height: 148px;
-        text-decoration: none;
-        text-align: center;
-        border-bottom: 2px solid #b9b0c0;
-        z-index: 100;
-        font-size: 0px;
-      }
-      .navigation ul {
-          margin-top:30px;
-          line-height: 40px;
-      }
-      span.fa.fa-envelope {
-        position: fixed;
-        top: 100px;
-        right: 75px;
-        font-size: 28px;
-      }
-      span.fa.fa-instagram {
-        color: black;
-        position: fixed;
-        top: 100px;
-        right: 25px;
-        font-size: 30px;
-      }
-      #logo {
-        left: 97px;
-        top: 20px;
-        color:  #dfbbbb;
-        font-family: 'Nothing You Could Do', cursive;
-        font-size: 60px;
-        left: 110px;
-      }
-      #makeup {
-          font-family: 'Raleway', sans-serif;
-          font-size: 20px;
-          color: black;
-          position: fixed;
-          left: 30px;
-          font-weight: bolder;
-          text-align: left;
-          top: 80px;
-        }
-
-      .brushes{
-        margin: auto;
-        left: 0;
-        right: 0;
-        width: 800px;
-        height: 110px;
-        top: 0px;
-        background-position:0 350px;
-      }
-      .nudepal{
-        background-image: url("photos/nudepal.jpg");
-        background-size: cover;
-        background-position:0 250px;
-        margin: auto;
-        left: 0;
-        right: 0;
-        width: 800px;
-        height: 150px;
-        margin-top: 100px;
-      }
-      .indexscroll{
-        top: 850px;
-        height: 700px;
-      }
-
-      #box {
-        display: none;
-      }
-      #logo-2 {
-        font-weight: bolder;
-        font-size: 50px;
-        text-align: center;
-        transform: rotate(0deg);
-        transform-origin: left top 0;
-        margin: auto;
-        left: 32%;
-        top: 8px;
-      }
-      #makeup-2 {
-        width: 100%;
-        position: absolute;
-        font-size: 20px;
-        font-weight: bolder;
-        transform: rotate(0deg);
-        transform-origin: left top 0;
-        padding-top: 30px;
-        margin: auto;
-        left: 10%;
-      }
-      a{
-        padding-right: 10px;
-      }
-      /*PORTFOLIO*/
-      #slides{
-        position: absolute;
-        width: 100%;
-        height: 350px;
-        margin: auto;
-        top: 550px;
-        left: 18px;
-        bottom: 0;
-        right: 0;
-      }
-      /*PRICES*/
-      .grey-box3{
-        width: 600px;
-        top: 148px;
-      }
-
-      .prices {
-        position: absolute;
-        margin: auto;
-        margin-top: 10px;
-      }
-
-      .cost {
-        font-family: 'Raleway', sans-serif;
-        font-size: 10x;
-        padding-top: 20px;
-        width: 80%;
-        text-align: left;
-        margin: auto;
-        height: 700px;
-        color: black;
-        text-shadow: 1px 1px #grey;
-      }
-
-      .service {
-        font-size: 10px;
-        width: 400px;
-      }
-
-      td {
-        width: 90%;
-        padding-right: 200px;
-        font-size: 15px;
-      }
-      /*ABOUT*/
-      .grey-box{
-        width: 600px;
-        top: 148px;
-      }
-
-      #selfie {
-        width: 100px;
-        height:100px;
-        margin-top: 20px;
-      }
-
-      .about {
-        position: absolute;
-        width: 1000px;
-        top: 210px;
-        left: -200px;
-      }
-    .bio {
-      font-size: 10px;
-      padding-top: -100px;
-      width: 50%;
-      height: 700px;
-    }
-
-    #about-me {
-      margin-top: -80px;
-      font-size: 25px;
-      text-align:center;
-      padding-bottom: 20px;
-    }
-
-    #pro {
-      font-size: 15px;
-      margin-top: -20px;
-      text-align: center;
-    }
-    /*CONTACTS PAGE*/
-
-    .grey-box2{
-      width: 400px;
-      top: 148px;
-    }
-
-    #selfie2 {
-      width: 100px;
-      height:100px;
-      margin-top: 10px;
-    }
-
-    .about2 {
-      position: absolute;
-      width: 700px;
-      top: 100px;
-      left: -150px;
-    }
-
-
-    .bio2 {
-      font-size: 10px;
-      padding-top: -100px;
-      width: 40%;
-      height: 600px;
-    }
-
-    #about-me2 {
-      margin-top: -80px;
-      font-size: 20px;
-      text-align:center;
-      padding-bottom: 30px;
-    }
-
-    #pro2 {
-      font-size: 17px;
-      margin-top: -20px;
-      text-align: center;
-    }
-
-    .mcapp{
-      width: 300px;
-      height: 300px;
-      top: 200px;
-    }
-
-    p#mc-bio2{
-      line-height: 50px;
-    }
-  }
-  @media screen and (min-width: 801px) and (max-width: 1080px){
-
+@media screen and (min-width: 384px) and (max-width: 412px){
         /*INDEX PAGE*/
+        section.section.parallax.bg6 {
+          height: 10vh;
+        }
+        #hello {
+          font-family: 'Raleway', sans-serif;
+          font-size: 40px;
+          text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 55px white, 0 0 75px white;
+          margin-left: 50px;
+          margin-top:120px;
+          line-height: 100px;
+          font-weight: lighter;
+          }
+        .wrapper {
+          background-image: url('photos/mirror.jpg');
+          background-position: right;
+          background-size: cover;
+        }
         .image_array{
-          width: 800px;
-          height: 600px;
+          width: 500px;
+          height: 400px;
           margin: auto;
-          left: 0;
+          left: 400px;
           right: 0;
-          top: 200px;
+          top: 140px;
         }
-        .slide1,.slide2,.slide3{
-          width: 100%;
-        }
-        .navbar {
-          background-color: white;
+        nav.navbar {
           width: 100%;
           position: fixed;
           top: 0px;
-          height: 148px;
+          height: 108px;
           text-decoration: none;
           text-align: center;
           border-bottom: 2px solid #b9b0c0;
           z-index: 100;
           font-size: 0px;
         }
-        .navigation ul {
-            margin-top:30px;
-            line-height: 40px;
-        }
-        span.fa.fa-envelope {
-          position: fixed;
-          top: 100px;
-          right: 75px;
-          font-size: 28px;
-        }
-        span.fa.fa-instagram {
-          color: black;
-          position: fixed;
-          top: 100px;
-          right: 25px;
-          font-size: 30px;
-        }
-        #logo {
-          left: 97px;
-          top: 20px;
-          color:  #dfbbbb;
-          font-family: 'Nothing You Could Do', cursive;
-          font-size: 60px;
-          left: 110px;
-        }
-        #makeup {
-            font-family: 'Raleway', sans-serif;
-            font-size: 20px;
-            color: black;
-            position: fixed;
-            left: 30px;
-            font-weight: bolder;
-            text-align: left;
-            top: 80px;
-          }
-
-        .brushes{
-          margin: auto;
-          left: 0;
-          right: 0;
-          width: 800px;
-          height: 110px;
-          top: 0px;
-          background-position:0 350px;
-        }
-        .nudepal{
-          background-image: url("photos/nudepal.jpg");
-          background-size: cover;
-          background-position:0 200px;
-          margin: auto;
-          left: 0;
-          right: 0;
-          width: 800px;
-          height: 100px;
-          margin-top: 100px;
-        }
-        .indexscroll{
-          top: 850px;
-          height: 700px;
-        }
-
-        #box {
-          display: none;
-        }
-        #logo-2 {
-          font-weight: bolder;
-          font-size: 50px;
-          text-align: center;
-          transform: rotate(0deg);
-          transform-origin: left top 0;
-          margin: auto;
-          left: 32%;
-          top: 8px;
-        }
-        #makeup-2 {
+        h2#makeup {
+          margin:auto;
           width: 100%;
-          position: absolute;
+          font-size: 17px;
+          left: 0px;
+          font-weight: bolder;
+          top: 75px;
+        }
+        .fa.fa-envelope{
+          top: 110px;
+          right: 60px;
+        }
+        .fa.fa-instagram{
+          top: 110px;
+          right: 10px;
+        }
+        /*ABOUT*/
+        .about {
           font-size: 20px;
-          font-weight: bolder;
-          transform: rotate(0deg);
-          transform-origin: left top 0;
-          padding-top: 30px;
-          margin: auto;
-          left: 10%;
+          width: 370px;
+          height: 700px;
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          background-color: rgba(248,248,250, 0.8);
+          margin-left: 540px;
+          top: 100px;
+          margin-left: 5px;
         }
-        a{
-          padding-right: 10px;
+        h2#about-title{
+          padding-top:20px;
+          font-size: 20px;
+          margin-left: 0px;
         }
-        /*PORTFOLIO*/
-        #slides{
+        h3#about-me {
+          margin-top: -79px;
+          font-size: 18px;
+        }
+        p#pro{
+          font-size: 16px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        p#me{
+          padding-top: 20px;
+          width:350px;
+          margin-left: 10px;
+        }
+        #circ {
+          width: 100px;
+          height: 100px;
+        }
+        #me {
+          width: 800px;
+          font-size: 12px;
+          padding-bottom: 10px;
+          margin-left: 100px;
+        }
+        /*PORTFOLIO SCROLL*/
+        .port-box {
           position: absolute;
-          width: 100%;
-          height: 500px;
           margin: auto;
-          top: 00px;
-          left: 18px;
-          bottom: 0;
-          right: 0;
+          top: 200px;
+          font-size: 50px;
+          width: 370px;
+          height: 400px;
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          background-color: rgba(248,248,250, 0.8);
+          left: 5px;
+          box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+        }
+        h2 {
+            font-size: 20px;
+            text-align: center;
+            margin-left: -220px;
+        }
+        .horizontal-scroll-wrapper{
+          position:absolute;
+          display:block;
+          top:100px;
+          left:-300px;
+          width:300px;
+          height:1100px;
+          margin:0;
+          background-color: rgba(248,248,250, 0.10);
+          overflow-y:auto;
+          overflow-x:hidden;
+          transform:rotate(-90deg) translateY(-80px);
+          transform-origin:right top;
+        }
+        .horizontal-scroll-wrapper > div{
+          display:block;
+          padding:10px;
+          background:#cab;
+          transform:rotate(90deg);
+          transform-origin: right top;
+          width: 200px;
+          height: 100px;
+        }
+        .horizontal-scroll-wrapper.squares {
+          height: 270px;
+          left: -179px;
+          }
+        .squares{
+          padding:20px 0 0 0;
+        }
+        .squares > div{
+          width:200px;
+          height:200px;
+          margin:20px;
+          margin-left: 100px;
+          box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
         }
         /*PRICES*/
-        /*PRICES*/
-        .grey-box3{
-          width: 600px;
-          top: 148px;
-        }
-
         .prices {
+          top: 100px;
           position: absolute;
           margin: auto;
-          margin-top: 10px;
+          font-size: 50px;
+          width: 365px;
+          height: 700px;
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          background-color: rgba(248,248,250, 0.8);
+          left: 7px;
+          box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
         }
-
         .cost {
           font-family: 'Raleway', sans-serif;
-          font-size: 10x;
+          font-size: 15x;
           padding-top: 20px;
           width: 80%;
           text-align: left;
@@ -1711,118 +1070,123 @@
           height: 700px;
           color: black;
           text-shadow: 1px 1px #grey;
-        }
-
-        .service {
-          font-size: 10px;
+          left: 300px;
           width: 600px;
         }
-
+        h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+        p.service {
+          font-size: 13px;
+          font-style: italic;
+          margin-bottom: 30px;
+          width: 300px;
+          text-align: center;
+          margin-left: 0px;
+          margin-top: 20px;
+        }
         td {
-          width: 90%;
+          font-size: 10px;
+          padding-left: 50px;
+          padding-bottom: 20px;
+          margin-bottom: 10px;
+          padding-right: 60px;
+        }
+        td.one{
           padding-right: 200px;
-          font-size: 15px;
         }
-        /*ABOUT*/
-        .grey-box{
-          width: 600px;
-          top: 148px;
-        }
-
-        #selfie {
-          width: 150px;
-          height:150px;
-          margin-top: 17px;
-        }
-
-        .about {
-          position: absolute;
-          width: 1000px;
-          top: 250px;
-          left: -200px;
-        }
-      .bio {
-        font-size: 10px;
-        padding-top: -100px;
-        width: 50%;
+        h4#note{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14x;
+        padding-top: 20px;
+        text-align: left;
+        margin: auto;
         height: 700px;
-      }
-
-      #about-me {
-        margin-top: -80px;
-        font-size: 25px;
-        text-align:center;
-        padding-bottom: 20px;
-      }
-
-      #pro {
-        font-size: 15px;
-        margin-top: -20px;
-        text-align: center;
-      }
-      /*CONTACTS PAGE*/
-
-      .grey-box2{
+        color: black;
+        text-shadow: 1px 1px #grey;
+        margin-left: 100px;
         width: 600px;
-        top: 148px;
-      }
+        }
 
+        p.service{
+          margin-top: 20px;
+          font-size: 12px;
+          font-style: italic;
+          margin-bottom: 30px;
+          width: 280px;
+          text-align: center;
+          margin-left: 30px;
+        }
+        p.service2{
+          margin-top: -650px;
+          font-size: 12px;
+          font-style: italic;
+          margin-bottom: 30px;
+          width: 280px;
+          text-align: center;
+          margin-left: 25px;
+        }
+        /*CONTACTS PAGE*/
+        .con-about {
+          font-size: 20px;
+          width: 360px;
+          height: 500px;
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          background-color: rgba(248,248,250, 0.8);
+          margin-left: 540px;
+          margin-top: 400px;
+          margin-left: 10px;
+            box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+        }
+        .mcapp {
+          width: 250px;
+          height: 250px;
+          background-image: url("photos/mcapp.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-left: 50px;
+          margin-top: 40px;
+        }
+        h2#con-title{
+          margin-left: 5px;
+          padding-top:30px;
+          padding-bottom: 20px;
+        }
+        p#phone-email{
+            margin-left: -172px;
+            margin-top: 18px;
+        }
+        /*FOOTER*/
+        .footer{
+          margin-top: -56px;
+          margin-left: 25px;
+          width: 330px;
+          background-color: rgba(248,248,250, 0.8);
+          height: 90px;
+          font-family: 'Raleway', sans-serif;
+          font-size: 15px;
+          text-align: center;
+          margin-top: 50px;
+          box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+        }
+        .footer p {
+            padding-top: 50px;
+        }
+        .footer a{
+          text-decoration: none;
+          color: black;
+          font-size: 15px;
+          opacity: 50%;
+          line-height: 25px;
+        }
+        .footer a:hover{
+          color: white;
+          text-shadow: 1px 1px 1px black;
+        }
 
-      .about2 {
-        position: absolute;
-        width: 700px;
-        top: 100px;
-        left: -70px;
-      }
-
-
-      .bio2 {
-        font-size: 12px;
-        padding-top: -100px;
-        width: 100%;
-        height: 600px;
-      }
-
-      #about-me2 {
-        margin-top: -80px;
-        font-size: 25px;
-        text-align:center;
-        padding-bottom: 30px;
-      }
-
-      #pro2 {
-        font-size: 22px;
-        margin-top: -20px;
-        text-align: center;
-      }
-
-      .mcapp{
-        width: 400px;
-        height: 400px;
-        top: 200px;
-      }
-
-      p#mc-bio2{
-        font-size: 18px;
-        line-height: 50px;
-      }
-
-    }
-
-  @media screen and (min-width: 1081px) and (max-width: 1440px){
-
-          /*INDEX PAGE*/
-          .image_array{
-            width: 800px;
-            height: 600px;
-            margin: auto;
-            left: 0;
-            right: 0;
-            top: 200px;
-          }
-          .slide1,.slide2,.slide3{
-            width: 100%;
-          }
+        /*OLD------------------*/
           .navbar {
             background-color: white;
             width: 100%;
@@ -1835,955 +1199,5 @@
             z-index: 100;
             font-size: 0px;
           }
-          .navigation ul {
-              margin-top:30px;
-              line-height: 40px;
-          }
-          span.fa.fa-envelope {
-            position: fixed;
-            top: 100px;
-            right: 75px;
-            font-size: 28px;
-          }
-          span.fa.fa-instagram {
-            color: black;
-            position: fixed;
-            top: 100px;
-            right: 25px;
-            font-size: 30px;
-          }
-          #logo {
-            left: 97px;
-            top: 20px;
-            color:  #dfbbbb;
-            font-family: 'Nothing You Could Do', cursive;
-            font-size: 60px;
-            left: 110px;
-          }
-          #makeup {
-              font-family: 'Raleway', sans-serif;
-              font-size: 20px;
-              color: black;
-              position: fixed;
-              left: 30px;
-              font-weight: bolder;
-              text-align: left;
-              top: 80px;
-            }
 
-          .brushes{
-            margin: auto;
-            left: 0;
-            right: 0;
-            width: 800px;
-            height: 110px;
-            top: 0px;
-            background-position:0 350px;
-          }
-          .nudepal{
-            background-image: url("photos/nudepal.jpg");
-            background-size: cover;
-            background-position:0 200px;
-            margin: auto;
-            left: 0;
-            right: 0;
-            width: 800px;
-            height: 100px;
-            margin-top: 100px;
-          }
-          .indexscroll{
-            top: 850px;
-            height: 700px;
-          }
-
-          #box {
-            display: none;
-          }
-          #logo-2 {
-            font-weight: bolder;
-            font-size: 50px;
-            text-align: center;
-            transform: rotate(0deg);
-            transform-origin: left top 0;
-            margin: auto;
-            left: 32%;
-            top: 8px;
-          }
-          #makeup-2 {
-            width: 100%;
-            position: absolute;
-            font-size: 20px;
-            font-weight: bolder;
-            transform: rotate(0deg);
-            transform-origin: left top 0;
-            padding-top: 30px;
-            margin: auto;
-            left: 10%;
-          }
-          a{
-            padding-right: 10px;
-          }
-          /*PORTFOLIO*/
-          #slides{
-            position: absolute;
-            width: 100%;
-            height: 600px;
-            margin: auto;
-            top: 800px;
-            left: 18px;
-            bottom: 0;
-            right: 0;
-          }
-          /*PRICES*/
-          .grey-box3{
-            width: 700px;
-            top: 148px;
-          }
-
-          .prices {
-            position: absolute;
-            margin: auto;
-            margin-top: 10px;
-          }
-
-          .cost {
-            font-family: 'Raleway', sans-serif;
-            font-size: 12x;
-            padding-top: 20px;
-            width: 80%;
-            text-align: left;
-            margin: auto;
-            height: 700px;
-            color: black;
-            text-shadow: 1px 1px #grey;
-          }
-
-          .service {
-            font-size: 10px;
-            width: 600px;
-          }
-
-          td {
-            width: 100%;
-            padding-right: 250px;
-            font-size: 18px;
-          }
-          /*ABOUT*/
-          .grey-box{
-            width: 600px;
-            top: 148px;
-          }
-
-          #selfie {
-            width: 150px;
-            height:150px;
-            margin-top: 17px;
-          }
-
-          .about {
-            position: absolute;
-            width: 1000px;
-            top: 250px;
-            left: -200px;
-          }
-        .bio {
-          font-size: 10px;
-          padding-top: -100px;
-          width: 50%;
-          height: 700px;
         }
-
-        #about-me {
-          margin-top: -80px;
-          font-size: 25px;
-          text-align:center;
-          padding-bottom: 20px;
-        }
-
-        #pro {
-          font-size: 15px;
-          margin-top: -20px;
-          text-align: center;
-        }
-        /*CONTACTS PAGE*/
-
-
-            .grey-box2{
-              width: 600px;
-              top: 148px;
-            }
-
-
-            .about2 {
-              position: absolute;
-              width: 700px;
-              top: 100px;
-              left: -70px;
-            }
-
-
-            .bio2 {
-              font-size: 12px;
-              padding-top: -100px;
-              width: 100%;
-              height: 600px;
-            }
-
-            #about-me2 {
-              margin-top: -80px;
-              font-size: 25px;
-              text-align:center;
-              padding-bottom: 30px;
-            }
-
-            #pro2 {
-              font-size: 22px;
-              margin-top: -20px;
-              text-align: center;
-            }
-
-            .mcapp{
-              width: 400px;
-              height: 400px;
-              top: 200px;
-            }
-
-            p#mc-bio2{
-              font-size: 18px;
-              line-height: 50px;
-            }
-      }
-  @media screen and (min-width: 1441px) and (max-width: 2160px){
-
-          /*INDEX PAGE*/
-          .image_array{
-            width: 800px;
-            height: 600px;
-            margin: auto;
-            left: 0;
-            right: 0;
-            top: 200px;
-          }
-          .slide1,.slide2,.slide3{
-            width: 100%;
-          }
-          .navbar {
-            background-color: white;
-            width: 100%;
-            position: fixed;
-            top: 0px;
-            height: 148px;
-            text-decoration: none;
-            text-align: center;
-            border-bottom: 2px solid #b9b0c0;
-            z-index: 100;
-            font-size: 0px;
-          }
-          .navigation ul {
-              margin-top:30px;
-              line-height: 40px;
-          }
-          span.fa.fa-envelope {
-            position: fixed;
-            top: 100px;
-            right: 75px;
-            font-size: 28px;
-          }
-          span.fa.fa-instagram {
-            color: black;
-            position: fixed;
-            top: 100px;
-            right: 25px;
-            font-size: 30px;
-          }
-          #logo {
-            left: 97px;
-            top: 20px;
-            color:  #dfbbbb;
-            font-family: 'Nothing You Could Do', cursive;
-            font-size: 60px;
-            left: 110px;
-          }
-          #makeup {
-              font-family: 'Raleway', sans-serif;
-              font-size: 20px;
-              color: black;
-              position: fixed;
-              left: 30px;
-              font-weight: bolder;
-              text-align: left;
-              top: 80px;
-            }
-
-          .brushes{
-            margin: auto;
-            left: 0;
-            right: 0;
-            width: 800px;
-            height: 110px;
-            top: 0px;
-            background-position:0 350px;
-          }
-          .nudepal{
-            background-image: url("photos/nudepal.jpg");
-            background-size: cover;
-            background-position:0 200px;
-            margin: auto;
-            left: 0;
-            right: 0;
-            width: 800px;
-            height: 100px;
-            margin-top: 100px;
-          }
-          .indexscroll{
-            top: 850px;
-            height: 700px;
-          }
-
-          #box {
-            display: none;
-          }
-          #logo-2 {
-            font-weight: bolder;
-            font-size: 50px;
-            text-align: center;
-            transform: rotate(0deg);
-            transform-origin: left top 0;
-            margin: auto;
-            left: 32%;
-            top: 8px;
-          }
-          #makeup-2 {
-            width: 100%;
-            position: absolute;
-            font-size: 20px;
-            font-weight: bolder;
-            transform: rotate(0deg);
-            transform-origin: left top 0;
-            padding-top: 30px;
-            margin: auto;
-            left: 10%;
-          }
-          a{
-            padding-right: 10px;
-          }
-          /*PORTFOLIO*/
-          #slides{
-            position: absolute;
-            width: 900px;
-            height: 700px;
-            margin: auto;
-            top: 1000px;
-            left: 18px;
-            bottom: 0;
-            right: 0;
-          }
-          /*PRICES*/
-          .grey-box3{
-            width: 700px;
-            top: 148px;
-          }
-
-          .prices {
-            position: absolute;
-            margin: auto;
-            margin-top: 10px;
-          }
-
-          .cost {
-            font-family: 'Raleway', sans-serif;
-            font-size: 12x;
-            padding-top: 20px;
-            width: 80%;
-            text-align: left;
-            margin: auto;
-            height: 700px;
-            color: black;
-            text-shadow: 1px 1px #grey;
-          }
-
-          .service {
-            font-size: 10px;
-            width: 600px;
-          }
-
-          td {
-            width: 100%;
-            padding-right: 250px;
-            font-size: 18px;
-          }
-          /*ABOUT*/
-          .grey-box{
-            width: 600px;
-            top: 148px;
-          }
-
-          #selfie {
-            width: 150px;
-            height:150px;
-            margin-top: 17px;
-          }
-
-          .about {
-            position: absolute;
-            width: 1000px;
-            top: 250px;
-            left: -200px;
-          }
-        .bio {
-          font-size: 10px;
-          padding-top: -100px;
-          width: 50%;
-          height: 700px;
-        }
-
-        #about-me {
-          margin-top: -80px;
-          font-size: 25px;
-          text-align:center;
-          padding-bottom: 20px;
-        }
-
-        #pro {
-          font-size: 15px;
-          margin-top: -20px;
-          text-align: center;
-        }
-        /*CONTACTS PAGE*/
-
-
-            .grey-box2{
-              width: 600px;
-              top: 148px;
-            }
-
-
-            .about2 {
-              position: absolute;
-              width: 700px;
-              top: 100px;
-              left: -70px;
-            }
-
-
-            .bio2 {
-              font-size: 12px;
-              padding-top: -100px;
-              width: 100%;
-              height: 600px;
-            }
-
-            #about-me2 {
-              margin-top: -80px;
-              font-size: 25px;
-              text-align:center;
-              padding-bottom: 30px;
-            }
-
-            #pro2 {
-              font-size: 22px;
-              margin-top: -20px;
-              text-align: center;
-            }
-
-            .mcapp{
-              width: 400px;
-              height: 400px;
-              top: 200px;
-            }
-
-            p#mc-bio2{
-              font-size: 18px;
-              line-height: 50px;
-            }
-      }
-
-  @media screen and (min-width: 2161px) and (max-width: 2560px){
-
-          /*INDEX PAGE*/
-          .image_array{
-            width: 800px;
-            height: 600px;
-            margin: auto;
-            left: 0;
-            right: 0;
-            top: 200px;
-          }
-          .slide1,.slide2,.slide3{
-            width: 100%;
-          }
-          .navbar {
-            background-color: white;
-            width: 100%;
-            position: fixed;
-            top: 0px;
-            height: 148px;
-            text-decoration: none;
-            text-align: center;
-            border-bottom: 2px solid #b9b0c0;
-            z-index: 100;
-            font-size: 0px;
-          }
-          .navigation ul {
-              margin-top:30px;
-              line-height: 40px;
-          }
-          span.fa.fa-envelope {
-            position: fixed;
-            top: 100px;
-            right: 75px;
-            font-size: 28px;
-          }
-          span.fa.fa-instagram {
-            color: black;
-            position: fixed;
-            top: 100px;
-            right: 25px;
-            font-size: 30px;
-          }
-          #logo {
-            left: 97px;
-            top: 20px;
-            color:  #dfbbbb;
-            font-family: 'Nothing You Could Do', cursive;
-            font-size: 60px;
-            left: 110px;
-          }
-          #makeup {
-              font-family: 'Raleway', sans-serif;
-              font-size: 20px;
-              color: black;
-              position: fixed;
-              left: 30px;
-              font-weight: bolder;
-              text-align: left;
-              top: 80px;
-            }
-
-          .brushes{
-            margin: auto;
-            left: 0;
-            right: 0;
-            width: 800px;
-            height: 110px;
-            top: 0px;
-            background-position:0 350px;
-          }
-          .nudepal{
-            background-image: url("photos/nudepal.jpg");
-            background-size: cover;
-            background-position:0 200px;
-            margin: auto;
-            left: 0;
-            right: 0;
-            width: 800px;
-            height: 100px;
-            margin-top: 100px;
-          }
-          .indexscroll{
-            top: 850px;
-            height: 700px;
-          }
-
-          #box {
-            display: none;
-          }
-          #logo-2 {
-            font-weight: bolder;
-            font-size: 50px;
-            text-align: center;
-            transform: rotate(0deg);
-            transform-origin: left top 0;
-            margin: auto;
-            left: 32%;
-            top: 8px;
-          }
-          #makeup-2 {
-            width: 100%;
-            position: absolute;
-            font-size: 20px;
-            font-weight: bolder;
-            transform: rotate(0deg);
-            transform-origin: left top 0;
-            padding-top: 30px;
-            margin: auto;
-            left: 10%;
-          }
-          a{
-            padding-right: 10px;
-          }
-          /*PORTFOLIO*/
-          #slides{
-            position: absolute;
-            width: 1000px;
-            height: 1000px;
-            margin: auto;
-            top: 1300px;
-            left: 18px;
-            bottom: 0;
-            right: 0;
-          }
-          /*PRICES*/
-          .grey-box3{
-            width: 700px;
-            top: 148px;
-          }
-
-          .prices {
-            position: absolute;
-            margin: auto;
-            margin-top: 10px;
-          }
-
-          .cost {
-            font-family: 'Raleway', sans-serif;
-            font-size: 12x;
-            padding-top: 20px;
-            width: 80%;
-            text-align: left;
-            margin: auto;
-            height: 700px;
-            color: black;
-            text-shadow: 1px 1px #grey;
-          }
-
-          .service {
-            font-size: 10px;
-            width: 600px;
-          }
-
-          td {
-            width: 100%;
-            padding-right: 250px;
-            font-size: 18px;
-          }
-          /*ABOUT*/
-          .grey-box{
-            width: 600px;
-            top: 148px;
-          }
-
-          #selfie {
-            width: 150px;
-            height:150px;
-            margin-top: 17px;
-          }
-
-          .about {
-            position: absolute;
-            width: 1000px;
-            top: 250px;
-            left: -200px;
-          }
-        .bio {
-          font-size: 10px;
-          padding-top: -100px;
-          width: 50%;
-          height: 700px;
-        }
-
-        #about-me {
-          margin-top: -80px;
-          font-size: 25px;
-          text-align:center;
-          padding-bottom: 20px;
-        }
-
-        #pro {
-          font-size: 15px;
-          margin-top: -20px;
-          text-align: center;
-        }
-        /*CONTACTS PAGE*/
-
-            .grey-box2{
-              width: 600px;
-              top: 148px;
-            }
-
-
-            .about2 {
-              position: absolute;
-              width: 700px;
-              top: 100px;
-              left: -70px;
-            }
-
-
-            .bio2 {
-              font-size: 12px;
-              padding-top: -100px;
-              width: 100%;
-              height: 600px;
-            }
-
-            #about-me2 {
-              margin-top: -80px;
-              font-size: 25px;
-              text-align:center;
-              padding-bottom: 30px;
-            }
-
-            #pro2 {
-              font-size: 22px;
-              margin-top: -20px;
-              text-align: center;
-            }
-
-            .mcapp{
-              width: 400px;
-              height: 400px;
-              top: 200px;
-            }
-
-            p#mc-bio2{
-              font-size: 18px;
-              line-height: 50px;
-            }
-      }
-
-  @media screen and (min-width: 2561px){
-
-          /*INDEX PAGE*/
-          .image_array{
-            width: 800px;
-            height: 600px;
-            margin: auto;
-            left: 0;
-            right: 0;
-            top: 200px;
-          }
-          .slide1,.slide2,.slide3{
-            width: 100%;
-          }
-          .navbar {
-            background-color: white;
-            width: 100%;
-            position: fixed;
-            top: 0px;
-            height: 148px;
-            text-decoration: none;
-            text-align: center;
-            border-bottom: 2px solid #b9b0c0;
-            z-index: 100;
-            font-size: 0px;
-          }
-          .navigation ul {
-              margin-top:30px;
-              line-height: 40px;
-          }
-          span.fa.fa-envelope {
-            position: fixed;
-            top: 100px;
-            right: 75px;
-            font-size: 28px;
-          }
-          span.fa.fa-instagram {
-            color: black;
-            position: fixed;
-            top: 100px;
-            right: 25px;
-            font-size: 30px;
-          }
-          #logo {
-            left: 97px;
-            top: 20px;
-            color:  #dfbbbb;
-            font-family: 'Nothing You Could Do', cursive;
-            font-size: 60px;
-            left: 110px;
-          }
-          #makeup {
-              font-family: 'Raleway', sans-serif;
-              font-size: 20px;
-              color: black;
-              position: fixed;
-              left: 30px;
-              font-weight: bolder;
-              text-align: left;
-              top: 80px;
-            }
-
-          .brushes{
-            margin: auto;
-            left: 0;
-            right: 0;
-            width: 800px;
-            height: 110px;
-            top: 0px;
-            background-position:0 350px;
-          }
-          .nudepal{
-            background-image: url("photos/nudepal.jpg");
-            background-size: cover;
-            background-position:0 200px;
-            margin: auto;
-            left: 0;
-            right: 0;
-            width: 800px;
-            height: 100px;
-            margin-top: 100px;
-          }
-          .indexscroll{
-            top: 850px;
-            height: 700px;
-          }
-
-          #box {
-            display: none;
-          }
-          #logo-2 {
-            font-weight: bolder;
-            font-size: 50px;
-            text-align: center;
-            transform: rotate(0deg);
-            transform-origin: left top 0;
-            margin: auto;
-            left: 32%;
-            top: 8px;
-          }
-          #makeup-2 {
-            width: 100%;
-            position: absolute;
-            font-size: 20px;
-            font-weight: bolder;
-            transform: rotate(0deg);
-            transform-origin: left top 0;
-            padding-top: 30px;
-            margin: auto;
-            left: 10%;
-          }
-          a{
-            padding-right: 10px;
-          }
-          /*PORTFOLIO*/
-          #slides{
-            position: absolute;
-            width: 1500px;
-            height: 1000px;
-            margin: auto;
-            top: 1300px;
-            left: 18px;
-            bottom: 0;
-            right: 0;
-          }
-
-          /*PRICES*/
-          .grey-box3{
-            width: 700px;
-            top: 148px;
-          }
-
-          .prices {
-            position: absolute;
-            margin: auto;
-            margin-top: 10px;
-          }
-
-          .cost {
-            font-family: 'Raleway', sans-serif;
-            font-size: 12x;
-            padding-top: 20px;
-            width: 80%;
-            text-align: left;
-            margin: auto;
-            height: 700px;
-            color: black;
-            text-shadow: 1px 1px #grey;
-          }
-
-          .service {
-            font-size: 10px;
-            width: 600px;
-          }
-
-          td {
-            width: 100%;
-            padding-right: 250px;
-            font-size: 18px;
-          }
-          /*ABOUT*/
-          .grey-box{
-            width: 600px;
-            top: 148px;
-          }
-
-          #selfie {
-            width: 150px;
-            height:150px;
-            margin-top: 17px;
-          }
-
-          .about {
-            position: absolute;
-            width: 1000px;
-            top: 250px;
-            left: -200px;
-          }
-        .bio {
-          font-size: 10px;
-          padding-top: -100px;
-          width: 50%;
-          height: 700px;
-        }
-
-        #about-me {
-          margin-top: -80px;
-          font-size: 25px;
-          text-align:center;
-          padding-bottom: 20px;
-        }
-
-        #pro {
-          font-size: 15px;
-          margin-top: -20px;
-          text-align: center;
-        }
-        /*CONTACTS PAGE*/
-
-            .grey-box2{
-              width: 600px;
-              top: 148px;
-            }
-
-
-            .about2 {
-              position: absolute;
-              width: 700px;
-              top: 100px;
-              left: -70px;
-            }
-
-
-            .bio2 {
-              font-size: 12px;
-              padding-top: -100px;
-              width: 100%;
-              height: 600px;
-            }
-
-            #about-me2 {
-              margin-top: -80px;
-              font-size: 25px;
-              text-align:center;
-              padding-bottom: 30px;
-            }
-
-            #pro2 {
-              font-size: 22px;
-              margin-top: -20px;
-              text-align: center;
-            }
-
-            .mcapp{
-              width: 400px;
-              height: 400px;
-              top: 200px;
-            }
-
-            p#mc-bio2{
-              font-size: 18px;
-              line-height: 50px;
-            }
-
-      }
