@@ -722,6 +722,11 @@ td {
   margin-bottom: 10px;
 }
 
+#note{
+  font-size: 18px;
+  text-align: center;
+}
+
 /*CONTACTS PAGE*/
 .mcapp {
   width: 300px;
@@ -1026,7 +1031,7 @@ h2 {
 }
 
 .squares > div:nth-of-type(22){
-  background-image: url('photos/photo 2.jpg');
+  background-image: url('photos/image9.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
