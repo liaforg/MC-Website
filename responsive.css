@@ -895,7 +895,7 @@
 
     }
 
-@media screen and (min-width: 384px) and (max-width: 412px){
+@media screen and (min-width: 384px) and (max-width: 411px){
         /*INDEX PAGE*/
         section.section.parallax.bg6 {
           height: 10vh;
@@ -1163,6 +1163,306 @@
           margin-top: -56px;
           margin-left: 25px;
           width: 330px;
+          background-color: rgba(248,248,250, 0.8);
+          height: 90px;
+          font-family: 'Raleway', sans-serif;
+          font-size: 15px;
+          text-align: center;
+          margin-top: 50px;
+          box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+        }
+        .footer p {
+            padding-top: 50px;
+        }
+        .footer a{
+          text-decoration: none;
+          color: black;
+          font-size: 15px;
+          opacity: 50%;
+          line-height: 25px;
+        }
+        .footer a:hover{
+          color: white;
+          text-shadow: 1px 1px 1px black;
+        }
+
+        /*OLD------------------*/
+          .navbar {
+            background-color: white;
+            width: 100%;
+            position: fixed;
+            top: 0px;
+            height: 148px;
+            text-decoration: none;
+            text-align: center;
+            border-bottom: 2px solid #b9b0c0;
+            z-index: 100;
+            font-size: 0px;
+          }
+
+        }
+
+
+@media screen and (min-width: 412px) and (max-width: 414px){
+        /*INDEX PAGE*/
+        section.section.parallax.bg6 {
+          height: 10vh;
+        }
+        #hello {
+          font-family: 'Raleway', sans-serif;
+          font-size: 40px;
+          text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 55px white, 0 0 75px white;
+          margin-left: 65px;
+          margin-top:120px;
+          line-height: 100px;
+          font-weight: lighter;
+          }
+        .wrapper {
+          background-image: url('photos/mirror.jpg');
+          background-position: right;
+          background-size: cover;
+        }
+        .image_array{
+          width: 500px;
+          height: 400px;
+          margin: auto;
+          left: 450px;
+          right: 0;
+          top: 140px;
+        }
+        nav.navbar {
+          width: 100%;
+          position: fixed;
+          top: 0px;
+          height: 108px;
+          text-decoration: none;
+          text-align: center;
+          border-bottom: 2px solid #b9b0c0;
+          z-index: 100;
+          font-size: 0px;
+        }
+        h2#makeup {
+          margin:auto;
+          width: 100%;
+          font-size: 20px;
+          left: 0px;
+          font-weight: bolder;
+          top: 75px;
+        }
+        .fa.fa-envelope{
+          top: 110px;
+          right: 60px;
+        }
+        .fa.fa-instagram{
+          top: 110px;
+          right: 10px;
+        }
+        /*ABOUT*/
+        .about {
+          font-size: 20px;
+          width: 400px;
+          height: 700px;
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          background-color: rgba(248,248,250, 0.8);
+          margin-left: 540px;
+          top: 100px;
+          margin-left: 7px;
+        }
+        h2#about-title{
+          padding-top:20px;
+          font-size: 20px;
+          margin-left: 0px;
+        }
+        h3#about-me {
+          margin-top: -79px;
+          font-size: 18px;
+        }
+        p#pro{
+          font-size: 16px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        p#me{
+          padding-top: 20px;
+          width:380px;
+          margin-left: 10px;
+        }
+        #circ {
+          width: 100px;
+          height: 100px;
+        }
+        #me {
+          width: 800px;
+          font-size: 12px;
+          padding-bottom: 10px;
+          margin-left: 100px;
+        }
+        /*PORTFOLIO SCROLL*/
+        .port-box {
+          position: absolute;
+          margin: auto;
+          top: 200px;
+          font-size: 50px;
+          width: 390px;
+          height: 400px;
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          background-color: rgba(248,248,250, 0.8);
+          left: 12px;
+          box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+        }
+
+        h2 {
+            font-size: 22px;
+            text-align: center;
+            margin-left: -220px;
+        }
+        .horizontal-scroll-wrapper{
+          position:absolute;
+          display:block;
+          top:80px;
+          left:-300px;
+          width:300px;
+          height:1200px;
+          margin:0;
+          background-color: rgba(248,248,250, 0.10);
+          overflow-y:auto;
+          overflow-x:hidden;
+          transform:rotate(-90deg) translateY(-80px);
+          transform-origin:right top;
+        }
+        .horizontal-scroll-wrapper > div{
+          display:block;
+          padding:10px;
+          background:#cab;
+          transform:rotate(90deg);
+          transform-origin: right top;
+          width: 400px;
+          height: 100px;
+        }
+        .horizontal-scroll-wrapper.squares {
+          height: 290px;
+          left: -179px;
+          }
+        .squares{
+          padding:20px 0 0 0;
+        }
+        .squares > div{
+          width:200px;
+          height:300px;
+          margin:20px;
+          margin-left: 100px;
+          box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+        }
+        /*PRICES*/
+        .prices {
+          top: 100px;
+          position: absolute;
+          margin: auto;
+          font-size: 50px;
+          width: 400px;
+          height: 700px;
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          background-color: rgba(248,248,250, 0.8);
+          left: 7px;
+          box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+        }
+        .cost {
+          font-family: 'Raleway', sans-serif;
+          font-size: 15x;
+          padding-top: 20px;
+          width: 80%;
+          text-align: left;
+          margin: auto;
+          height: 700px;
+          color: black;
+          text-shadow: 1px 1px #grey;
+          left: 400px;
+          width: 600px;
+        }
+        h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+        td {
+          font-size: 10px;
+          padding-left: 50px;
+          padding-bottom: 20px;
+          margin-bottom: 10px;
+          padding-right: 80px;
+        }
+        td.one{
+          padding-right: 100px;
+        }
+        h4#note{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14x;
+        padding-top: 20px;
+        text-align: left;
+        margin: auto;
+        height: 700px;
+        color: black;
+        text-shadow: 1px 1px #grey;
+        margin-left: 130px;
+        width: 600px;
+        }
+
+        p.service{
+          margin-top: 20px;
+          font-size: 12px;
+          font-style: italic;
+          margin-bottom: 30px;
+          width: 280px;
+          text-align: center;
+          margin-left: 50px;
+        }
+        p.service2{
+          margin-top: -650px;
+          font-size: 12px;
+          font-style: italic;
+          margin-bottom: 30px;
+          width: 400px;
+          text-align: center;
+          margin-left: 0px;
+        }
+        /*CONTACTS PAGE*/
+        .con-about {
+          font-size: 20px;
+          width: 400px;
+          height: 500px;
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          background-color: rgba(248,248,250, 0.8);
+          margin-left: 540px;
+          margin-top: 400px;
+          margin-left: 7px;
+            box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+        }
+        .mcapp {
+          width: 250px;
+          height: 250px;
+          background-image: url("photos/mcapp.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-left: 75px;
+          margin-top: 40px;
+        }
+        h2#con-title{
+          margin-left: 5px;
+          padding-top:30px;
+          padding-bottom: 20px;
+        }
+        p#phone-email{
+            margin-left: -148px;
+            margin-top: 18px;
+        }
+        /*FOOTER*/
+        .footer{
+          margin-top: -56px;
+          margin-left: 7px;
+          width: 400px;
           background-color: rgba(248,248,250, 0.8);
           height: 90px;
           font-family: 'Raleway', sans-serif;
