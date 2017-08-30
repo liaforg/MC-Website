@@ -61,7 +61,7 @@
     text-align: center;
     background-color: rgba(248,248,250, 0.8);
     margin-left: 540px;
-    top: 100px;
+    margin-top: 70px;
     margin-left: 10px;
   }
   h2#about-title{
@@ -253,7 +253,8 @@
   }
   /*FOOTER*/
   .footer{
-    margin-top: -56px;
+    margin-bottom: 100px;
+    margin-top: -16px;
     margin-left: 25px;
     width: 263px;
     background-color: rgba(248,248,250, 0.8);
@@ -261,7 +262,6 @@
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     text-align: center;
-    margin-top: 50px;
     box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
   }
   .footer p {
@@ -545,7 +545,8 @@
   }
   /*FOOTER*/
   .footer{
-    margin-top: -56px;
+    margin-bottom: 100px;
+    margin-top: -16px;
     margin-left: 25px;
     width: 310px;
     background-color: rgba(248,248,250, 0.8);
@@ -553,7 +554,6 @@
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     text-align: center;
-    margin-top: 50px;
     box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
   }
   .footer p {
@@ -853,7 +853,8 @@
     }
     /*FOOTER*/
     .footer{
-      margin-top: -56px;
+      margin-bottom: 100px;
+      margin-top: -16px;
       margin-left: 25px;
       width: 310px;
       background-color: rgba(248,248,250, 0.8);
@@ -861,7 +862,6 @@
       font-family: 'Raleway', sans-serif;
       font-size: 15px;
       text-align: center;
-      margin-top: 50px;
       box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
     }
     .footer p {
@@ -1160,7 +1160,8 @@
         }
         /*FOOTER*/
         .footer{
-          margin-top: -56px;
+          margin-bottom: 100px;
+          margin-top: -16px;
           margin-left: 25px;
           width: 330px;
           background-color: rgba(248,248,250, 0.8);
@@ -1168,7 +1169,6 @@
           font-family: 'Raleway', sans-serif;
           font-size: 15px;
           text-align: center;
-          margin-top: 50px;
           box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
         }
         .footer p {
@@ -1460,6 +1460,8 @@
         }
         /*FOOTER*/
         .footer{
+          margin-bottom: 100px;
+          margin-top: -16px;
           margin-top: -56px;
           margin-left: 7px;
           width: 400px;
@@ -1468,7 +1470,6 @@
           font-family: 'Raleway', sans-serif;
           font-size: 15px;
           text-align: center;
-          margin-top: 50px;
           box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
         }
         .footer p {
@@ -1495,7 +1496,7 @@
             height: 148px;
             text-decoration: none;
             text-align: center;
-            border-bottom: 2px solid #b9b0c0;
+            border-bottom: 2px solid #b0819b;
             z-index: 100;
             font-size: 0px;
           }
