@@ -271,7 +271,7 @@ span.fa.fa-instagram:hover {
 
 #hello {
   font-family: 'Dancing Script', cursive;
-  font-size: 60px;
+  font-size: 80px;
   color: #fff;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ccb1b3, 0 0 30px #ccb1b3, 0 0 40px #ccb1b3, 0 0 55px #ccb1b3, 0 0 75px#ccb1b3;
   text-align: left;
@@ -279,7 +279,6 @@ span.fa.fa-instagram:hover {
   margin-top:80px;
   line-height: 150px;
   font-weight: lighter;
-  font-style: italic;
   }
 
 
@@ -691,6 +690,7 @@ td {
 }
 
 
+
 /*FOOTER*/
 
 .footer{
@@ -719,6 +719,16 @@ td {
 .footer a:hover{
   color: white;
   text-shadow: 1px 1px 1px black;
+}
+
+p#phone-email {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 30px;
+  width: 700px;
+  text-align: center;
+  margin-left: 150px;
+  line-height: 40px;
 }
 
 /*Web Refresh*/
