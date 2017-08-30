@@ -196,7 +196,7 @@ a.menuitems{
 }
 
 .menuitems:hover{
-  color: #fcb8b8;
+  color: #ccb1b3;
 }
 
 span#closebtn {
@@ -250,7 +250,7 @@ span.fa.fa-envelope:before{
 }
 
 span.fa.fa-envelope:hover {
-  color: #fcb8b8;
+  color: #ccb1b3;
 }
 
 
@@ -265,7 +265,7 @@ span.fa.fa-instagram:before{
 }
 
 span.fa.fa-instagram:hover {
-  color: #fcb8b8;
+  color:#ccb1b3;
 }
 
 
@@ -273,7 +273,7 @@ span.fa.fa-instagram:hover {
   font-family: 'Dancing Script', cursive;
   font-size: 60px;
   color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fcb8b8, 0 0 30px #fcb8b8, 0 0 40px #fcb8b8, 0 0 55px #fcb8b8, 0 0 75px #fcb8b8;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ccb1b3, 0 0 30px #ccb1b3, 0 0 40px #ccb1b3, 0 0 55px #ccb1b3, 0 0 75px#ccb1b3;
   text-align: left;
   margin-left: 230px;
   margin-top:80px;
@@ -394,7 +394,7 @@ span.fa.fa-instagram:hover {
   border-radius: 50%;
   margin-bottom: 100px;
   margin-top: 20px;
-  box-shadow:  0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fcb8b8, 0 0 30px #fcb8b8, 0 0 40px #fcb8b8;
+  box-shadow:  0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ccb1b3, 0 0 30px#ccb1b3, 0 0 40px #ccb1b3;
 }
 
 #me {
@@ -763,7 +763,26 @@ main{
 
 
 
-/*SCROLL*/
+/*PORTFOLIO SCROLL*/
+.port-box {
+  position: absolute;
+  margin: auto;
+  top: 150px;
+  font-size: 50px;
+  width: 1100px;
+  height: 600px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color: rgba(248,248,250, 0.8);
+  left: 280px;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
 
 ::-webkit-scrollbar{width:2px;height:2px;}
 ::-webkit-scrollbar-button{width:2px;height:2px;}
@@ -772,17 +791,18 @@ main{
 .horizontal-scroll-wrapper{
   position:absolute;
   display:block;
-  top:200px;
-  left:-150px;
-  width:600px;
+  top:120px;
+  left:-400px;
+  width:500px;
   height:1000px;
   margin:0;
-  background:#abc;
+  background-color: rgba(248,248,250, 0.10);
   overflow-y:auto;
   overflow-x:hidden;
   transform:rotate(-90deg) translateY(-80px);
   transform-origin:right top;
 }
+
 .horizontal-scroll-wrapper > div{
   display:block;
   padding:10px;
@@ -803,25 +823,148 @@ main{
   height:400px;
   margin:20px;
   margin-left: 90px;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
 }
 
-.rectangles{
-  top:100px;
-  padding:100px 0 0 0;
-}
-.rectangles > div{
-  width:140px;
-  height:60px;
-  margin:50px 10px;
-  padding:5px;
-  background:#cab;
-  transform:rotate(90deg) translateY(80px);
-  transform-origin: right top;
+.squares > div:nth-of-type(1){
+    visibility: hidden;
 }
 
-.rectangles:nth-of-type(1){
-  background-image: url('photos/pic8.jpg');
-  background-size: contain;
+.squares > div:nth-of-type(2){
+    background-image: url('photos/pic8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.squares > div:nth-of-type(3){
+  background-image: url('photos/pic1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.squares > div:nth-of-type(4){
+  background-image: url('photos/pic2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.squares > div:nth-of-type(5){
+  background-image: url('photos/pic3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.squares > div:nth-of-type(6){
+  background-image: url('photos/pic4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.squares > div:nth-of-type(7){
+  background-image: url('photos/pic5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.squares > div:nth-of-type(8){
+  background-image: url('photos/pic6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.squares > div:nth-of-type(9){
+  background-image: url('photos/MK-89.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.squares > div:nth-of-type(10){
+  background-image: url('photos/bride.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.squares > div:nth-of-type(11){
+  background-image: url('photos/balloon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.squares > div:nth-of-type(12){
+  background-image: url('photos/couple.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.squares > div:nth-of-type(13){
+  background-image: url('photos/bride1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.squares > div:nth-of-type(14){
+  background-image: url('photos/image4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.squares > div:nth-of-type(15){
+  background-image: url('photos/image10.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.squares > div:nth-of-type(16){
+  background-image: url('photos/Attachment-2.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.squares > div:nth-of-type(17){
+  background-image: url('photos/G&A_0183.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.squares > div:nth-of-type(18){
+  background-image: url('photos/G&A_0249.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.squares > div:nth-of-type(19){
+  background-image: url('photos/bridecar.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.squares > div:nth-of-type(20){
+  background-image: url('photos/party2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.squares > div:nth-of-type(21){
+  background-image: url('photos/party3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.squares > div:nth-of-type(22){
+  background-image: url('photos/photo 2.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
