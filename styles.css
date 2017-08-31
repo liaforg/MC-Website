@@ -108,8 +108,8 @@ section.section.parallax.bg6 {
 }
 
 section.section.parallax.bg4 {
-  height: 100vh;
-    background-color: rgba(82,85,91, .3);
+  height: 110vh;
+  background-color: rgba(82,85,91, .3);
 }
 
 .parallax::after {
