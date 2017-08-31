@@ -600,19 +600,19 @@
   /*ABOUT*/
   .about {
     font-size: 20px;
-    width: 300px;
+    width: 350px;
     height: 700px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-left: 540px;
     margin-top: 70px;
     margin-left: 10px;
-    background-color: white;
   }
   h2#about-title{
     padding-top:20px;
     font-size: 20px;
     margin-left: 0px;
+
   }
   h3#about-me {
     margin-top: -79px;
@@ -620,12 +620,13 @@
   }
   p#pro{
     font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   p#me{
-    width:290px;
+    width: 350px;
     margin-left: 5px;
+    line-height: 15px;
   }
   #circ {
     width: 100px;
@@ -643,17 +644,18 @@
     margin: auto;
     top: 200px;
     font-size: 50px;
-    width: 300px;
+    width: 360px;
     height: 400px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     left: 10px;
     background-color: white;
   }
-  h2 {
+  h2#port-title {
+      margin-top: 100px;
+      margin-left: -249px;
+      color: black;
       font-size: 20px;
-      text-align: center;
-      margin-left: -300px;
   }
   .horizontal-scroll-wrapper{
     position:absolute;
@@ -679,7 +681,7 @@
     height: 100px;
   }
   .horizontal-scroll-wrapper.squares {
-    height: 250px;
+    height: 300px;
     left: -200px;
     }
   .squares{
@@ -698,12 +700,12 @@
     position: absolute;
     margin: auto;
     font-size: 50px;
-    width: 300px;
+    width: 400px;
     height: 700px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     left: 10px;
-    background-color: white;
+    color: white;
 
   }
   .cost {
@@ -713,38 +715,42 @@
     width: 80%;
     text-align: left;
     margin: auto;
+    margin-top: -94px;
     height: 700px;
-    color: black;
+    color: white;
     text-shadow: 1px 1px #grey;
     left: 300px;
     width: 600px;
   }
-  h2 {
+  h2#serv-title {
       font-size: 20px;
       text-align: center;
+      color: white;
+      margin-left: -239px;
   }
+
   p.service {
     font-size: 10px;
     font-style: italic;
     margin-bottom: 30px;
     width: 300px;
     text-align: center;
-    margin-left: 0px;
+    margin-left: 28px;
     margin-top: 20px;
   }
   td {
     font-size: 10px;
-    padding-left: 50px;
+    padding-left: 70px;
     padding-bottom: 20px;
     margin-bottom: 10px;
     padding-right: 60px;
   }
   td.one{
-    padding-right: 400px;
+    padding-right: 300px;
   }
   h4#note{
   font-family: 'Raleway', sans-serif;
-  font-size: 15x;
+  font-size: 10x;
   padding-top: 20px;
   width: 80%;
   text-align: left;
@@ -754,25 +760,27 @@
   text-shadow: 1px 1px #grey;
   margin-left: 80px;
   width: 600px;
+  margin-top: -65px;
   }
   p.service2{
     margin-top: -650px;
-    font-size: 12px;
+    font-size: 10px;
     font-style: italic;
     margin-bottom: 30px;
     width: 280px;
     text-align: center;
-    margin-left: 10px;
+        margin-left: 44px;
+    color: white;
   }
   /*CONTACTS PAGE*/
   .con-about {
     font-size: 20px;
-    width: 300px;
+    width: 360px;
     height: 500px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-left: 540px;
-    margin-top: 400px;
+    margin-top: 100px;
     margin-left: 10px;
     background-color: white;
   }
@@ -782,8 +790,8 @@
     background-image: url("photos/mcapp.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left: 82px;
+    margin-top: 50px;
   }
   h2#con-title{
     margin-left: 5px;
@@ -791,16 +799,16 @@
     padding-bottom: 20px;
   }
   p#phone-email{
-      margin-left: -196px;
-      margin-top: 18px;
+    margin-left: -167px;
+    margin-top: 18px;
   }
   /*FOOTER*/
   .footer{
-    padding-top: 10px;
+    padding-top: 20px;
     margin-bottom: 100px;
     margin-top: 80px;
-    margin-left: 25px;
-    width: 263px;
+    margin-left: 11px;
+    width: 340px;
     height: 65px;
     font-family: 'Raleway', sans-serif;
     font-size: 10px;
@@ -822,6 +830,7 @@
     text-shadow: 1px 1px 1px black;
   }
 }
+
 
 @media screen and (min-width: 384px) and (max-width: 411px){
   /*INDEX PAGE*/
@@ -869,19 +878,19 @@
   /*ABOUT*/
   .about {
     font-size: 20px;
-    width: 300px;
+    width: 330px;
     height: 700px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-left: 540px;
     margin-top: 70px;
     margin-left: 10px;
-    background-color: white;
   }
   h2#about-title{
     padding-top:20px;
     font-size: 20px;
     margin-left: 0px;
+
   }
   h3#about-me {
     margin-top: -79px;
@@ -889,12 +898,13 @@
   }
   p#pro{
     font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   p#me{
-    width:290px;
+    width: 330px;
     margin-left: 5px;
+    line-height: 15px;
   }
   #circ {
     width: 100px;
@@ -912,17 +922,18 @@
     margin: auto;
     top: 200px;
     font-size: 50px;
-    width: 300px;
+    width: 340px;
     height: 400px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     left: 10px;
     background-color: white;
   }
-  h2 {
+  h2#port-title {
+      margin-top: 100px;
+      margin-left: -267px;
+      color: black;
       font-size: 20px;
-      text-align: center;
-      margin-left: -300px;
   }
   .horizontal-scroll-wrapper{
     position:absolute;
@@ -948,7 +959,7 @@
     height: 100px;
   }
   .horizontal-scroll-wrapper.squares {
-    height: 250px;
+    height: 280px;
     left: -200px;
     }
   .squares{
@@ -967,12 +978,12 @@
     position: absolute;
     margin: auto;
     font-size: 50px;
-    width: 300px;
+    width: 380px;
     height: 700px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     left: 10px;
-    background-color: white;
+    color: white;
 
   }
   .cost {
@@ -982,38 +993,42 @@
     width: 80%;
     text-align: left;
     margin: auto;
+    margin-top: -94px;
     height: 700px;
-    color: black;
+    color: white;
     text-shadow: 1px 1px #grey;
     left: 300px;
     width: 600px;
   }
-  h2 {
+  h2#serv-title {
       font-size: 20px;
       text-align: center;
+      color: white;
+      margin-left: -267px;
   }
+
   p.service {
     font-size: 10px;
     font-style: italic;
     margin-bottom: 30px;
     width: 300px;
     text-align: center;
-    margin-left: 0px;
+    margin-left: 18px;
     margin-top: 20px;
   }
   td {
     font-size: 10px;
-    padding-left: 50px;
+    padding-left: 60px;
     padding-bottom: 20px;
     margin-bottom: 10px;
     padding-right: 60px;
   }
   td.one{
-    padding-right: 400px;
+    padding-right: 300px;
   }
   h4#note{
   font-family: 'Raleway', sans-serif;
-  font-size: 15x;
+  font-size: 10x;
   padding-top: 20px;
   width: 80%;
   text-align: left;
@@ -1023,25 +1038,27 @@
   text-shadow: 1px 1px #grey;
   margin-left: 80px;
   width: 600px;
+  margin-top: -65px;
   }
   p.service2{
     margin-top: -650px;
-    font-size: 12px;
+    font-size: 10px;
     font-style: italic;
     margin-bottom: 30px;
     width: 280px;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 20px;
+    color: white;
   }
   /*CONTACTS PAGE*/
   .con-about {
     font-size: 20px;
-    width: 300px;
+    width: 340px;
     height: 500px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-left: 540px;
-    margin-top: 400px;
+    margin-top: 100px;
     margin-left: 10px;
     background-color: white;
   }
@@ -1051,8 +1068,8 @@
     background-image: url("photos/mcapp.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left: 72px;
+    margin-top: 50px;
   }
   h2#con-title{
     margin-left: 5px;
@@ -1060,16 +1077,16 @@
     padding-bottom: 20px;
   }
   p#phone-email{
-      margin-left: -196px;
-      margin-top: 18px;
+    margin-left: -178px;
+    margin-top: 18px;
   }
   /*FOOTER*/
   .footer{
-    padding-top: 10px;
+    padding-top: 20px;
     margin-bottom: 100px;
     margin-top: 80px;
-    margin-left: 25px;
-    width: 263px;
+    margin-left: 11px;
+    width: 340px;
     height: 65px;
     font-family: 'Raleway', sans-serif;
     font-size: 10px;
@@ -1139,19 +1156,19 @@
   /*ABOUT*/
   .about {
     font-size: 20px;
-    width: 300px;
+    width: 330px;
     height: 700px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-left: 540px;
     margin-top: 70px;
     margin-left: 10px;
-    background-color: white;
   }
   h2#about-title{
     padding-top:20px;
     font-size: 20px;
     margin-left: 0px;
+
   }
   h3#about-me {
     margin-top: -79px;
@@ -1159,12 +1176,13 @@
   }
   p#pro{
     font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   p#me{
-    width:290px;
+    width: 330px;
     margin-left: 5px;
+    line-height: 15px;
   }
   #circ {
     width: 100px;
@@ -1182,19 +1200,19 @@
     margin: auto;
     top: 200px;
     font-size: 50px;
-    width: 300px;
+    width: 340px;
     height: 400px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     left: 10px;
     background-color: white;
   }
-
   h2#port-title {
       margin-top: 100px;
+      margin-left: -267px;
       color: black;
+      font-size: 20px;
   }
-
   .horizontal-scroll-wrapper{
     position:absolute;
     display:block;
@@ -1219,7 +1237,7 @@
     height: 100px;
   }
   .horizontal-scroll-wrapper.squares {
-    height: 250px;
+    height: 280px;
     left: -200px;
     }
   .squares{
@@ -1238,12 +1256,12 @@
     position: absolute;
     margin: auto;
     font-size: 50px;
-    width: 300px;
+    width: 380px;
     height: 700px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     left: 10px;
-    background-color: white;
+    color: white;
 
   }
   .cost {
@@ -1253,38 +1271,42 @@
     width: 80%;
     text-align: left;
     margin: auto;
+    margin-top: -94px;
     height: 700px;
-    color: black;
+    color: white;
     text-shadow: 1px 1px #grey;
     left: 300px;
     width: 600px;
   }
-  h2 {
+  h2#serv-title {
       font-size: 20px;
       text-align: center;
+      color: white;
+      margin-left: -267px;
   }
+
   p.service {
     font-size: 10px;
     font-style: italic;
     margin-bottom: 30px;
     width: 300px;
     text-align: center;
-    margin-left: 0px;
+    margin-left: 18px;
     margin-top: 20px;
   }
   td {
     font-size: 10px;
-    padding-left: 50px;
+    padding-left: 60px;
     padding-bottom: 20px;
     margin-bottom: 10px;
     padding-right: 60px;
   }
   td.one{
-    padding-right: 400px;
+    padding-right: 300px;
   }
   h4#note{
   font-family: 'Raleway', sans-serif;
-  font-size: 15x;
+  font-size: 10x;
   padding-top: 20px;
   width: 80%;
   text-align: left;
@@ -1294,25 +1316,27 @@
   text-shadow: 1px 1px #grey;
   margin-left: 80px;
   width: 600px;
+  margin-top: -65px;
   }
   p.service2{
     margin-top: -650px;
-    font-size: 12px;
+    font-size: 10px;
     font-style: italic;
     margin-bottom: 30px;
     width: 280px;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 20px;
+    color: white;
   }
   /*CONTACTS PAGE*/
   .con-about {
     font-size: 20px;
-    width: 300px;
+    width: 340px;
     height: 500px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-left: 540px;
-    margin-top: 400px;
+    margin-top: 100px;
     margin-left: 10px;
     background-color: white;
   }
@@ -1322,8 +1346,8 @@
     background-image: url("photos/mcapp.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left: 72px;
+    margin-top: 50px;
   }
   h2#con-title{
     margin-left: 5px;
@@ -1331,16 +1355,16 @@
     padding-bottom: 20px;
   }
   p#phone-email{
-      margin-left: -196px;
-      margin-top: 18px;
+    margin-left: -178px;
+    margin-top: 18px;
   }
   /*FOOTER*/
   .footer{
-    padding-top: 10px;
+    padding-top: 20px;
     margin-bottom: 100px;
     margin-top: 80px;
-    margin-left: 25px;
-    width: 263px;
+    margin-left: 11px;
+    width: 340px;
     height: 65px;
     font-family: 'Raleway', sans-serif;
     font-size: 10px;
