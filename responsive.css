@@ -1111,6 +1111,15 @@
 
 @media screen and (min-width: 412px) and (max-width: 414px){
   /*INDEX PAGE*/
+  section.section.parallax.bg2 {
+    height: 95vh;
+  }
+
+  section.section.parallax.bg4 {
+    height: 90vh;
+  }
+
+
   section.section.parallax.bg6 {
     height: 20vh;
   }
