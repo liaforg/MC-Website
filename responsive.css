@@ -2244,7 +2244,7 @@
   a.menuitems {
     font-size: 18px;
     line-height: 38px;
-}
+  }
   .wrapper {
     background-color: white;
   }
@@ -2502,7 +2502,7 @@
   }
   p#pro2 {
     font-size: 18px;
-}
+  }
   /*FOOTER*/
   .footer{
     padding-top: 20px;
@@ -2510,6 +2510,311 @@
     margin-top: 80px;
     margin-left: 0px;
     width: 750px;
+    height: 65px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    background-color: white;
+  }
+  .footer p {
+      padding-top: 15px;
+  }
+  .footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    opacity: 50%;
+    line-height: 0px;
+  }
+  .footer a:hover{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 799px){
+  /*INDEX PAGE*/
+  section.section.parallax.bg6 {
+    height: 20vh;
+  }
+
+  section.section.parallax.bg2 {
+    height: 110vh;
+  }
+
+  section.section.parallax.bg3 {
+    height: 120vh;
+  }
+
+  a.menuitems {
+    font-size: 18px;
+    line-height: 38px;
+  }
+  .wrapper {
+    background-color: white;
+  }
+  .image_array{
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    left: 400px;
+    right: 0;
+    top: 140px;
+  }
+  nav.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 108px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 2px solid black;
+    z-index: 100;
+
+  }
+  h2#makeup {
+    margin:auto;
+    width: 100%;
+    font-size: 20px;
+    left: 0px;
+    font-weight: bolder;
+    top: 75px;
+  }
+  .fa.fa-envelope{
+    top: 110px;
+    right: 60px;
+  }
+  .fa.fa-instagram{
+    top: 110px;
+    right: 10px;
+  }
+  /*ABOUT*/
+  .about {
+    font-size: 20px;
+    width: 750px;
+    height: 700px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-left: 540px;
+    margin-top: 70px;
+    margin-left: 10px;
+  }
+  h2#about-title{
+    padding-top:20px;
+    font-size: 25px;
+    margin-left: 0px;
+
+  }
+  h3#about-me {
+    margin-top: -79px;
+    font-size: 23px;
+  }
+  p#pro{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 16px;
+  }
+  p#me{
+    padding-top: 20px;
+    width: 730px;
+    margin-left: 5px;
+    line-height: 15px;
+    font-size: 15px;
+  }
+  #circ {
+    width: 200px;
+    height: 200px;
+  }
+  #me {
+    width: 800px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+  }
+  /*PORTFOLIO SCROLL*/
+  .port-box {
+    position: absolute;
+    margin: auto;
+    top: 220px;
+    font-size: 50px;
+    width: 750px;
+    height: 550px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    left: 10px;
+    background-color: white;
+  }
+  h2#port-title {
+      margin-top: 100px;
+      margin-left: -10px;
+      color: black;
+      font-size: 25px;
+  }
+
+  .horizontal-scroll-wrapper.squares {
+    height: 720px;
+    left: -450px;
+    }
+
+  .horizontal-scroll-wrapper{
+    position:absolute;
+    display:block;
+    top:70px;
+    left:-400px;
+    width:500px;
+    height:1000px;
+    margin:0;
+    background-color: rgba(248,248,250, 0.10);
+    overflow-y:auto;
+    overflow-x:hidden;
+    transform:rotate(-90deg) translateY(-80px);
+    transform-origin:right top;
+  }
+
+  .horizontal-scroll-wrapper > div{
+    display:block;
+    padding:10px;
+    background:#cab;
+    transform:rotate(90deg);
+    transform-origin: right top;
+    width: 600px;
+    height: 600px;
+  }
+
+
+  .squares{
+    padding:60px 0 0 0;
+  }
+
+  .squares > div{
+    width:400px;
+    height:400px;
+    margin:20px;
+    margin-left: 90px;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #F8F8FA, 0 0 30px #F8F8FA;
+  }
+  /*PRICES*/
+  .prices {
+    top: 100px;
+    position: absolute;
+    margin: auto;
+    font-size: 50px;
+    width: 800px;
+    height: 700px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    left: 10px;
+    color: white;
+
+  }
+  .cost {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15x;
+    padding-top: 20px;
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    margin-top: -94px;
+    height: 700px;
+    color: white;
+    text-shadow: 1px 1px #grey;
+    left: 300px;
+    width: 600px;
+  }
+  h2#serv-title {
+      font-size: 25px;
+      text-align: center;
+      color: white;
+      margin-left: -36px;
+  }
+
+  p.service {
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom: 30px;
+    width: 300px;
+    text-align: center;
+    margin-left: 131px;
+    margin-top: 20px;
+  }
+  td {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-right: 350px;
+  }
+  td.one{
+    padding-right: 300px;
+  }
+  h4#note{
+  font-family: 'Raleway', sans-serif;
+  font-size: 13x;
+  padding-top: 20px;
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  height: 700px;
+  color: black;
+  text-shadow: 1px 1px #grey;
+  margin-left: 80px;
+  width: 600px;
+  margin-top: -65px;
+  }
+  p.service2{
+    margin-top: -650px;
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom: 30px;
+    width: 700px;
+    text-align: center;
+    margin-left: -50px;
+    padding-top: 50px;
+    color: white;
+  }
+  /*CONTACTS PAGE*/
+  .con-about {
+    font-size: 25px;
+    width: 740px;
+    height: 500px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-left: 540px;
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: white;
+  }
+  .mcapp {
+    width: 400px;
+    height: 400px;
+    background-image: url("photos/mcapp.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 168px;
+    margin-top: 74px;
+  }
+  h2#con-title{
+    font-size: 25px;
+    margin-left: 5px;
+    padding-top:30px;
+    padding-bottom: 20px;
+  }
+  p#phone-email{
+    font-size: 18px;
+    margin-left: 21px;
+    margin-top: 20px;
+  }
+  p#pro2 {
+    font-size: 18px;
+  }
+  /*FOOTER*/
+  .footer{
+    padding-top: 20px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-left: 0px;
+    width: 800px;
     height: 65px;
     font-family: 'Raleway', sans-serif;
     font-size: 10px;
