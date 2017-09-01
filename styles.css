@@ -84,8 +84,10 @@ section.section.parallax.bg {
 section.section.parallax.bg1 {
   height: 100vh;
   background-image: url('photos/mirror.jpg');
-  background-position: right;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 section.section.parallax.bg2 {
