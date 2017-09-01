@@ -171,7 +171,7 @@ nav.navbar {
   text-decoration: none;
   text-align: center;
   border-bottom: 2px solid black;
-  color: rgb(248,248,250);
+  color: white;
 }
 
 .navbar {
@@ -203,7 +203,8 @@ nav.navbar {
     padding-top: 0px;
     z-index: 300;
     box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px white, 0 0 30px white;
-    background-color: rgb(248,248,250);
+    background-color: #C9969E;
+    color: white;
 }
 
 
@@ -908,7 +909,7 @@ h2 {
 .horizontal-scroll-wrapper > div{
   display:block;
   padding:10px;
-  background:#cab;
+  background:#C9969E;
   transform:rotate(90deg);
   transform-origin: right top;
   width: 600px;
