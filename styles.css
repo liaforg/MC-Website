@@ -205,7 +205,7 @@ nav.navbar {
     padding-top: 0px;
     z-index: 300;
     box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px white, 0 0 30px white;
-    background-color: #C9969E;
+    background-color: #eecece;
     color: white;
 }
 
@@ -280,7 +280,7 @@ a.menuitems{
 }
 
 .menuitems:hover{
-  color: #e81b58;
+  color: white;
 }
 
 span#closebtn {
@@ -335,7 +335,7 @@ span.fa.fa-envelope:before{
 }
 
 span.fa.fa-envelope:hover {
-  color: #e81b58;
+  color: white;
 }
 
 
@@ -351,7 +351,7 @@ span.fa.fa-instagram:before{
 }
 
 span.fa.fa-instagram:hover {
-  color:#e81b58;
+  color:white;
 }
 
 
@@ -440,12 +440,12 @@ span.fa.fa-instagram:hover {
   text-align: center;
   margin-left: 540px;
   top: 100px;
-  color: #F8F8FA;
+  color: black;
 }
 
 h2#about-title{
   padding-top:20px;
-  color: white;
+  color: black;
 }
 
 
@@ -453,7 +453,7 @@ h2#about-title{
   font-size: 30px;
   padding-bottom: 20px;
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: black;
 }
 
 #circ {
@@ -474,13 +474,13 @@ h2#about-title{
   font-size: 15px;
   padding-bottom: 10px;
   margin-left: 100px;
-  color: white;
+  color: black;
 }
 
 p#pro {
     font-size: 20px;
     padding-bottom: 20px;
-    color: white;
+    color: black;
 }
 
 
@@ -709,6 +709,7 @@ p#pro {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   left: 430px;
+  color: black;
 
 }
 
@@ -755,7 +756,7 @@ td {
 #note{
   font-size: 18px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 /*CONTACTS PAGE*/
@@ -812,8 +813,8 @@ p#pro2{
 }
 
 .footer a:hover{
-  color: white;
-  text-shadow: 1px 1px 1px black;
+  color: #eecece;
+
 }
 
 p#phone-email {
@@ -911,7 +912,6 @@ h2 {
 .horizontal-scroll-wrapper > div{
   display:block;
   padding:10px;
-  background:#C9969E;
   transform:rotate(90deg);
   transform-origin: right top;
   width: 600px;
