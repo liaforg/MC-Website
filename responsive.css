@@ -4,19 +4,6 @@
     height: 20vh;
   }
 
-  section.section.parallax.bg2 {
-    height: 160vh;
-  }
-
-  section.section.parallax.bg3 {
-    margin-top: -50px;
-  }
-
-  section.section.parallax.bg4 {
-    height: 130vh;
-  }
-
-
   .wrapper {
     background-color: white;
   }
@@ -59,7 +46,7 @@
   .about {
     font-size: 20px;
     width: 300px;
-    height: 900px;
+    height: 700px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-left: 540px;
@@ -97,10 +84,6 @@
     margin-left: 100px;
   }
   /*PORTFOLIO SCROLL*/
-
-  section#link3 {
-    margin-top: -134px;
-  }
   .port-box {
     position: absolute;
     margin: auto;
@@ -163,7 +146,7 @@
     margin: auto;
     font-size: 50px;
     width: 300px;
-    height: 1000px;
+    height: 700px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     left: 10px;
@@ -242,7 +225,7 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-left: 540px;
-    margin-top: -66px;
+    margin-top: 100px;
     margin-left: 10px;
     background-color: white;
   }
@@ -295,26 +278,8 @@
 
 @media screen and (min-width: 360px) and (max-width:374px){
   /*INDEX PAGE*/
-
-  section.section.parallax.bg2 {
-    height: 115vh;
-  }
-
-  section.section.parallax.bg3 {
-    margin-top: -90px;
-  }
-
-  section.section.parallax.bg4 {
-    margin-top: -19px;
-  }
-
-  section.section.parallax.bg5 {
-    height: 60vh;
-  }
-
-
   section.section.parallax.bg6 {
-    height: 10vh;
+    height: 20vh;
   }
   .wrapper {
     background-color: white;
@@ -591,28 +556,9 @@
 @media screen and (min-width: 375px) and (max-width: 383px){
 
   /*INDEX PAGE*/
-
-    section.section.parallax.bg2 {
-      height: 115vh;
-    }
-
-    section.section.parallax.bg3 {
-      margin-top: -90px;
-    }
-
-    section.section.parallax.bg4 {
-      margin-top: -19px;
-    }
-
-    section.section.parallax.bg5 {
-      height: 60vh;
-    }
-
-
-    section.section.parallax.bg6 {
-      height: 10vh;
-    }
-
+  section.section.parallax.bg6 {
+    height: 20vh;
+  }
   .wrapper {
     background-color: white;
   }
@@ -887,27 +833,9 @@
 
 @media screen and (min-width: 384px) and (max-width: 411px){
   /*INDEX PAGE*/
-
-    section.section.parallax.bg2 {
-      height: 115vh;
-    }
-
-    section.section.parallax.bg3 {
-      margin-top: -90px;
-    }
-
-    section.section.parallax.bg4 {
-      margin-top: -19px;
-    }
-
-    section.section.parallax.bg5 {
-      height: 60vh;
-    }
-
-
-    section.section.parallax.bg6 {
-      height: 10vh;
-    }
+  section.section.parallax.bg6 {
+    height: 20vh;
+  }
   .wrapper {
     background-color: white;
   }
@@ -1184,25 +1112,16 @@
 @media screen and (min-width: 412px) and (max-width: 414px){
   /*INDEX PAGE*/
   section.section.parallax.bg2 {
-    height: 100vh;
-  }
-
-  section.section.parallax.bg3 {
-    margin-top: 100px;
-    height: 87vh;
+    height: 95vh;
   }
 
   section.section.parallax.bg4 {
-    margin-top: 60px;
-  }
-
-  section.section.parallax.bg5 {
-    height: 60vh;
+    height: 90vh;
   }
 
 
   section.section.parallax.bg6 {
-    height: 10vh;
+    height: 20vh;
   }
   .wrapper {
     background-color: white;
@@ -2035,22 +1954,8 @@
 
 @media screen and (min-width: 600px) and (max-width: 639px){
   /*INDEX PAGE*/
-
-  section.section.parallax.bg2{
-    height: 60vh;
-  }
-  section.section.parallax.bg3 {
-    margin-top: -90px;
-  }
-  section.section.parallax.bg4 {
-    margin-top: -400px;
-    height: 70vh;
-  }
-  section.section.parallax.bg5 {
-    height: 50vh;
-  }
   section.section.parallax.bg6 {
-    height: 5vh;
+    height: 20vh;
   }
   .wrapper {
     background-color: white;
@@ -2633,26 +2538,16 @@
 
 @media screen and (min-width: 768px) and (max-width: 799px){
   /*INDEX PAGE*/
+  section.section.parallax.bg6 {
+    height: 20vh;
+  }
 
   section.section.parallax.bg2 {
-    height: 80vh;
+    height: 110vh;
   }
 
   section.section.parallax.bg3 {
-    margin-top: -90px;
-  }
-
-  section.section.parallax.bg4 {
-    margin-top: -213px;
-      height: 80vh;
-  }
-
-  section.section.parallax.bg5 {
-    height: 60vh;
-  }
-
-  section.section.parallax.bg6 {
-    height: 10vh;
+    height: 120vh;
   }
 
   a.menuitems {
@@ -2948,21 +2843,16 @@
 
 @media screen and (min-width: 800px) and (max-width: 900px){
   /*INDEX PAGE*/
-  section.section.parallax.bg2{
-    height: 60vh;
-  }
-  section.section.parallax.bg3 {
-    margin-top: -90px;
-  }
-  section.section.parallax.bg4 {
-    margin-top: -400px;
-    height: 70vh;
-  }
-  section.section.parallax.bg5 {
-    height: 50vh;
-  }
   section.section.parallax.bg6 {
-    height: 5vh;
+    height: 20vh;
+  }
+
+  section.section.parallax.bg2 {
+    height: 110vh;
+  }
+
+  section.section.parallax.bg3 {
+    height: 120vh;
   }
 
   a.menuitems {
@@ -3551,9 +3441,16 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1365px){
   /*INDEX PAGE*/
+  section.section.parallax.bg6 {
+    height: 20vh;
+  }
 
-  section.section.parallax.bg6{
-    height: 3vh;
+  section.section.parallax.bg2 {
+    height: 110vh;
+  }
+
+  section.section.parallax.bg3 {
+    height: 120vh;
   }
 
   a.menuitems {
@@ -3611,13 +3508,13 @@
   }
   h2#about-title{
     padding-top:20px;
-    font-size: 25px;
+    font-size: 28px;
     margin-left: 0px;
 
   }
   h3#about-me {
     margin-top: -79px;
-    font-size: 22px;
+    font-size: 25px;
   }
   p#pro{
     font-size: 18px;
@@ -3626,7 +3523,7 @@
     margin-left: 16px;
   }
   p#me{
-    padding-top: 17px;
+    padding-top: 20px;
     width: 1000px;
     margin-left: 5px;
     line-height: 15px;
@@ -3727,7 +3624,7 @@
     width: 600px;
   }
   h2#serv-title {
-      font-size: 25px;
+      font-size: 28px;
       text-align: center;
       color: black;
       margin-left: -36px;
@@ -3799,7 +3696,7 @@
     margin-top: 74px;
   }
   h2#con-title{
-    font-size: 25px;
+    font-size: 28px;
     margin-left: 5px;
     padding-top:30px;
     padding-bottom: 20px;
@@ -3843,27 +3740,18 @@
 
 @media screen and (min-width: 1366px) and (max-width: 1599px){
   /*INDEX PAGE*/
-
+  section.section.parallax.bg6 {
+    height: 20vh;
+  }
 
   section.section.parallax.bg2 {
-    height: 80vh;
+    height: 110vh;
   }
 
   section.section.parallax.bg3 {
     height: 120vh;
   }
 
-  section.section.parallax.bg4 {
-    height: 80vh;
-    margin-top: -100px;
-  }
-
-  section.section.parallax.bg5{
-    height: 50vh;
-  }
-  section.section.parallax.bg6{
-    height: 3vh;
-  }
   a.menuitems {
     font-size: 18px;
     line-height: 38px;
@@ -4156,23 +4044,11 @@
   }
 
   section.section.parallax.bg2 {
-    height: 40vh;
+    height: 110vh;
   }
 
   section.section.parallax.bg3 {
-    height: 40vh;
-  }
-
-  section.section.parallax.bg4 {
-    height: 40vh;
-  }
-
-  section.section.parallax.bg5 {
-    height: 40vh;
-  }
-
-  section.section.parallax.bg6 {
-    height: 2vh;
+    height: 100vh;
   }
 
   a.menuitems {
@@ -5710,10 +5586,3 @@
 
   }
 }
-
-
-
-
-
-
-@media screen and (min-height: 640px) and (max-height: 700px){
