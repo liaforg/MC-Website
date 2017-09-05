@@ -97,22 +97,18 @@ section.section.parallax.bg2 {
   margin-bottom: -150px;
 }
 
-
-section.section.parallax.bg5 {
-  height: 90vh;
-}
-
 section.section.parallax.bg3{
   position: relative;
     height: 110vh;
-}
-section.section.parallax.bg6 {
-  height: 20vh;
 }
 
 section.section.parallax.bg4 {
   height: 110vh;
   background-color: rgba(82,85,91, .1);
+}
+
+section.section.parallax.bg5 {
+  height: 90vh;
 }
 
 .parallax::after {

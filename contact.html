@@ -5,6 +5,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link rel="stylesheet" type="text/css" href="respo.css">
 
 
 
@@ -13,6 +16,8 @@
      <!-- GOOGLE FONTS -->
      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Nothing+You+Could+Do|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Dancing+Script|Petit+Formal+Script" rel="stylesheet">
 
      <!-- ICONS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,7 +28,6 @@
   <!-- NAV BAR / TOP OF PAGE -->
       <nav class="navbar">
   <!-- LOGO -->
-        <h2 id="logo"> MC </h2>
         <h2 id="makeup"> MAKEUP BY MARIE-CLAIRE </h2>
   <!--  NAV LINKS -->
 
@@ -38,16 +42,16 @@
           </div>
 
           <ul class="menulist">
-            <li><a class="menuitems" href="index.html">HOME</a></li>
+            <li><a class="menuitems" href="index.html"</a>HOME</a></li>
+            <li><a class="menuitems" href="about.html">ABOUT</a></li>
             <li><a class="menuitems" href="portfolio.html">PORTFOLIO</a></li>
             <li><a class="menuitems" href="prices.html">PRICES</a></li>
-            <li><a class="menuitems" href="about.html">ABOUT</a></li>
-            <li><a class="menuitems" href="contact.html">CONTACT</a></li>
+            <li><a class="menuitems" href=" contact.html">CONTACT</a></li>
           </ul>
           </div>
 
           <div id="main"></div>
-
+    <li class="active"><a id="link1" class="nav-section1" href="#section1">S1. Info</a></li>
 
   <!-- ICON LINKS -->
       <div class="icons">
@@ -57,62 +61,90 @@
 
     </nav>
 
-  <main>
+      <main class="wrapper">
 
-    <div class="grey-box2">
-        <div class="about2">
-          <div class="bio2">
-            <h2 id="about-me2"> CONTACT MARIE-CLAIRE</br> </h2>
-            <p id="pro2"> Toronto, ON </p>
-            <br>
-            <p id="mc-bio2">
-              makeupartistmc@gmail.com
-              </br>
-             (647)400-9642
-            </p>
-          </div>
-          <div class="mcapp"></div>
+        <section id="toppage">
+        </section>
+
+    <section id="link5" class="section parallax bg5" >
+      <div class = 'con-about'>
+        <h2 id="con-title"> CONTACT MARIE-CLAIRE </h2>
+
+        <p id="pro2"> TORONTO, ON </p>
+
+        <p id="phone-email">
+            makeupartistmc@gmail.com
+            </br>
+          </br>
+            (647)400-9642
+        </p>
+        <div class="mcapp"></div>
+      </div>
+
+      <div id="form-messages"></div>
+        <form id="ajax-contact" method="post" action="mailer.php">
+        <div class="field">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
         </div>
-    </div>
 
-    </main>
+        <div class="field">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
 
+        <div class="field">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <div class="field">
+            <button type="submit">Send</button>
+        </div>
+      </form>
+    </section>
+
+    <    <footer>
+          <div class="footer">
+            <a href="contact.html#toppage">BACK TO TOP</a>
+
+          <p>&copy; Makeup by Marie-Claire 2017</p>
+          </div>
+        </footer>
+
+
+      </main>
 
     <script>
         var nav = document.getElementById("topNav");
         var main = document.getElementById("main");
         var menu = document.getElementsByClassName("menuitems");
         var close = document.getElementById("closebtn");
-
         //default to measure if/else from
         nav.style.height = "50px";
         main.style.marginTop = "50px";
         for (i = 0; i < menu.length; i++){menu[i].style.marginTop="100px";};
-
         close.addEventListener("click", function(){
           var menuIcon = close.children;
           for (i = 0; i < menuIcon.length; i++){
           menuIcon[i].classList.toggle("active");
           }
         });
-
         function navToggle() {
           //to close
-          if (nav.style.height <= "275px") {
+          if (nav.style.height <= "315px") {
           nav.style.height = "50px";
           main.style.marginTop = "50px";
-
               var i = 0;
               for (i = 0; i < menu.length; i++){
           menu[i].style.opacity="0.0";
           menu[i].style.marginTop="100px";
           };
               document.body.style.backgroundColor = "rgba(0,0,0,0.0)";
-
           }
           //to open
           else if (nav.style.height <= "50px") {
-          nav.style.height = "275px";
+          nav.style.height = "315px";
           main.style.marginTop = "275px";
               var i = 0;
               for (i = 0; i < menu.length; i++){
@@ -120,16 +152,61 @@
           menu[i].style.marginTop="0px";
           };
               document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-
           }
-
         };
     </script>
-  </body>
+
+    <script>
+    $(function() {
+        // Get the form.
+        var form = $('#ajax-contact');
+
+        // Get the messages div.
+        var formMessages = $('#form-messages');
+
+        // Set up an event listener for the contact form.
+        $(form).submit(function(event) {
+            // Stop the browser from submitting the form.
+            event.preventDefault();
+        });
+        // Serialize the form data.
+        var formData = $(form).serialize();
+        // Submit the form using AJAX.
+        $.ajax({
+            type: 'POST',
+            url: $(form).attr('action'),
+            data: formData
+        }).done(function(response) {
+        // Make sure that the formMessages div has the 'success' class.
+        $(formMessages).removeClass('error');
+        $(formMessages).addClass('success');
+
+        // Set the message text.
+        $(formMessages).text(response);
+
+        // Clear the form.
+        $('#name').val('');
+        $('#email').val('');
+        $('#message').val('');
+        }).fail(function(data) {
+        // Make sure that the formMessages div has the 'error' class.
+        $(formMessages).removeClass('success');
+        $(formMessages).addClass('error');
+        // Set the message text.
+        if (data.responseText !== '') {
+            $(formMessages).text(data.responseText);
+        } else {
+            $(formMessages).text('Oops! An error occured and your message could not be sent.');
+        }
+      });
+    });
+    </script>
+
+    <script src="jquery-2.1.0.min.js"></script>
+    <script src="app.js"></script>
 
 
-  <footer>
-    <h4>&copy; Makeup by Marie-Claire</h4>
-  </footer>
+    </body>
+
 
 </html>
