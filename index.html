@@ -6,9 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="responsive.css">
-    <link rel="stylesheet" type="text/css" href="respo.css">
-
 
 
     <meta name="google-site-verification" content="jm9fTQlAXxxy6EVS46_mnofv6DebTK7ElVNIUo2ELRU" />
@@ -16,22 +13,29 @@
      <!-- GOOGLE FONTS -->
      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Nothing+You+Could+Do|Open+Sans+Condensed:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Dancing+Script|Petit+Formal+Script" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Lato:100i" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Dancing+Script|Petit+Formal+Script" rel="stylesheet">
 
      <!-- ICONS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   </head>
 
   <body>
-  <!-- NAV BAR / TOP OF PAGE -->
-      <nav class="navbar">
-  <!-- LOGO -->
-        <h2 id="makeup"> MAKEUP BY MARIE-CLAIRE </h2>
-  <!--  NAV LINKS -->
+    <div class="container">
+      <!-- NAV BAR / TOP OF PAGE -->
+      <div class="header">
+        <h1 id="makeup"> MAKEUP BY MARIE-CLAIRE </h2>
+        <ul class="navbar">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="prices.html">PRICES</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
 
-          <div id="topNav" class="navigation">
+    <!-- DROPDOWN -->
+          <!-- <div id="topNav" class="navigation">
             <span id="closebtn" onclick="navToggle()">
               <span class="line1"></span>
               <span class="line2"></span>
@@ -40,7 +44,6 @@
           <div class="logo">
           <img src=""/>
           </div>
-
           <ul class="menulist">
             <li><a class="menuitems" href="index.html"</a>HOME</a></li>
             <li><a class="menuitems" href="about.html">ABOUT</a></li>
@@ -49,9 +52,8 @@
             <li><a class="menuitems" href=" contact.html">CONTACT</a></li>
           </ul>
           </div>
+          <div id="main"></div> -->
 
-          <div id="main"></div>
-    <li class="active"><a id="link1" class="nav-section1" href="#section1">S1. Info</a></li>
 
   <!-- ICON LINKS -->
       <div class="icons">
@@ -59,21 +61,17 @@
         <a href="https://www.instagram.com/makeupartistmarieclaire/?hl=en" target="_blank"><span class="fa fa-instagram" aria-hidden="true"></span></a>
       </div>
 
-    </nav>
 
-      <main class="wrapper">
-
-        <section id="toppage" class="section parallax bg1" >
-        </section>
+        <div class="frontbanner">
+          <img src="photos/mirror.jpg">
+        </div>
 
         <footer>
             <h4 id = "footer"> &copy; Makeup by Marie-Claire 2017 </h4>
             <h4 id = "foot"> &copy; POWERED BY [LF]
         </footer>
 
-        </section>
-
-      </main>
+    </div>
 
     <script>
         var nav = document.getElementById("topNav");
