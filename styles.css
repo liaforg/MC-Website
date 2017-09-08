@@ -94,7 +94,7 @@ main {
 }
 
 span.fa.fa-envelope:before{
-  font-size: 20px;
+  font-size: 21px;
 }
 
 span.fa.fa-envelope:hover {
@@ -103,7 +103,7 @@ span.fa.fa-envelope:hover {
 
 
 span.fa.fa-instagram:before{
-  font-size: 20px;
+  font-size: 22px;
   position: absolute;
   left: 40px;
 }
@@ -137,7 +137,7 @@ header h1 {
   width: 1200px;
   border-top: solid black 1px;
   border-bottom: solid black 1px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 ul li {
@@ -173,63 +173,203 @@ img {
   position: absolute;
   margin: auto;
   margin-top: 150px;
-  left: 0;
+  left: 0px;
 }
 
 .about_snip{
-  height: 560px;
+  height: 450px;
   width: 350px;
   display: block;
   position: relative;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 120px;
   right: -420px;
   text-align: center;
-  border: 1px black solid;
   padding: 20px;
   font-size: 15px;
 }
 
 h3{
-  padding-bottom: 50px;
+  width: 335px;
+  height: 30px;
+  padding-top: 7px;
   margin-top: 10px;
+  background-color: black;
+  color: white;
+  letter-spacing: 10px;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
 }
 
 h4{
-  margin-top: 370px;
-  text-align: left;
-  margin-left: 50px;
+  width: 335px;
+  margin-top: 400px;
+  height: 30px;
+  padding-top: 7px;
+  background-color: black;
+  color: white;
+  letter-spacing: 10px;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
 
 }
 .about_snip > img {
   float: left;
   position: absolute;
-  width: 150px;
+  width: 170px;
   margin: auto;
   top: 80px;
-  left: 0;
+  left: 15px;
   right: 0;
+  border-radius: 50%;
 }
 
 .about_snip > p{
   display: inline;
   position: absolute;
   margin: auto;
-  left: 0;
+  left: 15px;
   right: 0;
-  top: 250px;
+  top: 260px;
   padding: 10px;
   line-height: 20px;
+  font-size: 12px;
+}
+
+p#learn{
+  display: inline;
+  position: absolute;
+  margin: auto;
+  left: 15px;
+  right: 0;
+  top:400px;
+  padding: 10px;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+p#learn:hover{
+  color: grey;
 }
 
 #instalogo {
   width: 8%;
   position: absolute;
   margin:auto;
-  margin-left: 165px;
-  margin-top: 0px;
+  margin-left: 190px;
+  margin-top: 5px;
 }
-
 #instalogo:hover {
   width: 9%;
+}
+
+#enlogo {
+  width: 8%;
+  position: absolute;
+  margin:auto;
+  margin-left: 140px;
+  margin-top: 5px;
+}
+#enlogo:hover {
+  width: 9%;
+}
+
+#picone > img{
+  width: 320px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 200px;
+  left: 0;
+}
+#pictwo > img{
+  width: 450px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 200px;
+  left: 349px;
+}
+#picthree > img{
+  width: 210px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 690px;
+  left: 590px;
+}
+#picfour > img{
+  width: 210px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 525px;
+  left: 590px;
+}
+
+#picfive > img{
+  width: 210px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 525px;
+  left: 350px;
+}
+
+#picsix > img{
+  width: 210px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 690px;
+  left: 350px;
+}
+
+#picseven > img{
+  width: 320px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 440px;
+  left: 0;
+}
+
+#piceight > img{
+  width: 210px;
+  height: 150px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 855px;
+  left: 590px;
+}
+
+button{
+  -webkit-appearance: button;
+  width: 320px;
+  margin-top: 944px;
+  height: 60px;
+  padding-top: 10px;
+  background-color: #b49543;
+  color: black;
+  letter-spacing: 10px;
+  font-weight: 900;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: none;
+  border: none;
+}
+
+button a {
+  width: 340px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #d2bf8e;
+}
+
+button a:hover{
+  color: white;
 }
