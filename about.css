@@ -46,7 +46,7 @@ img#selfie {
 img#mc {
     border-radius: 0;
     width: 262px;
-    margin-top: 191px;
+    margin-top: 175px;
     margin-left: 20px;
     border: 2px solid black;
     opacity: 10;
@@ -55,8 +55,8 @@ img#mc {
 
 img#lash {
     border-radius: 0;
-    width: 155px;
-    margin-top: 9px;
+    width: 305px;
+    margin-top: 0px;
     margin-left: 5px;
     border: 2px solid black;
     opacity: 10;

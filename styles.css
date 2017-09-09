@@ -79,25 +79,25 @@ main {
 }
 
 #instalogo3 {
-    width: 2%;
+    width: 4%;
     position: absolute;
     margin: auto;
-    margin-left: 110px;
+    margin-left: 125px;
     margin-top: 21px;
 }
 #instalogo3:hover {
-  width: 2.5%;
+  width: 5%;
 }
 
 #enlogo3 {
-    width: 2.5%;
+    width: 4.6%;
     position: absolute;
     margin: auto;
     margin-left: 57px;
     margin-top: 20px;
 }
 #enlogo3:hover {
-  width: 3%;
+  width: 5.5%;
 }
 
 
@@ -240,25 +240,25 @@ p#learn:hover{
 }
 
 #instalogo {
-  width: 9%;
+  width: 17%;
   position: absolute;
   margin:auto;
   margin-left: 190px;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 #instalogo:hover {
-  width: 10%;
+  width: 18%;
 }
 
 #enlogo {
-  width: 10%;
+  width: 18.6%;
   position: absolute;
   margin:auto;
-  margin-left: 140px;
-  margin-top: 5px;
+  margin-left: 110px;
+  margin-top: 0px;
 }
 #enlogo:hover {
-  width: 11%;
+  width: 19.4%;
 }
 
 
@@ -399,39 +399,40 @@ p#qu {
 
 
 
-footer {
+#foot1{
   width: 1200px;
   position: absolute;
   margin: auto;
+  margin-top: 20px;
   right: 0;
-  bottom: -1170px;
   height: 200px;
   left: 0;
   padding: 1rem;
   text-align: center;
   border-top: 1px solid black;
+  background-color: white;
 }
 
 #instalogo2 {
-    width: 2%;
+    width: 3.5%;
     position: absolute;
     margin: auto;
-    margin-left: 624px;
+    margin-left: 610px;
     margin-top: 18px;
 }
 #instalogo2:hover {
-  width: 2.5%;
+  width: 4%;
 }
 
 #enlogo2 {
-    width: 2.5%;
+    width: 4%;
     position: absolute;
     margin: auto;
-    margin-left: 547px;
+    margin-left: 540px;
     margin-top: 16px;
 }
 #enlogo2:hover {
-  width: 3%;
+  width: 4.5%;
 }
 
 h6#footer {
