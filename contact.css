@@ -12,13 +12,12 @@ h3#con {
   margin: auto;
   margin-top: 150px;
   left: 0px;
-  background-color: #bcd2d0;
   font-family: 'Poppins', sans-serif;
 }
 
 footer#foot3 {
     margin-top: 102p;
-    bottom: -1328px;
+      bottom: -1265px;
 }
 
 
@@ -54,4 +53,8 @@ p#info {
 p#place {
     text-align: center;
     padding-top: 24px;
+}
+
+img#tan{
+  margin-top: 40px;
 }
