@@ -104,7 +104,7 @@ main {
 header {
     margin-top: 80px;
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 header h1 {
@@ -130,7 +130,7 @@ ul li {
   bottom: 0;
   overflow: hidden;
   display: inline-block;
-  padding-top: 40px;
+  padding-top: 35px;
 }
 
 ul a {
