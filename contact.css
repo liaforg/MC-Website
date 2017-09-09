@@ -1,0 +1,22 @@
+h3#con {
+    width: 800px;
+    margin-top: 0;
+    text-align: center;
+}
+
+#contact {
+  width: 800px;
+  height: 600px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 150px;
+  left: 0px;
+  background-color: #bcd2d0;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer#foot3 {
+    margin-top: 102p;
+    bottom: -1328px;
+}

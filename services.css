@@ -1,0 +1,62 @@
+h3#service {
+    width: 800px;
+    margin-top: 0;
+    text-align: center;
+}
+
+#services {
+  width: 800px;
+  height: 600px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 150px;
+  left: 0px;
+  background-color: #bcd2d0;
+  font-family: 'Poppins', sans-serif;
+}
+
+p#reg {
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 18px;
+    font-size: 13px;
+    line-height: 20px;
+    word-spacing: 5px;
+    padding-bottom: 10px;
+}
+
+p.top {
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+p.bottom {
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+p.service {
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1px;
+}

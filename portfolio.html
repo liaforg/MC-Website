@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
     <meta name="google-site-verification" content="jm9fTQlAXxxy6EVS46_mnofv6DebTK7ElVNIUo2ELRU" />
 
      <!-- GOOGLE FONTS -->
      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-
 
      <!-- ICONS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -37,76 +37,55 @@
         </ul>
       </nav>
 
-      <div id="services">
-        <img src="photos/mirror.jpg">
-      </div>
 
-      <div class="about_snip">
-        <h3>HELLO</h3>
-        <img src="photos/mc.jpg">
-        <p>
-          Ucculents copper mug food truck fixie mumblecore kale chips vice. Blue bottle twee neutra, direct trade thundercats enamel pin taxidermy organic gluten-free authentic man bun austin glossier.
-          Ucculents copper mug food truck fixie mumblecore kale chips vice. Ucculents copper mug food truck fixie mumblecore kale chips vice.
-        </p>
-        <a href="about.html"><p id="learn"> LEARN MORE </p></a>
-          <h4>CONNECT</h4> </br>
-            <a href="mailto:makeupartistmc@gmail.com?Subject=Hello" target="_top"><img src="photos/envelope.jpg" id="enlogo"></a>
-            <a href="https://www.instagram.com/makeupartistmarieclaire/?hl=en" target="_blank"><img src="photos/instalogo2.jpg" id="instalogo"></a>
-          </div>
-      </div>
-
-      <article id="picone">
-        <img src="photos/brushes.jpg" id="pone">
-      </article>
-
-      <article id="pictwo">
-        <img src="photos/HP1_0285.jpg" id="ptwo">
-      </article>
-
-      <article id="picthree">
-        <img src="photos/image10.jpg" id="pthree">
-      </article>
-
-      <article id="picfour">
-        <img src="photos/makeup_eye.jpg" id="pfour">
-      </article>
-
-      <article id="picfive">
-        <img src="photos/lips.jpg" id="pfive">
-      </article>
-
-      <article id="picsix">
-        <img src="photos/photo 2.jpg" id="psix">
-      </article>
-
-      <article id="picseven">
-        <img src="photos/party3.jpg" id="pseven">
-      </article>
-
-      <article id="piceight">
-        <img src="photos/nudes.jpg" id="peight">
-      </article>
-
-      <article id="picnine">
-        <img src="photos/bride1.jpg" id="pnine">
-      </article>
-
-      <button>
-      <a href="portfolio.html"><p id="see"> SEE MORE </p></a>
-      </button>
-
-
-      <div id="quote">
-        <p id="qu">
-          MAY YOUR DAY BE AS FLAWLESS AS YOUR MAKEUP
-        </p>
-      </div>
-
+      <div class="wrapper">
+      <div class="item" style="height: 200px;">1</div>
+      <div class="item" style="height: 200px;">2</div>
+      <div class="item" style="height: 250px;">3</div>
+      <div class="item" style="height: 320px;">4</div>
+      <div class="item" style="height: 390px;">5</div>
+      <div class="item" style="height: 300px;">6</div>
+      <div class="item" style="height: 250px;">7</div>
+      <div class="item" style="height: 220px;">8</div>
+      <div class="item" style="height: 220px;">9</div>
+      <div class="item" style="height: 350px;">10</div>
+      <div class="item" style="height: 320px;">11</div>
+      <div class="item" style="height: 260px;">12</div>
+      <div class="item" style="height: 200px;">13</div>
+      <div class="item" style="height: 200px;">14</div>
+      <div class="item" style="height: 250px;">15</div>
+      <div class="item" style="height: 320px;">16</div>
+      <div class="item" style="height: 390px;">17</div>
+      <div class="item" style="height: 300px;">18</div>
+      <div class="item" style="height: 250px;">19</div>
+      <div class="item" style="height: 220px;">20</div>
+    </div>
 
     </main>
+
+    <script>
+    var totalRows = 4,
+      itemCol = 0;
+    for(var rowCount = 0; rowCount < totalRows; rowCount++){
+      newCol = document.createElement('div');
+      newCol.className = 'col';
+      document.getElementsByClassName('wrapper')[0].appendChild(newCol);
+    }
+
+    for(var itemCount = 0; itemCount < document.getElementsByClassName('item').length; itemCount++){
+      document.getElementsByClassName('col')[itemCol].appendChild(document.getElementsByClassName('item')[0]);
+      if(itemCol < totalRows - 1){
+        itemCol++;
+      } else {
+        itemCol = 0;
+      }
+    }
+    </script>
+
+
   </body>
 
-  <footer id="foot1">
+  <footer id="foot">
     <ul class="navbar2">
       <li><a href="index.html">HOME</a></li>
       <li><a href="portfolio.html">PORTFOLIO</a></li>

@@ -78,42 +78,26 @@ main {
     right: 0;
 }
 
-.icons {
-  position:absolute;
-  margin: auto;
-  left: 10px;
-  top: 20px;
-  color: black;
-  display: inline;
-  z-index: 500;
+#instalogo3 {
+    width: 2%;
+    position: absolute;
+    margin: auto;
+    margin-left: 110px;
+    margin-top: 21px;
+}
+#instalogo3:hover {
+  width: 2.5%;
 }
 
-.fa.fa-envelope{
-  color: black;
-  position: absolute;
+#enlogo3 {
+    width: 2.5%;
+    position: absolute;
+    margin: auto;
+    margin-left: 57px;
+    margin-top: 20px;
 }
-
-span.fa.fa-envelope:before{
-  font-size: 24px;
-}
-
-span.fa.fa-envelope:hover {
-  color: grey;
-}
-
-
-span.fa.fa-instagram:before{
-  font-size: 25px;
-  position: absolute;
-  left: 40px;
-}
-.fa.fa-instagram {
-  color: black;
-  position: absolute;
-}
-
-span.fa.fa-instagram:hover {
-  color:grey;
+#enlogo3:hover {
+  width: 3%;
 }
 
 
@@ -373,7 +357,7 @@ button {
     margin-top: 831px;
     height: 80px;
     padding-top: 10px;
-    background-color: #b49543;
+    background-color: #d0b783;
     color: black;
     letter-spacing: 10px;
     font-weight: 900;
@@ -390,19 +374,37 @@ button a {
 }
 
 button:hover {
-  background-color: #d2bf8e;
+  background-color: #decca8;
 }
 
 button a:hover{
   color: white;
 }
 
+p#qu {
+    text-align: center;
+    padding-top: 33px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#quote {
+  margin-top: 30px;
+  height: 80px;
+  background-color: #c49b9d;
+  color: white;
+}
+
+
+
+
 footer {
   width: 1200px;
   position: absolute;
   margin: auto;
   right: 0;
-  bottom: -1100px;
+  bottom: -1170px;
   height: 200px;
   left: 0;
   padding: 1rem;
@@ -411,25 +413,25 @@ footer {
 }
 
 #instalogo2 {
-    width: 3%;
+    width: 2%;
     position: absolute;
     margin: auto;
     margin-left: 624px;
     margin-top: 18px;
 }
 #instalogo2:hover {
-  width: 3.5%;
+  width: 2.5%;
 }
 
 #enlogo2 {
-    width: 3.5%;
+    width: 2.5%;
     position: absolute;
     margin: auto;
     margin-left: 547px;
     margin-top: 16px;
 }
 #enlogo2:hover {
-  width: 4%;
+  width: 3%;
 }
 
 h6#footer {
@@ -442,4 +444,9 @@ ul.navbar2 {
     font-size: 11px;
     margin-top: -19px;
     padding-bottom: 8px;
+}
+
+footer#foot1 {
+    margin-top: 102p;
+    bottom: -1341px;
 }

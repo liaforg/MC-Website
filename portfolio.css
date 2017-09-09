@@ -1,0 +1,25 @@
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 150px;
+  overflow: hidden;
+  padding: 0px 0px 10px 10px;
+}
+
+.wrapper .col {
+  float: left;
+  width: 25%;
+}
+
+.wrapper .col .item {
+   background: #ccc;
+   display: block;
+   margin: 10px 10px 0px 0px;
+   padding: 10px;
+}
+
+
+footer#foot {
+    margin-top: 102p;
+    bottom: -1341px;
+}

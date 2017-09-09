@@ -1,0 +1,56 @@
+p#mc-bio {
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+p#prof {
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+img#selfie {
+    border-radius: 0;
+    width: 220px;
+    margin-left: 125px;
+    border: 2px solid black;
+    opacity: 10;
+    z-index: 2;
+    margin-top: -50px;
+}
+
+img#mc {
+    border-radius: 0;
+    width: 262px;
+    margin-top: 191px;
+    margin-left: 20px;
+    border: 2px solid black;
+    opacity: 10;
+    z-index: 10;
+}
+
+img#lash {
+    border-radius: 0;
+    width: 155px;
+    margin-top: 9px;
+    margin-left: 5px;
+    border: 2px solid black;
+    opacity: 10;
+    z-index: 1;
+}
+
+footer#foot2 {
+    margin-top: 102p;
+    bottom: -1341px;
+}
