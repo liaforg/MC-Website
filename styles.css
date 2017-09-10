@@ -318,9 +318,8 @@ p#learn:hover{
     left: 334px;
     opacity: 0.9;
 }
-#picthree > img {
+img#pthree {
     width: 430px;
-    display: block;
     position: absolute;
     margin: auto;
     margin-top: 355px;
@@ -347,7 +346,7 @@ p#learn:hover{
   opacity: 0.9;
 }
 
-#picsix > img{
+img#psix {
   width: 210px;
   display: block;
   position: absolute;
