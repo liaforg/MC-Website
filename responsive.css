@@ -1,0 +1,317 @@
+@media (min-width: 0px) and (max-width: 800px){
+
+  .icons {
+    display: none;
+  }
+
+  header {
+      margin-top: 100px;
+      text-align: center;
+      padding-bottom: 50px;
+  }
+
+  header h1 {
+    font-size: 80px;
+    font-weight: lighter;
+    padding-bottom: 80px;
+  }
+
+  .navbar {
+    height: 200px;
+    font-size: 15px;
+  }
+
+  ul.navbar {
+      font-size: 32px;
+      letter-spacing: 10px;
+      padding-top: 0;
+      word-spacing: 80px;
+      line-height: 45px;
+  }
+
+  img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 300px;
+    left: 0px;
+    opacity: 0.9;
+  }
+
+  .about_snip{
+    height: 1230px;
+    width: 100%;
+    margin-top: 1228px;
+    text-align: center;
+    left: 0;
+  }
+
+  h3{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+  }
+
+  h4{
+    width: 100%;
+    margin-top: 1000px;
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+  }
+  .about_snip > img {
+      float: left;
+      position: absolute;
+      width: 350px;
+      margin: auto;
+      top: 114px;
+      left: 0px;
+      right: 0;
+      border-radius: 50%;
+      opacity: 0.8;
+  }
+
+  .about_snip > p {
+      display: inline;
+      position: absolute;
+      margin: auto;
+      left: 15px;
+      right: 0;
+      top: 477px;
+      padding: 10px;
+      line-height: 60px;
+      font-size: 40px;
+      background-color: white;
+  }
+
+  p#learn {
+      display: inline;
+      position: absolute;
+      margin: auto;
+      left: 15px;
+      right: 0;
+      top: 979px;
+      padding: 10px;
+      line-height: 20px;
+      font-size: 39px;
+      font-weight: bold;
+      font-style: italic;
+  }
+  #instalogo {
+    width: 15%;
+    position: absolute;
+    margin:auto;
+    margin-left: 320px;
+    margin-top: 20px;
+  }
+  #instalogo:hover {
+    width: 16%;
+  }
+
+  #enlogo {
+    width: 16.6%;
+    position: absolute;
+    margin:auto;
+    margin-left: 650px;
+    margin-top: 20px;
+  }
+
+  #enlogo:hover {
+    width: 17.6%;
+  }
+
+  #picone > img{
+    width: 600px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 200px;
+    left: 0;
+    opacity: 0.9;
+  }
+  #pictwo > img {
+      width: 600px;
+      display: block;
+      position: absolute;
+      margin: auto;
+      margin-top: 200px;
+      left: 609px;
+      opacity: 0.9;
+  }
+  img#pthree {
+      width: 777px;
+      position: absolute;
+      margin: auto;
+      margin-top: 610px;
+      left: 433px;
+      opacity: 0.9;
+  }
+  #picfour > img {
+      width: 383px;
+      display: block;
+      position: absolute;
+      margin: auto;
+      margin-top: 1139px;
+      left: 829px;
+      opacity: 0.9;
+  }
+
+  #picfive > img {
+      width: 383px;
+      display: block;
+      position: absolute;
+      margin: auto;
+      margin-top: 1139px;
+      left: 435px;
+      opacity: 0.9;
+  }
+
+  img#psix {
+    display: none;
+  }
+
+  #picseven > img {
+      width: 420px;
+      display: block;
+      position: absolute;
+      margin: auto;
+      margin-top: 611px;
+      left: 0;
+      opacity: 0.9;
+  }
+
+  #piceight > img {
+    display: none;
+  }
+
+  #picnine > img {
+    display: none;
+  }
+
+  button {
+      -webkit-appearance: button;
+      width: 420px;
+      margin-top: 1254px;
+      height: 141px;
+      padding-top: 10px;
+      background-color: #d0b783;
+      color: black;
+      letter-spacing: 10px;
+      font-weight: 900;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      box-shadow: none;
+      border: none;
+      margin-left: 0;
+  }
+
+  p#see {
+    font-size: 23px;
+    word-spacing: 6px;
+    letter-spacing: 18px;
+    background-color: white;
+}
+
+  p#qu {
+      text-align: center;
+      padding-top: 75px;
+      letter-spacing: 2px;
+      word-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-style: italic;
+      width: 90%;
+      margin: auto;
+      left: 0;
+      right: 0;
+      line-height: 50px;
+  }
+
+  p#qutwo {
+      text-align: center;
+      letter-spacing: 2px;
+      word-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 20px;
+      padding-top: 30px;
+  }
+
+  #quote {
+      margin-top: 50px;
+      height: 300px;
+      background-color: #c49b9d;
+      line-height: 34px;
+      font-family: 'Poppins', sans-serif;
+  }
+
+
+
+
+  #foot1{
+    width: 1200px;
+    position: absolute;
+    margin: auto;
+    padding-top: 20px;
+    right: 0;
+    height: 200px;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+  }
+
+  #instalogo2 {
+      width: 7.5%;
+      position: absolute;
+      margin: auto;
+      margin-left: 610px;
+      margin-top: 15px;
+  }
+  #instalogo2:hover {
+    width: 7.5%;
+  }
+
+  #enlogo2 {
+      width: 8%;
+      position: absolute;
+      margin: auto;
+      margin-left: 486px;
+      margin-top: 16px;
+  }
+  #enlogo2:hover {
+    width: 8%;
+  }
+
+  h6#footer {
+      padding-top: 70px;
+      font-size: 10px;
+      line-height: 19px;
+  }
+
+  ul.navbar2 {
+      font-size: 30px;
+      margin-top: 24px;
+      padding-bottom: 37px;
+      word-spacing: 50px;
+  }
+
+  h6#footer {
+      padding-top: 150px;
+      font-size: 20px;
+      line-height: 31px;
+      padding-bottom: 50px;
+  }
+}
