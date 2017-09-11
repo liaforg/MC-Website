@@ -116,11 +116,11 @@ main {
 
 
 #instalogo3 {
-    width: 4%;
+    width: 4.2%;
     position: absolute;
     margin: auto;
     margin-left: 125px;
-    margin-top: 21px;
+    margin-top: 20px;
 }
 #instalogo3:hover {
   width: 5%;
