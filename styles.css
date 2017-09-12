@@ -116,25 +116,25 @@ main {
 
 
 #instalogo3 {
-    width: 4.2%;
+    width: 4%;
     position: absolute;
     margin: auto;
     margin-left: 125px;
     margin-top: 20px;
 }
 #instalogo3:hover {
-  width: 5%;
+  width: 4.5%;
 }
 
 #enlogo3 {
-    width: 4.6%;
+    width: 4.5%;
     position: absolute;
     margin: auto;
     margin-left: 57px;
     margin-top: 20px;
 }
 #enlogo3:hover {
-  width: 5.5%;
+  width: 5%;
 }
 
 
