@@ -189,11 +189,11 @@ a:hover{
 }
 
 img {
-  width: 800px;
+  width: 830px;
   display: block;
   position: absolute;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 130px;
   left: 0px;
   opacity: 0.9;
 }
@@ -204,7 +204,7 @@ img {
   display: block;
   position: relative;
   margin: auto;
-  margin-top: 120px;
+  margin-top: 100px;
   right: -420px;
   text-align: center;
   padding: 20px;
@@ -258,6 +258,7 @@ h4{
   line-height: 20px;
   font-size: 12px;
   background-color: white;
+  letter-spacing: 1px;
 }
 
 p#learn{
@@ -266,12 +267,13 @@ p#learn{
   margin: auto;
   left: 15px;
   right: 0;
-  top:450px;
+  top:470px;
   padding: 10px;
   line-height: 20px;
   font-size: 12px;
   font-weight: bold;
   font-style: italic;
+  letter-spacing: 1px;
 }
 p#learn:hover{
   color: grey;
