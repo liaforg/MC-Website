@@ -79,17 +79,18 @@ p.service {
 }
 
 p#quside {
-    padding: 10px;
-    font-size: 17px;
+    padding-top:30px;
+    padding-bottom:20px;
+    font-size: 13px;
     line-height: 23px;
-    letter-spacing: 3px;
-    word-spacing: 2px;
+    letter-spacing: 4px;
+    word-spacing: 1px;
     font-style: italic;
 }
 
 p#quside2 {
     padding: 10px;
-    font-size: 17px;
+    font-size: 13px;
     line-height: 23px;
     letter-spacing: 3px;
     word-spacing: 2px;
@@ -165,7 +166,7 @@ img#bsix {
     display: block;
     position: absolute;
     margin: auto;
-    margin-top: 348px;
+    margin-top: 360px;
     left: 20px;
     opacity: 0.9;
 }
@@ -220,7 +221,49 @@ img#bsix {
     opacity: 0.9;
 }
 
+article#bthirt {
+    margin-top: 200px;
+}
 
+img#bthirt {
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 460px;
+    left: 16px;
+    opacity: 0.9;
+    width: 181px;
+}
+
+#bfourt > img {
+    width: 84px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 141px;
+    left: 485px;
+    opacity: 0.9;
+}
+
+#bfift > img {
+    width: 203px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 99px;
+    left: 38px;
+    opacity: 0.9;
+}
+
+#bsixt > img {
+    width: 294px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 469px;
+    left: 220px;
+    opacity: 0.9;
+}
 
 p#qu2 {
     text-align: center;
