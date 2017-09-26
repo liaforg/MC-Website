@@ -24,7 +24,7 @@ p#qutwo_port {
 }
 
 #quote_port {
-  margin-top: 2400px;
+  margin-top: 2627px;
   height: 120px;
   background-color: #c49b9d;
   line-height: 20px;
@@ -323,5 +323,25 @@ img#ptwenty7 {
     margin: auto;
     margin-top: 1937px;
     left: 310px;
+    opacity: 0.9;
+}
+
+img#ptwenty8 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2156px;
+    left: 310px;
+    opacity: 0.9;
+}
+
+img#ptwenty9 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2018px;
+    left: 0px;
     opacity: 0.9;
 }
