@@ -147,6 +147,11 @@ header {
 header h1 {
   font-size: 60px;
   font-weight: lighter;
+  text-decoration: none;
+}
+
+header a{
+  text-decoration: none;
 }
 
 .navbar {
