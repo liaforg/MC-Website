@@ -47,14 +47,13 @@ img#pone {
 
 }
 
-#ptwo {
+img#ptwo {
     width: 280px;
     display: block;
     position: absolute;
     margin: auto;
     margin-top: 0px;
-    left: 155px;
-    opacity: 0.9;
+    left: 310px;
 }
 
 article#pthree {
@@ -67,6 +66,7 @@ img#pthree {
     margin: auto;
     left: 616px;
     opacity: 0.9;
+    margin-top: 0px;
 }
 
 img#pfour {
