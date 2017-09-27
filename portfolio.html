@@ -37,7 +37,7 @@
         </ul>
       </nav>
 
-    <div class="hover02 column">
+    <div class="column">
       <article id="pone">
         <img src="photos/bone.jpeg" id="pone">
       </article>
@@ -183,6 +183,36 @@
 
     </main>
 
+    <script>
+
+    document.addEventListener('DOMContentLoaded', function(){
+        var articleImage = document.querySelectorAll('article');
+
+        articleImage.forEach(function(article){
+          var closed = true;
+          article.addEventListener("click", function(e){
+            if (closed) {
+              e.stopPropagation();
+            }
+
+            closed = false;
+
+            var that = this;
+            that.classList.add("lightbox");
+
+            var image = that.querySelector('img');
+            image.classList.add("lightbox_image");
+
+            document.addEventListener("click", function(){
+              that.classList.remove("lightbox");
+              image.classList.remove("lightbox_image");
+              closed = true;
+            })
+          })
+        })
+    });
+
+    </script>
 
 
   </body>

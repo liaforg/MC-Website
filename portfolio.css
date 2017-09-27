@@ -345,3 +345,21 @@ img#ptwenty9 {
     left: 0px;
     opacity: 0.9;
 }
+
+.lightbox{
+  top: 0 !important;
+  left: 0 !important;
+  position: fixed;
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+  background-color: grey;
+  z-index: 200000;
+}
+
+.lightbox_image{
+  position: fixed;
+  display: block;
+
+  z-index: 200000;
+}
