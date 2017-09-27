@@ -151,6 +151,7 @@ header h1 {
 }
 
 header a{
+  color: black;
   text-decoration: none;
 }
 
