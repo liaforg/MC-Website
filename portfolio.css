@@ -37,6 +37,12 @@ footer#foot {
     bottom: -1265px;
 }
 
+
+.column {
+    margin-top: 154px;
+}
+
+
 img#pone {
     width: 280px;
     display: block;
@@ -56,9 +62,6 @@ img#ptwo {
     left: 310px;
 }
 
-article#pthree {
-    margin-top: 154px;
-}
 
 img#pthree {
     width: 280px;
