@@ -44,19 +44,7 @@ img#pone {
     margin: auto;
     margin-top: 0px;
     left: 0px;
-    opacity: 0.9;
-}
 
-img#pone.clicked{
-  -webkit-transition: all .3s ease-in;
-  -moz-transition: all .3s ease-in;
-  -ms-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
-  transition: all .3s ease-in;
-  opacity: 1;
-  transform: scale(1.30);
-  -ms-transform: scale(1.30); /* IE 9 */
-  -webkit-transform: scale(1.30); /* Safari and Chrome */
 }
 
 #ptwo {
@@ -353,13 +341,19 @@ img#ptwenty9 {
   width: 100% !important;
   height: 100% !important;
   display: block;
-  background-color: grey;
+  background-color: rgba(179,179,179, .7);
   z-index: 200000;
 }
 
 .lightbox_image{
-  position: fixed;
-  display: block;
-
+  width: 500px !important;
+  position: fixed !important;
+  display: block !important;
+  margin: auto !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
   z-index: 200000;
+  opacity: 1 !important;
 }
