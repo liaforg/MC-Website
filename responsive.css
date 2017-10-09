@@ -194,9 +194,9 @@
       }
 
       #quote {
-          margin-top: -186px;
-          height: 155px;
-      }
+      margin-top: -180px;
+      height: 155px;
+    }
 
 
     #foot1{
@@ -420,10 +420,132 @@
     top: 7895px ;
   }
 
-
   div#quote_port {
   margin-top: 8200px;
   height: 154px;
+  }
+
+  h3#service {
+      width: 100% !important;
+  }
+
+  div#services {
+    width: 100%;
+    height: 680px;
+    top: 133px;
+    bottom: -400px;
+    z-index: 100;
+  }
+
+  #divider{
+    display: block;
+    z-index: 0;
+  }
+
+  #divider_bottom {
+    display: block;
+    top: -40px;
+    z-index: 0;
+  }
+
+
+  p#reg {
+    padding-top: 28px;
+  }
+
+  .about_snip_port{
+    display: none !important;
+  }
+
+  #bone, #btwo, #bthree, #bfour, #bfive, #bsix, #bseven, #beight, #bnine, #bten, #beleven, #btwelve, #bthirt, #bfourt, #bfift, #bsixt{
+    display: none !important;
+  }
+
+  #brands{
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    display: block !important;
+  }
+
+  div#brands {
+    margin: auto;
+    left: 0;
+    top: 943px;
+  }
+
+  div#quote2 {
+    margin-top: 750px;
+    height: 300px;
+  }
+
+  #picone_about > img{
+    display: none !important;
+  }
+  #pictwo_about > img {
+    display: none !important;
+  }
+  img#pthree_about {
+    display: none !important;
+  }
+  #picfour_about > img {
+    display: none !important;
+  }
+
+  img#plips_about{
+    display: none !important;
+  }
+
+  img#psix_about {
+    display: none !important;
+  }
+
+  #picseven_about > img{
+    display: none !important;
+  }
+
+  #piceight_about > img {
+    display: none !important;
+  }
+
+  #picnine_about > img {
+    display: none !important;
 
   }
+
+  #see_button_about{
+    display: none !important;
+  }
+
+  #connect_about{
+    display: none;
+  }
+
+  h3#con {
+    width: 100% !important;
+  }
+
+  div#about {
+      width: 100%;
+  }
+
+  img#lash {
+    width: 250px !important;
+    top: -314px !important;
+    left: 95px !important;
+  }
+
+  img#selfie {
+    width: 200px !important;
+    top: -407px !important;
+    left: 291px !important;
+  }
+
+  img#mc {
+    width: 217px !important;
+    top: -368px !important;
+    left: 134px !important;
+  }
+
 }

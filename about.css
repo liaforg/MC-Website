@@ -110,3 +110,102 @@ footer#foot2 {
     margin-top: 102p;
     bottom: -1265px;
 }
+
+
+
+
+
+
+
+
+#picone_about > img{
+  width: 320px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 200px;
+  left: 0;
+  opacity: 0.9;
+}
+#pictwo_about > img {
+    width: 420px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 200px;
+    left: 334px;
+    opacity: 0.9;
+}
+img#pthree_about {
+    width: 430px;
+    position: absolute;
+    margin: auto;
+    margin-top: 355px;
+    left: 770px;
+    opacity: 0.9;
+}
+#picfour_about > img {
+    width: 210px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 200px;
+    left: 990px;
+    opacity: 0.9;
+}
+
+img#plips_about{
+  width: 210px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 200px;
+  left: 769px;
+  opacity: 0.9;
+}
+
+img#psix_about {
+  width: 210px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 496px;
+  left: 336px;
+  opacity: 0.9;
+}
+
+#picseven_about > img{
+  width: 320px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 430px;
+  left: 0;
+  opacity: 0.9;
+}
+
+#piceight_about > img {
+    width: 430px;
+    height: 256px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 655px;
+    left: 770px;
+    opacity: 0.9;
+}
+
+#picnine_about > img {
+    width: 200px;
+    height: 315px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 496px;
+    left: 555px;
+    opacity: 0.9;
+}
+
+#see_button{
+  display: none;
+}
