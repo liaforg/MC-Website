@@ -141,12 +141,12 @@
     left: 125px;
   }
 
-  img#pfive {
+  img#plips{
     width: 250px;
     position: relative;
-    top: -59px;
     margin: auto;
-    left: -130px;
+    left: -131px;
+    top: -59px;
   }
 
   img#pfour {
@@ -155,7 +155,7 @@
     top: 108px;
     margin: auto;
     left: 125px;
-}
+  }
 
 
   #pthree, #picsix, #picseven, #piceight, #picnine{
@@ -194,9 +194,10 @@
       }
 
       #quote {
-      margin-top: -185px;
-      height: 155px;
-    }
+          margin-top: -186px;
+          height: 155px;
+      }
+
 
     #foot1{
       display:  none;
@@ -231,6 +232,7 @@
   .about_snip_contact {
       display: none !important;
   }
+
 
   img#ptwo {
       margin: auto;

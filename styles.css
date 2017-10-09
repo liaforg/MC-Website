@@ -164,6 +164,7 @@ header a{
   text-align:center;
   position: relative;
   margin:0 auto;
+      z-index: 2000;
 }
 /*Strip the ul of padding and list styling*/
 .mobile-menu ul {
@@ -528,7 +529,7 @@ img#pthree {
     opacity: 0.9;
 }
 
-#picfive > img{
+img#plips{
   width: 210px;
   display: block;
   position: absolute;
