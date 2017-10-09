@@ -202,7 +202,7 @@
         articleImage.forEach(function(article){
           var closed = true;
           article.addEventListener("click", function(e){
-            if (closed) {
+            if (closed && window.innerWidth > 600){
               e.stopPropagation();
             }
 
