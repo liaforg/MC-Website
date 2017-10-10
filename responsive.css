@@ -236,201 +236,209 @@
       display: none !important;
   }
 
+  img#pone{
+    left: -300px !important;
+  }
+
   img#pthree_port {
       display: none;
   }
 
   img#ptwo_port {
-      width: 280px !important;
+      width: 280px;
       display: block;
       position: absolute;
       margin: auto;
-      margin-top: 695px !important;
-      left: 0 !important;
+      margin-top: 269px !important;
+      left: 300px !important;
   }
 
-  article#pfour img{
+  article#pfour img {
     margin: auto;
-    left: 0;
-    top: 1054px;
+    left: -300px;
+    top: 697px;
   }
 
   img#pfive {
+    width: 280px;
+    display: block;
+    position: absolute;
     margin: auto;
-    left: 0;
-    top: 1032px;
+    margin-top: 629px !important;
+    left: 300px !important;
+    opacity: 0.9;
   }
 
-  article#psix img{
+  article#psix img {
     margin: auto;
-    left: 0;
-    top: 1911px;
+    left: -300px;
+    top: 1125px;
   }
 
   article#pseven img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 2106px;
+    top: 1057px;
   }
 
   article#peight img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 2302px;
+    top: 1251px;
   }
 
   article#pnine img {
     margin: auto;
-    left: 0;
+    left: -300px;
     right: 0;
-    top: 2499px;
+    top: 1320px;
   }
 
   article#pten img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 2930px;
+    top: 1445px;
   }
 
   article#peleven img {
     margin: auto;
-    left: 0;
+    left: -300px;
     right: 0;
-    top: 3127px;
+    top: 1749px;
   }
 
   article#ptwelve img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 3127px;
+    top: 1640px;
   }
 
   article#pthirt img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 3323px;
+    top: 1836px;
   }
 
   article#pfourt img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 3717px;
+    top: 2031px;
   }
 
   article#pfift img {
     margin: auto;
-    left: 0;
+    left: -300px;
     right: 0;
-    top: 3519px ;
+    top: 1943px;
   }
 
   article#psixt img {
     margin: auto;
-    left: 0;
+    left: -300px;
     right: 0;
-    top: 3917px ;
+    top: 2140px;
   }
 
   article#pseventeen img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 4115px ;
+    top: 2228px;
   }
 
   article#peighteen img {
     margin: auto;
-    left: 0;
+    left: -300px;
     right: 0;
-    top: 4546px ;
+    top: 2336px;
   }
 
   article#pnineteen img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 4977px ;
+    top: 2658px;
   }
 
   article#ptwenty img {
     margin: auto;
-    left: 0;
+    left: -300px;
     right: 0;
-    top: 5406px ;
+    top: 2765px;
   }
 
   article#ptwenty1 img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 5838px ;
+    top: 3085px;
   }
 
   article#ptwenty2 img {
     margin: auto;
-    left: 0;
+    left: -300px;
     right: 0;
-    top: 6037px ;
+    top: 3194px;
   }
 
   article#ptwenty3 img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 6237px ;
+    top: 3285px;
   }
 
   article#ptwenty4 img {
     margin: auto;
-    left: 0;
+    left: -300px;
     right: 0;
-    top: 6670px ;
+    top: 3392px;
   }
 
   article#ptwenty5 img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 7102px ;
+    top: 3712px;
   }
 
   article#ptwenty6 img {
     margin: auto;
-    left: 0;
+    left: -300px;
     right: 0;
-    top: 7300px ;
+    top: 3821px;
   }
 
   article#ptwenty7 img {
     margin: auto;
-    left: 0;
+    left: -300px;
     right: 0;
-    top: 7497px ;
+    top: 4014px;
   }
 
   article#ptwenty8 img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 7696px ;
+    top: 3907px;
   }
 
   article#ptwenty9 img {
     margin: auto;
-    left: 0;
+    left: 300px;
     right: 0;
-    top: 7895px ;
+    top: 4101px;
   }
 
   div#quote_port {
-  margin-top: 8200px;
-  height: 154px;
+    margin-top: 4385px;
+    height: 154px;
   }
 
   h3#service {
@@ -631,4 +639,212 @@
     display: none !important;
   }
 
+}
+
+@media screen and (max-width: 600px){
+
+  div#quote_port {
+  margin-top: 8200px;
+  height: 154px;
+  }
+
+  img#pone{
+    left: 0px !important;
+  }
+
+  img#pthree_port {
+      display: none;
+  }
+
+  img#ptwo_port {
+      width: 280px !important;
+      display: block;
+      position: absolute;
+      margin: auto;
+      margin-top: 695px !important;
+      left: 0 !important;
+  }
+
+  article#pfour img{
+    margin: auto;
+    left: 0;
+    top: 1054px;
+  }
+
+  img#pfive {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 1482px !important;
+    left: 0px !important;
+    opacity: 0.9;
+  }
+
+  article#psix img{
+    margin: auto;
+    left: 0;
+    top: 1911px;
+  }
+
+  article#pseven img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 2106px;
+  }
+
+  article#peight img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 2302px;
+  }
+
+  article#pnine img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 2499px;
+  }
+
+  article#pten img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 2930px;
+  }
+
+  article#peleven img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 3127px;
+  }
+
+  article#ptwelve img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 3127px;
+  }
+
+  article#pthirt img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 3323px;
+  }
+
+  article#pfourt img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 3717px;
+  }
+
+  article#pfift img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 3519px ;
+  }
+
+  article#psixt img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 3917px ;
+  }
+
+  article#pseventeen img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 4115px ;
+  }
+
+  article#peighteen img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 4546px ;
+  }
+
+  article#pnineteen img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 4977px ;
+  }
+
+  article#ptwenty img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 5406px ;
+  }
+
+  article#ptwenty1 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 5838px ;
+  }
+
+  article#ptwenty2 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 6037px ;
+  }
+
+  article#ptwenty3 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 6237px ;
+  }
+
+  article#ptwenty4 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 6670px ;
+  }
+
+  article#ptwenty5 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 7102px ;
+  }
+
+  article#ptwenty6 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 7300px ;
+  }
+
+  article#ptwenty7 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 7497px ;
+  }
+
+  article#ptwenty8 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 7696px ;
+  }
+
+  article#ptwenty9 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 7895px ;
+  }
 }
