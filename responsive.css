@@ -500,6 +500,7 @@
   }
 
 
+
   #picone_about > img{
     display: none !important;
   }
@@ -547,6 +548,11 @@
 
   div#about {
       width: 100%;
+  }
+
+  div#mobile_footer_about{
+    display: block;
+
   }
 
   .about_snip_page {

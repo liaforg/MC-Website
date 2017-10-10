@@ -728,3 +728,18 @@ footer#foot1 {
 #mobile_footer{
   display: none;
 }
+
+#mobile_footer_contact{
+  display: none;
+}
+div#see_button_contact {
+    display: none;
+}
+
+div#mobile_footer_serv{
+  display: none;
+}
+
+div#mobile_footer_about{
+  display: none;
+}
