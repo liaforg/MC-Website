@@ -1,4 +1,4 @@
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 
   .icons{
     display: none;
@@ -203,8 +203,11 @@
       display:  none;
     }
 
-    #mobile_footer{
+    div#mobile_footer{
       display: block;
+      width: 100%;
+      margin:auto;
+      left: 0;
     }
 
     h6#footer {
@@ -426,7 +429,9 @@
   }
 
   h3#service {
-      width: 100% !important;
+    width: 100% !important;
+      font-size: 13px;
+      padding-top: 10px;
   }
 
   div#services {
@@ -442,15 +447,14 @@
     z-index: 0;
   }
 
-  #divider_bottom {
-    display: block;
-    top: -40px;
-    z-index: 0;
-  }
 
 
   p#reg {
     padding-top: 28px;
+  }
+
+  .about_snip_port{
+    display: none !important;
   }
 
   .about_snip_port{
@@ -462,23 +466,24 @@
   }
 
   #brands{
-    position: absolute;
-    margin: auto;
-    top: 0px;
-    left: 0px;
     display: block !important;
+    margin: auto;
+    width: 100%;
+    margin-top: 598px;
+    left: 0;
   }
 
-  div#brands {
+  #brands > img {
+    width: 80%;
     margin: auto;
     left: 0;
-    top: 943px;
+  padding: 30px 10px;
   }
 
   div#quote2 {
-    margin-top: 750px;
-    height: 300px;
+    display: none;
   }
+
 
   #picone_about > img{
     display: none !important;
@@ -530,22 +535,51 @@
       width: 100%;
   }
 
-  img#lash {
-    width: 250px !important;
-    top: -314px !important;
-    left: 95px !important;
+
+  .about_snip_page {
+    display: none !important;
   }
 
-  img#selfie {
-    width: 200px !important;
-    top: -407px !important;
-    left: 291px !important;
+  .about_snip_page >img {
+    display: none;
   }
 
-  img#mc {
-    width: 217px !important;
-    top: -368px !important;
-    left: 134px !important;
+  .about_snip_page a{
+    display: none;
+  }
+
+  .about_snip_page > h4 {
+    display: none;
+  }
+
+  div#about{
+    width: 100%;
+        height: 680px;
+        top: 133px;
+        bottom: -400px;
+        z-index: 100;
+  }
+
+  h3#con {
+    width: 100% !important;
+      font-size: 13px;
+      padding-top: 10px;
+  }
+
+  #mobile_selfie{
+    display: block !important;
+    border-radius: 50%;
+  }
+
+  #mobile_selfie > img{
+    width: 300px;
+    margin-top: 34px;
+    border: black solid 1px;
+  }
+
+  p#mc-bio {
+    width: 71%;
+    margin: auto;
   }
 
 }

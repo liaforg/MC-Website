@@ -118,7 +118,7 @@ main {
   z-index: 0;
 }
 
-#divider_bottom{
+#banner_bottom{
   display: none;
   z-index: 0;
 }
@@ -391,6 +391,9 @@ img {
   display: none;
 }
 
+#mobile_selfie{
+  display: none;
+}
 
 .about_snip{
   height: 450px;
