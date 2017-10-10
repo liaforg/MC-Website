@@ -707,9 +707,17 @@ h6#footer {
 }
 
 ul.navbar2 {
+    color: black;
+    display: inline-flex;
     font-size: 11px;
     margin-top: -19px;
     padding-bottom: 8px;
+}
+
+ul.navbar2 a{
+  color: black;
+    padding-right: 10px;
+    text-decoration: none;
 }
 
 footer#foot1 {
