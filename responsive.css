@@ -236,11 +236,17 @@
       display: none !important;
   }
 
-  img#ptwo {
+  img#pthree_port {
+      display: none;
+  }
+
+  img#ptwo_port {
+      width: 280px !important;
+      display: block;
+      position: absolute;
       margin: auto;
+      margin-top: 695px !important;
       left: 0 !important;
-      top: 696px;
-      right: 0 !important;
   }
 
   article#pfour img{
