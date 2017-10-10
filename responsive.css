@@ -236,7 +236,6 @@
       display: none !important;
   }
 
-
   img#ptwo {
       margin: auto;
       left: 0 !important;
@@ -516,7 +515,6 @@
 
   #picnine_about > img {
     display: none !important;
-
   }
 
   #see_button_about{
@@ -534,7 +532,6 @@
   div#about {
       width: 100%;
   }
-
 
   .about_snip_page {
     display: none !important;
@@ -581,5 +578,28 @@
     width: 71%;
     margin: auto;
   }
+
+  div#contact{
+    background-color: white;
+    width: 100%;
+    height: 680px;
+    top: 133px;
+    bottom: -400px;
+    z-index: 100;
+  }
+
+  div#quote_contact {
+    display: none;
+  }
+
+  img#ptwo {
+    display: none !important;
+  }
+
+  div#mobile_footer_contact {
+    margin-top: 450px;
+    display: block;
+  }
+
 
 }

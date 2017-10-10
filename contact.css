@@ -98,3 +98,80 @@ img#tan{
   background-color: white;
   letter-spacing: 1px;
 }
+
+p#qu_contact {
+    text-align: center;
+    padding-top: 33px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+p#qutwo_contact {
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+#quote_contact {
+  margin-top: 30px;
+  height: 120px;
+  background-color: #c49b9d;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#picone_contact > img{
+  width: 320px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 200px;
+  left: 0;
+  opacity: 0.9;
+}
+#pictwo_contact > img {
+    width: 420px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 200px;
+    left: 334px;
+    opacity: 0.9;
+}
+img#pthree_contact {
+    width: 430px;
+    position: absolute;
+    margin: auto;
+    margin-top: 355px;
+    left: 770px;
+    opacity: 0.9;
+}
+#picfour_contact > img {
+    width: 210px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 200px;
+    left: 990px;
+    opacity: 0.9;
+}
+
+img#plips_contact{
+  width: 210px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  margin-top: 200px;
+  left: 769px;
+  opacity: 0.9;
+}
