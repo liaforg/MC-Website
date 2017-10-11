@@ -1040,6 +1040,10 @@
     margin-top: 470px;
     display: block;
   }
+
+  p.top {
+    font-size: 10px !important;
+  }
 }
 
 @media screen and (max-width: 490px){
@@ -1265,6 +1269,19 @@
   }
   h3#con {
     font-size: 10px;
+  }
+  p.top {
+    line-height: 16px;
+  }
+  p.bottom {
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-bottom: 9px;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-style: italic;
   }
 
 }
