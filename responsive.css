@@ -14,14 +14,6 @@
     word-spacing: 5px;
   }
 
-  span#sign {
-    font-family: "Dandeleon";
-    font-size: 60px;
-    font-weight: lighter;
-    text-decoration: none;
-    letter-spacing: 0px;
-  }
-
   main {
       width: 100%;
       height: 100%;
@@ -693,14 +685,6 @@
   }
 
 
-    span#sign {
-      font-family: "Dandeleon";
-      font-size: 45px;
-      font-weight: lighter;
-      text-decoration: none;
-      letter-spacing: 0px;
-    }
-
   div#quote_port {
   margin-top: 8200px;
   height: 154px;
@@ -1003,14 +987,6 @@
     word-spacing: 5px;
   }
 
-
-    span#sign {
-      font-family: "Dandeleon";
-      font-size: 35px;
-      font-weight: lighter;
-      text-decoration: none;
-      letter-spacing: 0px;
-    }
 
   p#learn {
     left: 0;
