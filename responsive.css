@@ -1043,6 +1043,16 @@
 }
 
 @media screen and (max-width: 490px){
+
+  header h1 {
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none;
+    margin-bottom: -20px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+  }
+
   #quote {
     margin-top: -139px;
     height: 175px;
@@ -1081,43 +1091,43 @@
 
 @media screen and (max-width: 450px){
   img#pone {
-    width: 150px;
+    width: 160px;
     position: relative;
-    top: 270px;
+    top: 277px;
     margin: auto;
-    left: -91px;
+    left: -87px;
   }
   img#pictwo {
-    width: 150px;
+    width: 160px;
     position: relative;
     top: 170px;
     margin: auto;
-    left: 93px;
+    left: 88px;
   }
   img#plips {
-    width: 150px;
+    width: 160px;
     position: relative;
     margin: auto;
-    left: -91px;
-    top: 80px;
+    left: -87px;
+    top:76px ;
   }
   img#pfour {
-    width: 150px;
+    width: 160px;
     position: relative;
-    top: 180px;
+    top: 183px;
     margin: auto;
-    left: 93px;
+    left: 88px;
   }
   #see_button {
     margin: auto;
     position: relative;
     display: block;
-    width: 150px;
+    width: 161px;
     background-color: rgba(211,211,211, 0.5);
-    height: 99px;
+    height: 107px;
     position: relative;
-    top: -20px;
-    left: 93px;
+    top: -31px;
+    left: 88px;
   }
 
   #quote {
@@ -1162,8 +1172,9 @@
 
   p#learn {
     left: 0;
-    top: 560px;
+    top: 526px;
   }
+
   .about_snip h4 {
     margin: auto;
     margin-top: 593px;
@@ -1204,6 +1215,21 @@
     letter-spacing: 1px;
   }
 
+  img#instalogo {
+    width: 8%;
+    position: absolute;
+    margin: auto;
+    left: -49px;
+    margin-top: 655px;
+  }
+  img#enlogo {
+    width: 8.6%;
+    position: absolute;
+    margin: auto;
+    left: 52px;
+    margin-top: 655px;
+  }
+
 
 }
 
@@ -1241,4 +1267,11 @@
     font-size: 10px;
   }
 
+}
+
+@media screen and (max-width: 330px) {
+  p#learn {
+    left: 0;
+    top: 549px !important;
+  }
 }
