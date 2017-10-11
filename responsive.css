@@ -4,7 +4,11 @@
     display: none;
   }
 
-
+  h1#title_bottom {
+      font-family: "Fortunates";
+      margin-top: 24px;
+  }
+  
   header h1 {
     font-size: 32px;
     font-weight: lighter;
