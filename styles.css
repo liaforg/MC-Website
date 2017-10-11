@@ -52,6 +52,11 @@ table {
   box-sizing: border-box;
 }
 
+@font-face {
+ font-family: "Dandeleon";
+ src: url("fonts/Dandeleon Vintage Demo.ttf");
+}
+
 html {
   line-height: 1.35;
   width: 100%
@@ -153,6 +158,13 @@ header {
 }
 
 header h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+#sign{
+  font-family: "Dandeleon";
   font-size: 60px;
   font-weight: lighter;
   text-decoration: none;
