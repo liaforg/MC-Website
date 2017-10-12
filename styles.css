@@ -357,7 +357,6 @@ header a{
   border-bottom: solid black 1px;
   font-size: 18px;
 }
-
 ul li {
   margin: 0;
   top: 0;
@@ -366,7 +365,6 @@ ul li {
   display: inline-block;
   padding-top: 35px;
 }
-
 ul a {
   margin: auto;
   text-align: center;
@@ -374,12 +372,10 @@ ul a {
   text-decoration: none;
   color: black;
 }
-
 a:visited {
   text-decoration: none;
   color: black;
 }
-
 a:hover{
   font:grey;
   font-weight: bold;
