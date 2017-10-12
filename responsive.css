@@ -1,5 +1,19 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1089px) {
 
+  #quote2 {
+    margin-top: 50px !important;
+    height: 200px !important;
+    background-color: #c49b9d;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  div#mobile_footer_serv {
+    display: block;
+    width: 100%;
+    margin: auto;
+    left: 0;
+  }
   .icons{
     display: none;
   }
@@ -8,7 +22,7 @@
       font-family: "Fortunates";
       margin-top: 24px;
   }
-  
+
   header h1 {
     font-size: 32px;
     font-weight: lighter;
@@ -499,11 +513,6 @@
     top: 14px;
   }
 
-  div#quote2 {
-    display: none;
-  }
-
-
 
   #picone_about > img{
     display: none !important;
@@ -661,6 +670,23 @@
 
 }
 
+@media screen and (max-width: 990px){
+  div#quote2 {
+    display: block;
+    margin-top: 50px;
+    height: 230px;
+  }
+
+  p#qu2 {
+    font-size: 10px !important;
+    width: 95% !important;
+  }
+
+  p#qutwo2 {
+    font-size: 10px !important;
+  }
+}
+
 @media screen and (max-width: 750px){
   div#about {
     width: 100%;
@@ -675,6 +701,13 @@
   div#mobile_footer_about {
     margin-top: 730px;
   }
+}
+
+@media screen and (max-width: 660px){
+  div#mobile_footer_serv {
+      margin-top: 0px !important;
+  }
+
 }
 
 @media screen and (max-width: 600px){
@@ -946,6 +979,10 @@
     line-height: 26px;
     letter-spacing: 2px;
   }
+
+  div#quote2{
+    height: 280px !important;
+  }
 }
 
 @media screen and (max-width: 530px){
@@ -1105,6 +1142,14 @@
     margin-top: 900px;
   }
 
+  p#qu2 {
+    letter-spacing: 1px !important;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-style: italic;
+    width: 95% !important;
+  }
 
 }
 
@@ -1297,6 +1342,10 @@
     font-size: 13px;
     letter-spacing: 3px;
     font-style: italic;
+  }
+
+  div#quote2 {
+    height: 320px !important;
   }
 
 }
