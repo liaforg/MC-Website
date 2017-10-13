@@ -57,6 +57,21 @@ table {
  src: url("fonts/Fortunates December.ttf");
 }
 
+@font-face {
+ font-family: "Rainbow";
+ src: url("fonts/Rainbow.ttf");
+}
+
+@font-face {
+ font-family: "Dandeleon";
+ src: url("fonts/Dandeleon Vintage Demo.ttf");
+}
+
+@font-face {
+ font-family: "Gloss";
+ src: url("fonts/Gloss_And_Bloom.ttf");
+}
+
 html {
   line-height: 1.35;
   width: 100%
@@ -158,19 +173,23 @@ header {
 }
 
 header h1 {
+   letter-spacing: 5px;
   font-size: 40px;
   font-weight: lighter;
   text-decoration: none;
+  z-index: 10;
+  display: block;
+  position: relative;
 }
 
+
 h1#title_bottom {
-    font-family: "Fortunates";
-    margin-top: 5px;
-    letter-spacing: 0px;
+    margin-top: 0px;
+    letter-spacing: 4px;
 }
 
 #sign{
-  font-family: "Dandeleon";
+
   font-size: 60px;
   font-weight: lighter;
   text-decoration: none;
