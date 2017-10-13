@@ -1468,6 +1468,10 @@
     height: 320px !important;
   }
 
+  .about_snip h4 {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 370px) {
