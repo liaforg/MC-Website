@@ -1507,4 +1507,8 @@
     left: 0;
     top: 549px !important;
   }
+  h3#con {
+    font-size: 8px;
+  }
+
 }
