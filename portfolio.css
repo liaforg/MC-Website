@@ -24,13 +24,12 @@ p#qutwo_port {
 }
 
 #quote_port {
-  margin-top: 2627px;
-  height: 120px;
-  background-color: #c49b9d;
-  line-height: 20px;
-  font-family: 'Poppins', sans-serif;
+    margin-top: 3200px;
+    height: 120px;
+    background-color: #c49b9d;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
 }
-
 
 footer#foot {
     margin-top: 102p;
@@ -334,6 +333,76 @@ img#ptwenty9 {
     margin: auto;
     margin-top: 2018px;
     left: 0px;
+    opacity: 0.9;
+}
+
+img#pthir {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2376px;
+    left: 310px;
+    opacity: 0.9;
+}
+
+img#pthirt1 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2220px;
+    left: 924px;
+    opacity: 0.9;
+}
+
+img#pthirt2 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2038px;
+    left: 616px;
+    opacity: 0.9;
+}
+
+img#pthirt3 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2441px;
+    left: 924px;
+    opacity: 0.9;
+}
+
+img#pthirt4 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2458px;
+    left: 616px;
+    opacity: 0.9;
+}
+
+img#pthirt5 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2597px;
+    left: 310px;
+    opacity: 0.9;
+}
+
+img#pthirt6 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2475px;
+    left: 0;
     opacity: 0.9;
 }
 
