@@ -1468,7 +1468,7 @@
     height: 320px !important;
   }
 
-  .about_snip h4 {
+  h4#connect_mobile {
     width: 100%;
   }
 
