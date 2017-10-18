@@ -504,8 +504,73 @@
     top: 5028px;
   }
 
+  article#pthirt7 img {
+    margin: auto;
+    left: -300px;
+    right: 0;
+    top: 5028px;
+  }
+
+  article#pthirt8 img {
+    margin: auto;
+    left: 300px;
+    right: 0;
+    top: 5312px;
+  }
+
+  article#pthirt9 img {
+    margin: auto;
+    left: -300px;
+    right: 0;
+    top: 5458px;
+  }
+
+  article#pforty img {
+    margin: auto;
+    left: -300px;
+    right: 0;
+    top: 5653px;
+  }
+
+  article#pforty1 img {
+    margin: auto;
+    left: 300px;
+    right: 0;
+    top: 5740px;
+  }
+
+  article#pforty2 img {
+    margin: auto;
+    left: -300px;
+    right: 0;
+    top: 5849px;
+  }
+
+  article#pforty3 img {
+    margin: auto;
+    left: -300px;
+    right: 0;
+    top: 6044px;
+  }
+
+  article#pforty4 img {
+      margin: auto;
+      left: -300px;
+      right: 0;
+      top: 6252px;
+  }
+
+  article#pforty5 img {
+    margin: auto;
+    left: 300px;
+    right: 0;
+    top: 6156px;
+  }
+
+
+
   div#quote_port {
-    margin-top: 5300px;
+    margin-top: 6527px;
     height: 154px;
   }
 
@@ -780,10 +845,9 @@
 
 
   div#quote_port {
-    margin-top: 10500px;
+    margin-top: 13300px;
     height: 154px;
   }
-
 
   img#pthree_port {
       display: none;
@@ -1038,6 +1102,71 @@
     top: 9571px;
   }
 
+  article#pthirt7 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 10401px;
+  }
+
+  article#pthirt8 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 10834px;
+  }
+
+  article#pthirt9 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 11264px;
+  }
+
+  article#pforty img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 11462px;
+  }
+
+  article#pforty1 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 11661px;
+  }
+
+  article#pforty2 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12082px;
+  }
+
+  article#pforty3 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12280px;
+  }
+
+  article#pforty4 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12488px;
+  }
+
+  article#pforty5 img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12923px;
+  }
+
+
+
   p#reg {
     font-size: 10px !important;
     margin-top: 0px !important;
@@ -1126,7 +1255,7 @@
     top: 550px;
   }
   div#quote_port {
-    margin-top: 10300px;
+    margin-top: 13231px;
     height: 200px;
   }
   p#mc-bio {

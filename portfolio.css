@@ -24,7 +24,7 @@ p#qutwo_port {
 }
 
 #quote_port {
-    margin-top: 3200px;
+    margin-top: 4000px;
     height: 130px;
     background-color: #c49b9d;
     line-height: 20px;
@@ -405,6 +405,100 @@ img#pthirt6 {
     left: 0;
     opacity: 0.9;
 }
+
+img#pthirt7 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2825px;
+    left: 310px;
+    opacity: 0.9;
+}
+
+img#pthirt8 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2906px;
+    left: 616px;
+    opacity: 0.9;
+}
+
+img#pthirt9 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2683px;
+    left: 616px;
+    opacity: 0.9;
+}
+
+img#pforty {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2932px;
+    left: 0;
+    opacity: 0.9;
+}
+
+img#pforty1 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 3117px;
+    left: 924px;
+    opacity: 0.9;
+}
+
+img#pforty2 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 2896px;
+    left: 924px;
+    opacity: 0.9;
+}
+
+img#pforty3 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 3362px;
+    left: 616px;
+    opacity: 0.9;
+}
+
+img#pforty4 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 3285px;
+    left: 310px;
+    opacity: 0.9;
+}
+
+img#pforty5 {
+    width: 280px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 3161px;
+    left: 0px;
+    opacity: 0.9;
+}
+
+
+
+
 
 .lightbox{
   top: 0 !important;
