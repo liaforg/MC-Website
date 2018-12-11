@@ -436,9 +436,9 @@
 
   s#ptwenty7 img {
     margin: auto;
-    left: -300px;
+    left: 300px !important;
     right: 0;
-    top: 4014px;
+    margin-top: 1835px !important;
   }
 
   article#ptwenty8 img {
