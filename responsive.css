@@ -387,9 +387,11 @@
 
   article#ptwenty img {
     margin: auto;
-    left: 300px;
     right: 0;
-    top: 1835px;
+    top: 628px;
+    margin: auto;
+    left: 300px;
+    top: 628px;
   }
 
   article#ptwenty1 img {
@@ -436,9 +438,12 @@
 
   s#ptwenty7 img {
     margin: auto;
-    left: -300px;
     right: 0;
-    top: 4014px;
+    width: 280px;
+    margin-top: 1835px;
+    left: 300px;
+
+}
   }
 
   article#ptwenty8 img {
