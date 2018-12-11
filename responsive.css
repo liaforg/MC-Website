@@ -278,13 +278,13 @@
     top: 697px;
   }
 
-  img#pfive {
+  article#pfive img {
     width: 280px;
     display: block;
     position: absolute;
     margin: auto;
-    margin-top: 629px !important;
-    left: 300px !important;
+    margin-top: 629px;
+    left: 300px;
     opacity: 0.9;
   }
 
